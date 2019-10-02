@@ -1,0 +1,47 @@
+/* 
+  Localizable.strings
+  focas2Sample
+*/
+
+"add" = "Add";
+"edit" = "Edit";
+"now collectiong" = "Now collecting...";
+"collect failed" = "Failed collecting.(Return Value = %d, err_no = %d, err_dtno = %d)";
+"connect failed" = "connect failed.(Return Value = %d, err_no = %d, err_dtno = %d)";
+"upper folder" = "Return to upper folder";
+"device name & current dir" = " Device:%@ \t (Cuurent Folder:%@) ";
+"regist complete" = "Completed registration.";
+"new folder" = "New Folder";
+"input new folder name" = "Please input new folder name.";
+"folder name" = "Folder name";
+"create folder" = "Create";
+"save complete" = "Completed file save.";
+"Invalid of manual handle re-trace" = "Invalid of manual handle re-trace";
+"M.H.RTR." = "M.H.RTR.";
+"NO RVRS." = "NO RVRS.";
+"NO CHAG." = "NO CHAG.";
+"T mode" = "T mode";
+"M mode" = "M mode";
+"Not 3D interference mode" = "Not 3D interference mode";
+"3D interference mode by Built-in 3D interference check" = "3D interference mode by Built-in 3D interference check";
+"3D interference mode by presonal computer function" = "3D interference mode by presonal computer function";
+"Normal" = "Normal";
+"Temporary setting mode" = "Temporary setting mode";
+"Waiting of certification" = "Waiting of certification";
+"It is either of the following status.\n - Program did not edit.\n - Paramerter No.10330#7 whichi is displya the message for cconfirmation of auto running restart is not effective.\n - CNC does not support this function." =
+"It is either of the following status.\n - Program did not edit.\n - Paramerter No.10330#7 whichi is displya the message for cconfirmation of auto running restart is not effective.\n - CNC does not support this function.";
+"Program is edited." = "Program is edited.";
+"QRCode" = "QRCode";
+"Create QRCode" = "Create QRCode";
+"Read QRCode" = "Read QRCode";
+"input error" = "Input Error";
+"is Invalid value" = "%@ is invalid value.";
+"Access to the camera is not allowed" = "Access to the camera is not allowed.";
+"No Change" = "No Change";
+"Setting Change" = "Setting Change";
+"regist failed" = "regist failed";
+"regist error" = "(Return value = %d, err_no = %d, err_dtno = %d)";
+"OK" = "OK";
+"Cancel" = "Cancel";
+"No."="No.";
+"It has already registered same NC name settings.\nWould you like to reregister the setteings?" = "It has already registered same NC name settings.\nWould you like to reregister the setteings?";

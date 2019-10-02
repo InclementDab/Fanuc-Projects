@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/menu_add"
+        android:orderInCategory="1"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/add" />
+    <item
+        android:id="@+id/menu_edit"
+        android:orderInCategory="100"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/edit" />
+    <item
+        android:id="@+id/menu_save"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/save" />
+    <item
+        android:id="@+id/menu_save_file"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/save_file" />
+    <item
+        android:id="@+id/menu_mkdir"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/new_folder" />
+    <item
+        android:id="@+id/menu_reg"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/regist" />
+    <item
+        android:id="@+id/menu_qrcode_create"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/qr_code" />
+    <item
+        android:id="@+id/menu_qrcode_read"
+        android:orderInCategory="101"
+        app:showAsAction="ifRoom|withText"
+        android:title="@string/read_qr_code" />
+</menu>

@@ -1,0 +1,73 @@
+<resources>
+    <string name="app_name">focas2Sample</string>
+    <string name="back">Back</string>
+    <string name="add">Add</string>
+    <string name="save">Save</string>
+    <string name="save_file">Save File</string>
+    <string name="edit">Edit</string>
+    <string name="regist">Regist</string>
+    <string name="qr_code">QR Code</string>
+    <string name="create_qr_code">Create QRCode</string>
+    <string name="read_qr_code">Read QRCode</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="connect_address_setting">Connect NC Setteings</string>
+    <string name="get_status">Get NC Status</string>
+    <string name="get_program">Get NC Program</string>
+    <string name="program_management">Manage NC Program</string>
+    <string name="setting">Setting</string>
+    <string name="edittable_save_btn">save</string>
+    <string name="edittable_register_btn">register</string>
+    <string name="title_activity_connection_list" translatable="false">ConnectionListActivity</string>
+    <string name="title_activity_connection_infomation" translatable="false">ConnectionInfomation</string>
+    <string name="title_activity_nc_content" translatable="false">ncContentActivity</string>
+    <string name="title_activity_get_program" translatable="false">GetProgramActivity</string>
+    <string name="title_activity_managed_ncprogram" translatable="false">ManagedNCProgramActivity</string>
+    <string name="title_activity_edittable_ncprogram_detial" translatable="false">EdittableNCProgramDetialActivity</string>
+    <string name="alarm_massage">Alarm message</string>
+    <string name="operator_message">Operator message</string>
+
+    <string name="error_need_input">Invalid value.</string>
+    <string name="error_need_number">This is invalid value.</string>
+    <string name="error_dlag_title">Warning</string>
+    <string name="error_dlag_message">Can not find NC Connecting.</string>
+
+    <string name="error_connect_error">Connect error. errorCode:</string>
+    <string name="same_name_set">It has already registered same NC name settings. Would you like to register the settings?</string>
+    <string name="EXT_OPT_STATUS_0">Normal</string>
+    <string name="EXT_OPT_STATUS_1">dummy</string>
+    <string name="EXT_OPT_STATUS_2">Temporary setting mode</string>
+    <string name="EXT_OPT_STATUS_3">Waiting of certification</string>
+    <string name="RESTART_STATUS_0">It is either of the following status.\n - Program did not edit.\n - Paramerter No.10330#7 whichi is displya the message for cconfirmation of auto running restart is not effective.\n - CNC does not support this function.</string>
+    <string name="RESTART_STATUS_1">Program is edited.</string>
+
+    <string name="connect_failed">connect failed.(Return Value = %1$d, err_no = %2$d, err_dtno = %3$d)</string>
+    <string name="current_folder_setting_failed">current folder setting failed.(Return Value = %1$d, err_no = %2$d, err_dtno = %3$d)</string>
+    <string name="failed_get_current_folder">failed get current folder.(Return Value = %1$d, err_no = %2$d, err_dtno = %3$d)</string>
+    <string name="collect_failed">Failed collecting.(Return Value = %1$d, err_no = %2$d, err_dtno = %3$d)</string>
+    <string name="upper_folder">Return to upper folder</string>
+    <string name="device_name_current_dir">Device:%1$s \t (Current Folder:%2$s)</string>
+    <string name="now_collectiong">Now collecting...</string>
+    <string name="connect_name">NC Name</string>
+    <string name="delete">Delete</string>
+    <string name="delete_data">Delete data</string>
+    <string name="delete_nclist_info">Do you want to delete this data?</string>
+    <string name="ip_address">IP Address</string>
+    <string name="nc_info">NC Connection Information</string>
+    <string name="nc_list">NC List</string>
+    <string name="portal_number">Port Number</string>
+    <string name="timeout_time">Time-out Period(sec.)</string>
+    <string name="save_complete">Completed f ile save.</string>
+    <string name="create_folder">Create</string>
+    <string name="input_new_folder_name">Please input new folder name.</string>
+    <string name="folder_name">Folder name</string>
+    <string name="new_folder">New Folder</string>
+    <string name="regist_failed">regist failed</string>
+    <string name="regist_error">(Return value = %1$d, err_no = %2$d, err_dtno = %3$d)</string>
+    <string name="regist_complete">Completed registration.</string>
+    <string name="need_camera">Access to the camera is not allowed.</string>
+    <string name="setting_change">Setting Change</string>
+    <string name="no_change">No Change</string>
+    <string name="state_acquisition_interval">State acquisition interval</string>
+    <string name="interval">Interval</string>
+</resources>

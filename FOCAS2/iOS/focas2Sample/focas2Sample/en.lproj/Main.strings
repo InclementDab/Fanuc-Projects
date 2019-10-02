@@ -1,0 +1,156 @@
+
+/* Class = "UIButton"; normalTitle = "Make Folder"; ObjectID = "1zu-0M-Mch"; */
+"1zu-0M-Mch.normalTitle" = "New Folder";
+
+/* Class = "UILabel"; text = "Time-out Period(sec.)"; ObjectID = "4sP-hR-JkG"; */
+"4sP-hR-JkG.text" = "Time-out Period(sec.)";
+
+/* Class = "UILabel"; text = "Port Number"; ObjectID = "6iw-ar-mRJ"; */
+"6iw-ar-mRJ.text" = "Port Number";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "7bO-w1-uF5"; */
+"7bO-w1-uF5.normalTitle" = "Back";
+
+/* Class = "UITextField"; text = "192.168.0.10"; ObjectID = "9nd-XL-3ky"; */
+"9nd-XL-3ky.text" = "192.168.0.10";
+
+/* Class = "UITextField"; text = "100"; ObjectID = "CBe-SK-eCR"; */
+"CBe-SK-eCR.text" = "100";
+
+/* Class = "UILabel"; text = "NC List"; ObjectID = "CTJ-fS-cfN"; */
+"CTJ-fS-cfN.text" = "NC List";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "DRV-Er-dry"; */
+"DRV-Er-dry.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "motion"; ObjectID = "DvC-vN-USf"; */
+"DvC-vN-USf.text" = "motion";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "E2r-LD-DOf"; */
+"E2r-LD-DOf.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "mstb"; ObjectID = "GBR-Qp-MKM"; */
+"GBR-Qp-MKM.text" = "mstb";
+
+/* Class = "UILabel"; text = "NC Name"; ObjectID = "HWx-35-qws"; */
+"HWx-35-qws.text" = "NC Name";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "JiY-YN-Lst"; */
+"JiY-YN-Lst.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "emergency"; ObjectID = "KKE-66-xeh"; */
+"KKE-66-xeh.text" = "emergency";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "KWU-YA-Xvg"; */
+"KWU-YA-Xvg.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Get NC Status"; ObjectID = "LCO-qf-q4P"; */
+"LCO-qf-q4P.normalTitle" = "Get NC Status";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "LTq-Dh-O3W"; */
+"LTq-Dh-O3W.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "tmmode"; ObjectID = "Lth-sE-JRa"; */
+"Lth-sE-JRa.text" = "tmmode";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "N3s-tD-e0e"; */
+"N3s-tD-e0e.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "hdck_val"; ObjectID = "N95-hp-YZh"; */
+"N95-hp-YZh.text" = "hdck_val";
+
+/* Class = "UILabel"; text = "tmmode_val"; ObjectID = "Qed-hL-UYT"; */
+"Qed-hL-UYT.text" = "tmmode_val";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "Qjb-l7-6FM"; */
+"Qjb-l7-6FM.normalTitle" = "Save";
+
+/* Class = "UIButton"; normalTitle = "Save"; ObjectID = "S15-6N-nh5"; */
+"S15-6N-nh5.normalTitle" = "Save";
+
+/* Class = "UILabel"; text = "run"; ObjectID = "S4B-NV-KJB"; */
+"S4B-NV-KJB.text" = "run";
+
+/* Class = "UILabel"; text = "warning"; ObjectID = "Szj-bR-EEB"; */
+"Szj-bR-EEB.text" = "warning";
+
+/* Class = "UIButton"; normalTitle = "Register"; ObjectID = "Tli-SB-eol"; */
+"Tli-SB-eol.normalTitle" = "Register";
+
+/* Class = "UILabel"; text = "aut"; ObjectID = "XPI-pP-uOI"; */
+"XPI-pP-uOI.text" = "aut";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "aBm-JB-Dgg"; */
+"aBm-JB-Dgg.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "alarm"; ObjectID = "alT-7s-FS7"; */
+"alT-7s-FS7.text" = "alarm";
+
+/* Class = "UIButton"; normalTitle = "Get NC Program"; ObjectID = "bDE-Ib-e3u"; */
+"bDE-Ib-e3u.normalTitle" = "Get NC Program";
+
+/* Class = "UILabel"; text = "hdck_val"; ObjectID = "dAY-Ug-4uD"; */
+"dAY-Ug-4uD.text" = "hdck_val";
+
+/* Class = "UILabel"; text = "aut_val"; ObjectID = "dMu-wm-tzd"; */
+"dMu-wm-tzd.text" = "aut_val";
+
+/* Class = "UILabel"; text = "ext_opt"; ObjectID = "ean-6r-Doq"; */
+"ean-6r-Doq.text" = "ext_opt";
+
+/* Class = "UIButton"; normalTitle = "Connect NC Setteings"; ObjectID = "gGW-Y9-ojO"; */
+"gGW-Y9-ojO.normalTitle" = "Connect NC Setteings";
+
+/* Class = "UIButton"; normalTitle = "Save File"; ObjectID = "iqp-dY-Wyu"; */
+"iqp-dY-Wyu.normalTitle" = "Save File";
+
+/* Class = "UITextField"; text = "CNC_01"; ObjectID = "jvf-Nv-Hkc"; */
+"jvf-Nv-Hkc.text" = "CNC_01";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "l2Q-NE-H7q"; */
+"l2Q-NE-H7q.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "hdck_val"; ObjectID = "o2b-At-0Tx"; */
+"o2b-At-0Tx.text" = "hdck_val";
+
+/* Class = "UILabel"; text = "NC Connection Infomation"; ObjectID = "oRB-3u-CXh"; */
+"oRB-3u-CXh.text" = "NC Connection Infomation";
+
+/* Class = "UITextField"; text = "8193"; ObjectID = "odY-Yv-ZPL"; */
+"odY-Yv-ZPL.text" = "8193";
+
+/* Class = "UILabel"; text = "hdck"; ObjectID = "opw-PK-GPT"; */
+"opw-PK-GPT.text" = "hdck";
+
+/* Class = "UIButton"; normalTitle = "Manage NC Program"; ObjectID = "qO7-mj-rGp"; */
+"qO7-mj-rGp.normalTitle" = "Manage NC Program";
+
+/* Class = "UILabel"; text = "hdck_val"; ObjectID = "ra1-dR-pKK"; */
+"ra1-dR-pKK.text" = "hdck_val";
+
+/* Class = "UIButton"; normalTitle = "Add"; ObjectID = "sbr-tW-DwL"; */
+"sbr-tW-DwL.normalTitle" = "Add";
+
+/* Class = "UILabel"; text = "IP Address"; ObjectID = "ttz-3l-Hzj"; */
+"ttz-3l-Hzj.text" = "IP Address";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "wLW-97-zg0"; */
+"wLW-97-zg0.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "QR Code"; ObjectID = "dYY-LK-d7r"; */
+"dYY-LK-d7r.normalTitle" = "Read QRCode";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "2DI-AI-13D"; */
+"2DI-AI-13D.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "WSA-0N-lSE"; */
+"WSA-0N-lSE.normalTitle" = "Back";
+
+/* Class = "UIButton"; normalTitle = "Back"; ObjectID = "skt-mQ-35b"; */
+"skt-mQ-35b.normalTitle" = "Back";
+
+/* Class = "UILabel"; text = "Alarm message"; ObjectID = "Ruo-yW-K47"; */
+"Ruo-yW-K47.text" = "Alarm message";
+
+/* Class = "UILabel"; text = "Operator's message"; ObjectID = "3ZJ-4Z-V1K"; */
+"3ZJ-4Z-V1K.text" = "Operator message";
