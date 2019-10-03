@@ -16,15 +16,13 @@ int main()
 	if (!ret)
 	{
 		cnc_statinfo(h, &info);
-		if (info.alarm > 0)
-		{
-			long alm;
-			cnc_alarm2(h, &alm);
-			if (alm > 0)
-				printf("Alarm: (%d)\n", alm);
 
-
-		}
+		IN_DSFILE in_file;
+		OUT_DSFILE out_file;
+		OUT_DSINFO out_info;
+		char* intype = (char*)"DATA_SV";
+		cnc_rddsfile(h, intype, &in_file, &out_info, &out_file);
+		
 
 		cnc_freelibhndl(h);
 	}

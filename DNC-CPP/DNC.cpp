@@ -30,7 +30,7 @@ int APIENTRY wWinMain(_In_ HINSTANCE hInstance,
     // Initialize global strings
     LoadStringW(hInstance, IDS_APP_TITLE, szTitle, MAX_LOADSTRING);
     LoadStringW(hInstance, IDC_DNC, szWindowClass, MAX_LOADSTRING);
-    MyRegisterClass(hInstance);
+    ATOM a = MyRegisterClass(hInstance);
 
     // Perform application initialization:
     if (!InitInstance (hInstance, nCmdShow))
