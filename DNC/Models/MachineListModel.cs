@@ -21,13 +21,19 @@ namespace DNC.Models
 
     public class ModelBase : INotifyPropertyChanged
     {
-        public ModelBase(string name, ModelType type)
+
+        public ModelBase(string name, ModelType type, ObservableCollection<ModelBase> parentCollection)
         {
             Name = name;
             Type = type;
+            ParentCollection = parentCollection;
 
             if (Type == ModelType.Folder)
                 Children = new ObservableCollection<ModelBase>();
+
+            if (Type == ModelType.Machine)
+                if (ProgramList == null)    
+                    ProgramList = new ObservableCollection<Program>();
         }
 
         
@@ -49,7 +55,13 @@ namespace DNC.Models
             }
         }
         public ModelType Type { get; set; }
+
+        public readonly object Parent;
+        public ObservableCollection<ModelBase> ParentCollection { get; set; }
+
         public ObservableCollection<ModelBase> Children { get; set; }
+
+        public ObservableCollection<Program> ProgramList { get; set; }
 
         private bool isNameEditing;
         public bool IsNameEditing

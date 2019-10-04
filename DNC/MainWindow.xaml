@@ -30,7 +30,12 @@
         
         
         <Grid Margin="6">
-            <ContentControl Content="{Binding MachineListView}" VerticalContentAlignment="Stretch"/>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="auto"/>
+            </Grid.ColumnDefinitions>
+            <ContentControl Content="{Binding MachineListView}" Grid.Column="0"/>
+            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1"/>
         </Grid>
 
     </DockPanel>

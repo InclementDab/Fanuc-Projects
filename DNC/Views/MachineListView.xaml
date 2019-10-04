@@ -19,33 +19,31 @@
         <TreeView Grid.Row="0" Margin="5" ItemsSource="{Binding EnumeratedList, Mode=TwoWay}"
                                 MinHeight="300"
                                 AllowDrop="True"
-                                MouseLeftButtonUp="TreeView_PreviewLeftMouseUp"
-                                MouseLeftButtonDown="TreeView_LeftMouseDown" MouseDoubleClick="TreeView_MouseDoubleClick"
-                                GiveFeedback="TreeView_GiveFeedback"
-                                DragEnter="TreeView_DragEnter" DragLeave="TreeView_DragLeave"
-                                DragOver="TreeView_DragOver" Drop="TreeView_Drop">
+                                SelectedItemChanged="TreeView_SelectedItemChanged">
 
             <TreeView.Resources>
                 <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
-                    <StackPanel Orientation="Horizontal">
-                        <Image Source="{Binding Icon}"/>
+                    <Border BorderBrush="Black" BorderThickness="0 0 0 0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Icon}"/>
 
-                        <Grid Width="auto" Height="auto">
-                            <TextBlock Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}" MouseDown="TextBlock_MouseDown"/>
-                            <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" MouseDown="TextBox_MouseDown"/>
-                        </Grid>
+                            <Grid Width="auto" Height="auto">
+                                <TextBlock Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
+                                <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" MouseDown="TextBox_MouseDown"/>
+                            </Grid>
 
-                        <StackPanel.ContextMenu>
-                            <ContextMenu>
-                                <MenuItem Command="Copy"/>
-                                <MenuItem Command="Cut"/>
-                                <MenuItem Command="Paste"/>
-                                <Separator/>
-                                <MenuItem Header="Rename"/>
-                                <MenuItem Header="Properties"/>
-                            </ContextMenu>
-                        </StackPanel.ContextMenu>
-                    </StackPanel>
+                            <StackPanel.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Command="Copy"/>
+                                    <MenuItem Command="Cut"/>
+                                    <MenuItem Command="Paste"/>
+                                    <Separator/>
+                                    <MenuItem Header="Rename"/>
+                                    <MenuItem Header="Properties"/>
+                                </ContextMenu>
+                            </StackPanel.ContextMenu>
+                        </StackPanel>
+                    </Border>
                 </HierarchicalDataTemplate>
             </TreeView.Resources>
 

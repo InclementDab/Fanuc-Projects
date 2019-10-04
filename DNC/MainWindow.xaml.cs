@@ -1,4 +1,5 @@
-﻿using DNC.Views;
+﻿using DNC.ViewModels;
+using DNC.Views;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -46,11 +47,23 @@ namespace DNC
             }
         }
 
+        private UserControl _programListView;
+        public UserControl ProgramListView
+        {
+            get => _programListView;
+            set
+            {
+                _programListView = value;
+                NotifyPropertyChanged();
+            }
+        }
+
         public MainWindow()
         {
             InitializeComponent();
             DataContext = this;
             MachineListView = new MachineListView();
+            ProgramListView = new ProgramListView(MachineListView.DataContext as MachineListViewModel);
             WindowStatus = new WindowStatus();
 
             

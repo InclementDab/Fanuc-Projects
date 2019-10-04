@@ -24,108 +24,153 @@ namespace DNC.Views
     /// </summary>
     public partial class MachineListView : UserControl
     {
-        private MachineListViewModel ViewModel;
+        private readonly MachineListViewModel ViewModel;
         public MachineListView()
         {
             InitializeComponent();
-
             DataContext = ViewModel = new MachineListViewModel();
+
+            ViewModel.AddListItem("machine1", ModelType.Machine);
+            ViewModel.AddListItem("machine2", ModelType.Machine);
+
+            ViewModel.EnumeratedList[0].ProgramList.Add(new Program(1, "yeet"));
+
         }
 
-        private void TreeView_DragEnter(object sender, DragEventArgs e)
+        protected override void OnMouseMove(MouseEventArgs e)
         {
-            e.Effects = GetDragState(sender, e);
-            e.Handled = true;
-        }
+            base.OnMouseMove(e);
 
-        private void TreeView_DragLeave(object sender, DragEventArgs e)
-        {
-            e.Effects = GetDragState(sender, e);
-            e.Handled = true;
-        }
-
-        private void TreeView_DragOver(object sender, DragEventArgs e)
-        {
-            e.Effects = GetDragState(sender, e);
-            e.Handled = true;
-        }
-
-        private DragDropEffects GetDragState(object sender, DragEventArgs e)
-        {
-            if (LogicalTreeHelper.GetParent(e.OriginalSource as DependencyObject) is StackPanel panel && sender is TreeView tView) // gets parent of originalsource, which gives us StackPanel
-                if (panel.DataContext is ModelBase mBase && mBase != tView.SelectedItem) // gets what we are dragged over, also Check if dragged over self
-                    if (mBase.Type == ModelType.Folder) // Check if dragged over folder
-                        return DragDropEffects.Move;
-
-
-            return DragDropEffects.None;
-        }
-
-        private void TreeView_Drop(object sender, DragEventArgs e)
-        {
-            e.Handled = true;
-        }
-
-
-        private void TreeView_LeftMouseDown(object sender, MouseEventArgs e)
-        {
-            foreach (ModelBase mBase in ViewModel.EnumeratedList)
-                mBase.IsNameEditing = false;
-
-            if (sender is TreeView tView)
+            if (e.LeftButton.Equals(MouseButtonState.Pressed))
             {
-
-
-                if (tView.SelectedItem != null)
+                if (e.OriginalSource is FrameworkElement tBlock)
                 {
-                    DragDrop.DoDragDrop(tView, tView.SelectedItem, DragDropEffects.Move);
-                }
-            }
-        }
-
-        private TextBlock lBlock;
-        private DateTime dTime;
-        private void TreeView_PreviewLeftMouseUp(object sender, MouseButtonEventArgs e)
-        {   
-            if (sender is TreeView tView)
-            {
-                if (e.OriginalSource is TextBlock tBlock && tView.SelectedItem != null)
-                {
-                    if (tBlock != lBlock)
+                    if (tBlock.DataContext is ModelBase mBase)
                     {
-                        lBlock = tBlock;
-                        dTime = DateTime.Now;  
-                    }
-                    else if (tBlock.DataContext is ModelBase mBase && DateTime.Now > dTime.AddSeconds(1))
-                    {
-                        mBase.IsNameEditing = !mBase.IsNameEditing;
-                        lBlock = null;
+                        DragDrop.DoDragDrop(this, mBase, DragDropEffects.None | DragDropEffects.Move);
                     }
                 }
             }
-        }
-
-
-
-        private void TreeView_MouseDoubleClick(object sender, MouseButtonEventArgs e)
-        {
-
-        }
-
-        private void TreeView_GiveFeedback(object sender, GiveFeedbackEventArgs e)
-        {
             e.Handled = true;
         }
 
 
-
-        
-
-        private void TextBlock_MouseDown(object sender, MouseButtonEventArgs e)
+        protected override void OnDragOver(DragEventArgs e)
         {
+            base.OnDragOver(e);
 
-            
+            FrameworkElement oElement = e.OriginalSource as FrameworkElement;
+            ModelBase mBaseDropped = e.Data.GetData(typeof(ModelBase)) as ModelBase;
+            ModelBase mBaseTarget = oElement.DataContext as ModelBase;
 
+            if (mBaseDropped != mBaseTarget)
+            {
+                Border border = RecursiveGetType<Border>(oElement);
+                Point p = e.GetPosition(oElement);
+
+                double safeZ = oElement.ActualHeight / 3;
+
+                if (p.Y < safeZ)
+                {
+                    border.BorderThickness = new Thickness(0, 1, 0, 0);
+                }
+                else if (p.Y > oElement.ActualHeight - safeZ)
+                {
+                    border.BorderThickness = new Thickness(0, 0, 0, 1);
+                }
+                else
+                {
+                    if (mBaseTarget.Type == ModelType.Folder)
+                    {
+                        border.BorderThickness = new Thickness(1);
+                    }
+                    else
+                    {
+                        border.BorderThickness = new Thickness(0);
+                    }
+                }
+            }
+
+            e.Handled = true;
+        }
+
+        protected override void OnDragLeave(DragEventArgs e)
+        {
+            base.OnDragLeave(e);
+
+            FrameworkElement oElement = e.OriginalSource as FrameworkElement;
+            Border border = RecursiveGetType<Border>(oElement);
+            border.BorderThickness = new Thickness(0);
+
+            e.Handled = true;
+        }
+
+        protected override void OnDrop(DragEventArgs e)
+        {
+            base.OnDrop(e);
+
+            FrameworkElement oElement = e.OriginalSource as FrameworkElement;
+            ModelBase mBaseDropped = e.Data.GetData(typeof(ModelBase)) as ModelBase;
+            ModelBase mBaseTarget = oElement.DataContext as ModelBase;
+            RecursiveGetType<Border>(oElement).BorderThickness = new Thickness(0);
+            try
+            {
+                int indx = mBaseTarget.ParentCollection.IndexOf(mBaseTarget);
+                Point p = e.GetPosition(oElement);
+
+                double safeZ = oElement.ActualHeight / 3;
+
+                if (p.Y > oElement.ActualHeight - safeZ)
+                {
+                    if (indx + 1 > mBaseTarget.ParentCollection.Count())
+                    {
+                        mBaseTarget.ParentCollection.Add(mBaseDropped);
+                        mBaseDropped.ParentCollection.Remove(mBaseDropped);
+                    }
+                    else
+                    {
+                        mBaseTarget.ParentCollection.Insert(indx + 1, mBaseDropped);
+                        mBaseDropped.ParentCollection.Remove(mBaseDropped);
+                    }
+                }
+                else if (p.Y < safeZ)
+                {
+                    mBaseTarget.ParentCollection.Insert(indx, mBaseDropped);
+                    mBaseDropped.ParentCollection.Remove(mBaseDropped);
+                }
+
+                else
+                {
+                    if (mBaseTarget.Type == ModelType.Folder)
+                    {
+                        mBaseTarget.Children.Add(mBaseDropped);
+                        mBaseDropped.ParentCollection.Remove(mBaseDropped);
+                    }
+                    else
+                    {
+                        //TODO make cursor = DragDropEffects.None    
+                    }
+                }
+
+            }
+            catch (Exception ex)
+            {
+                Debug.WriteLine(ex);
+            }
+
+            e.Handled = true;
+        }
+
+        private T RecursiveGetType<T>(DependencyObject current)
+        {
+            if (LogicalTreeHelper.GetParent(current) is T ret)
+            {
+                return ret;
+            }
+            else
+            {
+                return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
+            }
         }
 
         private void TextBox_KeyDown(object sender, KeyEventArgs e)
@@ -139,9 +184,6 @@ namespace DNC.Views
                     mBase.Name = tBox.Text;
                 }
             }
-
-            
-            
         }
 
         private void TextBox_MouseDown(object sender, MouseButtonEventArgs e)
@@ -153,6 +195,9 @@ namespace DNC.Views
             tBox.SelectAll();
         }
 
-
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            ViewModel.SelectedItem = e.NewValue as ModelBase;
+        }
     }
 }

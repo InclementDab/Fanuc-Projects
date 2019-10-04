@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,21 +15,24 @@ using DNC.Models;
 
 namespace DNC.ViewModels
 {
-    public class MachineListViewModel
+    public class MachineListViewModel : INotifyPropertyChanged
     {
         public ObservableCollection<ModelBase> EnumeratedList { get; set; }
 
+        private ModelBase _selectedItem;
+        public ModelBase SelectedItem
+        {
+            get => _selectedItem;
+            set
+            {
+                _selectedItem = value;
+                NotifyPropertyChanged();
+            }
+        }
+
         public MachineListViewModel()
         {
-            EnumeratedList = new ObservableCollection<ModelBase>();
-
-
-            EnumeratedList.Add(new ModelBase("Folder1", ModelType.Folder));
-            EnumeratedList.Add(new ModelBase("Machine1", ModelType.Machine));
-            EnumeratedList[0].Children.Add(new ModelBase("Machine2", ModelType.Machine));
-
-            
-
+            EnumeratedList = new ObservableCollection<ModelBase>();            
         }
 
         private ICommand _addFolderCommand;
@@ -40,7 +44,7 @@ namespace DNC.ViewModels
                 {
                     _addFolderCommand = new RelayCommand(
                         p => true,
-                        p => AddFolder());
+                        p => AddListItem("Folder1", ModelType.Folder));
                 }
                 return _addFolderCommand;
             }
@@ -55,30 +59,25 @@ namespace DNC.ViewModels
                 {
                     _addMachineCommand = new RelayCommand(
                         p => true,
-                        p => AddMachine());
+                        p => AddListItem("Machine1", ModelType.Machine));
                 }
                 return _addMachineCommand;
             }
         }
 
-      
 
 
-        public void AddMachine()
+
+        public void AddListItem(string name, ModelType type)
         {
-
+            EnumeratedList.Add(new ModelBase(name, type, EnumeratedList));
         }
 
-
-        public void AddFolder()
+        public event PropertyChangedEventHandler PropertyChanged;
+        protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
-
+            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-
-
-
-
-
     }
 
 
