@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Runtime.CompilerServices;
 using System.Text;
 using System.Threading.Tasks;
@@ -24,7 +25,6 @@ namespace DNC.Models
 
         public ModelBase(string name, ModelType type, ObservableCollection<ModelBase> parentCollection)
         {
-            Name = name;
             Type = type;
             ParentCollection = parentCollection;
 
@@ -34,6 +34,8 @@ namespace DNC.Models
             if (Type == ModelType.Machine)
                 if (ProgramList == null)    
                     ProgramList = new ObservableCollection<Program>();
+
+            Machine = new Machine(IPAddress.Parse("192.168.128.63"), 8193, name);
         }
 
         
@@ -44,10 +46,10 @@ namespace DNC.Models
                 switch (Type)
                 {
                     case ModelType.Folder:
-                        return "/Icons/Folder_16x.png";
+                        return "/Resources/Icons/Folder_16x.png";
 
                     case ModelType.Machine:
-                        return "/Icons/Machine_16x.png";
+                        return "/Resources/Icons/Machine_16x.png";
 
                     default:
                         return "";
@@ -55,6 +57,8 @@ namespace DNC.Models
             }
         }
         public ModelType Type { get; set; }
+
+        public Machine Machine { get; set; } // idk, inheritance?
 
         public readonly object Parent;
         public ObservableCollection<ModelBase> ParentCollection { get; set; }
@@ -74,13 +78,12 @@ namespace DNC.Models
             }
         }
 
-        private string name;
         public string Name
         {
-            get => name;
+            get => Machine.Name;
             set
             {
-                name = value;
+                Machine.Name = value;
                 NotifyPropertyChanged();
             }
         }

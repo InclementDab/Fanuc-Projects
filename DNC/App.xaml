@@ -1,14 +1,14 @@
 ﻿<Application x:Class="DNC.App"
-             xmlns:Controls="clr-namespace:MahApps.Metro.Controls;assembly=MahApps.Metro"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:local="clr-namespace:DNC"
              StartupUri="MainWindow.xaml">
     <Application.Resources>
-        <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" TrueValue="Hidden" FalseValue="Visible"/>
-        <local:BoolToVisibilityConverter x:Key="BoolToInvisibilityConverter" TrueValue="Visible" FalseValue="Hidden"/>
+        <ResourceDictionary>
 
+            <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" TrueValue="Hidden" FalseValue="Visible"/>
+            <local:BoolToVisibilityConverter x:Key="BoolToInvisibilityConverter" TrueValue="Visible" FalseValue="Hidden"/>
+        </ResourceDictionary>
 
-        
     </Application.Resources>
 </Application>

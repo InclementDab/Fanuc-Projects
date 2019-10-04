@@ -8,16 +8,16 @@
              d:DesignHeight="450" d:DesignWidth="600">
 
 
+    <Grid>
+        <DataGrid ItemsSource="{Binding SelectedItem.ProgramList}" AutoGenerateColumns="False">
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Last Modified" Binding="{Binding LastModified}" IsReadOnly="True"/>
+                <DataGridTextColumn Header="No." Binding="{Binding Number}" Width="50"/>
+                <DataGridTextColumn Header="Program Name" Binding="{Binding Name}" Width="200"/>
+            </DataGrid.Columns>
+        </DataGrid>
+    </Grid>
     
-    <ListView ItemsSource="{Binding SelectedItem.ProgramList}">
-        <ListView.View>
-            <GridView>
-                <GridViewColumn Header="No." DisplayMemberBinding="{Binding Number}"/>
-                <GridViewColumn Header="Program Name" DisplayMemberBinding="{Binding Name}" />
-            </GridView>
-        </ListView.View>
-
-        
-    </ListView>
+   
 
 </UserControl>

@@ -30,8 +30,8 @@ namespace DNC.Views
             InitializeComponent();
             DataContext = ViewModel = new MachineListViewModel();
 
-            ViewModel.AddListItem("machine1", ModelType.Machine);
-            ViewModel.AddListItem("machine2", ModelType.Machine);
+            ViewModel.AddListItem("MAM", ModelType.Machine);
+            //ViewModel.AddListItem("machine2", ModelType.Machine);
 
             ViewModel.EnumeratedList[0].ProgramList.Add(new Program(1, "yeet"));
 
@@ -53,7 +53,6 @@ namespace DNC.Views
             }
             e.Handled = true;
         }
-
 
         protected override void OnDragOver(DragEventArgs e)
         {
@@ -108,6 +107,9 @@ namespace DNC.Views
         protected override void OnDrop(DragEventArgs e)
         {
             base.OnDrop(e);
+
+            e.Handled = true;
+            return;
 
             FrameworkElement oElement = e.OriginalSource as FrameworkElement;
             ModelBase mBaseDropped = e.Data.GetData(typeof(ModelBase)) as ModelBase;

@@ -16,6 +16,7 @@
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
+        
         <TreeView Grid.Row="0" Margin="5" ItemsSource="{Binding EnumeratedList, Mode=TwoWay}"
                                 MinHeight="300"
                                 AllowDrop="True"
@@ -25,6 +26,7 @@
                 <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
                     <Border BorderBrush="Black" BorderThickness="0 0 0 0">
                         <StackPanel Orientation="Horizontal">
+                            
                             <Image Source="{Binding Icon}"/>
 
                             <Grid Width="auto" Height="auto">
@@ -34,6 +36,10 @@
 
                             <StackPanel.ContextMenu>
                                 <ContextMenu>
+
+                                    <MenuItem Header="Import"/>
+                                    <MenuItem Header="Load all from controller"/>
+                                    <Separator/>
                                     <MenuItem Command="Copy"/>
                                     <MenuItem Command="Cut"/>
                                     <MenuItem Command="Paste"/>

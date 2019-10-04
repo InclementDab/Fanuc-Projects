@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNC"
         mc:Ignorable="d"
-        Title="MainWindow" Height="600" Width="800">
+        Title="MainWindow" Height="600" Width="1200">
 
     <DockPanel>
         <Menu DockPanel.Dock="Top">
@@ -13,11 +13,11 @@
                 <MenuItem Header="_Open"/>
             </MenuItem>
             <MenuItem Header="_Edit">
-            
+
             </MenuItem>
         </Menu>
-        
-       
+
+
         <StatusBar DockPanel.Dock="Bottom">
             <StatusBarItem>
                 <TextBox Name="stCursorPosition"/>
@@ -27,20 +27,20 @@
                 <ProgressBar Width="90" Height="16" Name="stProgressBar"/>
             </StatusBarItem>
         </StatusBar>
-        
-        
+
+
         <Grid Margin="6">
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="300"/>
-                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="400"/>
             </Grid.ColumnDefinitions>
-            <ContentControl Content="{Binding MachineListView}" Grid.Column="0"/>
-            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1"/>
+            <ContentControl Content="{Binding MachineListView}" Grid.Column="0" HorizontalContentAlignment="Stretch"/>
+            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1" HorizontalContentAlignment="Stretch"/>
         </Grid>
 
     </DockPanel>
 
-    
-    
+
+
 
 </Window>
