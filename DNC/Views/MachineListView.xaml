@@ -7,6 +7,7 @@
              xmlns:local="clr-namespace:DNC.Views"
              xmlns:model="clr-namespace:DNC.Models"
              mc:Ignorable="d" 
+
              d:DesignHeight="350" d:DesignWidth="300">
 
 
@@ -36,7 +37,7 @@
 
                             <StackPanel.ContextMenu>
                                 <ContextMenu>
-
+                                    <MenuItem Header="Edit"/>
                                     <MenuItem Header="Import"/>
                                     <MenuItem Header="Load all from controller"/>
                                     <Separator/>

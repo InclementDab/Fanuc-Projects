@@ -32,8 +32,9 @@ namespace DNC.Views
 
             ViewModel.AddListItem("MAM", ModelType.Machine);
             //ViewModel.AddListItem("machine2", ModelType.Machine);
-
+            
             ViewModel.EnumeratedList[0].ProgramList.Add(new Program(1, "yeet"));
+            
 
         }
 

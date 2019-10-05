@@ -1,9 +1,12 @@
-﻿using System;
+﻿using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
+using System.Diagnostics;
 using System.Globalization;
 using System.Linq;
+using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Data;
@@ -17,7 +20,6 @@ namespace DNC
     {
 
     }
-
 
     [ValueConversion(typeof(bool), typeof(Visibility))]
     public sealed class BoolToVisibilityConverter : IValueConverter
@@ -44,5 +46,5 @@ namespace DNC
             if (Equals(value, FalseValue)) return false;
             return null;
         }
-    }
+    }    
 }

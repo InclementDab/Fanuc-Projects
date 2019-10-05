@@ -35,6 +35,9 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="Newtonsoft.Json, Version=12.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
@@ -61,11 +64,14 @@
       <SubType>Designer</SubType>
     </ApplicationDefinition>
     <Compile Include="Communication\fwlib32.cs" />
-    <Compile Include="Communication\Machine.cs" />
+    <Compile Include="Models\Machine.cs" />
     <Compile Include="Models\MachineListModel.cs" />
     <Compile Include="Models\ProgramListModel.cs" />
     <Compile Include="ViewModels\MachineListViewModel.cs" />
     <Compile Include="ViewModels\RelayCommand.cs" />
+    <Compile Include="Views\EditPrompt.xaml.cs">
+      <DependentUpon>EditPrompt.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Views\MachineListView.xaml.cs">
       <DependentUpon>MachineListView.xaml</DependentUpon>
     </Compile>
@@ -84,6 +90,10 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
+    <Page Include="Views\EditPrompt.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Views\MachineListView.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>

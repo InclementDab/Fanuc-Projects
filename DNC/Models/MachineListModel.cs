@@ -14,11 +14,7 @@ using System.Windows.Controls;
 namespace DNC.Models
 {
 
-    public enum ModelType
-    {
-        Folder = 0,
-        Machine = 1
-    }
+    
 
     public class ModelBase : INotifyPropertyChanged
     {
@@ -95,6 +91,14 @@ namespace DNC.Models
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
+
+
+    }
+
+    public enum ModelType
+    {
+        Folder = 0,
+        Machine = 1
     }
 
 }

@@ -12,6 +12,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using DNC.Models;
+using DNC.Views;
 
 namespace DNC.ViewModels
 {
@@ -59,7 +60,14 @@ namespace DNC.ViewModels
                 {
                     _addMachineCommand = new RelayCommand(
                         p => true,
-                        p => AddListItem("Machine1", ModelType.Machine));
+                        p =>
+                        {
+                            EditPrompt ep = new EditPrompt();
+                            ModelBase mBase = ep.CreateDialog();
+
+                            if (mBase != null)
+                                EnumeratedList.Add(mBase);
+                        });
                 }
                 return _addMachineCommand;
             }
