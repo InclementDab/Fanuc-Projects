@@ -22,7 +22,7 @@ using static DNC.Focas2;
 namespace DNC.Models
 {
 
-    public class Machine : ModelBase, IDisposable, IDataObject
+    public class Machine : ModelBase, IDisposable
     {
 
         private ushort handle;
@@ -72,13 +72,6 @@ namespace DNC.Models
             {
                 EditPrompt e = new EditPrompt();
                 e.EditMachine(this);
-
-                foreach (PropertyInfo pInfo in GetType().GetProperties())
-                {
-                    //var x = pInfo.GetValue(m);
-                    //GetType().GetRuntimeProperty(pInfo.Name).SetValue(pInfo, x);
-                    //m.GetType().GetProperty(pInfo.Name).SetValue(this, pInfo.GetValue(m));
-                }
             });
         }
 
@@ -173,15 +166,9 @@ namespace DNC.Models
                 StatusCode = cnc_freelibhndl(handle);
         }
 
-        public static string ToJson<T>(T obj)
-        {
-            return JsonConvert.SerializeObject(obj, Formatting.Indented);
-        }
+        public static string ToJson<T>(T obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
 
-        public void SetData(object data)
-        {
-            throw new NotImplementedException();
-        }
+
     }
 
     public class Folder : ModelBase, IDataObject
@@ -190,21 +177,15 @@ namespace DNC.Models
         public Folder(string name) : base(name, "/Resources/Icons/Folder_16x.png")
         {
             Children = new ObservableCollection<ModelBase>();
-            Children.CollectionChanged += Children_CollectionChanged;
         }
 
-        private void Children_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-        {
-
-        }
-
-        public void SetData(object data)
+        public override void SetData(object data)
         {
             Children.Add(data as ModelBase);
         }
     }
 
-    public abstract class ModelBase : INotifyPropertyChanged
+    public abstract class ModelBase : INotifyPropertyChanged, IDataObject
     {
         public ICommand Rename { get; private set; }
 
@@ -244,21 +225,22 @@ namespace DNC.Models
         }
 
 
-
         public event PropertyChangedEventHandler PropertyChanged;
         protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
 
-        public string[] formats = new string[]
+
+        #region dataobject
+        public readonly string[] formats = new string[]
         {
             "DNC.Models.ModelBase",
             "DNC.Models.Machine",
             "DNC.Models.Folder"
         };
 
-        public Type[] Tformats = new Type[]
+        public readonly Type[] Tformats = new Type[]
         {
             typeof(ModelBase),
             typeof(Machine),
@@ -299,21 +281,25 @@ namespace DNC.Models
 
         public string[] GetFormats(bool autoConvert) => formats;
 
-
-
-        public void SetData(string format, object data)
+        public virtual void SetData(object data)
         {
             throw new NotImplementedException();
         }
 
-        public void SetData(Type format, object data)
+        public virtual void SetData(string format, object data)
         {
             throw new NotImplementedException();
         }
 
-        public void SetData(string format, object data, bool autoConvert)
+        public virtual void SetData(Type format, object data)
         {
             throw new NotImplementedException();
         }
+
+        public virtual void SetData(string format, object data, bool autoConvert)
+        {
+            throw new NotImplementedException();
+        }
+        #endregion
     }
 }

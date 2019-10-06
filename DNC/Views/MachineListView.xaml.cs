@@ -186,13 +186,10 @@ namespace DNC.Views
         private T RecursiveGetType<T>(DependencyObject current)
         {
             if (LogicalTreeHelper.GetParent(current) is T ret)
-            {
                 return ret;
-            }
-            else
-            {
-                return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
-            }
+
+            return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
+            
         }
 
         private void TextBox_KeyDown(object sender, KeyEventArgs e)
@@ -221,6 +218,38 @@ namespace DNC.Views
 
             tBox.Focus();
             tBox.SelectAll();
+        }
+
+        private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (e.OriginalSource is TreeViewItem tViewItem)
+            {
+                if (tViewItem.Header is ModelBase mBase)
+                {
+                    ViewModel.EnumeratedList.Remove(mBase);
+                }
+            }
+        }
+
+        private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            
+        }
+
+        private void Paste_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            if (e.OriginalSource is TreeViewItem tViewItem)
+            {
+                if (tViewItem.Header is ModelBase mBase)
+                {
+
+                }
+            }
+        }
+
+        private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = ViewModel.SelectedItem != null;
         }
     }
 

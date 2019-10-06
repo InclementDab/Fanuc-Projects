@@ -23,7 +23,8 @@ namespace DNC.ViewModels
 
         public ICommand AddFolderCommand { get; private set; }
         public ICommand AddMachineCommand { get; private set; }
-        
+
+
 
 
         public MachineListViewModel()
@@ -46,8 +47,8 @@ namespace DNC.ViewModels
                 e.EditMachine(m);
             });
 
+            
         }
-
 
         private ModelBase _selectedItem;
         public ModelBase SelectedItem
