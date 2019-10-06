@@ -13,18 +13,32 @@ namespace DNC
         public DateTime LastModified { get; set; }
 
         public int Number { get; set; }
-        public string Name { get; set; }
-     
-        public FileInfo ProgramFile { get; set; }
-        
-        
+        public string FileName { get; set; }
 
-        public Program(int number, string name)
+        public string[] FileData { get; set; }
+
+        public string MachineSafeData
         {
-            Number = number;
-            Name = name;
+            get
+            {
+                string x = null;
+                foreach (string line in FileData)
+                {
+                    x += line;
+                    x += '\n';
+                }
+                return x;
+            }
+        }
+        
 
+        // TODO add parse data
+        public Program(string fileName, string[] fileData)
+        {
             LastModified = DateTime.Now;
+
+            FileName = fileName;
+            FileData = fileData;
         }
     }
 }

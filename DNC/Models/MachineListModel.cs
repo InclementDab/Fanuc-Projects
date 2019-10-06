@@ -7,6 +7,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Net;
 using System.Reflection;
@@ -16,11 +17,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+
 using System.Windows.Input;
 using static DNC.Focas2;
 
 namespace DNC.Models
 {
+
+    public enum ConnectionStatus
+    {
+        [Description("Disconnected")]
+        Disconnected = 0,
+
+        [Description("Connecting...")]
+        Connecting = 1,
+
+        [Description("Connected")]
+        Connected = 2
+    }
 
     public class Machine : ModelBase, IDisposable
     {
@@ -32,14 +46,37 @@ namespace DNC.Models
         public bool ConnectOnStartup { get; set; }
         public string IsConnectedString => IsConnected ? "Disconnect" : "Connect";
 
+        private ConnectionStatus _connectionStatus;
+        public ConnectionStatus ConnectionStatus
+        {
+            get => _connectionStatus;
+            private set
+            {
+                _connectionStatus = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+
         private bool _isConnected;
         public bool IsConnected
         {
             get => _isConnected;
-            set
+            private set
             {
                 _isConnected = value;
                 NotifyPropertyChanged("IsConnectedString");
+            }
+        }
+
+        private short statusCode;
+        public short StatusCode
+        {
+            get => statusCode;
+            private set
+            {
+                statusCode = value;
+                Debug.WriteLine(statusCode);
             }
         }
 
@@ -49,17 +86,20 @@ namespace DNC.Models
 
         public ICommand Connect { get; private set; }
         public ICommand Edit { get; private set; }
+        public ICommand Import { get; private set; }
 
         #endregion
 
-
+        public string MachineDirectory { get; private set; } // probably put this in individual programs upon register
         public readonly ODBSYSEX SystemInfo = new ODBSYSEX();
         public readonly ODBST StatInfo = new ODBST();
 
         public Machine(string name) : base(name, "/Resources/Icons/Machine_16x.png")
         {
-
+            ConnectionStatus = ConnectionStatus.Disconnected;
             ProgramList = new ObservableCollection<Program>();
+            MachineDirectory = "//CNC_MEM/USER/";
+
             Connect = new RelayCommand(() =>
             {
                 if (!IsConnected)
@@ -73,28 +113,33 @@ namespace DNC.Models
                 EditPrompt e = new EditPrompt();
                 e.EditMachine(this);
             });
-        }
 
-        private short statusCode;
-        public short StatusCode
-        {
-            get => statusCode;
-            set
+            Import = new RelayCommand(() =>
             {
-                statusCode = value;
-                Debug.WriteLine(statusCode);
-            }
-        }
 
+                System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog
+                {
+                    RestoreDirectory = true
+                };
+
+                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+                {
+                    string[] fileData = File.ReadAllLines(dialog.FileName);
+                    ProgramList.Add(new Program(dialog.FileName, fileData));
+                }
+            });
+        }
 
         public void OpenConnection()
         {
+            ConnectionStatus = ConnectionStatus.Connecting;
             StatusCode = cnc_allclibhndl3(IPAddress.ToString(), (ushort)Port, 10, out handle);
 
             if (StatusCode == 0)
             {
                 StatusCode = cnc_statinfo(handle, StatInfo);
                 StatusCode = cnc_sysinfo_ex(handle, SystemInfo);
+                ConnectionStatus = ConnectionStatus.Connected;
                 IsConnected = true;
             }
         }
@@ -103,6 +148,7 @@ namespace DNC.Models
         {
             StatusCode = cnc_freelibhndl(handle);
             IsConnected = (StatusCode != 0);
+            if (!IsConnected) ConnectionStatus = ConnectionStatus.Disconnected;
         }
 
 
@@ -151,14 +197,15 @@ namespace DNC.Models
 
         public int PushProgram(Program program)
         {
-            string prg = "\nO1234\nG1F0.3W10.\nM30\n%";
-            StatusCode = cnc_dwnstart4(handle, 0, "//CNC_MEM/USER/");
-            int l = prg.Length;
-            StatusCode = cnc_download4(handle, ref l, prg);
+            int length = program.MachineSafeData.Length;
+            StatusCode = cnc_dwnstart4(handle, 0, MachineDirectory);
+            StatusCode = cnc_download4(handle, ref length, program.MachineSafeData);
             StatusCode = cnc_dwnend4(handle);
 
             return StatusCode;
         }
+
+        
 
         public void Dispose()
         {

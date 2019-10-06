@@ -20,7 +20,7 @@
         <ContextMenu x:Key="cTextMenu">
             <MenuItem Header="{Binding Path=IsConnectedString}" Command="{Binding Connect}"/>
             <Separator/>
-            <MenuItem Header="Import"/>
+            <MenuItem Header="Import" Command="{Binding Import}"/>
             <MenuItem Header="Load all from controller"/>
             <Separator/>
             <MenuItem Command="Copy"/>
@@ -43,6 +43,7 @@
                         <TextBlock Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
                         <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
                     </Grid>
+                    <TextBlock Text="{Binding ConnectionStatus, StringFormat=({0})}"/>
                 </StackPanel>
             </Border>
         </HierarchicalDataTemplate>

@@ -36,7 +36,7 @@ namespace DNC.Views
             (ViewModel.EnumeratedList[0] as Machine).IPAddress = IPAddress.Parse("192.168.128.63");
             (ViewModel.EnumeratedList[0] as Machine).Port = 8193;
 
-            (ViewModel.EnumeratedList[0] as Machine).ProgramList.Add(new Program(2020, "CyberIsGay"));
+            
             
 
         }

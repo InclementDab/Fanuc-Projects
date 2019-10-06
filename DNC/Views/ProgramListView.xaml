@@ -14,12 +14,17 @@
             <RowDefinition Height="*"/>
         </Grid.RowDefinitions>
         
-        <DataGrid ItemsSource="{Binding SelectedItem.ProgramList}" AutoGenerateColumns="False">
+        <DataGrid ItemsSource="{Binding SelectedItem.ProgramList}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedProgram}">
             <DataGrid.Columns>
                 <DataGridTextColumn Header="Last Modified" Binding="{Binding LastModified}" IsReadOnly="True"/>
                 <DataGridTextColumn Header="No." Binding="{Binding Number}" Width="50"/>
-                <DataGridTextColumn Header="Program Name" Binding="{Binding Name}" Width="*"/>
+                <DataGridTextColumn Header="Program Name" Binding="{Binding FileName}" Width="*"/>
             </DataGrid.Columns>
+            <DataGrid.ContextMenu>
+                <ContextMenu>
+                    <MenuItem Header="Send" Command="{Binding SendProgram}"/>
+                </ContextMenu>
+            </DataGrid.ContextMenu>
         </DataGrid>
     </Grid>
     

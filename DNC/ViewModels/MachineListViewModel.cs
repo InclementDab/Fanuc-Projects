@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -14,6 +15,7 @@ using System.Windows.Input;
 using DNC.Models;
 using DNC.Views;
 using GalaSoft.MvvmLight.Command;
+using Microsoft.Win32;
 
 namespace DNC.ViewModels
 {
@@ -23,9 +25,7 @@ namespace DNC.ViewModels
 
         public ICommand AddFolderCommand { get; private set; }
         public ICommand AddMachineCommand { get; private set; }
-
-
-
+        public ICommand SendProgram { get; private set; }
 
         public MachineListViewModel()
         {
@@ -47,7 +47,15 @@ namespace DNC.ViewModels
                 e.EditMachine(m);
             });
 
-            
+            SendProgram = new RelayCommand(() =>
+            {
+                if (SelectedItem is Machine machine)
+                {
+                    machine.PushProgram(SelectedProgram);
+                }
+            });
+
+
         }
 
         private ModelBase _selectedItem;
@@ -57,6 +65,17 @@ namespace DNC.ViewModels
             set
             {
                 _selectedItem = value;
+                NotifyPropertyChanged();
+            }
+        }
+
+        private Program _selectedProgram;
+        public Program SelectedProgram
+        {
+            get => _selectedProgram;
+            set
+            {
+                _selectedProgram = value;
                 NotifyPropertyChanged();
             }
         }
