@@ -8,6 +8,7 @@
 
             <local:BoolToVisibilityConverter x:Key="BoolToVisibilityConverter" TrueValue="Hidden" FalseValue="Visible"/>
             <local:BoolToVisibilityConverter x:Key="BoolToInvisibilityConverter" TrueValue="Visible" FalseValue="Hidden"/>
+            <local:IPAddressConverter x:Key="IpAddressConverter" />
         </ResourceDictionary>
 
     </Application.Resources>

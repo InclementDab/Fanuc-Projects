@@ -7,37 +7,38 @@
              xmlns:local="clr-namespace:DNC.Views"
              xmlns:model="clr-namespace:DNC.Models"
              mc:Ignorable="d" 
+             Width="300"
+             d:DesignHeight="500">
 
-             d:DesignHeight="350" d:DesignWidth="300">
-
-
+    <UserControl.CommandBindings>
+        <CommandBinding Command="Copy"/>
+        <CommandBinding Command="Cut"/>
+        <CommandBinding Command="Paste"/>
+    </UserControl.CommandBindings>
 
     <Grid>
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        
-        <TreeView Grid.Row="0" Margin="5" ItemsSource="{Binding EnumeratedList, Mode=TwoWay}"
-                                MinHeight="300"
+
+        <TreeView x:Name="tView" Grid.Row="0" Margin="5" ItemsSource="{Binding EnumeratedList, Mode=TwoWay}"
                                 AllowDrop="True"
                                 SelectedItemChanged="TreeView_SelectedItemChanged">
 
             <TreeView.Resources>
-                <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
+                <HierarchicalDataTemplate DataType="{x:Type model:Folder}" ItemsSource="{Binding Children}">
                     <Border BorderBrush="Black" BorderThickness="0 0 0 0">
                         <StackPanel Orientation="Horizontal">
-                            
                             <Image Source="{Binding Icon}"/>
 
                             <Grid Width="auto" Height="auto">
                                 <TextBlock Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
-                                <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" MouseDown="TextBox_MouseDown"/>
+                                <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
                             </Grid>
 
                             <StackPanel.ContextMenu>
                                 <ContextMenu>
-                                    <MenuItem Header="Edit"/>
                                     <MenuItem Header="Import"/>
                                     <MenuItem Header="Load all from controller"/>
                                     <Separator/>
@@ -45,16 +46,45 @@
                                     <MenuItem Command="Cut"/>
                                     <MenuItem Command="Paste"/>
                                     <Separator/>
-                                    <MenuItem Header="Rename"/>
-                                    <MenuItem Header="Properties"/>
+                                    <MenuItem Header="Rename" Command="{Binding Rename}"/>
                                 </ContextMenu>
                             </StackPanel.ContextMenu>
                         </StackPanel>
                     </Border>
                 </HierarchicalDataTemplate>
+
+                <DataTemplate DataType="{x:Type model:Machine}">
+                    <Border BorderBrush="Black" BorderThickness="0 0 0 0">
+                        <StackPanel Orientation="Horizontal">
+                            <Image Source="{Binding Icon}"/>
+
+                            <Grid Width="auto" Height="auto">
+                                <TextBlock Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
+                                <TextBox Visibility="{Binding Path=IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
+                            </Grid>
+
+                            <StackPanel.ContextMenu>
+                                <ContextMenu>
+                                    <MenuItem Header="{Binding Path=IsConnectedString}" Command="{Binding Connect}"/>
+                                    <Separator/>
+                                    <MenuItem Header="Import"/>
+                                    <MenuItem Header="Load all from controller"/>
+                                    <Separator/>
+                                    <MenuItem Command="Copy"/>
+                                    <MenuItem Command="Cut"/>
+                                    <MenuItem Command="Paste"/>
+                                    <Separator/>
+                                    <MenuItem Header="Rename" Command="{Binding Rename}"/>
+                                    <MenuItem Header="Properties" Command="{Binding Edit}"/>
+                                </ContextMenu>
+                            </StackPanel.ContextMenu>
+                        </StackPanel>
+                    </Border>
+                </DataTemplate>
             </TreeView.Resources>
 
         </TreeView>
+
         <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
             <Button Width="20" Height="20" Content="M" Command="{Binding AddMachineCommand}" Margin="2"/>
             <Button Width="20" Height="20" Content="F" Command="{Binding AddFolderCommand}" Margin="2"/>

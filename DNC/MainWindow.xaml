@@ -31,11 +31,12 @@
 
         <Grid Margin="6">
             <Grid.ColumnDefinitions>
-                <ColumnDefinition Width="300"/>
-                <ColumnDefinition Width="400"/>
+                <ColumnDefinition Width="auto"/>
+                <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
+            
             <ContentControl Content="{Binding MachineListView}" Grid.Column="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
-            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1" HorizontalContentAlignment="Stretch"/>
+            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
         </Grid>
 
     </DockPanel>

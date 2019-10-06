@@ -3,32 +3,41 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DNC.Views"
+        xmlns:local="clr-namespace:DNC.Models"
         mc:Ignorable="d"
         ContentRendered="Window_ContentRendered"
-        Title="CreatePrompt" Height="250" Width="350">
-    <Grid>
+        Height="250" Width="350">
 
-        <StackPanel Orientation="Vertical" Margin="10">
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="3">
-                <TextBlock Margin="2" Text="Name"/>
-                <TextBox x:Name="txtName" Margin="2" Width="120"/>
-            </StackPanel>
-
-            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center" Margin="3">
-                <TextBlock Margin="2" Text="IP"/>
-                <TextBox Margin="2" Width="120"/>
-                <TextBlock Margin="2" Text="Port"/>
-                <TextBox Margin="2" Width="40"/>
-            </StackPanel>
+    <Grid HorizontalAlignment="Center" Margin="10">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto" />
+        </Grid.RowDefinitions>
 
 
-            <StackPanel Orientation="Horizontal" VerticalAlignment="Bottom" HorizontalAlignment="Center" Margin="25">
-                <Button Command="{Binding SaveCommand}" Content="Save" Width="60" Height="20" Margin="2"/>
-                <Button Command="{Binding CancelCommand}" Content="Cancel" Width="60" Height="20" Margin="2"/>
-            </StackPanel>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="3">
+            <TextBlock Margin="2" Text="Name"/>
+            <TextBox x:Name="txtName" Text="{Binding CurrentMachine.Name}" Margin="2" Width="120"/>
         </StackPanel>
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" Margin="3">
+            <TextBlock Margin="2" Text="IP"/>
+            <TextBox Text="{Binding CurrentMachine.IPAddress, Converter={StaticResource IpAddressConverter}}" Margin="2" Width="120"/>
+            <TextBlock Margin="2" Text="Port"/>
+            <TextBox Text="{Binding CurrentMachine.Port}" Margin="2" Width="40"/>
+        </StackPanel>
+
+
+        <CheckBox IsChecked="{Binding CurrentMachine.ConnectOnStartup}" Content="Connect Automatically" Grid.Row="2"/>
+
+
+        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
+            <Button Command="{Binding SaveCommand}" Content="Save" Width="80" Height="20" Margin="4"/>
+            <Button Command="{Binding CancelCommand}" Content="Cancel" Width="80" Height="20" Margin="4"/>
+        </StackPanel>
+
 
     </Grid>
 </Window>

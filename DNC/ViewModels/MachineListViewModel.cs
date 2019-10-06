@@ -13,12 +13,41 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using DNC.Models;
 using DNC.Views;
+using GalaSoft.MvvmLight.Command;
 
 namespace DNC.ViewModels
 {
     public class MachineListViewModel : INotifyPropertyChanged
     {
         public ObservableCollection<ModelBase> EnumeratedList { get; set; }
+
+        public ICommand AddFolderCommand { get; private set; }
+        public ICommand AddMachineCommand { get; private set; }
+        
+
+
+        public MachineListViewModel()
+        {
+            EnumeratedList = new ObservableCollection<ModelBase>();
+
+            AddFolderCommand = new RelayCommand(() => EnumeratedList.Add(new Folder("Folder1")));
+            AddMachineCommand = new RelayCommand(() =>
+            {
+                Machine m;
+                int i = 0;
+                do
+                {
+                    m = new Machine($"Machine{i++}");
+                } while (EnumeratedList.Contains(m));
+
+                EnumeratedList.Add(m);
+
+                EditPrompt e = new EditPrompt();
+                e.EditMachine(m);
+            });
+
+        }
+
 
         private ModelBase _selectedItem;
         public ModelBase SelectedItem
@@ -31,62 +60,10 @@ namespace DNC.ViewModels
             }
         }
 
-        public MachineListViewModel()
-        {
-            EnumeratedList = new ObservableCollection<ModelBase>();            
-        }
-
-        private ICommand _addFolderCommand;
-        public ICommand AddFolderCommand
-        {
-            get
-            {
-                if (_addFolderCommand == null)
-                {
-                    _addFolderCommand = new RelayCommand(
-                        p => true,
-                        p => AddListItem("Folder1", ModelType.Folder));
-                }
-                return _addFolderCommand;
-            }
-        }
-
-        private ICommand _addMachineCommand;
-        public ICommand AddMachineCommand
-        {
-            get
-            {
-                if (_addMachineCommand == null)
-                {
-                    _addMachineCommand = new RelayCommand(
-                        p => true,
-                        p =>
-                        {
-                            EditPrompt ep = new EditPrompt();
-                            ModelBase mBase = ep.CreateDialog();
-
-                            if (mBase != null)
-                                EnumeratedList.Add(mBase);
-                        });
-                }
-                return _addMachineCommand;
-            }
-        }
-
-
-
-
-        public void AddListItem(string name, ModelType type)
-        {
-            EnumeratedList.Add(new ModelBase(name, type, EnumeratedList));
-        }
-
         public event PropertyChangedEventHandler PropertyChanged;
         protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
         {
             PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
         }
-    }
-
-
+    } 
 }

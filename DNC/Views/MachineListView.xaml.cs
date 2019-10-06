@@ -4,6 +4,7 @@ using System;
 using System.Collections.Generic;
 using System.Diagnostics;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -25,15 +26,17 @@ namespace DNC.Views
     public partial class MachineListView : UserControl
     {
         private readonly MachineListViewModel ViewModel;
+
         public MachineListView()
         {
             InitializeComponent();
             DataContext = ViewModel = new MachineListViewModel();
 
-            ViewModel.AddListItem("MAM", ModelType.Machine);
-            //ViewModel.AddListItem("machine2", ModelType.Machine);
-            
-            ViewModel.EnumeratedList[0].ProgramList.Add(new Program(1, "yeet"));
+            ViewModel.EnumeratedList.Add(new Machine("MAM"));
+            (ViewModel.EnumeratedList[0] as Machine).IPAddress = IPAddress.Parse("192.168.128.63");
+            (ViewModel.EnumeratedList[0] as Machine).Port = 8193;
+
+            (ViewModel.EnumeratedList[0] as Machine).ProgramList.Add(new Program(2020, "CyberIsGay"));
             
 
         }
@@ -54,6 +57,8 @@ namespace DNC.Views
             }
             e.Handled = true;
         }
+
+
 
         protected override void OnDragOver(DragEventArgs e)
         {
@@ -80,7 +85,7 @@ namespace DNC.Views
                 }
                 else
                 {
-                    if (mBaseTarget.Type == ModelType.Folder)
+                    if (mBaseTarget.GetType() == typeof(Folder))
                     {
                         border.BorderThickness = new Thickness(1);
                     }
@@ -109,9 +114,22 @@ namespace DNC.Views
         {
             base.OnDrop(e);
 
+            FrameworkElement dTarget = e.OriginalSource as FrameworkElement;
+            if (e.Data.GetDataPresent(typeof(ModelBase)))
+            {
+                if (dTarget.DataContext is Folder dFolder)
+                {
+                    dFolder.SetData(e.Data.GetData(typeof(ModelBase)));
+                    //dFolder.Children.Add(e.Data.GetData(typeof(ModelBase)) as ModelBase);
+
+                }
+                
+            }
+
             e.Handled = true;
             return;
 
+            /*
             FrameworkElement oElement = e.OriginalSource as FrameworkElement;
             ModelBase mBaseDropped = e.Data.GetData(typeof(ModelBase)) as ModelBase;
             ModelBase mBaseTarget = oElement.DataContext as ModelBase;
@@ -162,6 +180,7 @@ namespace DNC.Views
             }
 
             e.Handled = true;
+            */
         }
 
         private T RecursiveGetType<T>(DependencyObject current)
@@ -189,7 +208,13 @@ namespace DNC.Views
             }
         }
 
-        private void TextBox_MouseDown(object sender, MouseButtonEventArgs e)
+       
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            ViewModel.SelectedItem = e.NewValue as ModelBase;
+        }
+
+        private void TextBox_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
         {
             TextBox tBox = sender as TextBox;
             if (!IsLoaded || tBox.Visibility != Visibility.Visible) return;
@@ -197,10 +222,7 @@ namespace DNC.Views
             tBox.Focus();
             tBox.SelectAll();
         }
-
-        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
-        {
-            ViewModel.SelectedItem = e.NewValue as ModelBase;
-        }
     }
+
+
 }

@@ -1,15 +1,16 @@
 ﻿using DNC.Models;
 using DNC.ViewModels;
+using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
-using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -22,48 +23,28 @@ namespace DNC.Views
     /// </summary>
     public partial class EditPrompt : Window
     {
+        public ICommand SaveCommand { get; private set; }
+        public ICommand CancelCommand { get; private set; }
+
         public EditPrompt()
         {
             InitializeComponent();
             DataContext = this;
+
+            SaveCommand = new RelayCommand(() => DialogResult = true);
+            CancelCommand = new RelayCommand(() => DialogResult = false);
         }
 
-        public ModelBase CreateDialog()
+        public Machine CurrentMachine { get; set; }
+
+        public void EditMachine(Machine input)
         {
+            CurrentMachine = input;
             bool? dr = ShowDialog();
-            return (dr ?? false) ? new ModelBase(txtName.Text, ModelType.Machine, null) : null;
 
-        }
-
-        private ICommand _saveCommand;
-        public ICommand SaveCommand
-        {
-            get
+            if (!dr ?? false)
             {
-                if (_saveCommand == null)
-                {
-                    _saveCommand = new RelayCommand(
-                        p => true,
-                        p => DialogResult = true 
-                        );
-                }
-                return _saveCommand;
-            }
-        }
-
-        private ICommand _cancelCommand;
-        public ICommand CancelCommand
-        {
-            get
-            {
-                if (_cancelCommand == null)
-                {
-                    _cancelCommand = new RelayCommand(
-                        p => true,
-                        p => DialogResult = false
-                        );
-                }
-                return _cancelCommand;
+                CurrentMachine = input; // idk how to do this yet
             }
         }
 
