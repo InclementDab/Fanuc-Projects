@@ -23,6 +23,7 @@ namespace DNC.Views
     /// </summary>
     public partial class EditPrompt : Window
     {
+        public ICommand EditConnection { get; private set; }
         public ICommand SaveCommand { get; private set; }
         public ICommand CancelCommand { get; private set; }
 
@@ -31,6 +32,11 @@ namespace DNC.Views
             InitializeComponent();
             DataContext = this;
 
+            EditConnection = new RelayCommand(() =>
+            {
+                var x = new ConnectionSetup(CurrentMachine);
+                x.ShowDialog();
+            });
             SaveCommand = new RelayCommand(() => DialogResult = true);
             CancelCommand = new RelayCommand(() => DialogResult = false);
         }

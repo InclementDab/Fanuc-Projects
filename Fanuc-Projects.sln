@@ -15,6 +15,9 @@ Global
 		Release|Any CPU = Release|Any CPU
 		Release|x64 = Release|x64
 		Release|x86 = Release|x86
+		Remote|Any CPU = Remote|Any CPU
+		Remote|x64 = Remote|x64
+		Remote|x86 = Remote|x86
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Debug|Any CPU.ActiveCfg = Debug|Win32
@@ -27,6 +30,12 @@ Global
 		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Release|x64.Build.0 = Release|x64
 		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Release|x86.ActiveCfg = Release|Win32
 		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Release|x86.Build.0 = Release|Win32
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|Any CPU.ActiveCfg = Release|x64
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|Any CPU.Build.0 = Release|x64
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|x64.ActiveCfg = Release|x64
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|x64.Build.0 = Release|x64
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|x86.ActiveCfg = Release|Win32
+		{BE7D8CA8-08F1-45AF-9210-03E044C52989}.Remote|x86.Build.0 = Release|Win32
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Debug|x64.ActiveCfg = Debug|Any CPU
@@ -39,6 +48,12 @@ Global
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Release|x64.Build.0 = Release|Any CPU
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Release|x86.ActiveCfg = Release|Any CPU
 		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Release|x86.Build.0 = Release|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|Any CPU.ActiveCfg = Remote|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|Any CPU.Build.0 = Remote|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|x64.ActiveCfg = Remote|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|x64.Build.0 = Remote|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|x86.ActiveCfg = Remote|Any CPU
+		{F4BEA7B4-9F3F-4C15-8670-41E2091C2AE1}.Remote|x86.Build.0 = Remote|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

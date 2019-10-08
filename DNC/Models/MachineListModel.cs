@@ -1,6 +1,8 @@
 ﻿using DNC.ViewModels;
 using DNC.Views;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Messaging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -8,12 +10,15 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Net;
+using System.Net.Sockets;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using System.Text;
+using System.Text.RegularExpressions;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
@@ -24,24 +29,13 @@ using static DNC.Focas2;
 namespace DNC.Models
 {
 
-    public enum ConnectionStatus
-    {
-        [Description("Disconnected")]
-        Disconnected = 0,
 
-        [Description("Connecting...")]
-        Connecting = 1,
-
-        [Description("Connected")]
-        Connected = 2
-    }
 
     public class Machine : ModelBase, IDisposable
     {
 
         private ushort handle;
-        public IPAddress IPAddress { get; set; }
-        public int Port { get; set; }
+        public Connection Connection { get; set; }
 
         public bool ConnectOnStartup { get; set; }
         public string IsConnectedString => IsConnected ? "Disconnect" : "Connect";
@@ -82,15 +76,13 @@ namespace DNC.Models
 
         public ObservableCollection<Program> ProgramList { get; private set; }
 
-        #region Commands
-
         public ICommand Connect { get; private set; }
         public ICommand Edit { get; private set; }
         public ICommand Import { get; private set; }
 
-        #endregion
-
         public string MachineDirectory { get; private set; } // probably put this in individual programs upon register
+
+
         public readonly ODBSYSEX SystemInfo = new ODBSYSEX();
         public readonly ODBST StatInfo = new ODBST();
 
@@ -128,12 +120,31 @@ namespace DNC.Models
                     ProgramList.Add(new Program(dialog.FileName, fileData));
                 }
             });
+
+            Messenger m = new Messenger();
+            
         }
 
         public void OpenConnection()
         {
             ConnectionStatus = ConnectionStatus.Connecting;
-            StatusCode = cnc_allclibhndl3(IPAddress.ToString(), (ushort)Port, 10, out handle);
+
+            switch (Connection.Type)
+            {
+                case ConnectionType.TCP:
+                    StatusCode = cnc_allclibhndl3(Connection.IPAddress.ToString(), (ushort)Connection.Port, 10, out handle);
+                    break;
+                case ConnectionType.Serial:
+
+                    string inString = Regex.Match(Connection.ComPort, "(\\d+)").Value;
+                    int.TryParse(inString, out int comNum);
+                    Debug.WriteLine(inString);
+
+                    StatusCode = cnc_allclibhndl2(comNum, out handle);
+                    break;
+            }
+            
+
 
             if (StatusCode == 0)
             {
@@ -205,7 +216,7 @@ namespace DNC.Models
             return StatusCode;
         }
 
-        
+
 
         public void Dispose()
         {
@@ -215,7 +226,65 @@ namespace DNC.Models
 
         public static string ToJson<T>(T obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
 
+        public void Register<TMessage>(object recipient, Action<TMessage> action, bool keepTargetAlive = false)
+        {
+            throw new NotImplementedException();
+        }
 
+        public void Register<TMessage>(object recipient, object token, Action<TMessage> action, bool keepTargetAlive = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Register<TMessage>(object recipient, object token, bool receiveDerivedMessagesToo, Action<TMessage> action, bool keepTargetAlive = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Register<TMessage>(object recipient, bool receiveDerivedMessagesToo, Action<TMessage> action, bool keepTargetAlive = false)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Send<TMessage>(TMessage message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Send<TMessage, TTarget>(TMessage message)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Send<TMessage>(TMessage message, object token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Unregister(object recipient)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Unregister<TMessage>(object recipient)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Unregister<TMessage>(object recipient, object token)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Unregister<TMessage>(object recipient, Action<TMessage> action)
+        {
+            throw new NotImplementedException();
+        }
+
+        public void Unregister<TMessage>(object recipient, object token, Action<TMessage> action)
+        {
+            throw new NotImplementedException();
+        }
     }
 
     public class Folder : ModelBase, IDataObject

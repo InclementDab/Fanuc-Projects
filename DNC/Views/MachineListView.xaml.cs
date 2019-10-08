@@ -3,6 +3,7 @@ using DNC.ViewModels;
 using System;
 using System.Collections.Generic;
 using System.Diagnostics;
+using System.IO.Ports;
 using System.Linq;
 using System.Net;
 using System.Text;
@@ -32,14 +33,38 @@ namespace DNC.Views
             InitializeComponent();
             DataContext = ViewModel = new MachineListViewModel();
 
-            ViewModel.EnumeratedList.Add(new Machine("MAM"));
-            (ViewModel.EnumeratedList[0] as Machine).IPAddress = IPAddress.Parse("192.168.128.63");
-            (ViewModel.EnumeratedList[0] as Machine).Port = 8193;
+            var Machine = new Machine("MAM")
+            {
+                Connection = new Connection()
+                {
+                    IPAddress = IPAddress.Parse("192.168.128.63"),
+                    Port = 8193,
+                    Type = ConnectionType.TCP
+                }
+            };
 
-            
-            
+            ViewModel.EnumeratedList.Add(Machine);
+
+
+            var Machine1 = new Machine("MakinoC")
+            {
+                Connection = new Connection()
+                {
+                    IPAddress = IPAddress.Parse("192.168.128.1"),
+                    Port = 8195,
+                    Type = ConnectionType.TCP
+                }
+            };
+
+            ViewModel.EnumeratedList.Add(Machine1);
+
+
+            new SerialPort(Machine1);
+
+          
 
         }
+
 
         protected override void OnMouseMove(MouseEventArgs e)
         {

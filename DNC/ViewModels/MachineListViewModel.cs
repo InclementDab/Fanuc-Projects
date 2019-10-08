@@ -46,16 +46,6 @@ namespace DNC.ViewModels
                 EditPrompt e = new EditPrompt();
                 e.EditMachine(m);
             });
-
-            SendProgram = new RelayCommand(() =>
-            {
-                if (SelectedItem is Machine machine)
-                {
-                    machine.PushProgram(SelectedProgram);
-                }
-            });
-
-
         }
 
         private ModelBase _selectedItem;
