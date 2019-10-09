@@ -111,7 +111,10 @@ namespace DNC.Models
         public Machine(string name, ICollection<ModelBase> parentList, Connection connection = null) : base(name, parentList, "/Resources/Icons/Machine_16x.png")
         {
             MachineDirectory = "//CNC_MEM/USER/";
-            Connection = connection ?? new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
+            TCPConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
+            SerialConnection = new SerialConnection();
+            Connection = connection ?? TCPConnection;
+           
             ProgramList = new ObservableCollection<Program>();
 
             ToggleConnection = new RelayCommand(() =>

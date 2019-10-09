@@ -18,6 +18,7 @@ using System.Windows.Media;
 using System.Windows.Shapes;
 
 using static DNC.Focas2;
+using static DNC.Serial;
 
 
 namespace DNC.Models
@@ -54,13 +55,25 @@ namespace DNC.Models
     [Description("Serial Port")]
     public class SerialConnection : Connection
     {
-        public ObservableCollection<SerialPort> SerialPorts = new ObservableCollection<SerialPort>();
+        private ObservableCollection<SerialPort> serialPorts;
+        public ObservableCollection<SerialPort> SerialPorts
+        {
+            get => serialPorts;
+            set
+            {
+                serialPorts = value;
+                RaisePropertyChanged();
+            }
+        }
         public SerialPort SerialPort { get; set; }
 
         public SerialConnection()
         {
-            foreach (string portName in SerialPort.GetPortNames())
-                SerialPorts.Add(new SerialPort(portName));
+            SerialPorts = new ObservableCollection<SerialPort>();
+
+            foreach (string port in SerialPort.GetPortNames())
+                SerialPorts.Add(new SerialPort(port));
+
 
             if (SerialPorts.Count != 0)
                 SerialPort = SerialPorts.First();
@@ -72,6 +85,8 @@ namespace DNC.Models
             Status = ConnectionStatus.Connecting;
 
             int.TryParse(Regex.Match(SerialPort.PortName, "(\\d+)").Value, out int comNum);
+
+            StatusCode = (short)rs_open(comNum, null, "rw"); // todo THIS IS DANGEROUS YOU NEED TO HAVE ALL SETTINGS FOR ser_t SET IN UI!!!
 
             StatusCode = cnc_allclibhndl2(comNum, out handle);
             Status = StatusCode == 0 ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;

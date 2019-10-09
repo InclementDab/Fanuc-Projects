@@ -5,7 +5,7 @@ using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DNC.Communication
+namespace DNC
 {
     public class Serial
     {
@@ -51,25 +51,25 @@ namespace DNC.Communication
             STS_BUF_FULL = 0x2000,
             STS_S_STOP = 0x8000
         }
-
-        public struct PortDefUser
+        [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        public class PortDefUser
         {
-            int baud;       /* baud rate at which running	*/
-            int stop_bit;   /* stop bit(s)					*/
-            int parity;     /* parity bit(s)				*/
-            int data_bit;   /* Number of bits/byte			*/
-            int hardflow;   /* hardware flow control		*/
-            int dc_enable;  /* DC code flow control 		*/
-            int dc_put;     /* output DC code on open/close */
-            int dc1_code;   /* DC1 code number				*/
-            int dc2_code;   /* DC2 code number				*/
-            int dc3_code;   /* DC3 code number				*/
-            int dc4_code;   /* DC4 code number				*/
+            public int baud;       /* baud rate at which running	*/
+            public int stop_bit;   /* stop bit(s)					*/
+            public int parity;     /* parity bit(s)				*/
+            public int data_bit;   /* Number of bits/byte			*/
+            public int hardflow;   /* hardware flow control		*/
+            public int dc_enable;  /* DC code flow control 		*/
+            public int dc_put;     /* output DC code on open/close */
+            public int dc1_code;   /* DC1 code number				*/
+            public int dc2_code;   /* DC2 code number				*/
+            public int dc3_code;   /* DC3 code number				*/
+            public int dc4_code;   /* DC4 code number				*/
         }
 
 
         [StructLayout(LayoutKind.Sequential, Pack = 4)]
-        public struct FCA_DIRINFO
+        public class FCA_DIRINFO
         {
             [MarshalAs(UnmanagedType.ByValArray, SizeConst = 18)]
             char file_name; /* file name (ASCZ string)			*/
@@ -96,7 +96,7 @@ namespace DNC.Communication
 
 
         [DllImport("FCA32.dll", EntryPoint = "rs_open")]
-        public static extern int rs_open(int port, [In, Out, MarshalAs(UnmanagedType.AsAny)] PortDefUser param, [In, Out, MarshalAs(UnmanagedType.AsAny)] object mode);
+        public static extern int rs_open(int port, [In, MarshalAs(UnmanagedType.LPStruct)] PortDefUser param, [In, MarshalAs(UnmanagedType.HString)] object mode);
 
         [DllImport("FCA32.dll", EntryPoint = "rs_close")]
         public static extern int rs_close(int port);
