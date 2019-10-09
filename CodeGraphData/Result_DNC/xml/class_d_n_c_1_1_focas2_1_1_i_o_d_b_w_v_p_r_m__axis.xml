@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__axis" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBWVPRM_axis</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__axis_1ad582c39f9def2121feb01787f8b1d8f7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBWVPRM_axis.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4862" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4862" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4861" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4860" bodyend="4863"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__axis_1ad582c39f9def2121feb01787f8b1d8f7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWVPRM_axis</scope><name>axis</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

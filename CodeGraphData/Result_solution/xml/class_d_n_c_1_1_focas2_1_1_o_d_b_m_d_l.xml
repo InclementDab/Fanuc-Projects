@@ -1,0 +1,79 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBMDL</compoundname>
+    <innerclass refid="struct_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1_1_o_d_b_m_d_l___u" prot="public">DNC::Focas2::ODBMDL::ODBMDL_U</innerclass>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1a7404e7bff8ac86f42e3121e05af366f8" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBMDL.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3519" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3519" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1ae093beeb60aef9873bb7e64309b205fd" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBMDL.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3520" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3520" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1a41a278232b64c4507f79f4013b0fe345" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1_1_o_d_b_m_d_l___u" kindref="compound">ODBMDL_U</ref></type>
+        <definition>ODBMDL_U DNC.Focas2.ODBMDL.modal</definition>
+        <argsstring></argsstring>
+        <name>modal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3521" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3521" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="953">
+        <label>DNC.Focas2.ODBMDL</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l"/>
+        <childnode refid="954" relation="usage">
+          <edgelabel>modal</edgelabel>
+        </childnode>
+      </node>
+      <node id="955">
+        <label>DNC.Focas2.MODAL_AUX_data</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data"/>
+      </node>
+      <node id="954">
+        <label>DNC.Focas2.ODBMDL.ODBMDL_U</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1_1_o_d_b_m_d_l___u"/>
+        <childnode refid="955" relation="usage">
+          <edgelabel>raux1</edgelabel>
+          <edgelabel>raux2</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3518" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3517" bodyend="3542"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1a7404e7bff8ac86f42e3121e05af366f8" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1a41a278232b64c4507f79f4013b0fe345" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL</scope><name>modal</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l_1ae093beeb60aef9873bb7e64309b205fd" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

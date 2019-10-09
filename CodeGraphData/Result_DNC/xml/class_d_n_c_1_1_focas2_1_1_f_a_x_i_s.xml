@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s" kind="class" prot="public">
+    <compoundname>DNC::Focas2::FAXIS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1a4df4c9dd0762f657df684c8ef8e04d07" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.FAXIS.absolute</definition>
+        <argsstring></argsstring>
+        <name>absolute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="136" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1ab46c87b6bb3601f959358a328a003e1a" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.FAXIS.machine</definition>
+        <argsstring></argsstring>
+        <name>machine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="138" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1a7ea6966ebcd2e081e9d5972a67e38ad0" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.FAXIS.relative</definition>
+        <argsstring></argsstring>
+        <name>relative</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="140" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1af2501d68fad75dca42a2d60eee0c974b" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.FAXIS.distance</definition>
+        <argsstring></argsstring>
+        <name>distance</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="142" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="134" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="133" bodyend="143"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1a4df4c9dd0762f657df684c8ef8e04d07" prot="public" virt="non-virtual"><scope>DNC::Focas2::FAXIS</scope><name>absolute</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1af2501d68fad75dca42a2d60eee0c974b" prot="public" virt="non-virtual"><scope>DNC::Focas2::FAXIS</scope><name>distance</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1ab46c87b6bb3601f959358a328a003e1a" prot="public" virt="non-virtual"><scope>DNC::Focas2::FAXIS</scope><name>machine</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_a_x_i_s_1a7ea6966ebcd2e081e9d5972a67e38ad0" prot="public" virt="non-virtual"><scope>DNC::Focas2::FAXIS</scope><name>relative</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::REC_ALM4_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1abd237e122c5c3cab728dc2c74e446263" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.REC_ALM4_data.rec_len</definition>
+        <argsstring></argsstring>
+        <name>rec_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2537" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1a7d1dee12f2feef32b47cfacb14436187" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.REC_ALM4_data.rec_type</definition>
+        <argsstring></argsstring>
+        <name>rec_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2538" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2538" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1a0354d24940098c5b32dc6c35e0384a40" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4" kindref="compound">REC_ALM4</ref></type>
+        <definition>REC_ALM4 DNC.Focas2.REC_ALM4_data.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4" kindref="compound">REC_ALM4</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2539" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2539" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1410">
+        <label>DNC.Focas2.REC_ALM4_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data"/>
+        <childnode refid="1411" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="1411">
+        <label>DNC.Focas2.REC_ALM4</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2536" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2535" bodyend="2540"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1a0354d24940098c5b32dc6c35e0384a40" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_ALM4_data</scope><name>data</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1abd237e122c5c3cab728dc2c74e446263" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_ALM4_data</scope><name>rec_len</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___a_l_m4__data_1a7d1dee12f2feef32b47cfacb14436187" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_ALM4_data</scope><name>rec_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

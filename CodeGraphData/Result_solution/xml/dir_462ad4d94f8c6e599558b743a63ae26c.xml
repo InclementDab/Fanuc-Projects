@@ -1,0 +1,19 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_462ad4d94f8c6e599558b743a63ae26c" kind="dir">
+    <compoundname>C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC</compoundname>
+    <innerdir refid="dir_9b756824cd16884912a4c1212d1f7677">C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication</innerdir>
+    <innerdir refid="dir_6d718f6f8761e4f72eb9da3af3d62647">C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models</innerdir>
+    <innerdir refid="dir_e81ffa1784e91d440d2043d43411ee31">C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Properties</innerdir>
+    <innerdir refid="dir_86c4eff68baeaa59ab4153fea0a364d3">C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels</innerdir>
+    <innerdir refid="dir_bc291980b14383d237eba6bb879d6098">C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views</innerdir>
+    <innerfile refid="_app_8xaml_8cs">App.xaml.cs</innerfile>
+    <innerfile refid="_main_window_8xaml_8cs">MainWindow.xaml.cs</innerfile>
+    <innerfile refid="_settings_8cs">Settings.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/"/>
+  </compounddef>
+</doxygen>

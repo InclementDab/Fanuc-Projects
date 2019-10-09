@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBHPPR</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1afd70410a0c45d1e38dc8573beabb8829" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref></type>
+        <definition>IODBHPPR_tune DNC.Focas2.IODBHPPR.tune1</definition>
+        <argsstring></argsstring>
+        <name>tune1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6747" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1aa3615758efc629ff81b1c8effa880d75" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref></type>
+        <definition>IODBHPPR_tune DNC.Focas2.IODBHPPR.tune2</definition>
+        <argsstring></argsstring>
+        <name>tune2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6748" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1aba262ada0f2aea185f31a1c35433787c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref></type>
+        <definition>IODBHPPR_tune DNC.Focas2.IODBHPPR.tune3</definition>
+        <argsstring></argsstring>
+        <name>tune3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kindref="compound">IODBHPPR_tune</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6749" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6749" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="268">
+        <label>DNC.Focas2.IODBHPPR</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r"/>
+        <childnode refid="269" relation="usage">
+          <edgelabel>tune1</edgelabel>
+          <edgelabel>tune2</edgelabel>
+          <edgelabel>tune3</edgelabel>
+        </childnode>
+      </node>
+      <node id="269">
+        <label>DNC.Focas2.IODBHPPR_tune</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6746" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6745" bodyend="6750"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1afd70410a0c45d1e38dc8573beabb8829" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR</scope><name>tune1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1aa3615758efc629ff81b1c8effa880d75" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR</scope><name>tune2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r_1aba262ada0f2aea185f31a1c35433787c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR</scope><name>tune3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

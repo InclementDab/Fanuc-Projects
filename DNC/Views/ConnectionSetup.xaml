@@ -6,7 +6,8 @@
         xmlns:local="clr-namespace:DNC.Views"
         xmlns:models="clr-namespace:DNC.Models"
         mc:Ignorable="d"
-        Title="ConnectionSetup" Height="275" Width="325">
+        Title="ConnectionSetup" Height="250" Width="325">
+    
     <Window.Resources>
         <UserControl x:Key="typeTCP">
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
@@ -18,43 +19,37 @@
                 </StackPanel>
             </StackPanel>
         </UserControl>
-        
+
         <UserControl x:Key="typeSerial">
             <UserControl>
                 <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
                     <StackPanel Orientation="Horizontal" Margin="3">
-
                         <TextBlock Margin="2" Text="Select Port" VerticalAlignment="Center"/>
-                        <ComboBox ItemsSource="{Binding CurrentMachine.Connection.ComPorts}" SelectedItem="{Binding CurrentMachine.Connection.ComPort}" Margin="2" Width="60" VerticalAlignment="Center"/>
+                        <ComboBox ItemsSource="{Binding CurrentMachine.Connection.SerialPorts}" SelectedItem="{Binding CurrentMachine.Connection.SerialPort}" Text="{Binding CurrentMachine.Connection.SerialPort.PortName}" Margin="2" Width="60" VerticalAlignment="Center"/>
                     </StackPanel>
                 </StackPanel>
             </UserControl>
         </UserControl>
-
     </Window.Resources>
 
     <Grid>
+        
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
-        
+
         <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 25 0 0">
-            <ComboBox Width="180" SelectedItem="{Binding SelectedItem}" ItemsSource="{Binding AvailableTypes}">
-                <ComboBox.ItemTemplate>
-                    <DataTemplate>
-                        <TextBlock Text="{Binding Key}"/>
-                    </DataTemplate>
-                </ComboBox.ItemTemplate>
-            </ComboBox>
+            <RadioButton GroupName="Network" IsChecked="{Binding CurrentMachine.CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.TCP}}" Content="TCP/IP" Margin="5" Checked="RadioButton_Checked"/>
+            <RadioButton GroupName="Network" IsChecked="{Binding CurrentMachine.CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.Serial}}" Content="Serial Port" Margin="5" Checked="RadioButton_Checked"/>
         </StackPanel>
 
-        <ContentControl Grid.Row="1" Content="{Binding SelectedItem.Value}"/>
+        <ContentControl Grid.Row="1" Content="{Binding CurrentControl}"/>
 
         <StackPanel Grid.Row="2" Orientation="Horizontal" HorizontalAlignment="Center" Margin="0 0 0 25">
-            <Button Content="Save" Command="{Binding SaveCommand}" Width="60" Margin="5"/>
-            <Button Content="Cancel" Command="{Binding CancelCommand}" Width="60" Margin="5"/>
+            <Button Content="Close" Command="{Binding CloseCommand}" Width="60" Margin="5"/>
         </StackPanel>
+        
     </Grid>
 </Window>

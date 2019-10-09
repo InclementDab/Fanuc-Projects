@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_d_n_c_1_1_views" kind="namespace">
+    <compoundname>DNC::Views</compoundname>
+    <innerclass refid="class_d_n_c_1_1_views_1_1_connection_setup" prot="public">DNC::Views::ConnectionSetup</innerclass>
+    <innerclass refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model" prot="public">DNC::Views::ConnectionSetupViewModel</innerclass>
+    <innerclass refid="class_d_n_c_1_1_views_1_1_edit_prompt" prot="public">DNC::Views::EditPrompt</innerclass>
+    <innerclass refid="class_d_n_c_1_1_views_1_1_machine_list_view" prot="public">DNC::Views::MachineListView</innerclass>
+    <innerclass refid="class_d_n_c_1_1_views_1_1_program_list_view" prot="public">DNC::Views::ProgramListView</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="23" column="1"/>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,102 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBPARAIF</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1ab0233b452ff67e8ce5ca40f95a7a5633" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.ODBPARAIF.info_no</definition>
+        <argsstring></argsstring>
+        <name>info_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4315" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1af7b0d299a49680a60bae5bd76b5a1e08" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBPARAIF.prev_no</definition>
+        <argsstring></argsstring>
+        <name>prev_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4316" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1a850e914ab7e025bef30327d6ed9e4049" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBPARAIF.next_no</definition>
+        <argsstring></argsstring>
+        <name>next_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4317" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4317" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1a1e38931cb4b7c218cb7be3673db4756d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f1" kindref="compound">ODBPARAIF1</ref></type>
+        <definition>ODBPARAIF1 DNC.Focas2.ODBPARAIF.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f1" kindref="compound">ODBPARAIF1</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4318" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4318" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1061">
+        <label>DNC.Focas2.ODBPARAIF_info</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f__info"/>
+      </node>
+      <node id="1059">
+        <label>DNC.Focas2.ODBPARAIF</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f"/>
+        <childnode refid="1060" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+      </node>
+      <node id="1060">
+        <label>DNC.Focas2.ODBPARAIF1</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f1"/>
+        <childnode refid="1061" relation="usage">
+          <edgelabel>info1</edgelabel>
+          <edgelabel>info2</edgelabel>
+          <edgelabel>info3</edgelabel>
+          <edgelabel>info4</edgelabel>
+          <edgelabel>info5</edgelabel>
+          <edgelabel>info6</edgelabel>
+          <edgelabel>info7</edgelabel>
+          <edgelabel>info8</edgelabel>
+          <edgelabel>info9</edgelabel>
+          <edgelabel>info10</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4314" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4313" bodyend="4319"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1a1e38931cb4b7c218cb7be3673db4756d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPARAIF</scope><name>info</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1ab0233b452ff67e8ce5ca40f95a7a5633" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPARAIF</scope><name>info_no</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1a850e914ab7e025bef30327d6ed9e4049" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPARAIF</scope><name>next_no</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_a_r_a_i_f_1af7b0d299a49680a60bae5bd76b5a1e08" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPARAIF</scope><name>prev_no</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

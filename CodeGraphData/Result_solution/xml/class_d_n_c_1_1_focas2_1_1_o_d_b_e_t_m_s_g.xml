@@ -1,0 +1,45 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_e_t_m_s_g" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBETMSG</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_e_t_m_s_g_1adb9222e7e72ca2004fb2e0538004533e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.ODBETMSG.title</definition>
+        <argsstring></argsstring>
+        <name>title</name>
+        <initializer>= new string(&apos; &apos;, 33)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8043" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_e_t_m_s_g_1a23fa8422596ffdb6b24f895997a951f3" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.ODBETMSG.message</definition>
+        <argsstring></argsstring>
+        <name>message</name>
+        <initializer>= new string(&apos; &apos;, 390)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8045" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8045" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8041" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8040" bodyend="8046"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_e_t_m_s_g_1a23fa8422596ffdb6b24f895997a951f3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBETMSG</scope><name>message</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_e_t_m_s_g_1adb9222e7e72ca2004fb2e0538004533e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBETMSG</scope><name>title</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

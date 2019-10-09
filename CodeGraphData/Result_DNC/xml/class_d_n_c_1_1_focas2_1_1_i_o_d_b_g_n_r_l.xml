@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBGNRL</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a972ac9ed66f4b3af9793880279813fea" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBGNRL.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4252" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4252" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a79bea632bd7b7f6de3f73cff64588b9e" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBGNRL.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4253" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a8269068718fa77bddd872fde34d3f0d4" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.IODBGNRL.sgnal</definition>
+        <argsstring></argsstring>
+        <name>sgnal</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4254" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4254" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4251" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4250" bodyend="4255"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a972ac9ed66f4b3af9793880279813fea" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBGNRL</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a8269068718fa77bddd872fde34d3f0d4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBGNRL</scope><name>sgnal</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_g_n_r_l_1a79bea632bd7b7f6de3f73cff64588b9e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBGNRL</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,135 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::HSPINFO_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ad83a3a8a9d708ff99c1895cc713e459a" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1525" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1525" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a8db6575e9a5eb8a726e17503ef26e847" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1527" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1527" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a188b590bfeb98b15814d14d66f2c7fc9" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data3</definition>
+        <argsstring></argsstring>
+        <name>data3</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1529" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1529" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1acb9806c03be5a2141ce1fce3119287e2" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data4</definition>
+        <argsstring></argsstring>
+        <name>data4</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1531" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1531" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ac06cb02efe01de2cd392f428a290dba6" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data5</definition>
+        <argsstring></argsstring>
+        <name>data5</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1533" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1533" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a32cbe5d7b3d3a31a98007bdbe5defc3e" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data6</definition>
+        <argsstring></argsstring>
+        <name>data6</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1535" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1535" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ac00f19e0592300b6e2b8aab5f397b6c9" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data7</definition>
+        <argsstring></argsstring>
+        <name>data7</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1537" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1537" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1acf2dd001cc200c6fe9e76be234a4e83a" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.HSPINFO_data.data8</definition>
+        <argsstring></argsstring>
+        <name>data8</name>
+        <initializer>= new byte[16]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1539" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1539" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1523" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1522" bodyend="1540"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ad83a3a8a9d708ff99c1895cc713e459a" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a8db6575e9a5eb8a726e17503ef26e847" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a188b590bfeb98b15814d14d66f2c7fc9" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1acb9806c03be5a2141ce1fce3119287e2" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ac06cb02efe01de2cd392f428a290dba6" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1a32cbe5d7b3d3a31a98007bdbe5defc3e" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1ac00f19e0592300b6e2b8aab5f397b6c9" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_i_n_f_o__data_1acf2dd001cc200c6fe9e76be234a4e83a" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPINFO_data</scope><name>data8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

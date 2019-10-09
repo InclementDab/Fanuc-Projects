@@ -1,0 +1,239 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBWAVE_ch</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1af365f4a5786bf711f2a97fd45dd91b6f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch1</definition>
+        <argsstring></argsstring>
+        <name>ch1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4825" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a6bb54205aad7e42501293ed54930c178" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch2</definition>
+        <argsstring></argsstring>
+        <name>ch2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4826" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a326263d8edd2d0764486936904ed570e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch3</definition>
+        <argsstring></argsstring>
+        <name>ch3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4827" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a36888920352ab54d704d9be76d84f267" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch4</definition>
+        <argsstring></argsstring>
+        <name>ch4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4828" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a0aeaf66d62a06100138306009f054bc8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch5</definition>
+        <argsstring></argsstring>
+        <name>ch5</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4829" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a0724968d4c75c99353cd5dfa180972bf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch6</definition>
+        <argsstring></argsstring>
+        <name>ch6</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4830" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1ab6182c4afd676b05cd25a1037f187a20" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch7</definition>
+        <argsstring></argsstring>
+        <name>ch7</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4831" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a87d758d01e891aa5400b2eba090964a1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch8</definition>
+        <argsstring></argsstring>
+        <name>ch8</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4832" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a2820d8bc56be01d5474b9604cc0b458f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch9</definition>
+        <argsstring></argsstring>
+        <name>ch9</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4833" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a3b4e897a67f40eb858bc529d32ddef3c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch10</definition>
+        <argsstring></argsstring>
+        <name>ch10</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4834" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a89f4c96b56e0f6c2a6e18a790426921d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch11</definition>
+        <argsstring></argsstring>
+        <name>ch11</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4835" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1abef278edfd0480798d47f7cf0caee017" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref></type>
+        <definition>IODBWAVE_ch_data DNC.Focas2.IODBWAVE_ch.ch12</definition>
+        <argsstring></argsstring>
+        <name>ch12</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data" kindref="compound">IODBWAVE_ch_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4836" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4836" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="595">
+        <label>DNC.Focas2.IODBWAVE_ch</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch"/>
+        <childnode refid="596" relation="usage">
+          <edgelabel>ch8</edgelabel>
+          <edgelabel>ch9</edgelabel>
+          <edgelabel>ch10</edgelabel>
+          <edgelabel>ch11</edgelabel>
+          <edgelabel>ch12</edgelabel>
+          <edgelabel>ch1</edgelabel>
+          <edgelabel>ch2</edgelabel>
+          <edgelabel>ch3</edgelabel>
+          <edgelabel>ch4</edgelabel>
+          <edgelabel>ch5</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="597">
+        <label>DNC.Focas2.IODBWAVE_u</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__u"/>
+        <childnode refid="598" relation="usage">
+          <edgelabel>io</edgelabel>
+        </childnode>
+        <childnode refid="599" relation="usage">
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="596">
+        <label>DNC.Focas2.IODBWAVE_ch_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch__data"/>
+        <childnode refid="597" relation="usage">
+          <edgelabel>u</edgelabel>
+        </childnode>
+      </node>
+      <node id="599">
+        <label>DNC.Focas2.IODBWAVE_axis</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__axis"/>
+      </node>
+      <node id="598">
+        <label>DNC.Focas2.IODBWAVE_io</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__io"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4824" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4823" bodyend="4837"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1af365f4a5786bf711f2a97fd45dd91b6f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a3b4e897a67f40eb858bc529d32ddef3c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch10</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a89f4c96b56e0f6c2a6e18a790426921d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch11</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1abef278edfd0480798d47f7cf0caee017" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch12</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a6bb54205aad7e42501293ed54930c178" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a326263d8edd2d0764486936904ed570e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a36888920352ab54d704d9be76d84f267" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a0aeaf66d62a06100138306009f054bc8" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a0724968d4c75c99353cd5dfa180972bf" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1ab6182c4afd676b05cd25a1037f187a20" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a87d758d01e891aa5400b2eba090964a1" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch8</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_a_v_e__ch_1a2820d8bc56be01d5474b9604cc0b458f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWAVE_ch</scope><name>ch9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

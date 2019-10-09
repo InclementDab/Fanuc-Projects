@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBDISCHRGALM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a52c7a97f326e3dee67895f1f815d2f66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref></type>
+        <definition>ODBDISCHRGALM_data DNC.Focas2.ODBDISCHRGALM.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6359" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6359" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a8f6aee9d89b8587e81b837d86b1dc044" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref></type>
+        <definition>ODBDISCHRGALM_data DNC.Focas2.ODBDISCHRGALM.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6360" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6360" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a3f3fb5e7936f805826c8d8209468da46" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref></type>
+        <definition>ODBDISCHRGALM_data DNC.Focas2.ODBDISCHRGALM.data3</definition>
+        <argsstring></argsstring>
+        <name>data3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6361" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6361" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a34e1ba8ed45bcc896af12a679eff1988" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref></type>
+        <definition>ODBDISCHRGALM_data DNC.Focas2.ODBDISCHRGALM.data4</definition>
+        <argsstring></argsstring>
+        <name>data4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6362" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6362" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1ad885566df1aceaa7386e16076e54b91c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref></type>
+        <definition>ODBDISCHRGALM_data DNC.Focas2.ODBDISCHRGALM.data5</definition>
+        <argsstring></argsstring>
+        <name>data5</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data" kindref="compound">ODBDISCHRGALM_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6363" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6363" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="831">
+        <label>DNC.Focas2.ODBDISCHRGALM_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m__data"/>
+      </node>
+      <node id="830">
+        <label>DNC.Focas2.ODBDISCHRGALM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m"/>
+        <childnode refid="831" relation="usage">
+          <edgelabel>data1</edgelabel>
+          <edgelabel>data2</edgelabel>
+          <edgelabel>data3</edgelabel>
+          <edgelabel>data4</edgelabel>
+          <edgelabel>data5</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6358" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6357" bodyend="6364"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a52c7a97f326e3dee67895f1f815d2f66" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDISCHRGALM</scope><name>data1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a8f6aee9d89b8587e81b837d86b1dc044" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDISCHRGALM</scope><name>data2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a3f3fb5e7936f805826c8d8209468da46" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDISCHRGALM</scope><name>data3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1a34e1ba8ed45bcc896af12a679eff1988" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDISCHRGALM</scope><name>data4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_i_s_c_h_r_g_a_l_m_1ad885566df1aceaa7386e16076e54b91c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDISCHRGALM</scope><name>data5</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

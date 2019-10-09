@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBPMCINF</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f_1a2d8c187f680efb447706021cdd55d1a3" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBPMCINF.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7443" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7443" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f_1a35d35ce440ccc071d1ec255fe1cacfe5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f1" kindref="compound">ODBPMCINF1</ref></type>
+        <definition>ODBPMCINF1 DNC.Focas2.ODBPMCINF.info</definition>
+        <argsstring></argsstring>
+        <name>info</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f1" kindref="compound">ODBPMCINF1</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7444" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7444" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1099">
+        <label>DNC.Focas2.ODBPMCINF1</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f1"/>
+        <childnode refid="1100" relation="usage">
+          <edgelabel>info58</edgelabel>
+          <edgelabel>info47</edgelabel>
+          <edgelabel>info36</edgelabel>
+          <edgelabel>info25</edgelabel>
+          <edgelabel>info14</edgelabel>
+          <edgelabel>info59</edgelabel>
+          <edgelabel>info48</edgelabel>
+          <edgelabel>info37</edgelabel>
+          <edgelabel>info26</edgelabel>
+          <edgelabel>info15</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="1098">
+        <label>DNC.Focas2.ODBPMCINF</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f"/>
+        <childnode refid="1099" relation="usage">
+          <edgelabel>info</edgelabel>
+        </childnode>
+      </node>
+      <node id="1100">
+        <label>DNC.Focas2.ODBPMCINF_info</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f__info"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7442" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7441" bodyend="7445"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f_1a2d8c187f680efb447706021cdd55d1a3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPMCINF</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_m_c_i_n_f_1a35d35ce440ccc071d1ec255fe1cacfe5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPMCINF</scope><name>info</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

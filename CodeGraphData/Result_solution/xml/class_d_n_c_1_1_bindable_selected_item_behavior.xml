@@ -1,0 +1,160 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_bindable_selected_item_behavior" kind="class" prot="public">
+    <compoundname>DNC::BindableSelectedItemBehavior</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Behavior&lt; TreeView &gt;</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_bindable_selected_item_behavior_1a22d0e9f4574760944f99944c727c70dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>object</type>
+        <definition>object DNC.BindableSelectedItemBehavior.SelectedItem</definition>
+        <argsstring></argsstring>
+        <name>SelectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="110" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="111" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_bindable_selected_item_behavior_1afddfe2ac5c3ab0ccf4bf0f3204bef714" compoundref="_app_8xaml_8cs" startline="146" endline="149">DNC.BindableSelectedItemBehavior.OnTreeViewSelectedItemChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_bindable_selected_item_behavior_1a0bb4fb3fdcdac11bdc0ba2612c07636b" prot="public" static="yes" mutable="no">
+        <type>readonly DependencyProperty</type>
+        <definition>readonly DependencyProperty DNC.BindableSelectedItemBehavior.SelectedItemProperty</definition>
+        <argsstring></argsstring>
+        <name>SelectedItemProperty</name>
+        <initializer>=
+            DependencyProperty.Register(&quot;SelectedItem&quot;, typeof(object), typeof(<ref refid="class_d_n_c_1_1_bindable_selected_item_behavior" kindref="compound">BindableSelectedItemBehavior</ref>), new UIPropertyMetadata(null, <ref refid="class_d_n_c_1_1_bindable_selected_item_behavior_1ae414e9e8bc3253370980908c9d0dead4" kindref="member">OnSelectedItemChanged</ref>))</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="116" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="116" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-static-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_bindable_selected_item_behavior_1ae414e9e8bc3253370980908c9d0dead4" prot="private" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>static void DNC.BindableSelectedItemBehavior.OnSelectedItemChanged</definition>
+        <argsstring>(DependencyObject sender, DependencyPropertyChangedEventArgs e)</argsstring>
+        <name>OnSelectedItemChanged</name>
+        <param>
+          <type>DependencyObject</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DependencyPropertyChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="119" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="119" bodyend="125"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_bindable_selected_item_behavior_1a1ec2dd07b73dac6980ca7589e4e2a739" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.BindableSelectedItemBehavior.OnAttached</definition>
+        <argsstring>()</argsstring>
+        <name>OnAttached</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="129" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="129" bodyend="134"/>
+        <references refid="class_d_n_c_1_1_bindable_selected_item_behavior_1afddfe2ac5c3ab0ccf4bf0f3204bef714" compoundref="_app_8xaml_8cs" startline="146" endline="149">DNC.BindableSelectedItemBehavior.OnTreeViewSelectedItemChanged</references>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_bindable_selected_item_behavior_1aff2db7603c87c817fca221fcaf06a68a" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.BindableSelectedItemBehavior.OnDetaching</definition>
+        <argsstring>()</argsstring>
+        <name>OnDetaching</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="136" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="136" bodyend="144"/>
+        <references refid="class_d_n_c_1_1_bindable_selected_item_behavior_1afddfe2ac5c3ab0ccf4bf0f3204bef714" compoundref="_app_8xaml_8cs" startline="146" endline="149">DNC.BindableSelectedItemBehavior.OnTreeViewSelectedItemChanged</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_bindable_selected_item_behavior_1afddfe2ac5c3ab0ccf4bf0f3204bef714" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.BindableSelectedItemBehavior.OnTreeViewSelectedItemChanged</definition>
+        <argsstring>(object sender, RoutedPropertyChangedEventArgs&lt; object &gt; e)</argsstring>
+        <name>OnTreeViewSelectedItemChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedPropertyChangedEventArgs&lt; object &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="146" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="146" bodyend="149"/>
+        <references refid="class_d_n_c_1_1_bindable_selected_item_behavior_1a22d0e9f4574760944f99944c727c70dd" compoundref="_app_8xaml_8cs" startline="111">DNC.BindableSelectedItemBehavior.SelectedItem</references>
+        <referencedby refid="class_d_n_c_1_1_bindable_selected_item_behavior_1a1ec2dd07b73dac6980ca7589e4e2a739" compoundref="_app_8xaml_8cs" startline="129" endline="134">DNC.BindableSelectedItemBehavior.OnAttached</referencedby>
+        <referencedby refid="class_d_n_c_1_1_bindable_selected_item_behavior_1aff2db7603c87c817fca221fcaf06a68a" compoundref="_app_8xaml_8cs" startline="136" endline="144">DNC.BindableSelectedItemBehavior.OnDetaching</referencedby>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="46">
+        <label>Behavior&lt; TreeView &gt;</label>
+      </node>
+      <node id="45">
+        <label>DNC.BindableSelectedItemBehavior</label>
+        <link refid="class_d_n_c_1_1_bindable_selected_item_behavior"/>
+        <childnode refid="46" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="48">
+        <label>Behavior&lt; TreeView &gt;</label>
+      </node>
+      <node id="49">
+        <label>static</label>
+      </node>
+      <node id="47">
+        <label>DNC.BindableSelectedItemBehavior</label>
+        <link refid="class_d_n_c_1_1_bindable_selected_item_behavior"/>
+        <childnode refid="48" relation="public-inheritance">
+        </childnode>
+        <childnode refid="49" relation="usage">
+          <edgelabel>SelectedItemProperty</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="107" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="106" bodyend="150"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1a1ec2dd07b73dac6980ca7589e4e2a739" prot="protected" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>OnAttached</name></member>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1aff2db7603c87c817fca221fcaf06a68a" prot="protected" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>OnDetaching</name></member>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1ae414e9e8bc3253370980908c9d0dead4" prot="private" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>OnSelectedItemChanged</name></member>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1afddfe2ac5c3ab0ccf4bf0f3204bef714" prot="private" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>OnTreeViewSelectedItemChanged</name></member>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1a22d0e9f4574760944f99944c727c70dd" prot="public" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>SelectedItem</name></member>
+      <member refid="class_d_n_c_1_1_bindable_selected_item_behavior_1a0bb4fb3fdcdac11bdc0ba2612c07636b" prot="public" virt="non-virtual"><scope>DNC::BindableSelectedItemBehavior</scope><name>SelectedItemProperty</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

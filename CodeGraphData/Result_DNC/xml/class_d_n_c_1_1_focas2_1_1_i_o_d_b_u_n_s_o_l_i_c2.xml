@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBUNSOLIC2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a0e0d1ecfeb7fb01aa37005e9108d8957" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBUNSOLIC2.ipaddr</definition>
+        <argsstring></argsstring>
+        <name>ipaddr</name>
+        <initializer>= new string(&apos; &apos;, 64)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7009" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1ae4931f70cef8fdce33e993c21660d04a" prot="public" static="no" mutable="no">
+        <type>uint</type>
+        <definition>uint DNC.Focas2.IODBUNSOLIC2.port</definition>
+        <argsstring></argsstring>
+        <name>port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7010" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a7c67f0ecccc8698d7cb463d1a6e2d2e4" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IODBUNSOLIC2.retry</definition>
+        <argsstring></argsstring>
+        <name>retry</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7011" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7011" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a7ba09cad7fb7d961001f3c6e28db09fd" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IODBUNSOLIC2.timeout</definition>
+        <argsstring></argsstring>
+        <name>timeout</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7012" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7012" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a6b88c1691927bb02078d9f6a27ef499f" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IODBUNSOLIC2.alivetime</definition>
+        <argsstring></argsstring>
+        <name>alivetime</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7013" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7013" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a0b71bcbb0f490dadfe01c2c2f7637130" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___p_r_m" kindref="compound">UNSOLICMSG_TYPE_PRM</ref></type>
+        <definition>UNSOLICMSG_TYPE_PRM DNC.Focas2.IODBUNSOLIC2.cntrl</definition>
+        <argsstring></argsstring>
+        <name>cntrl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7016" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7016" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aa6abd2833619e7aeb10654ea65d1e92b" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IODBUNSOLIC2.transnum</definition>
+        <argsstring></argsstring>
+        <name>transnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7017" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7017" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aaae732b7cb4bbaaf9e5c966e7ba5dfa7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___p_r_m" kindref="compound">UNSOLICMSG_TYPE_PRM</ref>[]</type>
+        <definition>UNSOLICMSG_TYPE_PRM [] DNC.Focas2.IODBUNSOLIC2.trans</definition>
+        <argsstring></argsstring>
+        <name>trans</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___p_r_m" kindref="compound">UNSOLICMSG_TYPE_PRM</ref>[3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7021" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7021" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aabe4ef09bfa9d744833c146a5db1a247" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.IODBUNSOLIC2.dummy1</definition>
+        <argsstring></argsstring>
+        <name>dummy1</name>
+        <initializer>= new byte[8]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7015" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7015" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a9de096e675948ed4b7f4206ce085a108" prot="private" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.IODBUNSOLIC2.dummy2</definition>
+        <argsstring></argsstring>
+        <name>dummy2</name>
+        <initializer>= new byte[14]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7019" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7019" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="581">
+        <label>DNC.Focas2.IODBUNSOLIC2</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2"/>
+        <childnode refid="582" relation="usage">
+          <edgelabel>trans</edgelabel>
+          <edgelabel>cntrl</edgelabel>
+        </childnode>
+      </node>
+      <node id="582">
+        <label>DNC.Focas2.UNSOLICMSG_TYPE_PRM</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___p_r_m"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7007" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7006" bodyend="7022"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a6b88c1691927bb02078d9f6a27ef499f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>alivetime</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a0b71bcbb0f490dadfe01c2c2f7637130" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>cntrl</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aabe4ef09bfa9d744833c146a5db1a247" prot="private" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>dummy1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a9de096e675948ed4b7f4206ce085a108" prot="private" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>dummy2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a0e0d1ecfeb7fb01aa37005e9108d8957" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>ipaddr</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1ae4931f70cef8fdce33e993c21660d04a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>port</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a7c67f0ecccc8698d7cb463d1a6e2d2e4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>retry</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1a7ba09cad7fb7d961001f3c6e28db09fd" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>timeout</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aaae732b7cb4bbaaf9e5c966e7ba5dfa7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>trans</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c2_1aa6abd2833619e7aeb10654ea65d1e92b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC2</scope><name>transnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

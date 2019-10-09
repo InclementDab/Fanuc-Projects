@@ -1,0 +1,447 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_machine" kind="class" prot="public">
+    <compoundname>DNC::Models::Machine</compoundname>
+    <basecompoundref refid="class_d_n_c_1_1_models_1_1_model_base" prot="public" virt="non-virtual">DNC.Models.ModelBase</basecompoundref>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_machine_1ad8c45affdf49b0a21bb7f71f80195385" prot="private" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Models.Machine.handle</definition>
+        <argsstring></argsstring>
+        <name>handle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="43" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="43" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_machine_1a87be1cc2ef0e3e44a434c36b3889d26d" prot="private" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Models.Machine.statusCode</definition>
+        <argsstring></argsstring>
+        <name>statusCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="91" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="91" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a84d9deb9b46ba9f5b2619202d3bfec8a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_t_c_p_connection" kindref="compound">TCPConnection</ref></type>
+        <definition>TCPConnection DNC.Models.Machine.TCPConnection</definition>
+        <argsstring></argsstring>
+        <name>TCPConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="44" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a2381a79062c9b2c0a8c5d38a0f57803a" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_serial_connection" kindref="compound">SerialConnection</ref></type>
+        <definition>SerialConnection DNC.Models.Machine.SerialConnection</definition>
+        <argsstring></argsstring>
+        <name>SerialConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="45" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="45" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a6b84672971487633a64e7b87711bded0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_connection" kindref="compound">Connection</ref></type>
+        <definition>Connection DNC.Models.Machine.Connection</definition>
+        <argsstring></argsstring>
+        <name>Connection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="47" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="48" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1ac2bc804c6f6485acf485ef534f72ee0e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56f" kindref="member">ConnectionType</ref></type>
+        <definition>ConnectionType DNC.Models.Machine.CurrentConnectionType</definition>
+        <argsstring></argsstring>
+        <name>CurrentConnectionType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="53" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="53" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a6f8500ee13c464a9f2ed6029cc2a9b9d" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool DNC.Models.Machine.ConnectOnStartup</definition>
+        <argsstring></argsstring>
+        <name>ConnectOnStartup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="88" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1ad0c6cdf18ae6ce60be8922d0d8dd5c96" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>short</type>
+        <definition>short DNC.Models.Machine.StatusCode</definition>
+        <argsstring></argsstring>
+        <name>StatusCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="92" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="93" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1af902b58264f70fbad70056fad472c773" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ObservableCollection&lt; <ref refid="class_d_n_c_1_1_program" kindref="compound">Program</ref> &gt;</type>
+        <definition>ObservableCollection&lt;Program&gt; DNC.Models.Machine.ProgramList</definition>
+        <argsstring></argsstring>
+        <name>ProgramList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="102" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="102" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a6d6149d585cca5163ecbd441be2361d8" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Models.Machine.ToggleConnection</definition>
+        <argsstring></argsstring>
+        <name>ToggleConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="104" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="104" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a2cdd123a897ec585b17da139d5632d9e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Models.Machine.Edit</definition>
+        <argsstring></argsstring>
+        <name>Edit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="105" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="105" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1afbf3ecd9f11f44a681771b5ef073cc28" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Models.Machine.Import</definition>
+        <argsstring></argsstring>
+        <name>Import</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="106" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="106" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_machine_1a45700a2f0178c67fa45ee3bfcdcb8d7e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DNC.Models.Machine.MachineDirectory</definition>
+        <argsstring></argsstring>
+        <name>MachineDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="108" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="108" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_machine_1ac9e3f22387416e2e954d58d788c2328c" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Models.Machine.InvertedConnectString</definition>
+        <argsstring></argsstring>
+        <name>InvertedConnectString</name>
+        <initializer>=&gt; <ref refid="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" kindref="member">Connection.IsConnected</ref> ? &quot;Disconnect&quot; : &quot;Connect&quot;</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="89" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="89" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_machine_1a804d00f6ae0271992ab457bc8078c203" prot="public" static="no" mutable="no">
+        <type>ODBST</type>
+        <definition>ODBST DNC.Models.Machine.StatInfo</definition>
+        <argsstring></argsstring>
+        <name>StatInfo</name>
+        <initializer>= new ODBST()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="146" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="146" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_machine_1a2c88131643fa916e589dd433168b144c" prot="public" static="no" mutable="no">
+        <type>ODBSYSEX</type>
+        <definition>ODBSYSEX DNC.Models.Machine.SystemInfo</definition>
+        <argsstring></argsstring>
+        <name>SystemInfo</name>
+        <initializer>= new ODBSYSEX()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="147" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="147" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1ac21c40d3feba0aa640295757ea8e4ba0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_connection" kindref="compound">Connection</ref></type>
+        <definition>Connection DNC.Models.Machine.GetActiveConnection</definition>
+        <argsstring>()</argsstring>
+        <name>GetActiveConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="55" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="55" bodyend="69"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1a9c4785e45e6ea7157868b35d77e6303a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Models.Machine.SetActiveConnection</definition>
+        <argsstring>(Connection value)</argsstring>
+        <name>SetActiveConnection</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_connection" kindref="compound">Connection</ref></type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="71" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="71" bodyend="86"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1a14550e31d94432b1025d92070d25e37f" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.Machine.Machine</definition>
+        <argsstring>(string name, Connection connection=null)</argsstring>
+        <name>Machine</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_connection" kindref="compound">Connection</ref></type>
+          <declname>connection</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="110" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="110" bodyend="144"/>
+        <references refid="class_d_n_c_1_1_models_1_1_connection_1afb80c79a8559bb92d1847eaf1d2a38e8" compoundref="_network_8cs" startline="86" endline="93">DNC.Models.Connection.Close</references>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1a8f1a3dfe07b2c2ba0b7499ce58a51aa2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Models.Machine.ReadDirectory</definition>
+        <argsstring>()</argsstring>
+        <name>ReadDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="161" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="161" bodyend="201"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1a2300fdef0dc0d1d62d3d28279a1a2d01" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>int</type>
+        <definition>int DNC.Models.Machine.PushProgram</definition>
+        <argsstring>(Program program)</argsstring>
+        <name>PushProgram</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_program" kindref="compound">Program</ref></type>
+          <declname>program</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="203" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="203" bodyend="211"/>
+        <references refid="class_d_n_c_1_1_program_1ad0b3fdf7be96502bf340f5dccac2dd17" compoundref="_program_model_8cs" startline="21">DNC.Program.MachineSafeData</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1ad887f9e02d9d3d97e25f5f21ba5dd2ad" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Models.Machine.Connection_ConnectionChanged</definition>
+        <argsstring>(object sender, ConnectionChangedEventArgs e)</argsstring>
+        <name>Connection_ConnectionChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_connection_changed_event_args" kindref="compound">ConnectionChangedEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="149" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="149" bodyend="158"/>
+        <references refid="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" compoundref="_network_8cs" startline="83">DNC.Models.Connection.IsConnected</references>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_machine_1ab49473e2a2c782b3229c5436a88334a4" prot="public" static="yes" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string</type>
+        <definition>static string DNC.Models.Machine.ToJson&lt; T &gt;</definition>
+        <argsstring>(T obj)</argsstring>
+        <name>ToJson&lt; T &gt;</name>
+        <param>
+          <type>T</type>
+          <declname>obj</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="213" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="655">
+        <label>ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="656" relation="public-inheritance">
+        </childnode>
+        <childnode refid="657" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="656">
+        <label>ObservableObject</label>
+      </node>
+      <node id="657">
+        <label>IDataObject</label>
+      </node>
+      <node id="654">
+        <label>DNC.Models.Machine</label>
+        <link refid="class_d_n_c_1_1_models_1_1_machine"/>
+        <childnode refid="655" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="659">
+        <label>ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="660" relation="public-inheritance">
+        </childnode>
+        <childnode refid="661" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="660">
+        <label>ObservableObject</label>
+      </node>
+      <node id="661">
+        <label>IDataObject</label>
+      </node>
+      <node id="658">
+        <label>DNC.Models.Machine</label>
+        <link refid="class_d_n_c_1_1_models_1_1_machine"/>
+        <childnode refid="659" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="41" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="40" bodyend="216"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a14c81c2c49ec37bb07bca4c7db65859a" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>_name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a6b84672971487633a64e7b87711bded0" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Connection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ad887f9e02d9d3d97e25f5f21ba5dd2ad" prot="private" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Connection_ConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a6f8500ee13c464a9f2ed6029cc2a9b9d" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ConnectOnStartup</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ac2bc804c6f6485acf485ef534f72ee0e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>CurrentConnectionType</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a2cdd123a897ec585b17da139d5632d9e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Edit</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad0b186885335cd9bac237ad572be0ff7" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>formats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ac21c40d3feba0aa640295757ea8e4ba0" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetActiveConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a65390b18228ff05bca283f80f81c718e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad4e7464471dc9e901c8f746abd1deb33" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5c5caa298e3266915517f5b8b2f859f2" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1aaf132f41a37fe6f0a2cf04ab3920ebc9" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad9ad3df11d8478a6857a2a1adce2947a" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a8c98db85b345f3685d474a2d958aca3b" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a0e19d1511bb9397e0eaf2b26fd9f3660" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5aca3e1a7468c64568b3e5d31ea9bef7" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ad8c45affdf49b0a21bb7f71f80195385" prot="private" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>handle</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae296c703b19e5711111676b1d02c5a5e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Icon</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1afbf3ecd9f11f44a681771b5ef073cc28" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Import</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ac9e3f22387416e2e954d58d788c2328c" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>InvertedConnectString</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae645158dcd4317c827fe9efffde6c20e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>IsNameEditing</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a14550e31d94432b1025d92070d25e37f" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Machine</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a45700a2f0178c67fa45ee3bfcdcb8d7e" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>MachineDirectory</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a596824dd3d4d7428ecc57c28f8aba4b6" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ModelBase</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a39067acda62dc47f01f058f08847781c" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1af902b58264f70fbad70056fad472c773" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ProgramList</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a2300fdef0dc0d1d62d3d28279a1a2d01" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>PushProgram</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a8f1a3dfe07b2c2ba0b7499ce58a51aa2" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ReadDirectory</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a3b21cc8e150c33ed542001ea88d4761b" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Rename</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a2381a79062c9b2c0a8c5d38a0f57803a" prot="private" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>SerialConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a9c4785e45e6ea7157868b35d77e6303a" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>SetActiveConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a21e69f7c8941190ad7ef12fa5f611d22" prot="public" virt="virtual"><scope>DNC::Models::Machine</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ab5e6e33d7a555ed335968c267101c4ef" prot="public" virt="virtual"><scope>DNC::Models::Machine</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1af5381f9127cdf6c62afee0c23d81dd64" prot="public" virt="virtual"><scope>DNC::Models::Machine</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad1788f6de0ebb76aedfeff9ac327919a" prot="public" virt="virtual"><scope>DNC::Models::Machine</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a804d00f6ae0271992ab457bc8078c203" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>StatInfo</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a87be1cc2ef0e3e44a434c36b3889d26d" prot="private" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>statusCode</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ad0c6cdf18ae6ce60be8922d0d8dd5c96" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>StatusCode</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a2c88131643fa916e589dd433168b144c" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>SystemInfo</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a84d9deb9b46ba9f5b2619202d3bfec8a" prot="private" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>TCPConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1afa7581d853776a8b3b652eb20998726b" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>Tformats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1a6d6149d585cca5163ecbd441be2361d8" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ToggleConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_machine_1ab49473e2a2c782b3229c5436a88334a4" prot="public" virt="non-virtual"><scope>DNC::Models::Machine</scope><name>ToJson&lt; T &gt;</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

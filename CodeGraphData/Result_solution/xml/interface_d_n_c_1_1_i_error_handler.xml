@@ -1,0 +1,33 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_d_n_c_1_1_i_error_handler" kind="interface" prot="public">
+    <compoundname>DNC::IErrorHandler</compoundname>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_d_n_c_1_1_i_error_handler_1abe787dec827566370fde476260094987" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.IErrorHandler.HandleError</definition>
+        <argsstring>(Exception ex)</argsstring>
+        <name>HandleError</name>
+        <param>
+          <type>Exception</type>
+          <declname>ex</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="54" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="53" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="52" bodyend="55"/>
+    <listofallmembers>
+      <member refid="interface_d_n_c_1_1_i_error_handler_1abe787dec827566370fde476260094987" prot="public" virt="non-virtual"><scope>DNC::IErrorHandler</scope><name>HandleError</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

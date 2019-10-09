@@ -1,0 +1,163 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBRDNA</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a4b9b4e2d41d5a3f697dddcb9595ea59e" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBRDNA.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4262" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4262" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1aed555c91c917830570ce6f82e849d319" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBRDNA.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4263" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4263" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1acb44e6f55b8ed313a8f9afa2c3658b0b" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl1_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl1_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4265" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a5f7ffbf53deca0034bf1d568c4aaeb4a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl2_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl2_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4267" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4267" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a0bf963e6334df06b0fda8600c9af53c5" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl3_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl3_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4269" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4269" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1adde3e79202fb59e29f65f157e7a29700" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl4_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl4_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4271" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4271" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1aa85fb37f42fb45fd35cf5473aeb7266f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl5_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl5_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4273" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4273" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1ab3136911d6652d5bb3ea1ecc7ba1a0b9" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl6_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl6_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4275" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4275" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a247d0f0e24e071f8c04482ed8aa40a09" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl7_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl7_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4277" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4277" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a8e08525e9978425667f583cb3fe3231f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBRDNA.sgnl8_name</definition>
+        <argsstring></argsstring>
+        <name>sgnl8_name</name>
+        <initializer>= new string(&apos; &apos;, 9)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4279" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4279" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4261" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4260" bodyend="4280"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a4b9b4e2d41d5a3f697dddcb9595ea59e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1acb44e6f55b8ed313a8f9afa2c3658b0b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl1_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a5f7ffbf53deca0034bf1d568c4aaeb4a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl2_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a0bf963e6334df06b0fda8600c9af53c5" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl3_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1adde3e79202fb59e29f65f157e7a29700" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl4_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1aa85fb37f42fb45fd35cf5473aeb7266f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl5_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1ab3136911d6652d5bb3ea1ecc7ba1a0b9" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl6_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a247d0f0e24e071f8c04482ed8aa40a09" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl7_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1a8e08525e9978425667f583cb3fe3231f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>sgnl8_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_d_n_a_1aed555c91c917830570ce6f82e849d319" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRDNA</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

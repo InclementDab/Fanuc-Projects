@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_views_1_1_edit_prompt" kind="class" prot="public">
+    <compoundname>DNC::Views::EditPrompt</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_edit_prompt_1a6370b1c4201a31d56c5877e35f558461" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Views.EditPrompt.EditConnection</definition>
+        <argsstring></argsstring>
+        <name>EditConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="26" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="26" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_edit_prompt_1ac1eab85a3c0c011968a4948dbe2ff8df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Views.EditPrompt.SaveCommand</definition>
+        <argsstring></argsstring>
+        <name>SaveCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="27" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="27" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_edit_prompt_1a1232a068b21029012102d75c663dee09" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Views.EditPrompt.CancelCommand</definition>
+        <argsstring></argsstring>
+        <name>CancelCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="28" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="28" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_edit_prompt_1aae4e68044dc3f1b1a7e4f7cd95e95a57" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref></type>
+        <definition>Machine DNC.Views.EditPrompt.CurrentMachine</definition>
+        <argsstring></argsstring>
+        <name>CurrentMachine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="44" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="44" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_edit_prompt_1adc4cc267d1ac6fa04da1e5aec164bd6d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Views.EditPrompt.EditPrompt</definition>
+        <argsstring>()</argsstring>
+        <name>EditPrompt</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="30" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="30" bodyend="42"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_edit_prompt_1aeed1ecbbf88a019e4d147841f2e0a45c" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.EditPrompt.EditMachine</definition>
+        <argsstring>(Machine input)</argsstring>
+        <name>EditMachine</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>input</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="46" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="46" bodyend="55"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_edit_prompt_1a114bfa3d8ccc363ff77306b7621ba582" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.EditPrompt.Window_ContentRendered</definition>
+        <argsstring>(object sender, EventArgs e)</argsstring>
+        <name>Window_ContentRendered</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>EventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="57" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="57" bodyend="61"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for CreatePrompt.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="98">
+        <label>Window</label>
+      </node>
+      <node id="97">
+        <label>DNC.Views.EditPrompt</label>
+        <link refid="class_d_n_c_1_1_views_1_1_edit_prompt"/>
+        <childnode refid="98" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="100">
+        <label>Window</label>
+      </node>
+      <node id="99">
+        <label>DNC.Views.EditPrompt</label>
+        <link refid="class_d_n_c_1_1_views_1_1_edit_prompt"/>
+        <childnode refid="100" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" line="25" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/EditPrompt.xaml.cs" bodystart="24" bodyend="62"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1a1232a068b21029012102d75c663dee09" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>CancelCommand</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1aae4e68044dc3f1b1a7e4f7cd95e95a57" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>CurrentMachine</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1a6370b1c4201a31d56c5877e35f558461" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>EditConnection</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1aeed1ecbbf88a019e4d147841f2e0a45c" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>EditMachine</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1adc4cc267d1ac6fa04da1e5aec164bd6d" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>EditPrompt</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1ac1eab85a3c0c011968a4948dbe2ff8df" prot="public" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>SaveCommand</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_edit_prompt_1a114bfa3d8ccc363ff77306b7621ba582" prot="private" virt="non-virtual"><scope>DNC::Views::EditPrompt</scope><name>Window_ContentRendered</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

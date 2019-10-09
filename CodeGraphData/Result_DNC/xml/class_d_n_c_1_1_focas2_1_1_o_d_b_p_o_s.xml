@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBPOS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a6d1412a766e8c18112e28d2c9fa0f2c8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p1</definition>
+        <argsstring></argsstring>
+        <name>p1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="352" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="352" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a384dac0cae3b2165cd200f65a349529a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p2</definition>
+        <argsstring></argsstring>
+        <name>p2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="353" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="353" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a49a22afb9b440baa9828434b96ceb8c5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p3</definition>
+        <argsstring></argsstring>
+        <name>p3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="354" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="354" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a4cc39f981b761bce99b98fcf76aa740c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p4</definition>
+        <argsstring></argsstring>
+        <name>p4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="355" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="355" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a5f623869f8450858868af17fb3414456" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p5</definition>
+        <argsstring></argsstring>
+        <name>p5</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="356" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="356" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a7e204a1a06484d40641fb06c71289d96" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p6</definition>
+        <argsstring></argsstring>
+        <name>p6</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="357" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="357" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a59af6926343eeb00bf123ef696981de7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p7</definition>
+        <argsstring></argsstring>
+        <name>p7</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="358" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="358" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1add290d2b03c33244556b904dcf0141a3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref></type>
+        <definition>POSELMALL DNC.Focas2.ODBPOS.p8</definition>
+        <argsstring></argsstring>
+        <name>p8</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l" kindref="compound">POSELMALL</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="359" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="359" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1114">
+        <label>DNC.Focas2.POSELMALL</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m_a_l_l"/>
+        <childnode refid="1115" relation="usage">
+          <edgelabel>rel</edgelabel>
+          <edgelabel>dist</edgelabel>
+          <edgelabel>mach</edgelabel>
+          <edgelabel>abs</edgelabel>
+        </childnode>
+      </node>
+      <node id="1113">
+        <label>DNC.Focas2.ODBPOS</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s"/>
+        <childnode refid="1114" relation="usage">
+          <edgelabel>p1</edgelabel>
+          <edgelabel>p2</edgelabel>
+          <edgelabel>p3</edgelabel>
+          <edgelabel>p4</edgelabel>
+          <edgelabel>p5</edgelabel>
+          <edgelabel>p6</edgelabel>
+          <edgelabel>p7</edgelabel>
+          <edgelabel>p8</edgelabel>
+        </childnode>
+      </node>
+      <node id="1115">
+        <label>DNC.Focas2.POSELM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_p_o_s_e_l_m"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="351" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="350" bodyend="362"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a6d1412a766e8c18112e28d2c9fa0f2c8" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a384dac0cae3b2165cd200f65a349529a" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a49a22afb9b440baa9828434b96ceb8c5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a4cc39f981b761bce99b98fcf76aa740c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a5f623869f8450858868af17fb3414456" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a7e204a1a06484d40641fb06c71289d96" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1a59af6926343eeb00bf123ef696981de7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_p_o_s_1add290d2b03c33244556b904dcf0141a3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBPOS</scope><name>p8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_view_models_1_1_main_window_view_model" kind="class" prot="public">
+    <compoundname>DNC::ViewModels::MainWindowViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a3a9cbc1110f63605da526e937e5cff34" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_view_models_1_1_window_status" kindref="compound">WindowStatus</ref></type>
+        <definition>WindowStatus DNC.ViewModels.MainWindowViewModel.WindowStatus</definition>
+        <argsstring></argsstring>
+        <name>WindowStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="15" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a393bf9a9a4aa8aded6a559f471e9b690" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UserControl</type>
+        <definition>UserControl DNC.ViewModels.MainWindowViewModel.MachineListView</definition>
+        <argsstring></argsstring>
+        <name>MachineListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="16" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="16" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1afcc4e7bb6904ab94a4a7f7d402fe025a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UserControl</type>
+        <definition>UserControl DNC.ViewModels.MainWindowViewModel.ProgramListView</definition>
+        <argsstring></argsstring>
+        <name>ProgramListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="17" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="17" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1abfc92d0e61a79f570b3e67e474e8f9eb" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int DNC.ViewModels.MainWindowViewModel.ProgressBarValue</definition>
+        <argsstring></argsstring>
+        <name>ProgressBarValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="20" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="21" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1ab488a7b89fdf016d960b98f5b233aa9b" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.ViewModels.MainWindowViewModel.progressBarValue</definition>
+        <argsstring></argsstring>
+        <name>progressBarValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="19" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="19" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a8d21811b8195e2513625737555914bf4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.ViewModels.MainWindowViewModel.MainWindowViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MainWindowViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="30" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="30" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a0978ae48f79c3d8e35efc37e847a8aea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.ViewModels.MainWindowViewModel.ChangeProgressValue</definition>
+        <argsstring>(GenericMessage&lt; int &gt; gMessage)</argsstring>
+        <name>ChangeProgressValue</name>
+        <param>
+          <type>GenericMessage&lt; int &gt;</type>
+          <declname>gMessage</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="39" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="39" bodyend="42"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="679">
+        <label>ViewModelBase</label>
+      </node>
+      <node id="678">
+        <label>DNC.ViewModels.MainWindowViewModel</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model"/>
+        <childnode refid="679" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="681">
+        <label>ViewModelBase</label>
+      </node>
+      <node id="680">
+        <label>DNC.ViewModels.MainWindowViewModel</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model"/>
+        <childnode refid="681" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="14" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="13" bodyend="45"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a0978ae48f79c3d8e35efc37e847a8aea" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>ChangeProgressValue</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a393bf9a9a4aa8aded6a559f471e9b690" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>MachineListView</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a8d21811b8195e2513625737555914bf4" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>MainWindowViewModel</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1afcc4e7bb6904ab94a4a7f7d402fe025a" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>ProgramListView</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1ab488a7b89fdf016d960b98f5b233aa9b" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>progressBarValue</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1abfc92d0e61a79f570b3e67e474e8f9eb" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>ProgressBarValue</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model_1a3a9cbc1110f63605da526e937e5cff34" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MainWindowViewModel</scope><name>WindowStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

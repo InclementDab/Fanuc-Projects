@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::MODAL_AUX_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1afeaa553153fffb7416d3e9c6924f83e6" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.MODAL_AUX_data.aux_data</definition>
+        <argsstring></argsstring>
+        <name>aux_data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3546" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3546" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1ac79443dfcdb51a0ae9f526ef0a8633a1" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.MODAL_AUX_data.flag1</definition>
+        <argsstring></argsstring>
+        <name>flag1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3547" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3547" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1a4f8b144f948a801f36adcb798ff8c668" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.MODAL_AUX_data.flag2</definition>
+        <argsstring></argsstring>
+        <name>flag2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3548" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3548" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3545" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3544" bodyend="3549"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1afeaa553153fffb7416d3e9c6924f83e6" prot="public" virt="non-virtual"><scope>DNC::Focas2::MODAL_AUX_data</scope><name>aux_data</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1ac79443dfcdb51a0ae9f526ef0a8633a1" prot="public" virt="non-virtual"><scope>DNC::Focas2::MODAL_AUX_data</scope><name>flag1</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data_1a4f8b144f948a801f36adcb798ff8c668" prot="public" virt="non-virtual"><scope>DNC::Focas2::MODAL_AUX_data</scope><name>flag2</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,59 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBSPLOAD_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data_1a9c09acdb5024d9397ca387905454486f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_l_o_a_d_e_l_m" kindref="compound">LOADELM</ref></type>
+        <definition>LOADELM DNC.Focas2.ODBSPLOAD_data.spload</definition>
+        <argsstring></argsstring>
+        <name>spload</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_l_o_a_d_e_l_m" kindref="compound">LOADELM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="540" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="540" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data_1a7c8a378921975cdd8b82d6e56a52155d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_l_o_a_d_e_l_m" kindref="compound">LOADELM</ref></type>
+        <definition>LOADELM DNC.Focas2.ODBSPLOAD_data.spspeed</definition>
+        <argsstring></argsstring>
+        <name>spspeed</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_l_o_a_d_e_l_m" kindref="compound">LOADELM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="541" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="541" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1202">
+        <label>DNC.Focas2.LOADELM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_l_o_a_d_e_l_m"/>
+      </node>
+      <node id="1201">
+        <label>DNC.Focas2.ODBSPLOAD_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data"/>
+        <childnode refid="1202" relation="usage">
+          <edgelabel>spload</edgelabel>
+          <edgelabel>spspeed</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="539" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="538" bodyend="542"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data_1a9c09acdb5024d9397ca387905454486f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPLOAD_data</scope><name>spload</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_l_o_a_d__data_1a7c8a378921975cdd8b82d6e56a52155d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPLOAD_data</scope><name>spspeed</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

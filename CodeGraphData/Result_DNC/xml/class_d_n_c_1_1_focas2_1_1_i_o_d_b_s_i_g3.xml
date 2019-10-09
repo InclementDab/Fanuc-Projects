@@ -1,0 +1,88 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBSIG3</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1a5bbfbd6844b5fc179af2d0c74e8f6850" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBSIG3.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3315" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3315" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1ab0b9dae4c74ff3caf2de4472d077dad6" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBSIG3.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3316" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3316" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1a9e53631ab5e47ad1f84225f9751b16b7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3__data" kindref="compound">IODBSIG3_data</ref></type>
+        <definition>IODBSIG3_data DNC.Focas2.IODBSIG3.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3__data" kindref="compound">IODBSIG3_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3317" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3317" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="460">
+        <label>DNC.Focas2.IODBSIG3_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3__data"/>
+        <childnode refid="461" relation="usage">
+          <edgelabel>data49</edgelabel>
+          <edgelabel>data38</edgelabel>
+          <edgelabel>data27</edgelabel>
+          <edgelabel>data16</edgelabel>
+          <edgelabel>data39</edgelabel>
+          <edgelabel>data28</edgelabel>
+          <edgelabel>data17</edgelabel>
+          <edgelabel>data29</edgelabel>
+          <edgelabel>data18</edgelabel>
+          <edgelabel>data19</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+      <node id="459">
+        <label>DNC.Focas2.IODBSIG3</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3"/>
+        <childnode refid="460" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+      <node id="461">
+        <label>DNC.Focas2._IODBSIG3_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3314" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3313" bodyend="3318"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1a9e53631ab5e47ad1f84225f9751b16b7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBSIG3</scope><name>data</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1a5bbfbd6844b5fc179af2d0c74e8f6850" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBSIG3</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_s_i_g3_1ab0b9dae4c74ff3caf2de4472d077dad6" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBSIG3</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

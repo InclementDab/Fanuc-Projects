@@ -1,0 +1,87 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::IODBUNSOLIC_pmc</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a1df02ae56306009504a58f34fccf3813" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBUNSOLIC_pmc.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6971" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6971" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a840c85f9b02be18aadbfb1481b40e19e" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBUNSOLIC_pmc.rdaddr</definition>
+        <argsstring></argsstring>
+        <name>rdaddr</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6972" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a3f52f9697a4ff1eeaab78da67aeb69ed" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBUNSOLIC_pmc.rdno</definition>
+        <argsstring></argsstring>
+        <name>rdno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6973" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6973" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1abb1e0f1c75a82220558e0c3dbd73b679" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBUNSOLIC_pmc.rdsize</definition>
+        <argsstring></argsstring>
+        <name>rdsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6974" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6974" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a80990453354ac45155002b15b30ede70" prot="private" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBUNSOLIC_pmc.dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6975" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6975" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6970" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6969" bodyend="6976"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a80990453354ac45155002b15b30ede70" prot="private" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC_pmc</scope><name>dummy</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a840c85f9b02be18aadbfb1481b40e19e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC_pmc</scope><name>rdaddr</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a3f52f9697a4ff1eeaab78da67aeb69ed" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC_pmc</scope><name>rdno</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1abb1e0f1c75a82220558e0c3dbd73b679" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC_pmc</scope><name>rdsize</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_o_d_b_u_n_s_o_l_i_c__pmc_1a1df02ae56306009504a58f34fccf3813" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBUNSOLIC_pmc</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

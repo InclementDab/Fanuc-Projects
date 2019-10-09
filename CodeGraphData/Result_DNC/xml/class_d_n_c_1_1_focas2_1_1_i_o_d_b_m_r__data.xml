@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_r__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBMR_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_r__data_1a2d1ba6741cff00bd319d67903d11377c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMR_data.mcr_val</definition>
+        <argsstring></argsstring>
+        <name>mcr_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1415" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1415" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_r__data_1ae13105b48737e7d09fb75e4145e470df" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBMR_data.dec_val</definition>
+        <argsstring></argsstring>
+        <name>dec_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1416" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1416" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1414" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1413" bodyend="1417"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_r__data_1ae13105b48737e7d09fb75e4145e470df" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMR_data</scope><name>dec_val</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_r__data_1a2d1ba6741cff00bd319d67903d11377c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMR_data</scope><name>mcr_val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

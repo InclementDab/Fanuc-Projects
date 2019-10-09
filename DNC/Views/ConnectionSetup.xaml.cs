@@ -1,9 +1,11 @@
 ﻿using DNC.Models;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Globalization;
 using System.Linq;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -26,74 +28,74 @@ namespace DNC.Views
     public partial class ConnectionSetup : Window
     {
      
-        public readonly ConnectionSetupViewModel ViewModel;
-        public ConnectionSetup(Machine currentMachine)
+        public ConnectionSetupViewModel ViewModel { get; private set; }
+        public ConnectionSetup()
         {
             InitializeComponent();
+        }
 
+        public void EditConnection(Machine currentMachine)
+        {
             DataContext = ViewModel = new ConnectionSetupViewModel(currentMachine);
-            ViewModel.AvailableTypes = new Dictionary<string, UserControl>
+            ViewModel.AvailableTypes = new Dictionary<ConnectionType, UserControl>
             {
-                { "TCP/IP", TryFindResource("typeTCP") as UserControl },
-                { "Serial Port", TryFindResource("typeSerial") as UserControl }
+                { ConnectionType.TCP, TryFindResource("typeTCP") as UserControl },
+                { ConnectionType.Serial, TryFindResource("typeSerial") as UserControl }
             };
-        }
-    }
 
-    public class ConnectionSetupViewModel : INotifyPropertyChanged
-    {
-        public Machine CurrentMachine { get; set; }
-        public ICommand SaveCommand { get; private set; }
-        public ICommand CancelCommand { get; private set; }
+            bool? dr = ShowDialog();
 
-        public ConnectionSetupViewModel(Machine currentMachine)
-        {
-            CurrentMachine = currentMachine;
-
-            SaveCommand = new RelayCommand(() =>
+            if (!dr ?? false)
             {
-                switch (SelectedItem.Key)
-                {
-                    case "TCP/IP":
-                        CurrentMachine.Connection.Type = ConnectionType.TCP;
-                        break;
-                    case "Serial Port":
-                        CurrentMachine.Connection.Type = ConnectionType.Serial;
-                        break;
-                }
-            }); // todo: still dont know how to do this
-
-            CancelCommand = new RelayCommand(() => { });
-        }
-
-        private KeyValuePair<string, UserControl> _selectedItem;
-        public KeyValuePair<string, UserControl> SelectedItem
-        {
-            get => _selectedItem;
-            set
-            {
-                _selectedItem = value;
-                NotifyPropertyChanged();
+                // idk how to do this yet, but its the cancel command
             }
         }
 
-        private Dictionary<string, UserControl> _availableTypes;
-        public Dictionary<string, UserControl> AvailableTypes
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            foreach (KeyValuePair<ConnectionType, UserControl> pair in ViewModel.AvailableTypes)
+                if (pair.Key == ViewModel.CurrentMachine.CurrentConnectionType)
+                    ViewModel.CurrentControl = pair.Value;   
+        }
+    }
+
+    public class ConnectionSetupViewModel : ViewModelBase
+    {
+        public Machine CurrentMachine { get; set; }
+        public ICommand CloseCommand { get; private set; }
+
+        private UserControl _currentControl;
+        public UserControl CurrentControl
+        {
+            get => _currentControl;
+            set
+            {
+                _currentControl = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        public ConnectionSetupViewModel(Machine currentMachine)
+        {
+            
+            CurrentMachine = currentMachine;
+            CloseCommand = new RelayCommand(() =>
+            {
+                
+            });
+        }
+
+        private Dictionary<ConnectionType, UserControl> _availableTypes;
+        public Dictionary<ConnectionType, UserControl> AvailableTypes
         {
             get => _availableTypes;
             set
             {
                 _availableTypes = value;
-                NotifyPropertyChanged();
+                RaisePropertyChanged();
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
-        {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        }
+
     }
-
-
 }

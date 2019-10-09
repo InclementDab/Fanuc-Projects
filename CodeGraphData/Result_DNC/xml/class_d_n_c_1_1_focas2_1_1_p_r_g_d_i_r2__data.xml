@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::PRGDIR2_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1ad2a3c43be802051ae89529a3dbba7a6c" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.PRGDIR2_data.number</definition>
+        <argsstring></argsstring>
+        <name>number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5205" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5205" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1a4cfe521c3dd9ad9d2c1a3936144c8f4b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.PRGDIR2_data.length</definition>
+        <argsstring></argsstring>
+        <name>length</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5206" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5206" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1a201ee66cc30f4f667e4c136df01bafa0" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.PRGDIR2_data.comment</definition>
+        <argsstring></argsstring>
+        <name>comment</name>
+        <initializer>= new string(&apos; &apos;, 51)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5208" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5208" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1af7c6bf2e57513b5a4c95806babf2cc86" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.PRGDIR2_data.dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5209" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5209" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5204" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5203" bodyend="5210"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1a201ee66cc30f4f667e4c136df01bafa0" prot="public" virt="non-virtual"><scope>DNC::Focas2::PRGDIR2_data</scope><name>comment</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1af7c6bf2e57513b5a4c95806babf2cc86" prot="public" virt="non-virtual"><scope>DNC::Focas2::PRGDIR2_data</scope><name>dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1a4cfe521c3dd9ad9d2c1a3936144c8f4b" prot="public" virt="non-virtual"><scope>DNC::Focas2::PRGDIR2_data</scope><name>length</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_p_r_g_d_i_r2__data_1ad2a3c43be802051ae89529a3dbba7a6c" prot="public" virt="non-virtual"><scope>DNC::Focas2::PRGDIR2_data</scope><name>number</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

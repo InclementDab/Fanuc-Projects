@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::FTPPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1aec6a59824ed45f357ffc6ca459636c48" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.FTPPRM.FTPServerUserName</definition>
+        <argsstring></argsstring>
+        <name>FTPServerUserName</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7987" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1a0e0cb2b2d56213b8c57ed32dde274662" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.FTPPRM.FTPServerPassword</definition>
+        <argsstring></argsstring>
+        <name>FTPServerPassword</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7989" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1a3c5c925314029550b636235d3ff817f6" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.FTPPRM.FTPServerLoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>FTPServerLoginDirectory</name>
+        <initializer>= new string(&apos; &apos;, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7991" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7991" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7985" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7984" bodyend="7992"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1a3c5c925314029550b636235d3ff817f6" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPPRM</scope><name>FTPServerLoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1a0e0cb2b2d56213b8c57ed32dde274662" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPPRM</scope><name>FTPServerPassword</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_p_r_m_1aec6a59824ed45f357ffc6ca459636c48" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPPRM</scope><name>FTPServerUserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

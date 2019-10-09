@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::REALPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_1a36adba3797cdb369dd563ef052081cdf" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.REALPRM.prm_val</definition>
+        <argsstring></argsstring>
+        <name>prm_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1158" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1158" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_1a63fa76a29a0ffa60fd602ccba89b7843" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.REALPRM.dec_val</definition>
+        <argsstring></argsstring>
+        <name>dec_val</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1159" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1159" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1157" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1156" bodyend="1160"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_1a63fa76a29a0ffa60fd602ccba89b7843" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRM</scope><name>dec_val</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_1a36adba3797cdb369dd563ef052081cdf" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRM</scope><name>prm_val</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

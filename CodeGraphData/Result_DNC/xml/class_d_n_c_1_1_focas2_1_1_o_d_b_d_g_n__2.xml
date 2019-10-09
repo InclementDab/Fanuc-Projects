@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBDGN_2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1aa02f2758048d9e76a40236c532e01594" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBDGN_2.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3885" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3885" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1a7212d20d9efc667cfcab52ce191c704d" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBDGN_2.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3886" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3886" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1ae471b315017e206a23ca8f7721461482" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_d_g_n" kindref="compound">REALDGN</ref></type>
+        <definition>REALDGN DNC.Focas2.ODBDGN_2.rdata</definition>
+        <argsstring></argsstring>
+        <name>rdata</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_d_g_n" kindref="compound">REALDGN</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3887" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3887" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="790">
+        <label>DNC.Focas2.ODBDGN_2</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2"/>
+        <childnode refid="791" relation="usage">
+          <edgelabel>rdata</edgelabel>
+        </childnode>
+      </node>
+      <node id="791">
+        <label>DNC.Focas2.REALDGN</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_d_g_n"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3884" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3883" bodyend="3888"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1aa02f2758048d9e76a40236c532e01594" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDGN_2</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1ae471b315017e206a23ca8f7721461482" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDGN_2</scope><name>rdata</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_d_g_n__2_1a7212d20d9efc667cfcab52ce191c704d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBDGN_2</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e" kind="class" prot="public">
+    <compoundname>DNC::Focas2::REC_TIME</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a5092b40fe5053314c81535d3ec45f1fa" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.REC_TIME.rec_type</definition>
+        <argsstring></argsstring>
+        <name>rec_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2285" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2285" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1afa548a64f94e482e874c31bde30ec0b3" prot="public" static="no" mutable="no">
+        <type>sbyte</type>
+        <definition>sbyte DNC.Focas2.REC_TIME.hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2286" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2286" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a5790e5849e3fa9d8866a6aaa7c498d94" prot="public" static="no" mutable="no">
+        <type>sbyte</type>
+        <definition>sbyte DNC.Focas2.REC_TIME.minute</definition>
+        <argsstring></argsstring>
+        <name>minute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2287" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2287" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1add45e35e43f59ef626648657dcdb1248" prot="public" static="no" mutable="no">
+        <type>sbyte</type>
+        <definition>sbyte DNC.Focas2.REC_TIME.second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2288" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2288" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a3e2ea465642135ecf6fe648b873f1413" prot="public" static="no" mutable="no">
+        <type>sbyte</type>
+        <definition>sbyte DNC.Focas2.REC_TIME.pw_flag</definition>
+        <argsstring></argsstring>
+        <name>pw_flag</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2289" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2289" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a678ec90ed6ad9e990fa12db82e195db9" prot="public" static="no" mutable="no">
+        <type>sbyte[]</type>
+        <definition>sbyte [] DNC.Focas2.REC_TIME.dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2291" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2291" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2284" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2283" bodyend="2292"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a678ec90ed6ad9e990fa12db82e195db9" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1afa548a64f94e482e874c31bde30ec0b3" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>hour</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a5790e5849e3fa9d8866a6aaa7c498d94" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>minute</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a3e2ea465642135ecf6fe648b873f1413" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>pw_flag</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1a5092b40fe5053314c81535d3ec45f1fa" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>rec_type</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___t_i_m_e_1add45e35e43f59ef626648657dcdb1248" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_TIME</scope><name>second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

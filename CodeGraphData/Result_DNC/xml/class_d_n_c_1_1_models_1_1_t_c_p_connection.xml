@@ -1,0 +1,142 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_t_c_p_connection" kind="class" prot="public">
+    <compoundname>DNC::Models::TCPConnection</compoundname>
+    <basecompoundref refid="class_d_n_c_1_1_models_1_1_connection" prot="public" virt="non-virtual">DNC.Models.Connection</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a0c1b7f930060a45db9347a0e17754644" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>IPAddress</type>
+        <definition>IPAddress DNC.Models.TCPConnection.IPAddress</definition>
+        <argsstring></argsstring>
+        <name>IPAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="29" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a642238d572a77322b79631eb164c4f54" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ushort</type>
+        <definition>ushort DNC.Models.TCPConnection.Port</definition>
+        <argsstring></argsstring>
+        <name>Port</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="30" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="30" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a2de46ff513dbadd4cc6c02dffb807da7" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.TCPConnection.TCPConnection</definition>
+        <argsstring>()</argsstring>
+        <name>TCPConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="32" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="32" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a87421335289fe9675a800564b10e9e39" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.TCPConnection.TCPConnection</definition>
+        <argsstring>(IPAddress ip, ushort port)</argsstring>
+        <name>TCPConnection</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a0c1b7f930060a45db9347a0e17754644" kindref="member">IPAddress</ref></type>
+          <declname>ip</declname>
+        </param>
+        <param>
+          <type>ushort</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="34" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="34" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_t_c_p_connection_1aeff1e9af563f617b2fe218d975f5dc67" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override short</type>
+        <definition>override short DNC.Models.TCPConnection.Open</definition>
+        <argsstring>(out ushort handle)</argsstring>
+        <name>Open</name>
+        <reimplements refid="class_d_n_c_1_1_models_1_1_connection_1a5c264b2e1a048e274a42295695a5c777">Open</reimplements>
+        <param>
+          <type>out ushort</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="40" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="40" bodyend="46"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1519">
+        <label>ObservableObject</label>
+      </node>
+      <node id="1518">
+        <label>Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="1519" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1517">
+        <label>DNC.Models.TCPConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_t_c_p_connection"/>
+        <childnode refid="1518" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1522">
+        <label>ObservableObject</label>
+      </node>
+      <node id="1521">
+        <label>Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="1522" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1520">
+        <label>DNC.Models.TCPConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_t_c_p_connection"/>
+        <childnode refid="1521" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="28" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="27" bodyend="49"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1afb80c79a8559bb92d1847eaf1d2a38e8" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>Close</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a1de939db8961b5d4f2ed5fadc936c70b" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>ConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ae84ee71e65a1fa0bab6e4b09e4627304" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>ConnectionChangedEventHandler</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a0c1b7f930060a45db9347a0e17754644" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>IPAddress</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>IsConnected</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a94986047dfd2628e1bef58d716524bd8" prot="protected" virt="virtual"><scope>DNC::Models::TCPConnection</scope><name>OnConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1aeff1e9af563f617b2fe218d975f5dc67" prot="public" virt="virtual"><scope>DNC::Models::TCPConnection</scope><name>Open</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a642238d572a77322b79631eb164c4f54" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>Port</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1af3a34675de3c58231b23e2ee4bf61f44" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>Status</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ad818417ddefffa558e51d58a0660baf1" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>StatusCode</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a2de46ff513dbadd4cc6c02dffb807da7" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>TCPConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1a87421335289fe9675a800564b10e9e39" prot="public" virt="non-virtual"><scope>DNC::Models::TCPConnection</scope><name>TCPConnection</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

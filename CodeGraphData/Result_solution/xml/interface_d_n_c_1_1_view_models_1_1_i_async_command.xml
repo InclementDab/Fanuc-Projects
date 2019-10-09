@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="interface_d_n_c_1_1_view_models_1_1_i_async_command" kind="interface" prot="public">
+    <compoundname>DNC::ViewModels::IAsyncCommand</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ICommand</basecompoundref>
+    <derivedcompoundref refid="class_d_n_c_1_1_view_models_1_1_async_command" prot="public" virt="non-virtual">DNC.ViewModels.AsyncCommand</derivedcompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="interface_d_n_c_1_1_view_models_1_1_i_async_command_1ab83d662b9ce0640170d729ecc7c9b706" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>Task</type>
+        <definition>Task DNC.ViewModels.IAsyncCommand.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <reimplementedby refid="class_d_n_c_1_1_view_models_1_1_async_command_1a2434331b0b9927061c83b64c744d3c05">ExecuteAsync</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="14" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="interface_d_n_c_1_1_view_models_1_1_i_async_command_1a80f55477c5e091757314c8319310d764" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DNC.ViewModels.IAsyncCommand.CanExecute</definition>
+        <argsstring>()</argsstring>
+        <name>CanExecute</name>
+        <reimplementedby refid="class_d_n_c_1_1_view_models_1_1_async_command_1a38feae6572e03ba2482d1421d8d4572a">CanExecute</reimplementedby>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="15" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="148">
+        <label>ICommand</label>
+      </node>
+      <node id="147">
+        <label>DNC.ViewModels.IAsyncCommand</label>
+        <link refid="interface_d_n_c_1_1_view_models_1_1_i_async_command"/>
+        <childnode refid="148" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="149">
+        <label>DNC.ViewModels.AsyncCommand</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_async_command"/>
+        <childnode refid="147" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="151">
+        <label>ICommand</label>
+      </node>
+      <node id="150">
+        <label>DNC.ViewModels.IAsyncCommand</label>
+        <link refid="interface_d_n_c_1_1_view_models_1_1_i_async_command"/>
+        <childnode refid="151" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="13" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="12" bodyend="16"/>
+    <listofallmembers>
+      <member refid="interface_d_n_c_1_1_view_models_1_1_i_async_command_1a80f55477c5e091757314c8319310d764" prot="public" virt="non-virtual"><scope>DNC::ViewModels::IAsyncCommand</scope><name>CanExecute</name></member>
+      <member refid="interface_d_n_c_1_1_view_models_1_1_i_async_command_1ab83d662b9ce0640170d729ecc7c9b706" prot="public" virt="non-virtual"><scope>DNC::ViewModels::IAsyncCommand</scope><name>ExecuteAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

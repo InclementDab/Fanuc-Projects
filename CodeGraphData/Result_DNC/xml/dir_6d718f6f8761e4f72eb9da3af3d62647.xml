@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_6d718f6f8761e4f72eb9da3af3d62647" kind="dir">
+    <compoundname>C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models</compoundname>
+    <innerfile refid="_machine_model_8cs">MachineModel.cs</innerfile>
+    <innerfile refid="_network_8cs">Network.cs</innerfile>
+    <innerfile refid="_program_model_8cs">ProgramModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/"/>
+  </compounddef>
+</doxygen>

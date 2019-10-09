@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_app" kind="class" prot="public">
+    <compoundname>DNC::App</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Application</basecompoundref>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_app_1ae369296dc625646ebdd07e58842ecafb" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.App.OnStartup</definition>
+        <argsstring>(StartupEventArgs e)</argsstring>
+        <name>OnStartup</name>
+        <param>
+          <type>StartupEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="30" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="30" bodyend="33"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for App.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="34">
+        <label>DNC.App</label>
+        <link refid="class_d_n_c_1_1_app"/>
+        <childnode refid="35" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="35">
+        <label>Application</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="36">
+        <label>DNC.App</label>
+        <link refid="class_d_n_c_1_1_app"/>
+        <childnode refid="37" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="37">
+        <label>Application</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="29" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="28" bodyend="34"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_app_1ae369296dc625646ebdd07e58842ecafb" prot="protected" virt="non-virtual"><scope>DNC::App</scope><name>OnStartup</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

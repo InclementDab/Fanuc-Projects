@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::HOSTPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a560f45188939b8cf030dd5d7178c6ce1" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.HOSTPRM.DataServerPort</definition>
+        <argsstring></argsstring>
+        <name>DataServerPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7972" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7972" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a2ffb9e2e80a774b37967d8883cf0bc68" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.HOSTPRM.DataServerIPAddress</definition>
+        <argsstring></argsstring>
+        <name>DataServerIPAddress</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7974" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7974" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a5be897b6cc9b8db14762b18c1a1f2938" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.HOSTPRM.DataServerUserName</definition>
+        <argsstring></argsstring>
+        <name>DataServerUserName</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7976" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7976" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1abeef7276177a54a569623b6958d5bf4e" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.HOSTPRM.DataServerPassword</definition>
+        <argsstring></argsstring>
+        <name>DataServerPassword</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7978" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7978" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1ab301ae157712f469f5db01084dfa9281" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.HOSTPRM.DataServerLoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>DataServerLoginDirectory</name>
+        <initializer>= new string(&apos; &apos;, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7980" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7980" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7971" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7970" bodyend="7981"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a2ffb9e2e80a774b37967d8883cf0bc68" prot="public" virt="non-virtual"><scope>DNC::Focas2::HOSTPRM</scope><name>DataServerIPAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1ab301ae157712f469f5db01084dfa9281" prot="public" virt="non-virtual"><scope>DNC::Focas2::HOSTPRM</scope><name>DataServerLoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1abeef7276177a54a569623b6958d5bf4e" prot="public" virt="non-virtual"><scope>DNC::Focas2::HOSTPRM</scope><name>DataServerPassword</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a560f45188939b8cf030dd5d7178c6ce1" prot="public" virt="non-virtual"><scope>DNC::Focas2::HOSTPRM</scope><name>DataServerPort</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m_1a5be897b6cc9b8db14762b18c1a1f2938" prot="public" virt="non-virtual"><scope>DNC::Focas2::HOSTPRM</scope><name>DataServerUserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

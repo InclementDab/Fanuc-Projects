@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBETP_HOST</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t_1a70b0f0df4622c5354082f067265b403f" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBETP_HOST.ParameterType</definition>
+        <argsstring></argsstring>
+        <name>ParameterType</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8022" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8022" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t_1a93a93690893573f9e01783f892cc825e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m" kindref="compound">HOSTPRM</ref></type>
+        <definition>HOSTPRM DNC.Focas2.IODBETP_HOST.host</definition>
+        <argsstring></argsstring>
+        <name>host</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8023" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8023" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="255">
+        <label>DNC.Focas2.IODBETP_HOST</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t"/>
+        <childnode refid="256" relation="usage">
+          <edgelabel>host</edgelabel>
+        </childnode>
+      </node>
+      <node id="256">
+        <label>DNC.Focas2.HOSTPRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_h_o_s_t_p_r_m"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8021" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8020" bodyend="8024"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t_1a93a93690893573f9e01783f892cc825e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBETP_HOST</scope><name>host</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_e_t_p___h_o_s_t_1a70b0f0df4622c5354082f067265b403f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBETP_HOST</scope><name>ParameterType</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

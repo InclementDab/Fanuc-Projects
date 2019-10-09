@@ -1,0 +1,123 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_serial_connection" kind="class" prot="public">
+    <compoundname>DNC::Models::SerialConnection</compoundname>
+    <basecompoundref refid="class_d_n_c_1_1_models_1_1_connection" prot="public" virt="non-virtual">DNC.Models.Connection</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_serial_connection_1a2fa0d8f8636a6e767468c9abeef95484" prot="public" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_d_n_c_1_1_models_1_1_serial_connection_1a88d48205a29779909390fbb9e3d279bf" kindref="member">SerialPort</ref> &gt;</type>
+        <definition>ObservableCollection&lt;SerialPort&gt; DNC.Models.SerialConnection.SerialPorts</definition>
+        <argsstring></argsstring>
+        <name>SerialPorts</name>
+        <initializer>= new ObservableCollection&lt;<ref refid="class_d_n_c_1_1_models_1_1_serial_connection_1a88d48205a29779909390fbb9e3d279bf" kindref="member">SerialPort</ref>&gt;()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="54" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="54" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_serial_connection_1a88d48205a29779909390fbb9e3d279bf" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>SerialPort</type>
+        <definition>SerialPort DNC.Models.SerialConnection.SerialPort</definition>
+        <argsstring></argsstring>
+        <name>SerialPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="55" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="55" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_serial_connection_1a7e39d769ea3b88965190be1d51253d11" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.SerialConnection.SerialConnection</definition>
+        <argsstring>()</argsstring>
+        <name>SerialConnection</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="57" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="57" bodyend="64"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_serial_connection_1a04ac9b063a57ee382497bf0e6a1ac7c0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override short</type>
+        <definition>override short DNC.Models.SerialConnection.Open</definition>
+        <argsstring>(out ushort handle)</argsstring>
+        <name>Open</name>
+        <reimplements refid="class_d_n_c_1_1_models_1_1_connection_1a5c264b2e1a048e274a42295695a5c777">Open</reimplements>
+        <param>
+          <type>out ushort</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="66" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="66" bodyend="75"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1490">
+        <label>DNC.Models.SerialConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_serial_connection"/>
+        <childnode refid="1491" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1492">
+        <label>ObservableObject</label>
+      </node>
+      <node id="1491">
+        <label>Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="1492" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1493">
+        <label>DNC.Models.SerialConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_serial_connection"/>
+        <childnode refid="1494" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="1495">
+        <label>ObservableObject</label>
+      </node>
+      <node id="1494">
+        <label>Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="1495" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="53" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="52" bodyend="76"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1afb80c79a8559bb92d1847eaf1d2a38e8" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>Close</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a1de939db8961b5d4f2ed5fadc936c70b" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>ConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ae84ee71e65a1fa0bab6e4b09e4627304" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>ConnectionChangedEventHandler</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>IsConnected</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a94986047dfd2628e1bef58d716524bd8" prot="protected" virt="virtual"><scope>DNC::Models::SerialConnection</scope><name>OnConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_serial_connection_1a04ac9b063a57ee382497bf0e6a1ac7c0" prot="public" virt="virtual"><scope>DNC::Models::SerialConnection</scope><name>Open</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_serial_connection_1a7e39d769ea3b88965190be1d51253d11" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>SerialConnection</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_serial_connection_1a88d48205a29779909390fbb9e3d279bf" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>SerialPort</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_serial_connection_1a2fa0d8f8636a6e767468c9abeef95484" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>SerialPorts</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1af3a34675de3c58231b23e2ee4bf61f44" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>Status</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ad818417ddefffa558e51d58a0660baf1" prot="public" virt="non-virtual"><scope>DNC::Models::SerialConnection</scope><name>StatusCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

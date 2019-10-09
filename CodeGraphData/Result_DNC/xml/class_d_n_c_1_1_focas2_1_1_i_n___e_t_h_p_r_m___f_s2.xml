@@ -1,0 +1,126 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IN_ETHPRM_FS2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a87ebf64a1ed0e35feb13305244b0f551" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IN_ETHPRM_FS2.Reserve01</definition>
+        <argsstring></argsstring>
+        <name>Reserve01</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11963" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11963" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a14a9c813977b7172e9795847910390fe" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM_FS2.Reserve02</definition>
+        <argsstring></argsstring>
+        <name>Reserve02</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11964" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11964" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a2c2ee1d8a9273209e96c406ea28d7dc7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM_FS2.Reserve03</definition>
+        <argsstring></argsstring>
+        <name>Reserve03</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11965" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11965" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a8e4a341b8c3fbce0dd1e2df8c48473e6" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM_FS2.Reserve04</definition>
+        <argsstring></argsstring>
+        <name>Reserve04</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11966" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a038a06bd1a7dea9f7e7aa53b368b43bb" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM_FS2.Reserve05</definition>
+        <argsstring></argsstring>
+        <name>Reserve05</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11967" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11967" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1af1bf1869fcd5c6d9fbe36c36b7ac8eb6" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM_FS2.Reserve06</definition>
+        <argsstring></argsstring>
+        <name>Reserve06</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11968" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11968" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a224d836742bc8935e13566acef3f2e74" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_f_o_c_a_s2___p_r_m" kindref="compound">FOCAS2_PRM</ref></type>
+        <definition>FOCAS2_PRM DNC.Focas2.IN_ETHPRM_FS2.fs2</definition>
+        <argsstring></argsstring>
+        <name>fs2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11969" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11969" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="217">
+        <label>DNC.Focas2.IN_ETHPRM_FS2</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2"/>
+        <childnode refid="218" relation="usage">
+          <edgelabel>fs2</edgelabel>
+        </childnode>
+      </node>
+      <node id="218">
+        <label>DNC.Focas2.FOCAS2_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_o_c_a_s2___p_r_m"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11962" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11961" bodyend="11970"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a224d836742bc8935e13566acef3f2e74" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>fs2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a87ebf64a1ed0e35feb13305244b0f551" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve01</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a14a9c813977b7172e9795847910390fe" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve02</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a2c2ee1d8a9273209e96c406ea28d7dc7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve03</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a8e4a341b8c3fbce0dd1e2df8c48473e6" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve04</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1a038a06bd1a7dea9f7e7aa53b368b43bb" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve05</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m___f_s2_1af1bf1869fcd5c6d9fbe36c36b7ac8eb6" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM_FS2</scope><name>Reserve06</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

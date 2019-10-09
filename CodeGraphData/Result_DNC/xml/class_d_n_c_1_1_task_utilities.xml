@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_task_utilities" kind="class" prot="public">
+    <compoundname>DNC::TaskUtilities</compoundname>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_task_utilities_1a4581ff7582efbf4b3c3fe26650dae112" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async void</type>
+        <definition>static async void DNC.TaskUtilities.FireAndForgetSafeAsync</definition>
+        <argsstring>(this Task task, IErrorHandler handler=null)</argsstring>
+        <name>FireAndForgetSafeAsync</name>
+        <param>
+          <type>this Task</type>
+          <declname>task</declname>
+        </param>
+        <param>
+          <type><ref refid="interface_d_n_c_1_1_i_error_handler" kindref="compound">IErrorHandler</ref></type>
+          <declname>handler</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="39" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="39" bodyend="50"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="37" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="36" bodyend="51"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_task_utilities_1a4581ff7582efbf4b3c3fe26650dae112" prot="public" virt="non-virtual"><scope>DNC::TaskUtilities</scope><name>FireAndForgetSafeAsync</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

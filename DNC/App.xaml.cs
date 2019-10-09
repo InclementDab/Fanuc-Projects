@@ -1,27 +1,44 @@
-﻿using DNC.ViewModels;
+﻿using DNC.Models;
+using DNC.Properties;
+using DNC.ViewModels;
+using GalaSoft.MvvmLight.Messaging;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
+using System.Collections.ObjectModel;
+using System.ComponentModel;
 using System.Configuration;
 using System.Data;
 using System.Diagnostics;
+using System.Drawing;
 using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Reflection;
 using System.Threading.Tasks;
 using System.Windows;
+using System.Windows.Controls;
 using System.Windows.Data;
+using System.Windows.Interactivity;
+using System.Windows.Threading;
+using System.Runtime.InteropServices;
 
 namespace DNC
 {
     /// <summary>
     /// Interaction logic for App.xaml
     /// </summary>
+    /// 
     public partial class App : Application
     {
+        protected override void OnStartup(StartupEventArgs e)
+        {
+            base.OnStartup(e);
+        }
 
     }
+
+
 
     public static class TaskUtilities
     {
@@ -39,6 +56,7 @@ namespace DNC
             }
         }
     }
+
     public interface IErrorHandler
     {
         void HandleError(Exception ex);
@@ -65,9 +83,7 @@ namespace DNC
 
         public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
         {
-            if (Equals(value, TrueValue)) return true;
-            if (Equals(value, FalseValue)) return false;
-            return null;
+            return Equals(value, TrueValue);
         }
     }
 
@@ -76,7 +92,7 @@ namespace DNC
         public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
         {
             if (value is IPAddress ipAddress) return ipAddress.ToString();
-            
+
             return DependencyProperty.UnsetValue;
         }
 
@@ -84,8 +100,67 @@ namespace DNC
         {
 
             if (value is string text && IPAddress.TryParse(text, out IPAddress ipAddress)) return ipAddress;
-            
+
             return DependencyProperty.UnsetValue;
+        }
+    }
+
+    public class BindableSelectedItemBehavior : Behavior<TreeView>
+    {
+        #region SelectedItem Property
+
+        public object SelectedItem
+        {
+            get { return GetValue(SelectedItemProperty); }
+            set { SetValue(SelectedItemProperty, value); }
+        }
+
+        public static readonly DependencyProperty SelectedItemProperty =
+            DependencyProperty.Register("SelectedItem", typeof(object), typeof(BindableSelectedItemBehavior), new UIPropertyMetadata(null, OnSelectedItemChanged));
+
+        private static void OnSelectedItemChanged(DependencyObject sender, DependencyPropertyChangedEventArgs e)
+        {
+            if (e.NewValue is TreeViewItem item)
+            {
+                item.SetValue(TreeViewItem.IsSelectedProperty, true);
+            }
+        }
+
+        #endregion
+
+        protected override void OnAttached()
+        {
+            base.OnAttached();
+
+            AssociatedObject.SelectedItemChanged += OnTreeViewSelectedItemChanged;
+        }
+
+        protected override void OnDetaching()
+        {
+            base.OnDetaching();
+
+            if (AssociatedObject != null)
+            {
+                AssociatedObject.SelectedItemChanged -= OnTreeViewSelectedItemChanged;
+            }
+        }
+
+        private void OnTreeViewSelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            SelectedItem = e.NewValue;
+        }
+    }
+
+    public class EnumBooleanConverter : IValueConverter
+    {
+        public object Convert(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return value.Equals(parameter);
+        }
+
+        public object ConvertBack(object value, Type targetType, object parameter, CultureInfo culture)
+        {
+            return ((bool)value) ? parameter : Binding.DoNothing;
         }
     }
 }

@@ -34,8 +34,8 @@ namespace DNC.Views
 
             EditConnection = new RelayCommand(() =>
             {
-                var x = new ConnectionSetup(CurrentMachine);
-                x.ShowDialog();
+                ConnectionSetup e = new ConnectionSetup();
+                e.EditConnection(CurrentMachine);
             });
             SaveCommand = new RelayCommand(() => DialogResult = true);
             CancelCommand = new RelayCommand(() => DialogResult = false);

@@ -1,0 +1,16 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_d_n_c_1_1_view_models" kind="namespace">
+    <compoundname>DNC::ViewModels</compoundname>
+    <innerclass refid="interface_d_n_c_1_1_view_models_1_1_i_async_command" prot="public">DNC::ViewModels::IAsyncCommand</innerclass>
+    <innerclass refid="class_d_n_c_1_1_view_models_1_1_async_command" prot="public">DNC::ViewModels::AsyncCommand</innerclass>
+    <innerclass refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model" prot="public">DNC::ViewModels::MachineListViewModel</innerclass>
+    <innerclass refid="class_d_n_c_1_1_view_models_1_1_main_window_view_model" prot="public">DNC::ViewModels::MainWindowViewModel</innerclass>
+    <innerclass refid="class_d_n_c_1_1_view_models_1_1_window_status" prot="public">DNC::ViewModels::WindowStatus</innerclass>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="11" column="1"/>
+  </compounddef>
+</doxygen>

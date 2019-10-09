@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::FTPTRANS_PRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1ac2e5d384fb23f793cbfe44239504bae9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref></type>
+        <definition>FTP_CLIENT_PRM DNC.Focas2.FTPTRANS_PRM.opposite1</definition>
+        <argsstring></argsstring>
+        <name>opposite1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11743" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11743" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1ae868a04845455fa0476fd61b6bdb49c1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref></type>
+        <definition>FTP_CLIENT_PRM DNC.Focas2.FTPTRANS_PRM.opposite2</definition>
+        <argsstring></argsstring>
+        <name>opposite2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11745" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1a076fb42cee0e3bddb2d2bcd1f300a1dc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref></type>
+        <definition>FTP_CLIENT_PRM DNC.Focas2.FTPTRANS_PRM.opposite3</definition>
+        <argsstring></argsstring>
+        <name>opposite3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m" kindref="compound">FTP_CLIENT_PRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11747" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11747" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="131">
+        <label>DNC.Focas2.FTP_CLIENT_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m"/>
+      </node>
+      <node id="130">
+        <label>DNC.Focas2.FTPTRANS_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m"/>
+        <childnode refid="131" relation="usage">
+          <edgelabel>opposite1</edgelabel>
+          <edgelabel>opposite2</edgelabel>
+          <edgelabel>opposite3</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11741" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11740" bodyend="11749"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1ac2e5d384fb23f793cbfe44239504bae9" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPTRANS_PRM</scope><name>opposite1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1ae868a04845455fa0476fd61b6bdb49c1" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPTRANS_PRM</scope><name>opposite2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m_1a076fb42cee0e3bddb2d2bcd1f300a1dc" prot="public" virt="non-virtual"><scope>DNC::Focas2::FTPTRANS_PRM</scope><name>opposite3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

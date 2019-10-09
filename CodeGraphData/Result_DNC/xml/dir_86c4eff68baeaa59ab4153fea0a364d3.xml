@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_86c4eff68baeaa59ab4153fea0a364d3" kind="dir">
+    <compoundname>C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels</compoundname>
+    <innerfile refid="_async_command_8cs">AsyncCommand.cs</innerfile>
+    <innerfile refid="_machine_list_view_model_8cs">MachineListViewModel.cs</innerfile>
+    <innerfile refid="_main_window_view_model_8cs">MainWindowViewModel.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/"/>
+  </compounddef>
+</doxygen>

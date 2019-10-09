@@ -5,6 +5,7 @@ using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
 using System.Linq;
+using System.Net;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Text;
@@ -13,39 +14,26 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Input;
 using DNC.Models;
+using DNC.Properties;
 using DNC.Views;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.Messaging;
 using Microsoft.Win32;
 
 namespace DNC.ViewModels
 {
-    public class MachineListViewModel : INotifyPropertyChanged
+    public class MachineListViewModel : ViewModelBase
     {
-        public ObservableCollection<ModelBase> EnumeratedList { get; set; }
-
-        public ICommand AddFolderCommand { get; private set; }
-        public ICommand AddMachineCommand { get; private set; }
-        public ICommand SendProgram { get; private set; }
-
-        public MachineListViewModel()
+        public ObservableCollection<ModelBase> MachineList
         {
-            EnumeratedList = new ObservableCollection<ModelBase>();
-
-            AddFolderCommand = new RelayCommand(() => EnumeratedList.Add(new Folder("Folder1")));
-            AddMachineCommand = new RelayCommand(() =>
+            get => Settings.Default.EnumeratedList;
+            private set
             {
-                Machine m;
-                int i = 0;
-                do
-                {
-                    m = new Machine($"Machine{i++}");
-                } while (EnumeratedList.Contains(m));
-
-                EnumeratedList.Add(m);
-
-                EditPrompt e = new EditPrompt();
-                e.EditMachine(m);
-            });
+                Settings.Default.EnumeratedList = value;
+                Settings.Default.Save();
+                RaisePropertyChanged();
+            }
         }
 
         private ModelBase _selectedItem;
@@ -55,7 +43,7 @@ namespace DNC.ViewModels
             set
             {
                 _selectedItem = value;
-                NotifyPropertyChanged();
+                RaisePropertyChanged();
             }
         }
 
@@ -66,14 +54,59 @@ namespace DNC.ViewModels
             set
             {
                 _selectedProgram = value;
-                NotifyPropertyChanged();
+                RaisePropertyChanged();
             }
         }
 
-        public event PropertyChangedEventHandler PropertyChanged;
-        protected void NotifyPropertyChanged([CallerMemberName] string propertyName = "")
+        public ICommand AddFolderCommand { get; private set; }
+        public ICommand AddMachineCommand { get; private set; }
+        public ICommand SendProgram { get; private set; }
+
+        public MachineListViewModel()
         {
-            PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
+            AddFolderCommand = new RelayCommand(() => MachineList.Add(new Folder("Folder1", MachineList)));
+            AddMachineCommand = new RelayCommand(() =>
+            {
+                Machine m;
+                int i = 0;
+                do
+                {
+                    m = new Machine($"Machine{i++}", MachineList);
+                } while (MachineList.Contains(m));
+
+                MachineList.Add(m);
+
+                EditPrompt e = new EditPrompt();
+                e.EditMachine(m);
+            });
+
+            if (MachineList == null)
+                Settings.Default.EnumeratedList = new ObservableCollection<ModelBase>();           
+
+            AddTestItems();
         }
-    } 
+
+        public void AddTestItems()
+        {
+            var Machine = new Machine("MAM", MachineList, new TCPConnection()
+            {
+                IPAddress = IPAddress.Parse("192.168.128.63"),
+                Port = 8193
+            });
+
+            MachineList.Add(Machine);
+
+
+            var Machine1 = new Machine("MakinoC", MachineList)
+            {
+                Connection = new TCPConnection()
+                {
+                    IPAddress = IPAddress.Parse("192.168.128.1"),
+                    Port = 8195
+                }
+            };
+
+            MachineList.Add(Machine1);
+        }
+    }
 }

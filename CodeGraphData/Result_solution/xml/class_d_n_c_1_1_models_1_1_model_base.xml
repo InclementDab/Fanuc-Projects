@@ -1,0 +1,436 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_model_base" kind="class" prot="public">
+    <compoundname>DNC::Models::ModelBase</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ObservableObject</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDataObject</basecompoundref>
+    <derivedcompoundref refid="class_d_n_c_1_1_models_1_1_folder" prot="public" virt="non-virtual">DNC.Models.Folder</derivedcompoundref>
+    <derivedcompoundref refid="class_d_n_c_1_1_models_1_1_machine" prot="public" virt="non-virtual">DNC.Models.Machine</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_model_base_1a3b21cc8e150c33ed542001ea88d4761b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Models.ModelBase.Rename</definition>
+        <argsstring></argsstring>
+        <name>Rename</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="235" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="235" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_model_base_1ae296c703b19e5711111676b1d02c5a5e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DNC.Models.ModelBase.Icon</definition>
+        <argsstring></argsstring>
+        <name>Icon</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="249" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="249" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_model_base_1ae645158dcd4317c827fe9efffde6c20e" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>bool</type>
+        <definition>bool DNC.Models.ModelBase.IsNameEditing</definition>
+        <argsstring></argsstring>
+        <name>IsNameEditing</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="251" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="251" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_model_base_1a39067acda62dc47f01f058f08847781c" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DNC.Models.ModelBase.Name</definition>
+        <argsstring></argsstring>
+        <name>Name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="254" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="255" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_model_base_1a14c81c2c49ec37bb07bca4c7db65859a" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Models.ModelBase._name</definition>
+        <argsstring></argsstring>
+        <name>_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="253" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="253" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_model_base_1ad0b186885335cd9bac237ad572be0ff7" prot="public" static="no" mutable="no">
+        <type>readonly string[]</type>
+        <definition>readonly string [] DNC.Models.ModelBase.formats</definition>
+        <argsstring></argsstring>
+        <name>formats</name>
+        <initializer>= new string[]
+        {
+            &quot;DNC.Models.ModelBase&quot;,
+            &quot;<ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">DNC.Models.Machine</ref>&quot;,
+            &quot;<ref refid="class_d_n_c_1_1_models_1_1_folder" kindref="compound">DNC.Models.Folder</ref>&quot;
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="265" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="265" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_model_base_1afa7581d853776a8b3b652eb20998726b" prot="public" static="no" mutable="no">
+        <type>readonly Type[]</type>
+        <definition>readonly Type [] DNC.Models.ModelBase.Tformats</definition>
+        <argsstring></argsstring>
+        <name>Tformats</name>
+        <initializer>= new Type[]
+        {
+            typeof(<ref refid="class_d_n_c_1_1_models_1_1_model_base" kindref="compound">ModelBase</ref>),
+            typeof(<ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref>),
+            typeof(<ref refid="class_d_n_c_1_1_models_1_1_folder" kindref="compound">Folder</ref>)
+        }</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="272" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="272" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a596824dd3d4d7428ecc57c28f8aba4b6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.ModelBase.ModelBase</definition>
+        <argsstring>(string name, string icon)</argsstring>
+        <name>ModelBase</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>string</type>
+          <declname>icon</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="237" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="237" bodyend="247"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a65390b18228ff05bca283f80f81c718e" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object DNC.Models.ModelBase.GetData</definition>
+        <argsstring>(string format)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="279" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="279" bodyend="285"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1ad4e7464471dc9e901c8f746abd1deb33" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object DNC.Models.ModelBase.GetData</definition>
+        <argsstring>(Type format)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>Type</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="287" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="287" bodyend="293"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a5c5caa298e3266915517f5b8b2f859f2" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object DNC.Models.ModelBase.GetData</definition>
+        <argsstring>(string format, bool autoConvert)</argsstring>
+        <name>GetData</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoConvert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="295" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="295" bodyend="301"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1aaf132f41a37fe6f0a2cf04ab3920ebc9" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DNC.Models.ModelBase.GetDataPresent</definition>
+        <argsstring>(string format)</argsstring>
+        <name>GetDataPresent</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="303" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1ad9ad3df11d8478a6857a2a1adce2947a" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DNC.Models.ModelBase.GetDataPresent</definition>
+        <argsstring>(Type format)</argsstring>
+        <name>GetDataPresent</name>
+        <param>
+          <type>Type</type>
+          <declname>format</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="305" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a8c98db85b345f3685d474a2d958aca3b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DNC.Models.ModelBase.GetDataPresent</definition>
+        <argsstring>(string format, bool autoConvert)</argsstring>
+        <name>GetDataPresent</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoConvert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="307" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a0e19d1511bb9397e0eaf2b26fd9f3660" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] DNC.Models.ModelBase.GetFormats</definition>
+        <argsstring>()</argsstring>
+        <name>GetFormats</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="309" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a5aca3e1a7468c64568b3e5d31ea9bef7" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>string[]</type>
+        <definition>string [] DNC.Models.ModelBase.GetFormats</definition>
+        <argsstring>(bool autoConvert)</argsstring>
+        <name>GetFormats</name>
+        <param>
+          <type>bool</type>
+          <declname>autoConvert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="311" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1a21e69f7c8941190ad7ef12fa5f611d22" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DNC.Models.ModelBase.SetData</definition>
+        <argsstring>(object data)</argsstring>
+        <name>SetData</name>
+        <reimplementedby refid="class_d_n_c_1_1_models_1_1_folder_1a755f200a6264a91453e929fba4ccfad4">SetData</reimplementedby>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="313" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="313" bodyend="316"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1ab5e6e33d7a555ed335968c267101c4ef" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DNC.Models.ModelBase.SetData</definition>
+        <argsstring>(string format, object data)</argsstring>
+        <name>SetData</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="318" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="318" bodyend="321"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1af5381f9127cdf6c62afee0c23d81dd64" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DNC.Models.ModelBase.SetData</definition>
+        <argsstring>(Type format, object data)</argsstring>
+        <name>SetData</name>
+        <param>
+          <type>Type</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="323" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="323" bodyend="326"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_model_base_1ad1788f6de0ebb76aedfeff9ac327919a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DNC.Models.ModelBase.SetData</definition>
+        <argsstring>(string format, object data, bool autoConvert)</argsstring>
+        <name>SetData</name>
+        <param>
+          <type>string</type>
+          <declname>format</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <param>
+          <type>bool</type>
+          <declname>autoConvert</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="328" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="328" bodyend="331"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="691">
+        <label>ObservableObject</label>
+      </node>
+      <node id="693">
+        <label>DNC.Models.Folder</label>
+        <link refid="class_d_n_c_1_1_models_1_1_folder"/>
+        <childnode refid="690" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="692">
+        <label>IDataObject</label>
+      </node>
+      <node id="694">
+        <label>DNC.Models.Machine</label>
+        <link refid="class_d_n_c_1_1_models_1_1_machine"/>
+        <childnode refid="690" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="690">
+        <label>DNC.Models.ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="691" relation="public-inheritance">
+        </childnode>
+        <childnode refid="692" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="696">
+        <label>ObservableObject</label>
+      </node>
+      <node id="697">
+        <label>IDataObject</label>
+      </node>
+      <node id="695">
+        <label>DNC.Models.ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="696" relation="public-inheritance">
+        </childnode>
+        <childnode refid="697" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="234" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="233" bodyend="333"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a14c81c2c49ec37bb07bca4c7db65859a" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>_name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad0b186885335cd9bac237ad572be0ff7" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>formats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a65390b18228ff05bca283f80f81c718e" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad4e7464471dc9e901c8f746abd1deb33" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5c5caa298e3266915517f5b8b2f859f2" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1aaf132f41a37fe6f0a2cf04ab3920ebc9" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad9ad3df11d8478a6857a2a1adce2947a" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a8c98db85b345f3685d474a2d958aca3b" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a0e19d1511bb9397e0eaf2b26fd9f3660" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5aca3e1a7468c64568b3e5d31ea9bef7" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae296c703b19e5711111676b1d02c5a5e" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>Icon</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae645158dcd4317c827fe9efffde6c20e" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>IsNameEditing</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a596824dd3d4d7428ecc57c28f8aba4b6" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>ModelBase</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a39067acda62dc47f01f058f08847781c" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>Name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a3b21cc8e150c33ed542001ea88d4761b" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>Rename</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a21e69f7c8941190ad7ef12fa5f611d22" prot="public" virt="virtual"><scope>DNC::Models::ModelBase</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ab5e6e33d7a555ed335968c267101c4ef" prot="public" virt="virtual"><scope>DNC::Models::ModelBase</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1af5381f9127cdf6c62afee0c23d81dd64" prot="public" virt="virtual"><scope>DNC::Models::ModelBase</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad1788f6de0ebb76aedfeff9ac327919a" prot="public" virt="virtual"><scope>DNC::Models::ModelBase</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1afa7581d853776a8b3b652eb20998726b" prot="public" virt="non-virtual"><scope>DNC::Models::ModelBase</scope><name>Tformats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

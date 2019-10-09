@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_d_n_c" kind="namespace">
+    <compoundname>DNC</compoundname>
+    <innerclass refid="class_d_n_c_1_1_app" prot="public">DNC::App</innerclass>
+    <innerclass refid="class_d_n_c_1_1_task_utilities" prot="public">DNC::TaskUtilities</innerclass>
+    <innerclass refid="interface_d_n_c_1_1_i_error_handler" prot="public">DNC::IErrorHandler</innerclass>
+    <innerclass refid="class_d_n_c_1_1_bool_to_visibility_converter" prot="public">DNC::BoolToVisibilityConverter</innerclass>
+    <innerclass refid="class_d_n_c_1_1_i_p_address_converter" prot="public">DNC::IPAddressConverter</innerclass>
+    <innerclass refid="class_d_n_c_1_1_bindable_selected_item_behavior" prot="public">DNC::BindableSelectedItemBehavior</innerclass>
+    <innerclass refid="class_d_n_c_1_1_enum_boolean_converter" prot="public">DNC::EnumBooleanConverter</innerclass>
+    <innerclass refid="class_d_n_c_1_1_main_window" prot="public">DNC::MainWindow</innerclass>
+    <innerclass refid="class_d_n_c_1_1_focas2" prot="public">DNC::Focas2</innerclass>
+    <innerclass refid="class_d_n_c_1_1_program" prot="public">DNC::Program</innerclass>
+    <innernamespace refid="namespace_d_n_c_1_1_communication">DNC::Communication</innernamespace>
+    <innernamespace refid="namespace_d_n_c_1_1_models">DNC::Models</innernamespace>
+    <innernamespace refid="namespace_d_n_c_1_1_properties">DNC::Properties</innernamespace>
+    <innernamespace refid="namespace_d_n_c_1_1_view_models">DNC::ViewModels</innernamespace>
+    <innernamespace refid="namespace_d_n_c_1_1_views">DNC::Views</innernamespace>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="24" column="1"/>
+  </compounddef>
+</doxygen>

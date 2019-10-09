@@ -1,0 +1,43 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_d" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBSD</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_d_1a6e7c1721219a6155c2571de3bad0616f" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr DNC.Focas2.ODBSD.chadata</definition>
+        <argsstring></argsstring>
+        <name>chadata</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7246" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7246" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_d_1ae607ddffe898ff085ae477eef9846e89" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr DNC.Focas2.ODBSD.count</definition>
+        <argsstring></argsstring>
+        <name>count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7247" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7247" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7245" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7244" bodyend="7248"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_d_1a6e7c1721219a6155c2571de3bad0616f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSD</scope><name>chadata</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_d_1ae607ddffe898ff085ae477eef9846e89" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSD</scope><name>count</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

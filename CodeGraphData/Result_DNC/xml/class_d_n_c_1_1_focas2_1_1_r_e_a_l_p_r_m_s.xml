@@ -1,0 +1,155 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s" kind="class" prot="public">
+    <compoundname>DNC::Focas2::REALPRMS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1ad8828d5138463e8f48e1a62e773a75e7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata1</definition>
+        <argsstring></argsstring>
+        <name>rdata1</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1210" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1210" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a345779566cc58f3913e04b8a00a0edb7" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata2</definition>
+        <argsstring></argsstring>
+        <name>rdata2</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1211" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1211" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a79371bafbcd60e7fe1bbae1a3b71476e" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata3</definition>
+        <argsstring></argsstring>
+        <name>rdata3</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1212" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1212" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a7707bbf43e9e798e40ef0c5cd060dced" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata4</definition>
+        <argsstring></argsstring>
+        <name>rdata4</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1213" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1213" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a16c96492496fb0a95bfd62f340b7d193" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata5</definition>
+        <argsstring></argsstring>
+        <name>rdata5</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1214" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1214" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a1553bd93eb5bc7d2a20e55347437709d" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata6</definition>
+        <argsstring></argsstring>
+        <name>rdata6</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1215" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1215" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a323736c612bd00984fd30ae06cecc94b" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata7</definition>
+        <argsstring></argsstring>
+        <name>rdata7</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1216" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1216" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a698018d0ed04a15dbd423b7aa9fc5f0c" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref></type>
+        <definition>REALPRM DNC.Focas2.REALPRMS.rdata8</definition>
+        <argsstring></argsstring>
+        <name>rdata8</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m" kindref="compound">REALPRM</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1217" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1217" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1398">
+        <label>DNC.Focas2.REALPRMS</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s"/>
+        <childnode refid="1399" relation="usage">
+          <edgelabel>rdata1</edgelabel>
+          <edgelabel>rdata2</edgelabel>
+          <edgelabel>rdata3</edgelabel>
+          <edgelabel>rdata4</edgelabel>
+          <edgelabel>rdata5</edgelabel>
+          <edgelabel>rdata6</edgelabel>
+          <edgelabel>rdata7</edgelabel>
+          <edgelabel>rdata8</edgelabel>
+        </childnode>
+      </node>
+      <node id="1399">
+        <label>DNC.Focas2.REALPRM</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1209" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1208" bodyend="1218"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1ad8828d5138463e8f48e1a62e773a75e7" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a345779566cc58f3913e04b8a00a0edb7" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a79371bafbcd60e7fe1bbae1a3b71476e" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a7707bbf43e9e798e40ef0c5cd060dced" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a16c96492496fb0a95bfd62f340b7d193" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a1553bd93eb5bc7d2a20e55347437709d" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a323736c612bd00984fd30ae06cecc94b" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_a_l_p_r_m_s_1a698018d0ed04a15dbd423b7aa9fc5f0c" prot="public" virt="non-virtual"><scope>DNC::Focas2::REALPRMS</scope><name>rdata8</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

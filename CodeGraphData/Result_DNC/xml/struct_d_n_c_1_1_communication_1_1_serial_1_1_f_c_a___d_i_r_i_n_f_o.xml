@@ -1,0 +1,99 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o" kind="struct" prot="public">
+    <compoundname>DNC::Communication::Serial::FCA_DIRINFO</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1adcc86af9e45b77677e8dfb236f70d26d" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.file_name</definition>
+        <argsstring></argsstring>
+        <name>file_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="75" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="75" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a9e55cac530b3a72e052afff202921974" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.file_size</definition>
+        <argsstring></argsstring>
+        <name>file_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="79" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="79" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a86ff97946c8158a18db68315d7a489e2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.wrt_protect</definition>
+        <argsstring></argsstring>
+        <name>wrt_protect</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="80" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="80" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a4f8a34b6c5597573c74affd5acb775f1" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.record_code</definition>
+        <argsstring></argsstring>
+        <name>record_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="83" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="83" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a82910d4a530f9ac351cb081f30d960a7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.vol_no</definition>
+        <argsstring></argsstring>
+        <name>vol_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="88" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a50db15c0f073c9ca7a49d6574874a9c9" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Communication.Serial.FCA_DIRINFO.multi_vol</definition>
+        <argsstring></argsstring>
+        <name>multi_vol</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="90" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="73" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="72" bodyend="94"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1adcc86af9e45b77677e8dfb236f70d26d" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>file_name</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a9e55cac530b3a72e052afff202921974" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>file_size</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a50db15c0f073c9ca7a49d6574874a9c9" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>multi_vol</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a4f8a34b6c5597573c74affd5acb775f1" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>record_code</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a82910d4a530f9ac351cb081f30d960a7" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>vol_no</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o_1a86ff97946c8158a18db68315d7a489e2" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::FCA_DIRINFO</scope><name>wrt_protect</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

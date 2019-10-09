@@ -1,0 +1,165 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3" kind="class" prot="public">
+    <compoundname>DNC::Focas2::HSPDATA_3</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a1b3f3daf1dd0bd0503e8158923b39f3f" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas1</definition>
+        <argsstring></argsstring>
+        <name>ldatas1</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1632" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1632" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a6438c1a6fb0ccfe087dc1bc924bc5be5" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas2</definition>
+        <argsstring></argsstring>
+        <name>ldatas2</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1634" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1634" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1adc5a74321926cc8ae31b28626e5dfc04" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas3</definition>
+        <argsstring></argsstring>
+        <name>ldatas3</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1636" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1636" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a5fea61949158594cf283722a8b87eb28" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas4</definition>
+        <argsstring></argsstring>
+        <name>ldatas4</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1638" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1638" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a27cda50338588a6ae703e684d6ad2524" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas5</definition>
+        <argsstring></argsstring>
+        <name>ldatas5</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1640" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1640" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a8d3f13bd2ac23c51bcde7a581bb7ddde" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas6</definition>
+        <argsstring></argsstring>
+        <name>ldatas6</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1642" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1642" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1aed3e8e759fe983bf5a356415cd81bf2c" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas7</definition>
+        <argsstring></argsstring>
+        <name>ldatas7</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1644" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1644" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a8f16fa553ce7e3e88c24392af60db7f0" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas8</definition>
+        <argsstring></argsstring>
+        <name>ldatas8</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1646" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1646" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a86273d5f313467903d5fc60e1b6c11fa" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas9</definition>
+        <argsstring></argsstring>
+        <name>ldatas9</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1648" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1648" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a62d808397ddffff11853cd18c2d21e90" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.HSPDATA_3.ldatas10</definition>
+        <argsstring></argsstring>
+        <name>ldatas10</name>
+        <initializer>= new int[<ref refid="class_d_n_c_1_1_focas2_1ae48174ac9b517e072f68bdf9feea80bb" kindref="member">MAX_AXIS</ref>]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1650" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1650" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1630" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1629" bodyend="1651"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a1b3f3daf1dd0bd0503e8158923b39f3f" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a62d808397ddffff11853cd18c2d21e90" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas10</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a6438c1a6fb0ccfe087dc1bc924bc5be5" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1adc5a74321926cc8ae31b28626e5dfc04" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a5fea61949158594cf283722a8b87eb28" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a27cda50338588a6ae703e684d6ad2524" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a8d3f13bd2ac23c51bcde7a581bb7ddde" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1aed3e8e759fe983bf5a356415cd81bf2c" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a8f16fa553ce7e3e88c24392af60db7f0" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas8</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_h_s_p_d_a_t_a__3_1a86273d5f313467903d5fc60e1b6c11fa" prot="public" virt="non-virtual"><scope>DNC::Focas2::HSPDATA_3</scope><name>ldatas9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

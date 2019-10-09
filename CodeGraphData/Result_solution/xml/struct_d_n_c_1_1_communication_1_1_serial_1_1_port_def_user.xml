@@ -1,0 +1,169 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user" kind="struct" prot="public">
+    <compoundname>DNC::Communication::Serial::PortDefUser</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1ab593da308ea4ee9979453ed85e88f1b2" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.baud</definition>
+        <argsstring></argsstring>
+        <name>baud</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="57" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="57" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a4d9b5ba6bdd5c46952fd1c4ea473f47c" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.stop_bit</definition>
+        <argsstring></argsstring>
+        <name>stop_bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="58" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="58" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1abc01f685bbbe4a3152578e886b2fcd32" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.parity</definition>
+        <argsstring></argsstring>
+        <name>parity</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="59" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="59" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a8797b0cbcfd04a9bf8ddea1676a9b695" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.data_bit</definition>
+        <argsstring></argsstring>
+        <name>data_bit</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="60" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="60" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a6b0f745ef5338200f64552ed96cb5294" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.hardflow</definition>
+        <argsstring></argsstring>
+        <name>hardflow</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="61" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a903df992e9b805956660e7e591898d2e" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc_enable</definition>
+        <argsstring></argsstring>
+        <name>dc_enable</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="62" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="62" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a9e4b7ecdea94a80a9cc0c4767273324b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc_put</definition>
+        <argsstring></argsstring>
+        <name>dc_put</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="63" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a76ee5d03d4ccea67d7a221d1f4033c32" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc1_code</definition>
+        <argsstring></argsstring>
+        <name>dc1_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="64" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1aafa74d9ea9b737b1256cf948b1980e07" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc2_code</definition>
+        <argsstring></argsstring>
+        <name>dc2_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="65" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a31460cf273c48cd171e7295b9fa61067" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc3_code</definition>
+        <argsstring></argsstring>
+        <name>dc3_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="66" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="66" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a79098c8be45575ba86d7401fb16cb017" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Communication.Serial.PortDefUser.dc4_code</definition>
+        <argsstring></argsstring>
+        <name>dc4_code</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="67" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="56" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="55" bodyend="68"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1ab593da308ea4ee9979453ed85e88f1b2" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>baud</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a8797b0cbcfd04a9bf8ddea1676a9b695" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>data_bit</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a76ee5d03d4ccea67d7a221d1f4033c32" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc1_code</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1aafa74d9ea9b737b1256cf948b1980e07" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc2_code</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a31460cf273c48cd171e7295b9fa61067" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc3_code</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a79098c8be45575ba86d7401fb16cb017" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc4_code</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a903df992e9b805956660e7e591898d2e" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc_enable</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a9e4b7ecdea94a80a9cc0c4767273324b" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>dc_put</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a6b0f745ef5338200f64552ed96cb5294" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>hardflow</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1abc01f685bbbe4a3152578e886b2fcd32" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>parity</name></member>
+      <member refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user_1a4d9b5ba6bdd5c46952fd1c4ea473f47c" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial::PortDefUser</scope><name>stop_bit</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

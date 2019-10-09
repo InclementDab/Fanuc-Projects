@@ -1,0 +1,15 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="dir_bc291980b14383d237eba6bb879d6098" kind="dir">
+    <compoundname>C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views</compoundname>
+    <innerfile refid="_connection_setup_8xaml_8cs">ConnectionSetup.xaml.cs</innerfile>
+    <innerfile refid="_edit_prompt_8xaml_8cs">EditPrompt.xaml.cs</innerfile>
+    <innerfile refid="_machine_list_view_8xaml_8cs">MachineListView.xaml.cs</innerfile>
+    <innerfile refid="_program_list_view_8xaml_8cs">ProgramListView.xaml.cs</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/"/>
+  </compounddef>
+</doxygen>

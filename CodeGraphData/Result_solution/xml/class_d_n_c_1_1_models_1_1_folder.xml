@@ -1,0 +1,137 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_folder" kind="class" prot="public">
+    <compoundname>DNC::Models::Folder</compoundname>
+    <basecompoundref refid="class_d_n_c_1_1_models_1_1_model_base" prot="public" virt="non-virtual">DNC.Models.ModelBase</basecompoundref>
+    <basecompoundref prot="public" virt="non-virtual">IDataObject</basecompoundref>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_folder_1ab39829553432ef67232f02fa920a2f3e" prot="public" static="no" mutable="no">
+        <type>ObservableCollection&lt; <ref refid="class_d_n_c_1_1_models_1_1_model_base" kindref="compound">ModelBase</ref> &gt;</type>
+        <definition>ObservableCollection&lt;ModelBase&gt; DNC.Models.Folder.Children</definition>
+        <argsstring></argsstring>
+        <name>Children</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="220" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="220" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_folder_1a80b8f857313fdcfe0f594935b88b5a54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Models.Folder.Folder</definition>
+        <argsstring>(string name)</argsstring>
+        <name>Folder</name>
+        <param>
+          <type>string</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="221" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="221" bodyend="224"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_folder_1a755f200a6264a91453e929fba4ccfad4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>override void</type>
+        <definition>override void DNC.Models.Folder.SetData</definition>
+        <argsstring>(object data)</argsstring>
+        <name>SetData</name>
+        <reimplements refid="class_d_n_c_1_1_models_1_1_model_base_1a21e69f7c8941190ad7ef12fa5f611d22">SetData</reimplements>
+        <param>
+          <type>object</type>
+          <declname>data</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="226" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="226" bodyend="229"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="116">
+        <label>ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="117" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="117">
+        <label>ObservableObject</label>
+      </node>
+      <node id="115">
+        <label>DNC.Models.Folder</label>
+        <link refid="class_d_n_c_1_1_models_1_1_folder"/>
+        <childnode refid="116" relation="public-inheritance">
+        </childnode>
+        <childnode refid="118" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="118">
+        <label>IDataObject</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="120">
+        <label>ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="121" relation="public-inheritance">
+        </childnode>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="121">
+        <label>ObservableObject</label>
+      </node>
+      <node id="119">
+        <label>DNC.Models.Folder</label>
+        <link refid="class_d_n_c_1_1_models_1_1_folder"/>
+        <childnode refid="120" relation="public-inheritance">
+        </childnode>
+        <childnode refid="122" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="122">
+        <label>IDataObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="219" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="218" bodyend="230"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a14c81c2c49ec37bb07bca4c7db65859a" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>_name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_folder_1ab39829553432ef67232f02fa920a2f3e" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Children</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_folder_1a80b8f857313fdcfe0f594935b88b5a54" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Folder</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad0b186885335cd9bac237ad572be0ff7" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>formats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a65390b18228ff05bca283f80f81c718e" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad4e7464471dc9e901c8f746abd1deb33" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5c5caa298e3266915517f5b8b2f859f2" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1aaf132f41a37fe6f0a2cf04ab3920ebc9" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad9ad3df11d8478a6857a2a1adce2947a" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a8c98db85b345f3685d474a2d958aca3b" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetDataPresent</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a0e19d1511bb9397e0eaf2b26fd9f3660" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a5aca3e1a7468c64568b3e5d31ea9bef7" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>GetFormats</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae296c703b19e5711111676b1d02c5a5e" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Icon</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ae645158dcd4317c827fe9efffde6c20e" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>IsNameEditing</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a596824dd3d4d7428ecc57c28f8aba4b6" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>ModelBase</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a39067acda62dc47f01f058f08847781c" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Name</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1a3b21cc8e150c33ed542001ea88d4761b" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Rename</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_folder_1a755f200a6264a91453e929fba4ccfad4" prot="public" virt="virtual"><scope>DNC::Models::Folder</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ab5e6e33d7a555ed335968c267101c4ef" prot="public" virt="virtual" ambiguityscope="DNC::Models::ModelBase."><scope>DNC::Models::Folder</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1af5381f9127cdf6c62afee0c23d81dd64" prot="public" virt="virtual" ambiguityscope="DNC::Models::ModelBase."><scope>DNC::Models::Folder</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1ad1788f6de0ebb76aedfeff9ac327919a" prot="public" virt="virtual" ambiguityscope="DNC::Models::ModelBase."><scope>DNC::Models::Folder</scope><name>SetData</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_model_base_1afa7581d853776a8b3b652eb20998726b" prot="public" virt="non-virtual"><scope>DNC::Models::Folder</scope><name>Tformats</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

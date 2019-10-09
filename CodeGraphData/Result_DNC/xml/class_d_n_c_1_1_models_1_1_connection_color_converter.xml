@@ -1,0 +1,138 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_connection_color_converter" kind="class" prot="public">
+    <compoundname>DNC::Models::ConnectionColorConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TypeConverter</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_color_converter_1ab8fd6d6e8f5d7f765d12d6d74f9b6cea" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool DNC.Models.ConnectionColorConverter.CanConvertFrom</definition>
+        <argsstring>(ITypeDescriptorContext context, Type sourceType)</argsstring>
+        <name>CanConvertFrom</name>
+        <param>
+          <type>ITypeDescriptorContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>sourceType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="141" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="141" bodyend="144"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_color_converter_1a7f06be7c40ba411ee1575010b5fb6bcd" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override bool</type>
+        <definition>override bool DNC.Models.ConnectionColorConverter.CanConvertTo</definition>
+        <argsstring>(ITypeDescriptorContext context, Type destinationType)</argsstring>
+        <name>CanConvertTo</name>
+        <param>
+          <type>ITypeDescriptorContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>destinationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="146" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="146" bodyend="149"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_color_converter_1aba2911c134c4564b8aeeefc4e740c665" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object DNC.Models.ConnectionColorConverter.ConvertFrom</definition>
+        <argsstring>(ITypeDescriptorContext context, CultureInfo culture, object value)</argsstring>
+        <name>ConvertFrom</name>
+        <param>
+          <type>ITypeDescriptorContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="151" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="151" bodyend="161"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_color_converter_1a2a135bb6e93c6d5a9d1fa42f459cbf35" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override object</type>
+        <definition>override object DNC.Models.ConnectionColorConverter.ConvertTo</definition>
+        <argsstring>(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)</argsstring>
+        <name>ConvertTo</name>
+        <param>
+          <type>ITypeDescriptorContext</type>
+          <declname>context</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>destinationType</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="163" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="163" bodyend="182"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="71">
+        <label>DNC.Models.ConnectionColorConverter</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection_color_converter"/>
+        <childnode refid="72" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="72">
+        <label>TypeConverter</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="73">
+        <label>DNC.Models.ConnectionColorConverter</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection_color_converter"/>
+        <childnode refid="74" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="74">
+        <label>TypeConverter</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="140" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="139" bodyend="183"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_color_converter_1ab8fd6d6e8f5d7f765d12d6d74f9b6cea" prot="public" virt="non-virtual"><scope>DNC::Models::ConnectionColorConverter</scope><name>CanConvertFrom</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_color_converter_1a7f06be7c40ba411ee1575010b5fb6bcd" prot="public" virt="non-virtual"><scope>DNC::Models::ConnectionColorConverter</scope><name>CanConvertTo</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_color_converter_1aba2911c134c4564b8aeeefc4e740c665" prot="public" virt="non-virtual"><scope>DNC::Models::ConnectionColorConverter</scope><name>ConvertFrom</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_color_converter_1a2a135bb6e93c6d5a9d1fa42f459cbf35" prot="public" virt="non-virtual"><scope>DNC::Models::ConnectionColorConverter</scope><name>ConvertTo</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

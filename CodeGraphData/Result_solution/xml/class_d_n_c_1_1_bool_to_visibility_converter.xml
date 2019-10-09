@@ -1,0 +1,152 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_bool_to_visibility_converter" kind="class" prot="public">
+    <compoundname>DNC::BoolToVisibilityConverter</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">IValueConverter</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_bool_to_visibility_converter_1ae818562ceaab8c94be02849796688e40" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Visibility</type>
+        <definition>Visibility DNC.BoolToVisibilityConverter.TrueValue</definition>
+        <argsstring></argsstring>
+        <name>TrueValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="60" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="60" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_bool_to_visibility_converter_1a7eb4963649372a1a71dcf41066bfe6f1" compoundref="_app_8xaml_8cs" startline="63" endline="68">DNC.BoolToVisibilityConverter.BoolToVisibilityConverter</referencedby>
+        <referencedby refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae118705f241d0f9077f0c3fedd956b16" compoundref="_app_8xaml_8cs" startline="70" endline="74">DNC.BoolToVisibilityConverter.Convert</referencedby>
+        <referencedby refid="class_d_n_c_1_1_bool_to_visibility_converter_1a23b8dcf24c985f78776a354fda8d286d" compoundref="_app_8xaml_8cs" startline="76" endline="79">DNC.BoolToVisibilityConverter.ConvertBack</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_bool_to_visibility_converter_1a1d66c7169fd64cdfd802f62b744764df" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Visibility</type>
+        <definition>Visibility DNC.BoolToVisibilityConverter.FalseValue</definition>
+        <argsstring></argsstring>
+        <name>FalseValue</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="61" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="61" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_bool_to_visibility_converter_1a7eb4963649372a1a71dcf41066bfe6f1" compoundref="_app_8xaml_8cs" startline="63" endline="68">DNC.BoolToVisibilityConverter.BoolToVisibilityConverter</referencedby>
+        <referencedby refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae118705f241d0f9077f0c3fedd956b16" compoundref="_app_8xaml_8cs" startline="70" endline="74">DNC.BoolToVisibilityConverter.Convert</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_bool_to_visibility_converter_1a7eb4963649372a1a71dcf41066bfe6f1" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.BoolToVisibilityConverter.BoolToVisibilityConverter</definition>
+        <argsstring>()</argsstring>
+        <name>BoolToVisibilityConverter</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="63" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="63" bodyend="68"/>
+        <references refid="class_d_n_c_1_1_bool_to_visibility_converter_1a1d66c7169fd64cdfd802f62b744764df" compoundref="_app_8xaml_8cs" startline="61">DNC.BoolToVisibilityConverter.FalseValue</references>
+        <references refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae818562ceaab8c94be02849796688e40" compoundref="_app_8xaml_8cs" startline="60">DNC.BoolToVisibilityConverter.TrueValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_bool_to_visibility_converter_1ae118705f241d0f9077f0c3fedd956b16" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object DNC.BoolToVisibilityConverter.Convert</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>Convert</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="70" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="70" bodyend="74"/>
+        <references refid="class_d_n_c_1_1_bool_to_visibility_converter_1a1d66c7169fd64cdfd802f62b744764df" compoundref="_app_8xaml_8cs" startline="61">DNC.BoolToVisibilityConverter.FalseValue</references>
+        <references refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae818562ceaab8c94be02849796688e40" compoundref="_app_8xaml_8cs" startline="60">DNC.BoolToVisibilityConverter.TrueValue</references>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_bool_to_visibility_converter_1a23b8dcf24c985f78776a354fda8d286d" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>object</type>
+        <definition>object DNC.BoolToVisibilityConverter.ConvertBack</definition>
+        <argsstring>(object value, Type targetType, object parameter, CultureInfo culture)</argsstring>
+        <name>ConvertBack</name>
+        <param>
+          <type>object</type>
+          <declname>value</declname>
+        </param>
+        <param>
+          <type>Type</type>
+          <declname>targetType</declname>
+        </param>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <param>
+          <type>CultureInfo</type>
+          <declname>culture</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="76" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="76" bodyend="79"/>
+        <references refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae818562ceaab8c94be02849796688e40" compoundref="_app_8xaml_8cs" startline="60">DNC.BoolToVisibilityConverter.TrueValue</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="51">
+        <label>IValueConverter</label>
+      </node>
+      <node id="50">
+        <label>DNC.BoolToVisibilityConverter</label>
+        <link refid="class_d_n_c_1_1_bool_to_visibility_converter"/>
+        <childnode refid="51" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="53">
+        <label>IValueConverter</label>
+      </node>
+      <node id="52">
+        <label>DNC.BoolToVisibilityConverter</label>
+        <link refid="class_d_n_c_1_1_bool_to_visibility_converter"/>
+        <childnode refid="53" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" line="59" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/App.xaml.cs" bodystart="58" bodyend="80"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_bool_to_visibility_converter_1a7eb4963649372a1a71dcf41066bfe6f1" prot="public" virt="non-virtual"><scope>DNC::BoolToVisibilityConverter</scope><name>BoolToVisibilityConverter</name></member>
+      <member refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae118705f241d0f9077f0c3fedd956b16" prot="public" virt="non-virtual"><scope>DNC::BoolToVisibilityConverter</scope><name>Convert</name></member>
+      <member refid="class_d_n_c_1_1_bool_to_visibility_converter_1a23b8dcf24c985f78776a354fda8d286d" prot="public" virt="non-virtual"><scope>DNC::BoolToVisibilityConverter</scope><name>ConvertBack</name></member>
+      <member refid="class_d_n_c_1_1_bool_to_visibility_converter_1a1d66c7169fd64cdfd802f62b744764df" prot="public" virt="non-virtual"><scope>DNC::BoolToVisibilityConverter</scope><name>FalseValue</name></member>
+      <member refid="class_d_n_c_1_1_bool_to_visibility_converter_1ae818562ceaab8c94be02849796688e40" prot="public" virt="non-virtual"><scope>DNC::BoolToVisibilityConverter</scope><name>TrueValue</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

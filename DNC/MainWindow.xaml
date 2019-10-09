@@ -24,7 +24,7 @@
             </StatusBarItem>
             <StatusBarItem Content="{Binding WindowStatus}"/>
             <StatusBarItem>
-                <ProgressBar Width="90" Height="16" Name="stProgressBar"/>
+                <ProgressBar Value="{Binding ProgressBarValue}" Width="90" Height="16" Maximum="100"/>
             </StatusBarItem>
         </StatusBar>
 

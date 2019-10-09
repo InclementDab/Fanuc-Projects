@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_views_1_1_connection_setup" kind="class" prot="public">
+    <compoundname>DNC::Views::ConnectionSetup</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">Window</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_connection_setup_1aa73dfc942bd45093cd3ae47548bc5fb6" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model" kindref="compound">ConnectionSetupViewModel</ref></type>
+        <definition>ConnectionSetupViewModel DNC.Views.ConnectionSetup.ViewModel</definition>
+        <argsstring></argsstring>
+        <name>ViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="31" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="31" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_connection_setup_1a702b45ea0e7decde88dc6f7dfce1afd3" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Views.ConnectionSetup.ConnectionSetup</definition>
+        <argsstring>()</argsstring>
+        <name>ConnectionSetup</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="32" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="32" bodyend="35"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_connection_setup_1aee8b7e9fb2efe2f7eee2902c27aa2da8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.ConnectionSetup.EditConnection</definition>
+        <argsstring>(Machine currentMachine)</argsstring>
+        <name>EditConnection</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>currentMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="37" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="37" bodyend="52"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_connection_setup_1a1abc6b96b101e9b05a8f3ccc42df3ad6" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.ConnectionSetup.RadioButton_Checked</definition>
+        <argsstring>(object sender, RoutedEventArgs e)</argsstring>
+        <name>RadioButton_Checked</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="54" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="54" bodyend="59"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for ConnectionSetup.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="76">
+        <label>Window</label>
+      </node>
+      <node id="75">
+        <label>DNC.Views.ConnectionSetup</label>
+        <link refid="class_d_n_c_1_1_views_1_1_connection_setup"/>
+        <childnode refid="76" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="78">
+        <label>Window</label>
+      </node>
+      <node id="77">
+        <label>DNC.Views.ConnectionSetup</label>
+        <link refid="class_d_n_c_1_1_views_1_1_connection_setup"/>
+        <childnode refid="78" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="29" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="28" bodyend="60"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_1a702b45ea0e7decde88dc6f7dfce1afd3" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetup</scope><name>ConnectionSetup</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_1aee8b7e9fb2efe2f7eee2902c27aa2da8" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetup</scope><name>EditConnection</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_1a1abc6b96b101e9b05a8f3ccc42df3ad6" prot="private" virt="non-virtual"><scope>DNC::Views::ConnectionSetup</scope><name>RadioButton_Checked</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_1aa73dfc942bd45093cd3ae47548bc5fb6" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetup</scope><name>ViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

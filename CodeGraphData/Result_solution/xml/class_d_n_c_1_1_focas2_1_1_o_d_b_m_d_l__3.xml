@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBMDL_3</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1a7ba7079bdb8325c39633bc7d6a4b4f9a" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBMDL_3.datano</definition>
+        <argsstring></argsstring>
+        <name>datano</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3668" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3668" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1adb0c9870ea51862507101249cfed4ae7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ODBMDL_3.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3669" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3669" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1a6fc276b61ffe2d60fa8d1377af11c786" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data" kindref="compound">MODAL_AUX_data</ref></type>
+        <definition>MODAL_AUX_data DNC.Focas2.ODBMDL_3.aux</definition>
+        <argsstring></argsstring>
+        <name>aux</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data" kindref="compound">MODAL_AUX_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3670" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3670" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="962">
+        <label>DNC.Focas2.MODAL_AUX_data</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_m_o_d_a_l___a_u_x__data"/>
+      </node>
+      <node id="961">
+        <label>DNC.Focas2.ODBMDL_3</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3"/>
+        <childnode refid="962" relation="usage">
+          <edgelabel>aux</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3667" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3666" bodyend="3671"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1a6fc276b61ffe2d60fa8d1377af11c786" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL_3</scope><name>aux</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1a7ba7079bdb8325c39633bc7d6a4b4f9a" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL_3</scope><name>datano</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_m_d_l__3_1adb0c9870ea51862507101249cfed4ae7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBMDL_3</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

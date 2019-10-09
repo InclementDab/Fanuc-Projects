@@ -1,0 +1,113 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IN_ETHPRMFLAG_CMN</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1aa231e069dbc5ae80eef3e0d5fbd2ced0" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.OwnIpAddress</definition>
+        <argsstring></argsstring>
+        <name>OwnIpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11869" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11869" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a80d38a8abfaaa33a37e4e9beabdc410e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.SubNetmask</definition>
+        <argsstring></argsstring>
+        <name>SubNetmask</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11870" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11870" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a71310df9a3cd28abc3852a9218ef0c4c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.RouterIpAddress</definition>
+        <argsstring></argsstring>
+        <name>RouterIpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11871" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11871" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a7d6fc2ec39cf366ab7e161ed9e9461a4" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.DnsServer1IpAddress</definition>
+        <argsstring></argsstring>
+        <name>DnsServer1IpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11872" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11872" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1ace8917edebdf821c70696965dff3e17e" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.DnsServer2IpAddress</definition>
+        <argsstring></argsstring>
+        <name>DnsServer2IpAddress</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11873" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11873" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a704fb64c89066fa08643fa292aa07b22" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.OwnHostName</definition>
+        <argsstring></argsstring>
+        <name>OwnHostName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11874" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11874" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1afe2d60adb3b5d1e39187d0ccbddeab59" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_CMN.OwnDomain</definition>
+        <argsstring></argsstring>
+        <name>OwnDomain</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11875" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11875" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11868" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11867" bodyend="11876"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a7d6fc2ec39cf366ab7e161ed9e9461a4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>DnsServer1IpAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1ace8917edebdf821c70696965dff3e17e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>DnsServer2IpAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1afe2d60adb3b5d1e39187d0ccbddeab59" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>OwnDomain</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a704fb64c89066fa08643fa292aa07b22" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>OwnHostName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1aa231e069dbc5ae80eef3e0d5fbd2ced0" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>OwnIpAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a71310df9a3cd28abc3852a9218ef0c4c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>RouterIpAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___c_m_n_1a80d38a8abfaaa33a37e4e9beabdc410e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_CMN</scope><name>SubNetmask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

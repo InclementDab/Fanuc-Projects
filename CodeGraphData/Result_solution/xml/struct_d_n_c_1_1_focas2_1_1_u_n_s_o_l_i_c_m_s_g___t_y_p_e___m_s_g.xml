@@ -1,0 +1,101 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::UNSOLICMSG_TYPE_MSG</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a1a8f33290080cd9a5698ea9d816f9bff" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.UNSOLICMSG_TYPE_MSG.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7043" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7043" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a1baac529c940b911c7f466a08e8f8136" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.UNSOLICMSG_TYPE_MSG.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7045" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7045" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1acb69fd0454007ac577d67ce41ebbcd58" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.UNSOLICMSG_TYPE_MSG.num_or_size</definition>
+        <argsstring></argsstring>
+        <name>num_or_size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7047" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7047" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1aeaf9affc64757a1ddcb70f516444060d" prot="public" static="no" mutable="no">
+        <type>IntPtr</type>
+        <definition>IntPtr DNC.Focas2.UNSOLICMSG_TYPE_MSG.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7048" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7048" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a35df2a3ed4ae6140155416ba71076b4a" prot="private" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.UNSOLICMSG_TYPE_MSG.dummy1</definition>
+        <argsstring></argsstring>
+        <name>dummy1</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7044" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7044" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a07ed81f4a5c9db70a50665a2beaf0a6d" prot="private" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.UNSOLICMSG_TYPE_MSG.dummy2</definition>
+        <argsstring></argsstring>
+        <name>dummy2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7046" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7046" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7042" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7041" bodyend="7049"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1aeaf9affc64757a1ddcb70f516444060d" prot="public" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>data</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a35df2a3ed4ae6140155416ba71076b4a" prot="private" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>dummy1</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a07ed81f4a5c9db70a50665a2beaf0a6d" prot="private" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>dummy2</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1acb69fd0454007ac577d67ce41ebbcd58" prot="public" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>num_or_size</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a1baac529c940b911c7f466a08e8f8136" prot="public" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>path</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g_1a1a8f33290080cd9a5698ea9d816f9bff" prot="public" virt="non-virtual"><scope>DNC::Focas2::UNSOLICMSG_TYPE_MSG</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

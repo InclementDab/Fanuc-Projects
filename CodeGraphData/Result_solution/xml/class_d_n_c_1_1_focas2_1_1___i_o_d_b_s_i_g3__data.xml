@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::_IODBSIG3_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a411d5fe5da7f808f2b933542d5191fc2" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2._IODBSIG3_data.ent_no</definition>
+        <argsstring></argsstring>
+        <name>ent_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3242" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3242" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a9894589a0ff24474f24ca424da491964" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2._IODBSIG3_data.pmc_no</definition>
+        <argsstring></argsstring>
+        <name>pmc_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3243" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3243" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a97869792a18028127f53c0800ee0bcf4" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2._IODBSIG3_data.sig_no</definition>
+        <argsstring></argsstring>
+        <name>sig_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3244" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3244" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1af794678383d6d9e4bc2d3beb2b042ba3" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2._IODBSIG3_data.sig_name</definition>
+        <argsstring></argsstring>
+        <name>sig_name</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3245" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3245" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a6cebd9e6356db95bbe78247dda90c19e" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2._IODBSIG3_data.mask_pat</definition>
+        <argsstring></argsstring>
+        <name>mask_pat</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3246" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3246" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3241" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3240" bodyend="3247"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a411d5fe5da7f808f2b933542d5191fc2" prot="public" virt="non-virtual"><scope>DNC::Focas2::_IODBSIG3_data</scope><name>ent_no</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a6cebd9e6356db95bbe78247dda90c19e" prot="public" virt="non-virtual"><scope>DNC::Focas2::_IODBSIG3_data</scope><name>mask_pat</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a9894589a0ff24474f24ca424da491964" prot="public" virt="non-virtual"><scope>DNC::Focas2::_IODBSIG3_data</scope><name>pmc_no</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1af794678383d6d9e4bc2d3beb2b042ba3" prot="public" virt="non-virtual"><scope>DNC::Focas2::_IODBSIG3_data</scope><name>sig_name</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1___i_o_d_b_s_i_g3__data_1a97869792a18028127f53c0800ee0bcf4" prot="public" virt="non-virtual"><scope>DNC::Focas2::_IODBSIG3_data</scope><name>sig_no</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

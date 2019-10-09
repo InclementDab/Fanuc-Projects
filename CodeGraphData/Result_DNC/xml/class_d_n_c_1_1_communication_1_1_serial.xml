@@ -1,0 +1,760 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_communication_1_1_serial" kind="class" prot="public">
+    <compoundname>DNC::Communication::Serial</compoundname>
+    <innerclass refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o" prot="public">DNC::Communication::Serial::FCA_DIRINFO</innerclass>
+    <innerclass refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user" prot="public">DNC::Communication::Serial::PortDefUser</innerclass>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3" prot="public" static="no">
+        <name>rs_open_val</name>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a1a836cc6e292a5f539413420f3f6a919" prot="public">
+          <name>FCA_BAUD_1200</name>
+          <initializer>= 1200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a8ec094c5130c48e661aa172ee43e0dc3" prot="public">
+          <name>FCA_BAUD_2400</name>
+          <initializer>= 2400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a5dc323dec41769571c398a018e7fdece" prot="public">
+          <name>FCA_BAUD_4800</name>
+          <initializer>= 4800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a20301618069d816e9cff3a2343f8c95a" prot="public">
+          <name>FCA_BAUD_9600</name>
+          <initializer>= 9600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3acaad4bbecf02144acb31377e119beb83" prot="public">
+          <name>FCA_BAUD_19200</name>
+          <initializer>= 19200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a62ce83a8cafdf8279199575a915b5cb0" prot="public">
+          <name>FCA_BAUD_38400</name>
+          <initializer>= 38400</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3a3a7d8489c9b7d2471caa42f5f90748a9" prot="public">
+          <name>FCA_BAUD_57600</name>
+          <initializer>= 57600</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3acabb2b4d5679e5ac0662b8e2f64522d2" prot="public">
+          <name>FCA_BAUD_76800</name>
+          <initializer>= 76800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="13" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="12" bodyend="22"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_d_n_c_1_1_communication_1_1_serial_1a90c498de2978895cccd268e111704665" prot="public" static="no">
+        <name>parity</name>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a90c498de2978895cccd268e111704665a7774e953b0f035d08aa0b61a095882e9" prot="public">
+          <name>PARITY_N</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a90c498de2978895cccd268e111704665a783e1d80a186dd174275a4f072a4ff6b" prot="public">
+          <name>PARITY_E</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a90c498de2978895cccd268e111704665a467ffc72c8382875d249603c4fc7fd48" prot="public">
+          <name>PARITY_O</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="25" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="24" bodyend="29"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74d" prot="public" static="no">
+        <name>rs_buffer_val</name>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74da3810f689d919db937166e932fcb9878d" prot="public">
+          <name>RS_CHK_BUF_R</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74dab2caef94c7fea1fa1e219408caf3a04a" prot="public">
+          <name>RS_CHK_BUF_W</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74daba25cfb5ba37b9555ef825b344e9214e" prot="public">
+          <name>RS_CLR_BUF_R</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74da46eb3d5cb435ad4312753c45b658ec30" prot="public">
+          <name>RS_CLR_BUF_W</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74dac9499c2076afb892fb56631ef757867a" prot="public">
+          <name>RS_GET_BUF_R</name>
+          <initializer>= 4</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74da7d7841cdb3978e0ecee0f23aa964a167" prot="public">
+          <name>RS_GET_BUF_W</name>
+          <initializer>= 5</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="32" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="31" bodyend="39"/>
+      </memberdef>
+      <memberdef kind="enum" id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dd" prot="public" static="no">
+        <name>rs_status_val</name>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda73e84f059f4b6a7841926cdbb0bf5f13" prot="public">
+          <name>STS_CD_ON</name>
+          <initializer>= 0x0002</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda78e2fdf29f9e7fc87c575e8f73aa3a99" prot="public">
+          <name>STS_PARITY</name>
+          <initializer>= 0x0008</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268ddad74fc98b4a65a803bffb787e765826d2" prot="public">
+          <name>STS_OVERRUN</name>
+          <initializer>= 0x0010</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda106bcdf89d80e0b2d3bef64dbfd4fc52" prot="public">
+          <name>STS_FRAME</name>
+          <initializer>= 0x0020</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda4d2e642f60478c34573907dd6e0bedf2" prot="public">
+          <name>STS_DR_ON</name>
+          <initializer>= 0x0080</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda901249c583c2dde53c0cdd4a16c1b93c" prot="public">
+          <name>STS_OVERFLOW</name>
+          <initializer>= 0x0100</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda4a1c1aa893f1ed18738a916b59804e1d" prot="public">
+          <name>STS_EMPTY</name>
+          <initializer>= 0x0200</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268ddaac95bbc6f495c06590af1571b71e0a13" prot="public">
+          <name>STS_R_STOP</name>
+          <initializer>= 0x0800</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268ddac3067f32ff2fc1addd2007afb20c1638" prot="public">
+          <name>STS_BUF_FULL</name>
+          <initializer>= 0x2000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dda41791d52697118da58b9639bad9ab67b" prot="public">
+          <name>STS_S_STOP</name>
+          <initializer>= 0x8000</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="42" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="41" bodyend="53"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1aeee2c13de0649d342286c2859356ac07" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_open</definition>
+        <argsstring>(int port, [In, Out, MarshalAs(UnmanagedType.AsAny)] PortDefUser param, [In, Out, MarshalAs(UnmanagedType.AsAny)] object mode)</argsstring>
+        <name>rs_open</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type><ref refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user" kindref="compound">PortDefUser</ref></type>
+          <declname>param</declname>
+        </param>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="99" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a40d776d126afd517b88ec24d11231d96" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_close</definition>
+        <argsstring>(int port)</argsstring>
+        <name>rs_close</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="102" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a07437f2b0d7988b979e4d9157150b23e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_putc</definition>
+        <argsstring>(int c, int port)</argsstring>
+        <name>rs_putc</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="105" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1afddbf7bffd948abc82f1a72133b2d127" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_write</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer, int size, int port)</argsstring>
+        <name>rs_write</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="108" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a81f8e28dcb7a9fa514301ead1dcfbc49" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_getc</definition>
+        <argsstring>(int port)</argsstring>
+        <name>rs_getc</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="111" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1aeff6bbe7da55e1d69d3fd21d09d7c901" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_read</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer, int size, int port)</argsstring>
+        <name>rs_read</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>size</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="114" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a9999e89968f6213b0ac5bf1040abb5f5" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_buffer</definition>
+        <argsstring>(int port, int cmnd)</argsstring>
+        <name>rs_buffer</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>cmnd</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="117" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a312b098ca934eb31bebd4a0afee7eb1d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.rs_status</definition>
+        <argsstring>(int port)</argsstring>
+        <name>rs_status</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="120" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1ae740e44b519d61b6d25fea2c5216d576" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_setparam</definition>
+        <argsstring>(int port, [In, Out, MarshalAs(UnmanagedType.AsAny)] PortDefUser param)</argsstring>
+        <name>fca_setparam</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type><ref refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_port_def_user" kindref="compound">PortDefUser</ref></type>
+          <declname>param</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="123" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1aaa0bc0e7d03531ef70cbbad045bf585e" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_bye</definition>
+        <argsstring>(int port)</argsstring>
+        <name>fca_bye</name>
+        <param>
+          <type>int</type>
+          <declname>port</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="126" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1acd4d658abd1b448bec837fadaad50442" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_open</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object name, int mode)</argsstring>
+        <name>fca_open</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="129" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1acae3a59b44c38c69547fe78ce2899cd0" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_close</definition>
+        <argsstring>()</argsstring>
+        <name>fca_close</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="132" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a8b83fba882ae5e854f7d5edd09dba2ca" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_read</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer, int bytes)</argsstring>
+        <name>fca_read</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="135" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1af0c4574ce4c6d5d130c7ce05d96af0fc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_write</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer, int bytes)</argsstring>
+        <name>fca_write</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>bytes</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="138" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1afb7dbdc48dae89ed58790e0025cd6a9f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_fopen</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object name, [In, Out, MarshalAs(UnmanagedType.AsAny)] object mode)</argsstring>
+        <name>fca_fopen</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>name</declname>
+        </param>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>mode</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="141" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a85f63c135f92a8f81719a3b396710bbc" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_fclose</definition>
+        <argsstring>()</argsstring>
+        <name>fca_fclose</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="144" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1ac10b98982cc2e774b04a4076743bfd7b" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_getc</definition>
+        <argsstring>()</argsstring>
+        <name>fca_getc</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="147" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1add60f87bbcf5645cdb629953eeeff9ae" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_putc</definition>
+        <argsstring>(int c)</argsstring>
+        <name>fca_putc</name>
+        <param>
+          <type>int</type>
+          <declname>c</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="150" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1ab8706ea14b05038deccd9b834f19b3e2" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_readdir</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] FCA_DIRINFO buffer, int ndir, int nfile)</argsstring>
+        <name>fca_readdir</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type><ref refid="struct_d_n_c_1_1_communication_1_1_serial_1_1_f_c_a___d_i_r_i_n_f_o" kindref="compound">FCA_DIRINFO</ref></type>
+          <declname>buffer</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>ndir</declname>
+        </param>
+        <param>
+          <type>int</type>
+          <declname>nfile</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="153" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a2e920b9488b2cf4fe6ece5a27f082ad1" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_rename</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object oldname, [In, Out, MarshalAs(UnmanagedType.AsAny)] object newname)</argsstring>
+        <name>fca_rename</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>oldname</declname>
+        </param>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>newname</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="156" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1a48a1f361ce6d3a3d32c90cff110dc70f" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_delete</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object name)</argsstring>
+        <name>fca_delete</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>name</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="159" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1ae7e06d60e670663dd36bb7f13d0b013d" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_remains</definition>
+        <argsstring>(long remains)</argsstring>
+        <name>fca_remains</name>
+        <param>
+          <type>long</type>
+          <declname>remains</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="162" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_communication_1_1_serial_1af3d2772a7e8452cb56a28b25dd08aac6" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>int</type>
+        <definition>static int DNC.Communication.Serial.fca_status</definition>
+        <argsstring>([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer)</argsstring>
+        <name>fca_status</name>
+        <param>
+          <attributes>[In, Out, MarshalAs(UnmanagedType.AsAny)]</attributes>
+          <type>object</type>
+          <declname>buffer</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="165" column="1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" line="11" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/serial.cs" bodystart="10" bodyend="167"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1aaa0bc0e7d03531ef70cbbad045bf585e" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_bye</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1acae3a59b44c38c69547fe78ce2899cd0" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_close</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a48a1f361ce6d3a3d32c90cff110dc70f" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_delete</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a85f63c135f92a8f81719a3b396710bbc" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_fclose</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1afb7dbdc48dae89ed58790e0025cd6a9f" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_fopen</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1ac10b98982cc2e774b04a4076743bfd7b" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_getc</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1acd4d658abd1b448bec837fadaad50442" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_open</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1add60f87bbcf5645cdb629953eeeff9ae" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_putc</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a8b83fba882ae5e854f7d5edd09dba2ca" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_read</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1ab8706ea14b05038deccd9b834f19b3e2" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_readdir</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1ae7e06d60e670663dd36bb7f13d0b013d" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_remains</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a2e920b9488b2cf4fe6ece5a27f082ad1" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_rename</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1ae740e44b519d61b6d25fea2c5216d576" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_setparam</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1af3d2772a7e8452cb56a28b25dd08aac6" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_status</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1af0c4574ce4c6d5d130c7ce05d96af0fc" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>fca_write</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a90c498de2978895cccd268e111704665" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>parity</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a9999e89968f6213b0ac5bf1040abb5f5" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_buffer</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a8791107e52339e4c481f58db8825f74d" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_buffer_val</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a40d776d126afd517b88ec24d11231d96" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_close</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a81f8e28dcb7a9fa514301ead1dcfbc49" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_getc</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1aeee2c13de0649d342286c2859356ac07" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_open</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a03d677ec614b45aee64f67d4bd4767f3" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_open_val</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a07437f2b0d7988b979e4d9157150b23e" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_putc</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1aeff6bbe7da55e1d69d3fd21d09d7c901" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_read</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1a312b098ca934eb31bebd4a0afee7eb1d" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_status</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1ad5fbb21b2b05443ff24cdd5eb7d268dd" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_status_val</name></member>
+      <member refid="class_d_n_c_1_1_communication_1_1_serial_1afddbf7bffd948abc82f1a72133b2d127" prot="public" virt="non-virtual"><scope>DNC::Communication::Serial</scope><name>rs_write</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

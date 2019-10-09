@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kind="class" prot="public">
+    <compoundname>DNC::Focas2::GASFLOW</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a5a503180f83b410200a951b64aef8490" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.slct</definition>
+        <argsstring></argsstring>
+        <name>slct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6135" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6135" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a609fac1f1b37f67bdd8c6af2e1e7fa3e" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.pre_time</definition>
+        <argsstring></argsstring>
+        <name>pre_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6136" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6136" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1aaecf259bcdec3b4a9e504c08df8a0ec7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.pre_press</definition>
+        <argsstring></argsstring>
+        <name>pre_press</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6137" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6137" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a93a2796c778ecbd14b606bfd5b53dbc9" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.proc_press</definition>
+        <argsstring></argsstring>
+        <name>proc_press</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6138" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6138" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1aca0ab2ea16d6fcebb29d60e0f5e1908d" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.end_time</definition>
+        <argsstring></argsstring>
+        <name>end_time</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6139" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6139" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a804ab3009247f104d696ad3a883625ab" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.GASFLOW.end_press</definition>
+        <argsstring></argsstring>
+        <name>end_press</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6140" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6140" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a78c7f734b709c75459446bbecd9738df" prot="public" static="no" mutable="no">
+        <type>short[]</type>
+        <definition>short [] DNC.Focas2.GASFLOW.reserve</definition>
+        <argsstring></argsstring>
+        <name>reserve</name>
+        <initializer>= new short[3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6142" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6142" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6134" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6133" bodyend="6143"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a804ab3009247f104d696ad3a883625ab" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>end_press</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1aca0ab2ea16d6fcebb29d60e0f5e1908d" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>end_time</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1aaecf259bcdec3b4a9e504c08df8a0ec7" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>pre_press</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a609fac1f1b37f67bdd8c6af2e1e7fa3e" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>pre_time</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a93a2796c778ecbd14b606bfd5b53dbc9" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>proc_press</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a78c7f734b709c75459446bbecd9738df" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>reserve</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w_1a5a503180f83b410200a951b64aef8490" prot="public" virt="non-virtual"><scope>DNC::Focas2::GASFLOW</scope><name>slct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

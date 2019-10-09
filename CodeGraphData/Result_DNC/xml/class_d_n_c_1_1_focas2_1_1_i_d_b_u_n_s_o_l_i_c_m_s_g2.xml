@@ -1,0 +1,73 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IDBUNSOLICMSG2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1a9a976c0fc1fafba80dac0c10634cc052" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IDBUNSOLICMSG2.getnum</definition>
+        <argsstring></argsstring>
+        <name>getnum</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7053" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7053" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1affb0b61999d63b99d5b2601a68f77a97" prot="public" static="no" mutable="no">
+        <type><ref refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g" kindref="compound">UNSOLICMSG_TYPE_MSG</ref>[]</type>
+        <definition>UNSOLICMSG_TYPE_MSG [] DNC.Focas2.IDBUNSOLICMSG2.get</definition>
+        <argsstring></argsstring>
+        <name>get</name>
+        <initializer>= new <ref refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g" kindref="compound">UNSOLICMSG_TYPE_MSG</ref>[3]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7056" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7056" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1a6c38a63272da90437ee3ff4314f71080" prot="private" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IDBUNSOLICMSG2.dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7054" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7054" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="181">
+        <label>DNC.Focas2.UNSOLICMSG_TYPE_MSG</label>
+        <link refid="struct_d_n_c_1_1_focas2_1_1_u_n_s_o_l_i_c_m_s_g___t_y_p_e___m_s_g"/>
+      </node>
+      <node id="180">
+        <label>DNC.Focas2.IDBUNSOLICMSG2</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2"/>
+        <childnode refid="181" relation="usage">
+          <edgelabel>get</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7052" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7051" bodyend="7057"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1a6c38a63272da90437ee3ff4314f71080" prot="private" virt="non-virtual"><scope>DNC::Focas2::IDBUNSOLICMSG2</scope><name>dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1affb0b61999d63b99d5b2601a68f77a97" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBUNSOLICMSG2</scope><name>get</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_u_n_s_o_l_i_c_m_s_g2_1a9a976c0fc1fafba80dac0c10634cc052" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBUNSOLICMSG2</scope><name>getnum</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

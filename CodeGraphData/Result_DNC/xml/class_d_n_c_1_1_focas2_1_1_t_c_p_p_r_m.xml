@@ -1,0 +1,60 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::TCPPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1a4a3e0b616fe55c3c894f61397735ae47" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.TCPPRM.OwnIPAddress</definition>
+        <argsstring></argsstring>
+        <name>OwnIPAddress</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7961" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7961" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1ac619b3ac4f74754357f9f78527dac61f" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.TCPPRM.SubNetMask</definition>
+        <argsstring></argsstring>
+        <name>SubNetMask</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7963" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7963" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1a62452b39580e77f5af16443e68a27b50" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.TCPPRM.RouterIPAddress</definition>
+        <argsstring></argsstring>
+        <name>RouterIPAddress</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7965" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7965" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7959" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7958" bodyend="7966"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1a4a3e0b616fe55c3c894f61397735ae47" prot="public" virt="non-virtual"><scope>DNC::Focas2::TCPPRM</scope><name>OwnIPAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1a62452b39580e77f5af16443e68a27b50" prot="public" virt="non-virtual"><scope>DNC::Focas2::TCPPRM</scope><name>RouterIPAddress</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_t_c_p_p_r_m_1ac619b3ac4f74754357f9f78527dac61f" prot="public" virt="non-virtual"><scope>DNC::Focas2::TCPPRM</scope><name>SubNetMask</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

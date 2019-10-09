@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::IDBSDTCHAN</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a3d9cf3056865be9af830ad67017ff292" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IDBSDTCHAN.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11655" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11655" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a72ea1b809a7b0261f9b99a9f907961a7" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.IDBSDTCHAN.chno</definition>
+        <argsstring></argsstring>
+        <name>chno</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11656" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11656" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1aec388a68c9df3ce2dabcf6b461c7db0a" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.IDBSDTCHAN.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11657" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a782d173f2fc4d02478ac71ce7c24cba1" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IDBSDTCHAN.shift</definition>
+        <argsstring></argsstring>
+        <name>shift</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11658" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11658" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11654" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11653" bodyend="11659"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1aec388a68c9df3ce2dabcf6b461c7db0a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBSDTCHAN</scope><name>axis</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a72ea1b809a7b0261f9b99a9f907961a7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBSDTCHAN</scope><name>chno</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a782d173f2fc4d02478ac71ce7c24cba1" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBSDTCHAN</scope><name>shift</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_i_d_b_s_d_t_c_h_a_n_1a3d9cf3056865be9af830ad67017ff292" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBSDTCHAN</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

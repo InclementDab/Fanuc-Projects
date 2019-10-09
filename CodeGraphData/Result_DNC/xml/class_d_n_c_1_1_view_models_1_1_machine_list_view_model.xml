@@ -1,0 +1,267 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model" kind="class" prot="public">
+    <compoundname>DNC::ViewModels::MachineListViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a2c5999c06e89cbbf3c583c61932503dd" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ObservableCollection&lt; <ref refid="class_d_n_c_1_1_models_1_1_model_base" kindref="compound">ModelBase</ref> &gt;</type>
+        <definition>ObservableCollection&lt;ModelBase&gt; DNC.ViewModels.MachineListViewModel.MachineList</definition>
+        <argsstring></argsstring>
+        <name>MachineList</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="28" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a3ba1ba45ba766f1553dbddbff84ee162" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_model_base" kindref="compound">ModelBase</ref></type>
+        <definition>ModelBase DNC.ViewModels.MachineListViewModel.SelectedItem</definition>
+        <argsstring></argsstring>
+        <name>SelectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="40" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="41" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a7800cd5edcf5e80e930d41a0ae139fb5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_program" kindref="compound">Program</ref></type>
+        <definition>Program DNC.ViewModels.MachineListViewModel.SelectedProgram</definition>
+        <argsstring></argsstring>
+        <name>SelectedProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="51" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="52" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1aa0f7cb0c292371eb503d1e3058c4eb76" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.ViewModels.MachineListViewModel.AddFolderCommand</definition>
+        <argsstring></argsstring>
+        <name>AddFolderCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="63" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="63" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a55d4898e5748d95491120e5e5900f5be" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.ViewModels.MachineListViewModel.AddMachineCommand</definition>
+        <argsstring></argsstring>
+        <name>AddMachineCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="64" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a29e4ab555877360d304576b59c1dded0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.ViewModels.MachineListViewModel.SendProgram</definition>
+        <argsstring></argsstring>
+        <name>SendProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="65" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1acad0171a07de40864b8fb3afe384dcd9" prot="private" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_model_base" kindref="compound">ModelBase</ref></type>
+        <definition>ModelBase DNC.ViewModels.MachineListViewModel._selectedItem</definition>
+        <argsstring></argsstring>
+        <name>_selectedItem</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="39" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="39" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a0d7c9e04c7d30636fb046b5ad9cbc106" prot="private" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_program" kindref="compound">Program</ref></type>
+        <definition>Program DNC.ViewModels.MachineListViewModel._selectedProgram</definition>
+        <argsstring></argsstring>
+        <name>_selectedProgram</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="50" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="50" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a930ea89b6cfa082bd07b5d1bf2fe933a" prot="private" static="no" mutable="no">
+        <type>readonly BackgroundWorker</type>
+        <definition>readonly BackgroundWorker DNC.ViewModels.MachineListViewModel.bWorker</definition>
+        <argsstring></argsstring>
+        <name>bWorker</name>
+        <initializer>= new BackgroundWorker()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="61" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="61" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1ae0e8cff9a0d25cb5e5d705c43b731840" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.ViewModels.MachineListViewModel.MachineListViewModel</definition>
+        <argsstring>()</argsstring>
+        <name>MachineListViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="67" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="67" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a25c231684fe73051792d4374ccc9ed9b" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.ViewModels.MachineListViewModel.AddTestItems</definition>
+        <argsstring>()</argsstring>
+        <name>AddTestItems</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="108" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="108" bodyend="129"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a6a4aca91ed333f60d17f21a34ede99b4" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.ViewModels.MachineListViewModel.BWorker_ProgressChanged</definition>
+        <argsstring>(object sender, ProgressChangedEventArgs e)</argsstring>
+        <name>BWorker_ProgressChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ProgressChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="97" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="97" bodyend="101"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a79e59eeb693df74121d15934726fe1dd" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.ViewModels.MachineListViewModel.BWorker_DoWork</definition>
+        <argsstring>(object sender, DoWorkEventArgs e)</argsstring>
+        <name>BWorker_DoWork</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DoWorkEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="103" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="103" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="667">
+        <label>ViewModelBase</label>
+      </node>
+      <node id="666">
+        <label>DNC.ViewModels.MachineListViewModel</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model"/>
+        <childnode refid="667" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="669">
+        <label>ViewModelBase</label>
+      </node>
+      <node id="671">
+        <label>ObservableObject</label>
+      </node>
+      <node id="673">
+        <label>DNC.Program</label>
+        <link refid="class_d_n_c_1_1_program"/>
+      </node>
+      <node id="672">
+        <label>IDataObject</label>
+      </node>
+      <node id="668">
+        <label>DNC.ViewModels.MachineListViewModel</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model"/>
+        <childnode refid="669" relation="public-inheritance">
+        </childnode>
+        <childnode refid="670" relation="usage">
+          <edgelabel>_selectedItem</edgelabel>
+        </childnode>
+        <childnode refid="673" relation="usage">
+          <edgelabel>_selectedProgram</edgelabel>
+        </childnode>
+      </node>
+      <node id="670">
+        <label>DNC.Models.ModelBase</label>
+        <link refid="class_d_n_c_1_1_models_1_1_model_base"/>
+        <childnode refid="671" relation="public-inheritance">
+        </childnode>
+        <childnode refid="672" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" line="27" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MachineListViewModel.cs" bodystart="26" bodyend="130"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1acad0171a07de40864b8fb3afe384dcd9" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>_selectedItem</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a0d7c9e04c7d30636fb046b5ad9cbc106" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>_selectedProgram</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1aa0f7cb0c292371eb503d1e3058c4eb76" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>AddFolderCommand</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a55d4898e5748d95491120e5e5900f5be" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>AddMachineCommand</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a25c231684fe73051792d4374ccc9ed9b" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>AddTestItems</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a930ea89b6cfa082bd07b5d1bf2fe933a" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>bWorker</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a79e59eeb693df74121d15934726fe1dd" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>BWorker_DoWork</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a6a4aca91ed333f60d17f21a34ede99b4" prot="private" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>BWorker_ProgressChanged</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a2c5999c06e89cbbf3c583c61932503dd" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>MachineList</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1ae0e8cff9a0d25cb5e5d705c43b731840" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>MachineListViewModel</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a3ba1ba45ba766f1553dbddbff84ee162" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>SelectedItem</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a7800cd5edcf5e80e930d41a0ae139fb5" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>SelectedProgram</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model_1a29e4ab555877360d304576b59c1dded0" prot="public" virt="non-virtual"><scope>DNC::ViewModels::MachineListViewModel</scope><name>SendProgram</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

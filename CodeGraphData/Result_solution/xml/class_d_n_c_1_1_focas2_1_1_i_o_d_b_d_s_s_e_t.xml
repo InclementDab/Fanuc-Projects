@@ -1,0 +1,120 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBDSSET</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a6a67035819027e0f194c885108ffbed4" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.host_ip</definition>
+        <argsstring></argsstring>
+        <name>host_ip</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4725" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ae9454a04fd5c507626faac3a0c6cfb56" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.host_uname</definition>
+        <argsstring></argsstring>
+        <name>host_uname</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4727" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ab67d8ee277887e2b11dd23ca0bcc3928" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.host_passwd</definition>
+        <argsstring></argsstring>
+        <name>host_passwd</name>
+        <initializer>= new string(&apos; &apos;, 32)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4729" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ad8f82e9b64c29d4c44616c88563f5097" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.host_dir</definition>
+        <argsstring></argsstring>
+        <name>host_dir</name>
+        <initializer>= new string(&apos; &apos;, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4731" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a8bf301b3c3e5ce6bf0f3b63e049c3cea" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.dtsv_mac</definition>
+        <argsstring></argsstring>
+        <name>dtsv_mac</name>
+        <initializer>= new string(&apos; &apos;, 13)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4733" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1afbd369e13a170a580cc6ecc991624feb" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.dtsv_ip</definition>
+        <argsstring></argsstring>
+        <name>dtsv_ip</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4735" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a0c22fc8728e70f7471f1a53bf6f2a487" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IODBDSSET.dtsv_mask</definition>
+        <argsstring></argsstring>
+        <name>dtsv_mask</name>
+        <initializer>= new string(&apos; &apos;, 16)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4737" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4737" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4723" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4722" bodyend="4738"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1afbd369e13a170a580cc6ecc991624feb" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>dtsv_ip</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a8bf301b3c3e5ce6bf0f3b63e049c3cea" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>dtsv_mac</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a0c22fc8728e70f7471f1a53bf6f2a487" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>dtsv_mask</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ad8f82e9b64c29d4c44616c88563f5097" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>host_dir</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1a6a67035819027e0f194c885108ffbed4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>host_ip</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ab67d8ee277887e2b11dd23ca0bcc3928" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>host_passwd</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_d_s_s_e_t_1ae9454a04fd5c507626faac3a0c6cfb56" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBDSSET</scope><name>host_uname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

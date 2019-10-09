@@ -1,0 +1,91 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBSPDLNAME</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1ae3ce81bfe1d48af98a876fd614bf2ee6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref></type>
+        <definition>ODBSPDLNAME_data DNC.Focas2.ODBSPDLNAME.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6890" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6890" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1acbcefede8cc38c0017161271ecbf46d6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref></type>
+        <definition>ODBSPDLNAME_data DNC.Focas2.ODBSPDLNAME.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6891" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6891" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1a9db6c062085e3a7a9e60baa3d108e212" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref></type>
+        <definition>ODBSPDLNAME_data DNC.Focas2.ODBSPDLNAME.data3</definition>
+        <argsstring></argsstring>
+        <name>data3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6892" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6892" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1a2239730a9eb56e5ba470725129060bd3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref></type>
+        <definition>ODBSPDLNAME_data DNC.Focas2.ODBSPDLNAME.data4</definition>
+        <argsstring></argsstring>
+        <name>data4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data" kindref="compound">ODBSPDLNAME_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6893" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6893" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1185">
+        <label>DNC.Focas2.ODBSPDLNAME_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e__data"/>
+      </node>
+      <node id="1184">
+        <label>DNC.Focas2.ODBSPDLNAME</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e"/>
+        <childnode refid="1185" relation="usage">
+          <edgelabel>data1</edgelabel>
+          <edgelabel>data2</edgelabel>
+          <edgelabel>data3</edgelabel>
+          <edgelabel>data4</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6889" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6888" bodyend="6894"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1ae3ce81bfe1d48af98a876fd614bf2ee6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPDLNAME</scope><name>data1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1acbcefede8cc38c0017161271ecbf46d6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPDLNAME</scope><name>data2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1a9db6c062085e3a7a9e60baa3d108e212" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPDLNAME</scope><name>data3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_s_p_d_l_n_a_m_e_1a2239730a9eb56e5ba470725129060bd3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBSPDLNAME</scope><name>data4</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

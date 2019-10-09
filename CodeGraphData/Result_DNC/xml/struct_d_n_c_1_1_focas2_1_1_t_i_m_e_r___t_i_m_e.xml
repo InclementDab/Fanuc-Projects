@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::TIMER_TIME</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1a0788ab88af5b2daaaecde72b474b07be" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_TIME.hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6378" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6378" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1a4ee7cd012c34b5fa92c308786beb84ac" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_TIME.minute</definition>
+        <argsstring></argsstring>
+        <name>minute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6379" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6379" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1ac909d461d2a9fbebe33cd4f8aff948d0" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_TIME.second</definition>
+        <argsstring></argsstring>
+        <name>second</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6380" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6380" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6377" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6376" bodyend="6381"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1a0788ab88af5b2daaaecde72b474b07be" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_TIME</scope><name>hour</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1a4ee7cd012c34b5fa92c308786beb84ac" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_TIME</scope><name>minute</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___t_i_m_e_1ac909d461d2a9fbebe33cd4f8aff948d0" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_TIME</scope><name>second</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

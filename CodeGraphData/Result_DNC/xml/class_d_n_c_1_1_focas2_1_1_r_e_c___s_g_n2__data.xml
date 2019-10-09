@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::REC_SGN2_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1a22be7d941f8d1c8318c84200ef6699d8" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.REC_SGN2_data.rec_len</definition>
+        <argsstring></argsstring>
+        <name>rec_len</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2424" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2424" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1af72a49cd10af761fdd1ce33c3ec06301" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.REC_SGN2_data.rec_type</definition>
+        <argsstring></argsstring>
+        <name>rec_type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2425" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2425" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1a49bf50766ba407166d05b73fc33d709b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2" kindref="compound">REC_SGN2</ref></type>
+        <definition>REC_SGN2 DNC.Focas2.REC_SGN2_data.data</definition>
+        <argsstring></argsstring>
+        <name>data</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2" kindref="compound">REC_SGN2</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2426" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2426" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1472">
+        <label>DNC.Focas2.REC_SGN2</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2"/>
+      </node>
+      <node id="1471">
+        <label>DNC.Focas2.REC_SGN2_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data"/>
+        <childnode refid="1472" relation="usage">
+          <edgelabel>data</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2423" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2422" bodyend="2427"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1a49bf50766ba407166d05b73fc33d709b" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_SGN2_data</scope><name>data</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1a22be7d941f8d1c8318c84200ef6699d8" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_SGN2_data</scope><name>rec_len</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_r_e_c___s_g_n2__data_1af72a49cd10af761fdd1ce33c3ec06301" prot="public" virt="non-virtual"><scope>DNC::Focas2::REC_SGN2_data</scope><name>rec_type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

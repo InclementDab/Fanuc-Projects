@@ -26,46 +26,79 @@ namespace DNC.Views
     /// </summary>
     public partial class MachineListView : UserControl
     {
-        private readonly MachineListViewModel ViewModel;
+        private MachineListViewModel ViewModel { get; set; }
 
         public MachineListView()
         {
             InitializeComponent();
             DataContext = ViewModel = new MachineListViewModel();
-
-            var Machine = new Machine("MAM")
-            {
-                Connection = new Connection()
-                {
-                    IPAddress = IPAddress.Parse("192.168.128.63"),
-                    Port = 8193,
-                    Type = ConnectionType.TCP
-                }
-            };
-
-            ViewModel.EnumeratedList.Add(Machine);
-
-
-            var Machine1 = new Machine("MakinoC")
-            {
-                Connection = new Connection()
-                {
-                    IPAddress = IPAddress.Parse("192.168.128.1"),
-                    Port = 8195,
-                    Type = ConnectionType.TCP
-                }
-            };
-
-            ViewModel.EnumeratedList.Add(Machine1);
-
-
-            new SerialPort(Machine1);
-
-          
-
         }
 
 
+        private void TextBox_KeyDown(object sender, KeyEventArgs e)
+        {
+            if (e.Key == Key.Return)
+            {
+                TextBox tBox = sender as TextBox;
+                if (tBox.DataContext is ModelBase mBase)
+                {
+                    mBase.IsNameEditing = !mBase.IsNameEditing;
+                    mBase.Name = tBox.Text;
+                    mBase.RaisePropertyChanged("IsNameEditing");
+                }
+            }
+        }
+
+       
+        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
+        {
+            ViewModel.SelectedItem = (ModelBase)tView.SelectedItem ?? null;
+        }
+
+        private void TextBox_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
+        {
+            TextBox tBox = sender as TextBox;
+            if (!IsLoaded || tBox.Visibility != Visibility.Visible) return;
+
+            tBox.Focus();
+            tBox.SelectAll();
+        }
+
+        public static T RecursiveGetType<T>(DependencyObject current)
+        {
+            if (LogicalTreeHelper.GetParent(current) is T ret)
+                return ret;
+
+            return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
+        }
+
+        private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
+        {
+            e.CanExecute = tView.SelectedItem != null;
+        }
+
+        #region copypaste
+
+
+        private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            Clipboard.SetDataObject(ViewModel.SelectedItem);
+            ViewModel.SelectedItem.ParentList.Remove(ViewModel.SelectedItem);
+        }
+
+        private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            Clipboard.SetDataObject(ViewModel.SelectedItem);
+        }
+
+        private void Paste_Executed(object sender, ExecutedRoutedEventArgs e)
+        {
+            IDataObject a = Clipboard.GetDataObject();
+            ViewModel.SelectedItem.ParentList.Add(a as ModelBase);            
+        }
+        #endregion
+
+        #region dragdrop
         protected override void OnMouseMove(MouseEventArgs e)
         {
             base.OnMouseMove(e);
@@ -148,7 +181,7 @@ namespace DNC.Views
                     //dFolder.Children.Add(e.Data.GetData(typeof(ModelBase)) as ModelBase);
 
                 }
-                
+
             }
 
             e.Handled = true;
@@ -207,76 +240,6 @@ namespace DNC.Views
             e.Handled = true;
             */
         }
-
-        private T RecursiveGetType<T>(DependencyObject current)
-        {
-            if (LogicalTreeHelper.GetParent(current) is T ret)
-                return ret;
-
-            return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
-            
-        }
-
-        private void TextBox_KeyDown(object sender, KeyEventArgs e)
-        {
-            if (e.Key == Key.Return)
-            {
-                TextBox tBox = sender as TextBox;
-                if (tBox.DataContext is ModelBase mBase)
-                {
-                    mBase.IsNameEditing = !mBase.IsNameEditing;
-                    mBase.Name = tBox.Text;
-                }
-            }
-        }
-
-       
-        private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
-        {
-            ViewModel.SelectedItem = e.NewValue as ModelBase;
-        }
-
-        private void TextBox_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
-        {
-            TextBox tBox = sender as TextBox;
-            if (!IsLoaded || tBox.Visibility != Visibility.Visible) return;
-
-            tBox.Focus();
-            tBox.SelectAll();
-        }
-
-        private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            if (e.OriginalSource is TreeViewItem tViewItem)
-            {
-                if (tViewItem.Header is ModelBase mBase)
-                {
-                    ViewModel.EnumeratedList.Remove(mBase);
-                }
-            }
-        }
-
-        private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            
-        }
-
-        private void Paste_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            if (e.OriginalSource is TreeViewItem tViewItem)
-            {
-                if (tViewItem.Header is ModelBase mBase)
-                {
-
-                }
-            }
-        }
-
-        private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
-        {
-            e.CanExecute = ViewModel.SelectedItem != null;
-        }
+        #endregion
     }
-
-
 }

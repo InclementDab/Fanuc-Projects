@@ -14,6 +14,7 @@
     <WarningLevel>4</WarningLevel>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
     <PublishUrl>publish\</PublishUrl>
     <Install>true</Install>
     <InstallFrom>Disk</InstallFrom>
@@ -26,7 +27,6 @@
     <MapFileExtensions>true</MapFileExtensions>
     <ApplicationRevision>0</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
-    <IsWebBootstrapper>false</IsWebBootstrapper>
     <UseApplicationTrust>false</UseApplicationTrust>
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
@@ -76,6 +76,7 @@
       <HintPath>..\packages\Newtonsoft.Json.12.0.2\lib\net45\Newtonsoft.Json.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Windows.Forms" />
@@ -102,11 +103,13 @@
     </ApplicationDefinition>
     <Compile Include="Communication\fwlib32.cs" />
     <Compile Include="Communication\serial.cs" />
-    <Compile Include="Models\MachineListModel.cs" />
+    <Compile Include="Models\MachineModel.cs" />
     <Compile Include="Models\Network.cs" />
-    <Compile Include="Models\ProgramListModel.cs" />
+    <Compile Include="Models\ProgramModel.cs" />
+    <Compile Include="Settings.cs" />
     <Compile Include="ViewModels\MachineListViewModel.cs" />
     <Compile Include="ViewModels\AsyncCommand.cs" />
+    <Compile Include="ViewModels\MainWindowViewModel.cs" />
     <Compile Include="Views\ConnectionSetup.xaml.cs">
       <DependentUpon>ConnectionSetup.xaml</DependentUpon>
     </Compile>
@@ -168,7 +171,7 @@
     </EmbeddedResource>
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
-      <Generator>SettingsSingleFileGenerator</Generator>
+      <Generator>PublicSettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
     <Resource Include="Resources\Fonts\IcoMoon-Free\icomoon.ttf" />

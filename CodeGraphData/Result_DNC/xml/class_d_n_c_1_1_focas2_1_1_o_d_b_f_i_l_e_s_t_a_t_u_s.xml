@@ -1,0 +1,129 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBFILESTATUS</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a2bc364d76e9331d697e52646a87bd2f3" prot="public" static="no" mutable="no">
+        <type>ulong</type>
+        <definition>ulong DNC.Focas2.ODBFILESTATUS.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3450" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3450" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a37f0cb9ce95764da5678822a151bd077" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.ODBFILESTATUS.min</definition>
+        <argsstring></argsstring>
+        <name>min</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3451" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3451" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a3bd1051a0666465cc280ca9dbcf71ce4" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.ODBFILESTATUS.hour</definition>
+        <argsstring></argsstring>
+        <name>hour</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3452" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3452" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1ae9add290e59cb3ee1d4a17a117c1fd52" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.ODBFILESTATUS.day</definition>
+        <argsstring></argsstring>
+        <name>day</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3453" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3453" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1acf32d5a15ec4cddb3a753ffc6cbe5dd0" prot="public" static="no" mutable="no">
+        <type>byte</type>
+        <definition>byte DNC.Focas2.ODBFILESTATUS.month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3454" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3454" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1abdd32998c9f1fbe4340ee1503ae8a2fb" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.ODBFILESTATUS.year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3455" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3455" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1aec620a4a1dcca870729dd7ea884f6231" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.ODBFILESTATUS.reserve</definition>
+        <argsstring></argsstring>
+        <name>reserve</name>
+        <initializer>= new byte[2]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3457" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3457" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a5b2790dae1d1470430ef107cc91fbd71" prot="public" static="no" mutable="no">
+        <type>byte[]</type>
+        <definition>byte [] DNC.Focas2.ODBFILESTATUS.filename</definition>
+        <argsstring></argsstring>
+        <name>filename</name>
+        <initializer>= new byte[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3459" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3459" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="3449" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="3448" bodyend="3460"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1ae9add290e59cb3ee1d4a17a117c1fd52" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>day</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a5b2790dae1d1470430ef107cc91fbd71" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>filename</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a3bd1051a0666465cc280ca9dbcf71ce4" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>hour</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a37f0cb9ce95764da5678822a151bd077" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>min</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1acf32d5a15ec4cddb3a753ffc6cbe5dd0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>month</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1aec620a4a1dcca870729dd7ea884f6231" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>reserve</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1a2bc364d76e9331d697e52646a87bd2f3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>size</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_l_e_s_t_a_t_u_s_1abdd32998c9f1fbe4340ee1503ae8a2fb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFILESTATUS</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,197 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_models_1_1_connection" kind="class" prot="public" abstract="yes">
+    <compoundname>DNC::Models::Connection</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ObservableObject</basecompoundref>
+    <derivedcompoundref refid="class_d_n_c_1_1_models_1_1_serial_connection" prot="public" virt="non-virtual">DNC.Models.SerialConnection</derivedcompoundref>
+    <derivedcompoundref refid="class_d_n_c_1_1_models_1_1_t_c_p_connection" prot="public" virt="non-virtual">DNC.Models.TCPConnection</derivedcompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_connection_1af3a34675de3c58231b23e2ee4bf61f44" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63" kindref="member">ConnectionStatus</ref></type>
+        <definition>ConnectionStatus DNC.Models.Connection.Status</definition>
+        <argsstring></argsstring>
+        <name>Status</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="81" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="81" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_models_1_1_connection_1ad818417ddefffa558e51d58a0660baf1" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>short</type>
+        <definition>short DNC.Models.Connection.StatusCode</definition>
+        <argsstring></argsstring>
+        <name>StatusCode</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="82" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="82" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" prot="public" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DNC.Models.Connection.IsConnected</definition>
+        <argsstring></argsstring>
+        <name>IsConnected</name>
+        <initializer>=&gt; <ref refid="class_d_n_c_1_1_models_1_1_connection_1af3a34675de3c58231b23e2ee4bf61f44" kindref="member">Status</ref> == ConnectionStatus.Connected</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="83" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="83" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_models_1_1_machine_1ad887f9e02d9d3d97e25f5f21ba5dd2ad" compoundref="_machine_model_8cs" startline="149" endline="158">DNC.Models.Machine.Connection_ConnectionChanged</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_d_n_c_1_1_models_1_1_connection_1a1de939db8961b5d4f2ed5fadc936c70b" prot="public" static="no" add="no" remove="no" raise="no">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_connection_1ae84ee71e65a1fa0bab6e4b09e4627304" kindref="member">ConnectionChangedEventHandler</ref></type>
+        <definition>ConnectionChangedEventHandler DNC.Models.Connection.ConnectionChanged</definition>
+        <argsstring></argsstring>
+        <name>ConnectionChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="96" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="96" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_1a5c264b2e1a048e274a42295695a5c777" prot="public" static="no" const="no" explicit="no" inline="no" virt="pure-virtual">
+        <type>abstract short</type>
+        <definition>abstract short DNC.Models.Connection.Open</definition>
+        <argsstring>(out ushort handle)</argsstring>
+        <name>Open</name>
+        <reimplementedby refid="class_d_n_c_1_1_models_1_1_t_c_p_connection_1aeff1e9af563f617b2fe218d975f5dc67">Open</reimplementedby>
+        <reimplementedby refid="class_d_n_c_1_1_models_1_1_serial_connection_1a04ac9b063a57ee382497bf0e6a1ac7c0">Open</reimplementedby>
+        <param>
+          <type>out ushort</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="85" column="1"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_1afb80c79a8559bb92d1847eaf1d2a38e8" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>short</type>
+        <definition>short DNC.Models.Connection.Close</definition>
+        <argsstring>(ushort handle)</argsstring>
+        <name>Close</name>
+        <param>
+          <type>ushort</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="86" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="86" bodyend="93"/>
+        <referencedby refid="class_d_n_c_1_1_models_1_1_machine_1a14550e31d94432b1025d92070d25e37f" compoundref="_machine_model_8cs" startline="110" endline="144">DNC.Models.Machine.Machine</referencedby>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_1ae84ee71e65a1fa0bab6e4b09e4627304" prot="public" static="no" const="no" explicit="no" inline="no" virt="non-virtual">
+        <type>delegate void</type>
+        <definition>delegate void DNC.Models.Connection.ConnectionChangedEventHandler</definition>
+        <argsstring>(object sender, ConnectionChangedEventArgs e)</argsstring>
+        <name>ConnectionChangedEventHandler</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_connection_changed_event_args" kindref="compound">ConnectionChangedEventArgs</ref></type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="95" column="1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_models_1_1_connection_1a94986047dfd2628e1bef58d716524bd8" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="virtual">
+        <type>void</type>
+        <definition>virtual void DNC.Models.Connection.OnConnectionChanged</definition>
+        <argsstring>(ushort handle)</argsstring>
+        <name>OnConnectionChanged</name>
+        <param>
+          <type>ushort</type>
+          <declname>handle</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="98" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="98" bodyend="103"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="61">
+        <label>DNC.Models.Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="62" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="63">
+        <label>DNC.Models.SerialConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_serial_connection"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="62">
+        <label>ObservableObject</label>
+      </node>
+      <node id="64">
+        <label>DNC.Models.TCPConnection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_t_c_p_connection"/>
+        <childnode refid="61" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="65">
+        <label>DNC.Models.Connection</label>
+        <link refid="class_d_n_c_1_1_models_1_1_connection"/>
+        <childnode refid="66" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="66">
+        <label>ObservableObject</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="80" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="79" bodyend="104"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1afb80c79a8559bb92d1847eaf1d2a38e8" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>Close</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a1de939db8961b5d4f2ed5fadc936c70b" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>ConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ae84ee71e65a1fa0bab6e4b09e4627304" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>ConnectionChangedEventHandler</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a3470b6c237b4da7da2ce6831d81bb9fb" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>IsConnected</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a94986047dfd2628e1bef58d716524bd8" prot="protected" virt="virtual"><scope>DNC::Models::Connection</scope><name>OnConnectionChanged</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1a5c264b2e1a048e274a42295695a5c777" prot="public" virt="pure-virtual"><scope>DNC::Models::Connection</scope><name>Open</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1af3a34675de3c58231b23e2ee4bf61f44" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>Status</name></member>
+      <member refid="class_d_n_c_1_1_models_1_1_connection_1ad818417ddefffa558e51d58a0660baf1" prot="public" virt="non-virtual"><scope>DNC::Models::Connection</scope><name>StatusCode</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

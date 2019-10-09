@@ -1,0 +1,309 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a7847c2be31da2f8d8d8d04a22e61a07a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1HostName</definition>
+        <argsstring></argsstring>
+        <name>op1HostName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11913" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11913" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a539186ef26afe2645237c0bbb017824c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1ControlPort</definition>
+        <argsstring></argsstring>
+        <name>op1ControlPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11914" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11914" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a2f87536ce0bf00c39ade87c2f5ac647f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1Dummy</definition>
+        <argsstring></argsstring>
+        <name>op1Dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11915" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11915" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1af1a9151f75112f3593dc2255328a9544" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1UserName</definition>
+        <argsstring></argsstring>
+        <name>op1UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11916" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11916" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a475524079ba5b15862cf5af0c9726351" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1Password</definition>
+        <argsstring></argsstring>
+        <name>op1Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11917" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11917" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1aebf935e4c892f15b6e5465e91a95e632" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op1LoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>op1LoginDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11918" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11918" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ad2368e44772e52924d8819af31536f27" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2HostName</definition>
+        <argsstring></argsstring>
+        <name>op2HostName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11919" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11919" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a3854ebe06b04c391ef6c4251bad9c791" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2ControlPort</definition>
+        <argsstring></argsstring>
+        <name>op2ControlPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11920" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11920" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a385dc1006a956d8c60fbabd5b626f44a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2Dummy</definition>
+        <argsstring></argsstring>
+        <name>op2Dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11921" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11921" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ae32bbc35bb765ef0c4d0b14df6df18d2" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2UserName</definition>
+        <argsstring></argsstring>
+        <name>op2UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11922" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11922" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a139473c1ea85a6afabfbea1a4e54b031" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2Password</definition>
+        <argsstring></argsstring>
+        <name>op2Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11923" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11923" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a1bcc7b27e1c3f1f9b125d08b7f024d28" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op2LoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>op2LoginDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11924" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11924" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a90c2cdc4d89c47cb78c96e92765c2ab7" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3HostName</definition>
+        <argsstring></argsstring>
+        <name>op3HostName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11925" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a26a70bc59747b5c1e853e063f66f4816" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3ControlPort</definition>
+        <argsstring></argsstring>
+        <name>op3ControlPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11926" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11926" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1abb0bff2db400b481bcaad4c6406d987b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3Dummy</definition>
+        <argsstring></argsstring>
+        <name>op3Dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11927" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11927" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ad67c7b2c398dcd6392dbb573b806507a" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3UserName</definition>
+        <argsstring></argsstring>
+        <name>op3UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11928" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11928" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1aca6893d630fea43cbbaccc0b323eb37f" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3Password</definition>
+        <argsstring></argsstring>
+        <name>op3Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11929" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11929" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a572b9a5a4e024fa12cce17637447e4b8" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.op3LoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>op3LoginDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11930" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11930" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ac8484cdcc5b46fa0336ad358c243d496" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.UserName</definition>
+        <argsstring></argsstring>
+        <name>UserName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11931" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11931" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a6992de7e0c20aa8095e1b9af19b0f933" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.Password</definition>
+        <argsstring></argsstring>
+        <name>Password</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11932" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ac1f5b333e388f34debe36b8d3b8fd978" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_DTSVR.LoginDirectory</definition>
+        <argsstring></argsstring>
+        <name>LoginDirectory</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11933" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11933" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11912" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11911" bodyend="11934"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ac1f5b333e388f34debe36b8d3b8fd978" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>LoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a539186ef26afe2645237c0bbb017824c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1ControlPort</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a2f87536ce0bf00c39ade87c2f5ac647f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1Dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a7847c2be31da2f8d8d8d04a22e61a07a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1HostName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1aebf935e4c892f15b6e5465e91a95e632" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1LoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a475524079ba5b15862cf5af0c9726351" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1Password</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1af1a9151f75112f3593dc2255328a9544" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op1UserName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a3854ebe06b04c391ef6c4251bad9c791" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2ControlPort</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a385dc1006a956d8c60fbabd5b626f44a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2Dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ad2368e44772e52924d8819af31536f27" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2HostName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a1bcc7b27e1c3f1f9b125d08b7f024d28" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2LoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a139473c1ea85a6afabfbea1a4e54b031" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2Password</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ae32bbc35bb765ef0c4d0b14df6df18d2" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op2UserName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a26a70bc59747b5c1e853e063f66f4816" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3ControlPort</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1abb0bff2db400b481bcaad4c6406d987b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3Dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a90c2cdc4d89c47cb78c96e92765c2ab7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3HostName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a572b9a5a4e024fa12cce17637447e4b8" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3LoginDirectory</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1aca6893d630fea43cbbaccc0b323eb37f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3Password</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ad67c7b2c398dcd6392dbb573b806507a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>op3UserName</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1a6992de7e0c20aa8095e1b9af19b0f933" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>Password</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___d_t_s_v_r_1ac8484cdcc5b46fa0336ad358c243d496" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_DTSVR</scope><name>UserName</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

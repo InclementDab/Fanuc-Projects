@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBMTAP_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a9d7ef325ecb41ac67682074db4cece12" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBMTAP_data.slct</definition>
+        <argsstring></argsstring>
+        <name>slct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6495" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6495" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a07d66c44b832afe29138a3feb1a1313b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMTAP_data.tool_no</definition>
+        <argsstring></argsstring>
+        <name>tool_no</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6496" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6496" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1af7983aee2147bc4403112ca0dd1bd9b4" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMTAP_data.x_axis_ofs</definition>
+        <argsstring></argsstring>
+        <name>x_axis_ofs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6497" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6497" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a0e90796d027e0080a4d26a7678209bf1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMTAP_data.y_axis_ofs</definition>
+        <argsstring></argsstring>
+        <name>y_axis_ofs</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6498" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6498" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1aeed7fce0339c904843fba3fc1621bdd3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMTAP_data.punch_count</definition>
+        <argsstring></argsstring>
+        <name>punch_count</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6499" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6499" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1abbbd6ef614d21af36f39b3f8a07bbd99" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBMTAP_data.tool_life</definition>
+        <argsstring></argsstring>
+        <name>tool_life</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6500" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6500" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a72d29bda6aec91f28ed809ede492cd19" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.IODBMTAP_data.reserve</definition>
+        <argsstring></argsstring>
+        <name>reserve</name>
+        <initializer>= new int[11]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6502" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6502" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6494" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6493" bodyend="6503"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1aeed7fce0339c904843fba3fc1621bdd3" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>punch_count</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a72d29bda6aec91f28ed809ede492cd19" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>reserve</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a9d7ef325ecb41ac67682074db4cece12" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>slct</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1abbbd6ef614d21af36f39b3f8a07bbd99" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>tool_life</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a07d66c44b832afe29138a3feb1a1313b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>tool_no</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1af7983aee2147bc4403112ca0dd1bd9b4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>x_axis_ofs</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_m_t_a_p__data_1a0e90796d027e0080a4d26a7678209bf1" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBMTAP_data</scope><name>y_axis_ofs</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

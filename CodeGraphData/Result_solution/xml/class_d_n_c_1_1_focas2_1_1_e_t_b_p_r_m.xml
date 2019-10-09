@@ -1,0 +1,72 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ETBPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a9cd90b571d7f2d656d7f947bc35852f8" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.ETBPRM.OwnMACAddress</definition>
+        <argsstring></argsstring>
+        <name>OwnMACAddress</name>
+        <initializer>= new string(&apos; &apos;, 128)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7998" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1adce1cbe8f5d6901e9d889307dd4f97ef" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ETBPRM.MaximumChannel</definition>
+        <argsstring></argsstring>
+        <name>MaximumChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7999" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a5f762d865a5fcf82f3f59b55ae2926ea" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ETBPRM.HDDExistence</definition>
+        <argsstring></argsstring>
+        <name>HDDExistence</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8000" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a7fa76044e1fd4f48da475c628e6c8207" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.ETBPRM.NumberOfScreens</definition>
+        <argsstring></argsstring>
+        <name>NumberOfScreens</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="8001" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="8001" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="7996" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="7995" bodyend="8002"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a5f762d865a5fcf82f3f59b55ae2926ea" prot="public" virt="non-virtual"><scope>DNC::Focas2::ETBPRM</scope><name>HDDExistence</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1adce1cbe8f5d6901e9d889307dd4f97ef" prot="public" virt="non-virtual"><scope>DNC::Focas2::ETBPRM</scope><name>MaximumChannel</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a7fa76044e1fd4f48da475c628e6c8207" prot="public" virt="non-virtual"><scope>DNC::Focas2::ETBPRM</scope><name>NumberOfScreens</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_e_t_b_p_r_m_1a9cd90b571d7f2d656d7f947bc35852f8" prot="public" virt="non-virtual"><scope>DNC::Focas2::ETBPRM</scope><name>OwnMACAddress</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

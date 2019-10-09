@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e" kind="struct" prot="public">
+    <compoundname>DNC::Focas2::TIMER_DATE</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1a81e11f10ec3ac4f44556fe5c4557331d" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_DATE.year</definition>
+        <argsstring></argsstring>
+        <name>year</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6371" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6371" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1ac8f2287f041621c4931ce2ad4861e6ca" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_DATE.month</definition>
+        <argsstring></argsstring>
+        <name>month</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6372" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6372" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1ac7545f8dce08c0681a8cb20e8c290bf1" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.TIMER_DATE.date</definition>
+        <argsstring></argsstring>
+        <name>date</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6373" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6373" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6370" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6369" bodyend="6374"/>
+    <listofallmembers>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1ac7545f8dce08c0681a8cb20e8c290bf1" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_DATE</scope><name>date</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1ac8f2287f041621c4931ce2ad4861e6ca" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_DATE</scope><name>month</name></member>
+      <member refid="struct_d_n_c_1_1_focas2_1_1_t_i_m_e_r___d_a_t_e_1a81e11f10ec3ac4f44556fe5c4557331d" prot="public" virt="non-virtual"><scope>DNC::Focas2::TIMER_DATE</scope><name>year</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

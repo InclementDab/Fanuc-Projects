@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBFINFORM_info</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1af7a6bb9a9ec380e6e742608bbc4df795" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.ODBFINFORM_info.sysname</definition>
+        <argsstring></argsstring>
+        <name>sysname</name>
+        <initializer>= new string(&apos; &apos;, 12)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4466" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4466" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1afa3aa3cf6739c51793b1d34ed96ceb77" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBFINFORM_info.fromsize</definition>
+        <argsstring></argsstring>
+        <name>fromsize</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4467" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4467" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1a99d1a18bd709618bd6548b22c01505d3" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBFINFORM_info.fromattrib</definition>
+        <argsstring></argsstring>
+        <name>fromattrib</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4468" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4468" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4464" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4463" bodyend="4469"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1a99d1a18bd709618bd6548b22c01505d3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFINFORM_info</scope><name>fromattrib</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1afa3aa3cf6739c51793b1d34ed96ceb77" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFINFORM_info</scope><name>fromsize</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_f_i_n_f_o_r_m__info_1af7a6bb9a9ec380e6e742608bbc4df795" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBFINFORM_info</scope><name>sysname</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

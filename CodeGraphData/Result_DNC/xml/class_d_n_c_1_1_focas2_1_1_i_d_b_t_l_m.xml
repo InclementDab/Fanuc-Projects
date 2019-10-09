@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IDBTLM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m_1adc2d0f2f8dfacadb7975197ec477fb1b" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IDBTLM.data_id</definition>
+        <argsstring></argsstring>
+        <name>data_id</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2197" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2197" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m_1ad6390ef4ee2d048fd4459832eece3e3e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m__item" kindref="compound">IDBTLM_item</ref></type>
+        <definition>IDBTLM_item DNC.Focas2.IDBTLM.item</definition>
+        <argsstring></argsstring>
+        <name>item</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m__item" kindref="compound">IDBTLM_item</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2198" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2198" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="173">
+        <label>DNC.Focas2.IDBTLM_item</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m__item"/>
+      </node>
+      <node id="172">
+        <label>DNC.Focas2.IDBTLM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m"/>
+        <childnode refid="173" relation="usage">
+          <edgelabel>item</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="2196" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="2195" bodyend="2199"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m_1adc2d0f2f8dfacadb7975197ec477fb1b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBTLM</scope><name>data_id</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_t_l_m_1ad6390ef4ee2d048fd4459832eece3e3e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBTLM</scope><name>item</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

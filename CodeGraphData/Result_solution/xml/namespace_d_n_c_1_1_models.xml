@@ -1,0 +1,89 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="namespace_d_n_c_1_1_models" kind="namespace">
+    <compoundname>DNC::Models</compoundname>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_machine" prot="public">DNC::Models::Machine</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_folder" prot="public">DNC::Models::Folder</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_model_base" prot="public">DNC::Models::ModelBase</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_t_c_p_connection" prot="public">DNC::Models::TCPConnection</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_serial_connection" prot="public">DNC::Models::SerialConnection</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_connection" prot="public">DNC::Models::Connection</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_connection_changed_event_args" prot="public">DNC::Models::ConnectionChangedEventArgs</innerclass>
+    <innerclass refid="class_d_n_c_1_1_models_1_1_connection_color_converter" prot="public">DNC::Models::ConnectionColorConverter</innerclass>
+      <sectiondef kind="enum">
+      <memberdef kind="enum" id="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56f" prot="public" static="no">
+        <name>ConnectionType</name>
+        <enumvalue id="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56fab136ef5f6a01d816991fe3cf7a6ac763" prot="public">
+          <name>TCP</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56fa5255d3daaa0a6276b844d61401e6f493" prot="public">
+          <name>Serial</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="32" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" bodystart="31" bodyend="38"/>
+      </memberdef>
+      <memberdef kind="enum" id="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63" prot="public" static="no">
+        <name>ConnectionStatus</name>
+        <enumvalue id="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63aef70e46fd3bbc21e3e1f0b6815e750c0" prot="public">
+          <name>Disconnected</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63a2ec0d16e4ca169baedb9b2d50ec5c6d7" prot="public">
+          <name>Connected</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63ae321c53b354930ba96f0243e652df458" prot="public">
+          <name>Connecting</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="namespace_d_n_c_1_1_models_1ac2ff2d34f67c9ea9dc47492d60eccb63a10b0501000c144cb2a7424bd45e1bcde" prot="public">
+          <name>Disconnecting</name>
+          <initializer>= 3</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" line="125" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/Network.cs" bodystart="124" bodyend="137"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/MachineModel.cs" line="29" column="1"/>
+  </compounddef>
+</doxygen>

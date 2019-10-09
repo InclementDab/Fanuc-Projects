@@ -1,0 +1,212 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBHPPR_tune</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a8e195f096dc734d49c3c249fb4e6ed8a" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.slct</definition>
+        <argsstring></argsstring>
+        <name>slct</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6728" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1aad3e61ca7863714f95145024ee39745d" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.diff</definition>
+        <argsstring></argsstring>
+        <name>diff</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6729" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a39f1801eae6c874ffc0d1f1feb740683" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.fine</definition>
+        <argsstring></argsstring>
+        <name>fine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6730" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1aebf5a80a07b4befea1bbe0c85da7b3f1" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.acc_lv</definition>
+        <argsstring></argsstring>
+        <name>acc_lv</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6731" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a5d88135c515b836d3f57d7139a48ca7d" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.max_f</definition>
+        <argsstring></argsstring>
+        <name>max_f</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6732" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1ad5dbf6c52129583bfb3ae628d0f1c455" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.bipl</definition>
+        <argsstring></argsstring>
+        <name>bipl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6733" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a924b9e2debb17a453b8aad9a3d5bb8d7" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.aipl</definition>
+        <argsstring></argsstring>
+        <name>aipl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6734" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a9597f6e2b495e1bd828528da33166170" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.corner</definition>
+        <argsstring></argsstring>
+        <name>corner</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6735" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a7c1e6c5b55672fc652e20a6e8597bdcc" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBHPPR_tune.clamp</definition>
+        <argsstring></argsstring>
+        <name>clamp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6736" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a9427d2d9ac6a554a99fef28c3eae0b44" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.radius</definition>
+        <argsstring></argsstring>
+        <name>radius</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6737" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a33498df51da1f8f4861861b7fceb01a1" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.max_cf</definition>
+        <argsstring></argsstring>
+        <name>max_cf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6738" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1ae725bd5a5c20e54cc07f7d7c8c8fe8af" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.min_cf</definition>
+        <argsstring></argsstring>
+        <name>min_cf</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6739" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a0288f06259ff8263c5dfe3f373d4049f" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBHPPR_tune.foward</definition>
+        <argsstring></argsstring>
+        <name>foward</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6740" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a240ef1e4dde5c8c26132c47235b3eef9" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.IODBHPPR_tune.reserve</definition>
+        <argsstring></argsstring>
+        <name>reserve</name>
+        <initializer>= new int[5]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6742" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6742" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6727" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6726" bodyend="6743"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1aebf5a80a07b4befea1bbe0c85da7b3f1" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>acc_lv</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a924b9e2debb17a453b8aad9a3d5bb8d7" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>aipl</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1ad5dbf6c52129583bfb3ae628d0f1c455" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>bipl</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a7c1e6c5b55672fc652e20a6e8597bdcc" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>clamp</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a9597f6e2b495e1bd828528da33166170" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>corner</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1aad3e61ca7863714f95145024ee39745d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>diff</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a39f1801eae6c874ffc0d1f1feb740683" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>fine</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a0288f06259ff8263c5dfe3f373d4049f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>foward</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a33498df51da1f8f4861861b7fceb01a1" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>max_cf</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a5d88135c515b836d3f57d7139a48ca7d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>max_f</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1ae725bd5a5c20e54cc07f7d7c8c8fe8af" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>min_cf</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a9427d2d9ac6a554a99fef28c3eae0b44" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>radius</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a240ef1e4dde5c8c26132c47235b3eef9" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>reserve</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_h_p_p_r__tune_1a8e195f096dc734d49c3c249fb4e6ed8a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBHPPR_tune</scope><name>slct</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

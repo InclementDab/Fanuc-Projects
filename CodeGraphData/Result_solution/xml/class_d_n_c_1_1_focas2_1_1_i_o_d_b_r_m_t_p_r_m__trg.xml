@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBRMTPRM_trg</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg_1ac9a353a973d5dd846747ef9e3a28aeaa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__alm" kindref="compound">IODBRMTPRM_alm</ref></type>
+        <definition>IODBRMTPRM_alm DNC.Focas2.IODBRMTPRM_trg.alm</definition>
+        <argsstring></argsstring>
+        <name>alm</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__alm" kindref="compound">IODBRMTPRM_alm</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4966" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4966" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg_1a82cb7192917f8f1d18d93737821f0ad2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__io" kindref="compound">IODBRMTPRM_io</ref></type>
+        <definition>IODBRMTPRM_io DNC.Focas2.IODBRMTPRM_trg.io</definition>
+        <argsstring></argsstring>
+        <name>io</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__io" kindref="compound">IODBRMTPRM_io</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4968" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4968" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="434">
+        <label>DNC.Focas2.IODBRMTPRM_trg</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg"/>
+        <childnode refid="435" relation="usage">
+          <edgelabel>io</edgelabel>
+        </childnode>
+        <childnode refid="436" relation="usage">
+          <edgelabel>alm</edgelabel>
+        </childnode>
+      </node>
+      <node id="436">
+        <label>DNC.Focas2.IODBRMTPRM_alm</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__alm"/>
+      </node>
+      <node id="435">
+        <label>DNC.Focas2.IODBRMTPRM_io</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__io"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4964" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4963" bodyend="4969"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg_1ac9a353a973d5dd846747ef9e3a28aeaa" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM_trg</scope><name>alm</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__trg_1a82cb7192917f8f1d18d93737821f0ad2" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM_trg</scope><name>io</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

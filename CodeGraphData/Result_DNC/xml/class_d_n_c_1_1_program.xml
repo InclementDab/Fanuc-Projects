@@ -1,0 +1,116 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_program" kind="class" prot="public">
+    <compoundname>DNC::Program</compoundname>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_program_1a1f03f8d7ade53acfab3cfa8f2a1bd64f" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>DateTime</type>
+        <definition>DateTime DNC.Program.LastModified</definition>
+        <argsstring></argsstring>
+        <name>LastModified</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="13" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="13" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_program_1a5592acd40d166d816460afcb5bf0b982" compoundref="_program_model_8cs" startline="36" endline="42">DNC.Program.Program</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_program_1a318f6c5b86c64173417d17c87aa37fc5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>int</type>
+        <definition>int DNC.Program.Number</definition>
+        <argsstring></argsstring>
+        <name>Number</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="15" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="15" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_program_1ac8b9c8bccf3e004a8f7b76dbf55e376b" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string</type>
+        <definition>string DNC.Program.FileName</definition>
+        <argsstring></argsstring>
+        <name>FileName</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="16" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="16" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_program_1a5592acd40d166d816460afcb5bf0b982" compoundref="_program_model_8cs" startline="36" endline="42">DNC.Program.Program</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_program_1ab70e61ace0934d38da2a472e73317ce0" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>string[]</type>
+        <definition>string [] DNC.Program.FileData</definition>
+        <argsstring></argsstring>
+        <name>FileData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="18" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="18" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_program_1a5592acd40d166d816460afcb5bf0b982" compoundref="_program_model_8cs" startline="36" endline="42">DNC.Program.Program</referencedby>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_program_1ad0b3fdf7be96502bf340f5dccac2dd17" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="no">
+        <type>string</type>
+        <definition>string DNC.Program.MachineSafeData</definition>
+        <argsstring></argsstring>
+        <name>MachineSafeData</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="20" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="21" bodyend="-1"/>
+        <referencedby refid="class_d_n_c_1_1_models_1_1_machine_1a2300fdef0dc0d1d62d3d28279a1a2d01" compoundref="_machine_model_8cs" startline="203" endline="211">DNC.Models.Machine.PushProgram</referencedby>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_program_1a5592acd40d166d816460afcb5bf0b982" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Program.Program</definition>
+        <argsstring>(string fileName, string[] fileData)</argsstring>
+        <name>Program</name>
+        <param>
+          <type>string</type>
+          <declname>fileName</declname>
+        </param>
+        <param>
+          <type>string[]</type>
+          <declname>fileData</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="36" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="36" bodyend="42"/>
+        <references refid="class_d_n_c_1_1_program_1ab70e61ace0934d38da2a472e73317ce0" compoundref="_program_model_8cs" startline="18">DNC.Program.FileData</references>
+        <references refid="class_d_n_c_1_1_program_1ac8b9c8bccf3e004a8f7b76dbf55e376b" compoundref="_program_model_8cs" startline="16">DNC.Program.FileName</references>
+        <references refid="class_d_n_c_1_1_program_1a1f03f8d7ade53acfab3cfa8f2a1bd64f" compoundref="_program_model_8cs" startline="13">DNC.Program.LastModified</references>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" line="12" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Models/ProgramModel.cs" bodystart="11" bodyend="43"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_program_1ab70e61ace0934d38da2a472e73317ce0" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>FileData</name></member>
+      <member refid="class_d_n_c_1_1_program_1ac8b9c8bccf3e004a8f7b76dbf55e376b" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>FileName</name></member>
+      <member refid="class_d_n_c_1_1_program_1a1f03f8d7ade53acfab3cfa8f2a1bd64f" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>LastModified</name></member>
+      <member refid="class_d_n_c_1_1_program_1ad0b3fdf7be96502bf340f5dccac2dd17" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>MachineSafeData</name></member>
+      <member refid="class_d_n_c_1_1_program_1a318f6c5b86c64173417d17c87aa37fc5" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>Number</name></member>
+      <member refid="class_d_n_c_1_1_program_1a5592acd40d166d816460afcb5bf0b982" prot="public" virt="non-virtual"><scope>DNC::Program</scope><name>Program</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

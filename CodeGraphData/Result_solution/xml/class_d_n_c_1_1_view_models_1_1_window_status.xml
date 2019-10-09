@@ -1,0 +1,107 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_view_models_1_1_window_status" kind="class" prot="public">
+    <compoundname>DNC::ViewModels::WindowStatus</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">TextBlock</basecompoundref>
+      <sectiondef kind="public-type">
+      <memberdef kind="enum" id="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9" prot="public" static="no">
+        <name>Status</name>
+        <enumvalue id="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9a902b0d55fddef6f8d651fe1035b7d4bd" prot="public">
+          <name>Error</name>
+          <initializer>= 0</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9a764a2caff05993fc0d3eff5de7b225e9" prot="public">
+          <name>Caution</name>
+          <initializer>= 1</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <enumvalue id="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9a07ca5050e697392c9ed47e6453f1453f" prot="public">
+          <name>Completed</name>
+          <initializer>= 2</initializer>
+          <briefdescription>
+          </briefdescription>
+          <detaileddescription>
+          </detaileddescription>
+        </enumvalue>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="65" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="64" bodyend="69"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_window_status_1abfd42f763f95d19ceb82b306293a5be5" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.ViewModels.WindowStatus.WindowStatus</definition>
+        <argsstring>()</argsstring>
+        <name>WindowStatus</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="50" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="50" bodyend="53"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_window_status_1a19c9cf4ebc2d1bfdd8307d8e99530fd6" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.ViewModels.WindowStatus.WindowStatus</definition>
+        <argsstring>(Status status)</argsstring>
+        <name>WindowStatus</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9" kindref="member">Status</ref></type>
+          <declname>status</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="55" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="55" bodyend="62"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1534">
+        <label>TextBlock</label>
+      </node>
+      <node id="1533">
+        <label>DNC.ViewModels.WindowStatus</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_window_status"/>
+        <childnode refid="1534" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1536">
+        <label>TextBlock</label>
+      </node>
+      <node id="1535">
+        <label>DNC.ViewModels.WindowStatus</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_window_status"/>
+        <childnode refid="1536" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" line="48" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/MainWindowViewModel.cs" bodystart="47" bodyend="72"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_view_models_1_1_window_status_1a5f06bc377f1949e4c6352428ea5c66a9" prot="public" virt="non-virtual"><scope>DNC::ViewModels::WindowStatus</scope><name>Status</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_window_status_1abfd42f763f95d19ceb82b306293a5be5" prot="public" virt="non-virtual"><scope>DNC::ViewModels::WindowStatus</scope><name>WindowStatus</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_window_status_1a19c9cf4ebc2d1bfdd8307d8e99530fd6" prot="public" virt="non-virtual"><scope>DNC::ViewModels::WindowStatus</scope><name>WindowStatus</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

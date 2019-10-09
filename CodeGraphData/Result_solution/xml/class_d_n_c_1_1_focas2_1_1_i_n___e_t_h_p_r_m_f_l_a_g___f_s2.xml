@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IN_ETHPRMFLAG_FS2</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1a8482cacc782ae6e1ba01a2ce01886e7c" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_FS2.TcpPort</definition>
+        <argsstring></argsstring>
+        <name>TcpPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11882" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11882" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1abbf97e9a2dbe5d4e8090dfa48ed7220b" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_FS2.UdpPort</definition>
+        <argsstring></argsstring>
+        <name>UdpPort</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11883" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11883" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1a1b53c2a17e1a2e9e5fcb60241cbee659" prot="public" static="no" mutable="no">
+        <type>char</type>
+        <definition>char DNC.Focas2.IN_ETHPRMFLAG_FS2.TimeInterval</definition>
+        <argsstring></argsstring>
+        <name>TimeInterval</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11884" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11884" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11881" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11880" bodyend="11885"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1a8482cacc782ae6e1ba01a2ce01886e7c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_FS2</scope><name>TcpPort</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1a1b53c2a17e1a2e9e5fcb60241cbee659" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_FS2</scope><name>TimeInterval</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_f_l_a_g___f_s2_1abbf97e9a2dbe5d4e8090dfa48ed7220b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRMFLAG_FS2</scope><name>UdpPort</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,1958 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBAXDT</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a60a85441aba8ba7139d51912c1f04037" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="711" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="711" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a307189296a2240e5dc710426222e2ad5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="712" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="712" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a37dd832c6eedfb2f180bacfa1d8f1d11" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data3</definition>
+        <argsstring></argsstring>
+        <name>data3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="713" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="713" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a473221a29f8e82a7f5114a4c00ccc52f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data4</definition>
+        <argsstring></argsstring>
+        <name>data4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="714" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="714" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a7874d138c40b05bc016e72e8ca075c6f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data5</definition>
+        <argsstring></argsstring>
+        <name>data5</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="715" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="715" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a39db0ad597ea0bc791177748f7aa7d0a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data6</definition>
+        <argsstring></argsstring>
+        <name>data6</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="716" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="716" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a555a7e6cb70ab4103bd33559a75d66b5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data7</definition>
+        <argsstring></argsstring>
+        <name>data7</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="717" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="717" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a68e67c2340a0749f774af810a369ebc3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data8</definition>
+        <argsstring></argsstring>
+        <name>data8</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="718" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="718" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1abb5504703c47b125d162fc1caa1ecbb0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data9</definition>
+        <argsstring></argsstring>
+        <name>data9</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="719" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="719" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a864f43da9313001a9daedfc30a210edc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data10</definition>
+        <argsstring></argsstring>
+        <name>data10</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="720" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="720" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a37f519aa9707890d69eadb20d1dd8301" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data11</definition>
+        <argsstring></argsstring>
+        <name>data11</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="721" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="721" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a61c90b5ffbd25a96b4768d0634423bc2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data12</definition>
+        <argsstring></argsstring>
+        <name>data12</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="722" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="722" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad617450ce748ab39cc6b7b135b3dfa65" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data13</definition>
+        <argsstring></argsstring>
+        <name>data13</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="723" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="723" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a1824174a55d2d1c14dbd5c041fa7d75c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data14</definition>
+        <argsstring></argsstring>
+        <name>data14</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="724" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="724" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6e0f8ae64d3d8c11421e1cc18f63708f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data15</definition>
+        <argsstring></argsstring>
+        <name>data15</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="725" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="725" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab6e2b0c058f92c904450fd36375847b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data16</definition>
+        <argsstring></argsstring>
+        <name>data16</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="726" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="726" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3239046cc43d6b770e6beb01a20a0955" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data17</definition>
+        <argsstring></argsstring>
+        <name>data17</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="727" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="727" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0ef42efe844e2babc5faa4627dd0acba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data18</definition>
+        <argsstring></argsstring>
+        <name>data18</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="728" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="728" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ac9f5317064ad41a99205985faeffd9f7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data19</definition>
+        <argsstring></argsstring>
+        <name>data19</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="729" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="729" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae8730cb62029c09112f7e789e4d6b398" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data20</definition>
+        <argsstring></argsstring>
+        <name>data20</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="730" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="730" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aec2ebf402e4b2172d5dad25cfb3ae040" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data21</definition>
+        <argsstring></argsstring>
+        <name>data21</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="731" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="731" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2c2b2f2b984620306e67b2713d9a2a88" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data22</definition>
+        <argsstring></argsstring>
+        <name>data22</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="732" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="732" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aed987e5377903fa3ac7205d9db69fd3e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data23</definition>
+        <argsstring></argsstring>
+        <name>data23</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="733" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="733" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ade0e028676b1939327dd46a8b0b75422" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data24</definition>
+        <argsstring></argsstring>
+        <name>data24</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="734" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="734" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0daef2a650629b00880e59dd5efd55b0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data25</definition>
+        <argsstring></argsstring>
+        <name>data25</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="735" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="735" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6e8151a287643f07cf61e7d834f5608c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data26</definition>
+        <argsstring></argsstring>
+        <name>data26</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="736" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="736" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aeef682f4e6f3d23c97a1fe3fc05d3991" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data27</definition>
+        <argsstring></argsstring>
+        <name>data27</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="737" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="737" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1acbdb306e7123cf2350a9b19b871e12c8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data28</definition>
+        <argsstring></argsstring>
+        <name>data28</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="738" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="738" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1adca9fd56a7df9434efcf6cf74b1ec555" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data29</definition>
+        <argsstring></argsstring>
+        <name>data29</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="739" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="739" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8af28982113c083e5ff2e2b2d1758077" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data30</definition>
+        <argsstring></argsstring>
+        <name>data30</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="740" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="740" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a82c6c2c9c4a388cb8566a33f1a320946" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data31</definition>
+        <argsstring></argsstring>
+        <name>data31</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="741" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="741" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad5dd248c996b71ed6ac3e8181d9adbd2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data32</definition>
+        <argsstring></argsstring>
+        <name>data32</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="742" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="742" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2d96752b9d143e5711993bbf3352863c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data33</definition>
+        <argsstring></argsstring>
+        <name>data33</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="743" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="743" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a06d17d53094527a051ad3bdbb70a1f66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data34</definition>
+        <argsstring></argsstring>
+        <name>data34</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="744" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="744" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a50264e8385bd5b573cb82f0ceb1da1a0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data35</definition>
+        <argsstring></argsstring>
+        <name>data35</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="745" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="745" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54da6e517bb235e40e2d194e08d0ffb1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data36</definition>
+        <argsstring></argsstring>
+        <name>data36</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="746" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="746" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af50ff3edc9c494088e729f1d23e9830f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data37</definition>
+        <argsstring></argsstring>
+        <name>data37</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="747" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="747" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4ac117d09ef894f3077d4db58662096b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data38</definition>
+        <argsstring></argsstring>
+        <name>data38</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="748" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="748" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad59e50095d2e59d06983164e3032c434" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data39</definition>
+        <argsstring></argsstring>
+        <name>data39</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="749" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="749" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a1e617ebac99ea82287c4e75f664c6ce4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data40</definition>
+        <argsstring></argsstring>
+        <name>data40</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="750" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="750" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a17b4c3b08f49a269fb2162b662767bd6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data41</definition>
+        <argsstring></argsstring>
+        <name>data41</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="751" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="751" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa2dd0289ff5da15c8482c0100a1a0db4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data42</definition>
+        <argsstring></argsstring>
+        <name>data42</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="752" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="752" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5d06ce93385c2e1ef167c8245f65743b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data43</definition>
+        <argsstring></argsstring>
+        <name>data43</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="753" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="753" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aff3675496f5beb5f181533740fb2e065" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data44</definition>
+        <argsstring></argsstring>
+        <name>data44</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="754" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="754" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad9b17fc2bb7dd083854ce63ade169564" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data45</definition>
+        <argsstring></argsstring>
+        <name>data45</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="755" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="755" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1afedd75b86bc926ef93a0f1ceaf7bf7ba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data46</definition>
+        <argsstring></argsstring>
+        <name>data46</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="756" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="756" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae4dc887e9d5f2ede86dc25a45da418c9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data47</definition>
+        <argsstring></argsstring>
+        <name>data47</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="757" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="757" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1acb46717959f32082465504515cab5659" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data48</definition>
+        <argsstring></argsstring>
+        <name>data48</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="758" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="758" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4af8200dba812a7282f50a129ac52307" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data49</definition>
+        <argsstring></argsstring>
+        <name>data49</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="759" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="759" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae716f0cd444afaca7582e35858255842" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data50</definition>
+        <argsstring></argsstring>
+        <name>data50</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="760" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="760" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4cd4e234a74d01baab14b1888fc12bcf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data51</definition>
+        <argsstring></argsstring>
+        <name>data51</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="761" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="761" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a108f6300acad838186617e8f31cf13a4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data52</definition>
+        <argsstring></argsstring>
+        <name>data52</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="762" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="762" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a03caa442b27c54afd43450fca2e253b5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data53</definition>
+        <argsstring></argsstring>
+        <name>data53</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="763" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="763" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a11e7a6e2984062e8b5aad2f02130aa70" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data54</definition>
+        <argsstring></argsstring>
+        <name>data54</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="764" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="764" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1add1abaa1f32c9e76386f67d5cf316cdb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data55</definition>
+        <argsstring></argsstring>
+        <name>data55</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="765" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="765" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab3fdb30d3f2ded92ca03279e5854b1cf" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data56</definition>
+        <argsstring></argsstring>
+        <name>data56</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="766" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="766" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa827a69dc1431042100246deac6b19ab" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data57</definition>
+        <argsstring></argsstring>
+        <name>data57</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="767" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="767" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a191060a70ec2322e8cc828b18c56767e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data58</definition>
+        <argsstring></argsstring>
+        <name>data58</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="768" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="768" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8ac2cd5cce26f56f971e5a84a9133edb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data59</definition>
+        <argsstring></argsstring>
+        <name>data59</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="769" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="769" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a36a99f5d7785ce6b35b5b48fb51b59c3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data60</definition>
+        <argsstring></argsstring>
+        <name>data60</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="770" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="770" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54686adcab373124d3f699420b1eedfd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data61</definition>
+        <argsstring></argsstring>
+        <name>data61</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="771" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="771" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6dbb56f2f83336cb606088ba81aed490" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data62</definition>
+        <argsstring></argsstring>
+        <name>data62</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="772" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="772" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a95b0876ad6609ed694cdce598050e72e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data63</definition>
+        <argsstring></argsstring>
+        <name>data63</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="773" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="773" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab62216ef32df04503a3d3decaf7cef2f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data64</definition>
+        <argsstring></argsstring>
+        <name>data64</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="774" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="774" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4e565fd89142da024a496fdbb8591aed" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data65</definition>
+        <argsstring></argsstring>
+        <name>data65</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="775" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="775" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af6524cc6c28fbf146cfdaa6dd3bd787d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data66</definition>
+        <argsstring></argsstring>
+        <name>data66</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="776" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="776" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae4d6352cf74624fbdd4404e1a34e0c1c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data67</definition>
+        <argsstring></argsstring>
+        <name>data67</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="777" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="777" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3396ac08beba2bac92033f6c49e62dd6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data68</definition>
+        <argsstring></argsstring>
+        <name>data68</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="778" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="778" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad0df4f077e889a4ad21c832b611f0842" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data69</definition>
+        <argsstring></argsstring>
+        <name>data69</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="779" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="779" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae6367de3628c0f4aed71a29a1eb1973f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data70</definition>
+        <argsstring></argsstring>
+        <name>data70</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="780" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="780" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a14337ba8fce172bcf1a90b6a1371a971" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data71</definition>
+        <argsstring></argsstring>
+        <name>data71</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="781" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="781" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0182c2211433fbc0aa0353e3b8311389" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data72</definition>
+        <argsstring></argsstring>
+        <name>data72</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="782" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="782" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae59378e00ce4d595c3ca1f7a64194591" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data73</definition>
+        <argsstring></argsstring>
+        <name>data73</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="783" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="783" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3aa0079ee8c5d6a3603047fea9aff2a1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data74</definition>
+        <argsstring></argsstring>
+        <name>data74</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="784" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="784" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0db086b3810fc52987386d1e2d329358" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data75</definition>
+        <argsstring></argsstring>
+        <name>data75</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="785" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="785" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aec4593a34abd4a5d34013a4632fd7f6e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data76</definition>
+        <argsstring></argsstring>
+        <name>data76</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="786" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="786" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab63e109f5a871ef4f82566fa7b9846c7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data77</definition>
+        <argsstring></argsstring>
+        <name>data77</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="787" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="787" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa679a0857d949d829f63cd4eda1064d6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data78</definition>
+        <argsstring></argsstring>
+        <name>data78</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="788" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="788" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4f6a8179ab9058a4b0bbd50e6f9ef9d3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data79</definition>
+        <argsstring></argsstring>
+        <name>data79</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="789" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="789" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5bc5cf66efc96de13283d68626b74e67" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data80</definition>
+        <argsstring></argsstring>
+        <name>data80</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="790" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="790" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a361d500fc8b85bf251fdff05f0445c79" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data81</definition>
+        <argsstring></argsstring>
+        <name>data81</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="791" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="791" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a25f2c784ba72c8952fe4b65e208659b9" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data82</definition>
+        <argsstring></argsstring>
+        <name>data82</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="792" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="792" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af0d265ec57500f2de107c514f1150773" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data83</definition>
+        <argsstring></argsstring>
+        <name>data83</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="793" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="793" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa0b0f6748578c42ad65553aa414503fc" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data84</definition>
+        <argsstring></argsstring>
+        <name>data84</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="794" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="794" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a20cbac4d62c4d91cb373e222633d901b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data85</definition>
+        <argsstring></argsstring>
+        <name>data85</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="795" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="795" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a759aad3a631d2bdd4065cea205aed0bb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data86</definition>
+        <argsstring></argsstring>
+        <name>data86</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="796" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="796" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aba526f7fe7a3a8900f60094ddc1447b1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data87</definition>
+        <argsstring></argsstring>
+        <name>data87</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="797" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="797" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6668ed5ac9f96506130b5decdf3307bb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data88</definition>
+        <argsstring></argsstring>
+        <name>data88</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="798" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="798" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8a85bde02a0ff1624da1dbd7ca7efc1a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data89</definition>
+        <argsstring></argsstring>
+        <name>data89</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="799" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="799" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a87c6175205b6c72a317ef17d180cefc7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data90</definition>
+        <argsstring></argsstring>
+        <name>data90</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="800" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="800" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a886e4bcd15f335e766f9e90f85d078f8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data91</definition>
+        <argsstring></argsstring>
+        <name>data91</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="801" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="801" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8bda3a6b38170627452158feda37bb06" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data92</definition>
+        <argsstring></argsstring>
+        <name>data92</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="802" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="802" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4238d084ff1f1fe24c74dc552768b7ac" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data93</definition>
+        <argsstring></argsstring>
+        <name>data93</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="803" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="803" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54748ed97e5e1ec280c4ff64feb63f9d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data94</definition>
+        <argsstring></argsstring>
+        <name>data94</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="804" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="804" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad446c2334d518900daa2d3457d1c8904" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data95</definition>
+        <argsstring></argsstring>
+        <name>data95</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="805" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="805" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1afbdf937932cbff0a076a823d72abc03a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data96</definition>
+        <argsstring></argsstring>
+        <name>data96</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="806" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="806" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1abefcffedb57556c113b6c471a65fe22b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data97</definition>
+        <argsstring></argsstring>
+        <name>data97</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="807" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="807" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aaa531b5e18125b088c94fb444c76c7bd" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data98</definition>
+        <argsstring></argsstring>
+        <name>data98</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="808" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="808" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aeef1bf575ef2bb8e36dbe6c40607f7c2" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data99</definition>
+        <argsstring></argsstring>
+        <name>data99</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="809" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="809" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a30a49489bd9261edaa99cc9ceaf36ffe" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data100</definition>
+        <argsstring></argsstring>
+        <name>data100</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="810" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="810" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0f2c41b0da34ba80551d3969899235ff" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data101</definition>
+        <argsstring></argsstring>
+        <name>data101</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="811" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="811" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad819f83d14c1515243208266c3f32473" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data102</definition>
+        <argsstring></argsstring>
+        <name>data102</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="812" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="812" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a582332a1529f0cc9abcb17f3eabaf3c6" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data103</definition>
+        <argsstring></argsstring>
+        <name>data103</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="813" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="813" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2a9fcc00dcfb7a69e0fe6106c98f1d96" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data104</definition>
+        <argsstring></argsstring>
+        <name>data104</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="814" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="814" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a36cc75a996f4bdf12db890a6caa75c05" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data105</definition>
+        <argsstring></argsstring>
+        <name>data105</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="815" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="815" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aecc385aca81fe35c60663aa9731fb259" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data106</definition>
+        <argsstring></argsstring>
+        <name>data106</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="816" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="816" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5ccfb9d80674fbaa10993b3009bdd70d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data107</definition>
+        <argsstring></argsstring>
+        <name>data107</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="817" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="817" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a98b0650fabc5349a33dc1faba2f87bf1" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data108</definition>
+        <argsstring></argsstring>
+        <name>data108</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="818" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="818" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a93efde1cf530bb7443f66bcf7fdeb8a0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data109</definition>
+        <argsstring></argsstring>
+        <name>data109</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="819" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="819" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aba1f054f17c3215ba29f82ef6f2ab066" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data110</definition>
+        <argsstring></argsstring>
+        <name>data110</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="820" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="820" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a9558deed6ecc1c7b51a9dcfeeff2da8e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data111</definition>
+        <argsstring></argsstring>
+        <name>data111</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="821" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="821" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab2ee91307f65e3e907aca614d1d72b45" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data112</definition>
+        <argsstring></argsstring>
+        <name>data112</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="822" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="822" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a14180cb5e263b5d7dbd2e50754f0e0f7" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data113</definition>
+        <argsstring></argsstring>
+        <name>data113</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="823" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="823" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a724ac35f04d33c1a7dfd05d6a042d874" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data114</definition>
+        <argsstring></argsstring>
+        <name>data114</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="824" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="824" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad955fb07c9eafc1a7e07a56fd77d0567" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data115</definition>
+        <argsstring></argsstring>
+        <name>data115</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="825" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="825" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a85929cce9a7fb9a349c9a5b27a82c998" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data116</definition>
+        <argsstring></argsstring>
+        <name>data116</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="826" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="826" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a38b62bfe9997b0c4278f46872839d3cb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data117</definition>
+        <argsstring></argsstring>
+        <name>data117</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="827" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="827" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a671930a1deb4f294ebf2390483540b26" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data118</definition>
+        <argsstring></argsstring>
+        <name>data118</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="828" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="828" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a467f4166e91be014eca5b15892849e76" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data119</definition>
+        <argsstring></argsstring>
+        <name>data119</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="829" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="829" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab6ba0f5a53e111aaa05b4fef8ea23f48" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data120</definition>
+        <argsstring></argsstring>
+        <name>data120</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="830" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="830" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a003f03a1fdc940e45040e80cd9ae2206" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data121</definition>
+        <argsstring></argsstring>
+        <name>data121</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="831" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="831" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a875d4c421cc757df13e0b532c465a9fb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data122</definition>
+        <argsstring></argsstring>
+        <name>data122</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="832" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="832" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad02beca0bf2d27bfea9c63686d2c777c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data123</definition>
+        <argsstring></argsstring>
+        <name>data123</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="833" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="833" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4c8fde21f1e6dd0709b4f360f7b11fc3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data124</definition>
+        <argsstring></argsstring>
+        <name>data124</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="834" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="834" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a486f69085bf760c51232b33f520d12c5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data125</definition>
+        <argsstring></argsstring>
+        <name>data125</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="835" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="835" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a80075509e4381496c93c45f50432a693" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data126</definition>
+        <argsstring></argsstring>
+        <name>data126</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="836" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="836" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a35e8f8861d3120dab3f7b0c386462370" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data127</definition>
+        <argsstring></argsstring>
+        <name>data127</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="837" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="837" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad16be3a58992e7747ffee99ba2fcb643" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref></type>
+        <definition>ODBAXDT_data DNC.Focas2.ODBAXDT.data128</definition>
+        <argsstring></argsstring>
+        <name>data128</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data" kindref="compound">ODBAXDT_data</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="838" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="838" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="754">
+        <label>DNC.Focas2.ODBAXDT_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t__data"/>
+      </node>
+      <node id="753">
+        <label>DNC.Focas2.ODBAXDT</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t"/>
+        <childnode refid="754" relation="usage">
+          <edgelabel>data128</edgelabel>
+          <edgelabel>data117</edgelabel>
+          <edgelabel>data49</edgelabel>
+          <edgelabel>data38</edgelabel>
+          <edgelabel>data27</edgelabel>
+          <edgelabel>data16</edgelabel>
+          <edgelabel>data118</edgelabel>
+          <edgelabel>data39</edgelabel>
+          <edgelabel>data28</edgelabel>
+          <edgelabel>data17</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="710" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="709" bodyend="839"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a60a85441aba8ba7139d51912c1f04037" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a864f43da9313001a9daedfc30a210edc" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data10</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a30a49489bd9261edaa99cc9ceaf36ffe" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data100</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0f2c41b0da34ba80551d3969899235ff" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data101</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad819f83d14c1515243208266c3f32473" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data102</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a582332a1529f0cc9abcb17f3eabaf3c6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data103</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2a9fcc00dcfb7a69e0fe6106c98f1d96" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data104</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a36cc75a996f4bdf12db890a6caa75c05" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data105</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aecc385aca81fe35c60663aa9731fb259" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data106</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5ccfb9d80674fbaa10993b3009bdd70d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data107</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a98b0650fabc5349a33dc1faba2f87bf1" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data108</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a93efde1cf530bb7443f66bcf7fdeb8a0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data109</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a37f519aa9707890d69eadb20d1dd8301" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data11</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aba1f054f17c3215ba29f82ef6f2ab066" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data110</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a9558deed6ecc1c7b51a9dcfeeff2da8e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data111</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab2ee91307f65e3e907aca614d1d72b45" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data112</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a14180cb5e263b5d7dbd2e50754f0e0f7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data113</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a724ac35f04d33c1a7dfd05d6a042d874" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data114</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad955fb07c9eafc1a7e07a56fd77d0567" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data115</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a85929cce9a7fb9a349c9a5b27a82c998" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data116</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a38b62bfe9997b0c4278f46872839d3cb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data117</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a671930a1deb4f294ebf2390483540b26" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data118</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a467f4166e91be014eca5b15892849e76" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data119</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a61c90b5ffbd25a96b4768d0634423bc2" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data12</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab6ba0f5a53e111aaa05b4fef8ea23f48" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data120</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a003f03a1fdc940e45040e80cd9ae2206" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data121</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a875d4c421cc757df13e0b532c465a9fb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data122</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad02beca0bf2d27bfea9c63686d2c777c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data123</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4c8fde21f1e6dd0709b4f360f7b11fc3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data124</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a486f69085bf760c51232b33f520d12c5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data125</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a80075509e4381496c93c45f50432a693" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data126</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a35e8f8861d3120dab3f7b0c386462370" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data127</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad16be3a58992e7747ffee99ba2fcb643" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data128</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad617450ce748ab39cc6b7b135b3dfa65" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data13</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a1824174a55d2d1c14dbd5c041fa7d75c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data14</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6e0f8ae64d3d8c11421e1cc18f63708f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data15</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab6e2b0c058f92c904450fd36375847b0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data16</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3239046cc43d6b770e6beb01a20a0955" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data17</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0ef42efe844e2babc5faa4627dd0acba" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data18</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ac9f5317064ad41a99205985faeffd9f7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data19</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a307189296a2240e5dc710426222e2ad5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae8730cb62029c09112f7e789e4d6b398" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data20</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aec2ebf402e4b2172d5dad25cfb3ae040" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data21</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2c2b2f2b984620306e67b2713d9a2a88" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data22</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aed987e5377903fa3ac7205d9db69fd3e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data23</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ade0e028676b1939327dd46a8b0b75422" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data24</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0daef2a650629b00880e59dd5efd55b0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data25</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6e8151a287643f07cf61e7d834f5608c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data26</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aeef682f4e6f3d23c97a1fe3fc05d3991" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data27</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1acbdb306e7123cf2350a9b19b871e12c8" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data28</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1adca9fd56a7df9434efcf6cf74b1ec555" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data29</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a37dd832c6eedfb2f180bacfa1d8f1d11" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8af28982113c083e5ff2e2b2d1758077" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data30</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a82c6c2c9c4a388cb8566a33f1a320946" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data31</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad5dd248c996b71ed6ac3e8181d9adbd2" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data32</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a2d96752b9d143e5711993bbf3352863c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data33</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a06d17d53094527a051ad3bdbb70a1f66" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data34</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a50264e8385bd5b573cb82f0ceb1da1a0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data35</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54da6e517bb235e40e2d194e08d0ffb1" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data36</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af50ff3edc9c494088e729f1d23e9830f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data37</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4ac117d09ef894f3077d4db58662096b" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data38</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad59e50095d2e59d06983164e3032c434" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data39</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a473221a29f8e82a7f5114a4c00ccc52f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a1e617ebac99ea82287c4e75f664c6ce4" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data40</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a17b4c3b08f49a269fb2162b662767bd6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data41</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa2dd0289ff5da15c8482c0100a1a0db4" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data42</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5d06ce93385c2e1ef167c8245f65743b" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data43</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aff3675496f5beb5f181533740fb2e065" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data44</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad9b17fc2bb7dd083854ce63ade169564" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data45</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1afedd75b86bc926ef93a0f1ceaf7bf7ba" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data46</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae4dc887e9d5f2ede86dc25a45da418c9" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data47</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1acb46717959f32082465504515cab5659" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data48</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4af8200dba812a7282f50a129ac52307" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data49</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a7874d138c40b05bc016e72e8ca075c6f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae716f0cd444afaca7582e35858255842" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data50</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4cd4e234a74d01baab14b1888fc12bcf" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data51</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a108f6300acad838186617e8f31cf13a4" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data52</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a03caa442b27c54afd43450fca2e253b5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data53</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a11e7a6e2984062e8b5aad2f02130aa70" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data54</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1add1abaa1f32c9e76386f67d5cf316cdb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data55</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab3fdb30d3f2ded92ca03279e5854b1cf" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data56</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa827a69dc1431042100246deac6b19ab" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data57</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a191060a70ec2322e8cc828b18c56767e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data58</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8ac2cd5cce26f56f971e5a84a9133edb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data59</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a39db0ad597ea0bc791177748f7aa7d0a" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a36a99f5d7785ce6b35b5b48fb51b59c3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data60</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54686adcab373124d3f699420b1eedfd" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data61</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6dbb56f2f83336cb606088ba81aed490" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data62</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a95b0876ad6609ed694cdce598050e72e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data63</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab62216ef32df04503a3d3decaf7cef2f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data64</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4e565fd89142da024a496fdbb8591aed" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data65</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af6524cc6c28fbf146cfdaa6dd3bd787d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data66</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae4d6352cf74624fbdd4404e1a34e0c1c" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data67</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3396ac08beba2bac92033f6c49e62dd6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data68</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad0df4f077e889a4ad21c832b611f0842" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data69</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a555a7e6cb70ab4103bd33559a75d66b5" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae6367de3628c0f4aed71a29a1eb1973f" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data70</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a14337ba8fce172bcf1a90b6a1371a971" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data71</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0182c2211433fbc0aa0353e3b8311389" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data72</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ae59378e00ce4d595c3ca1f7a64194591" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data73</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a3aa0079ee8c5d6a3603047fea9aff2a1" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data74</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a0db086b3810fc52987386d1e2d329358" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data75</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aec4593a34abd4a5d34013a4632fd7f6e" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data76</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ab63e109f5a871ef4f82566fa7b9846c7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data77</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa679a0857d949d829f63cd4eda1064d6" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data78</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4f6a8179ab9058a4b0bbd50e6f9ef9d3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data79</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a68e67c2340a0749f774af810a369ebc3" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data8</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a5bc5cf66efc96de13283d68626b74e67" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data80</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a361d500fc8b85bf251fdff05f0445c79" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data81</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a25f2c784ba72c8952fe4b65e208659b9" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data82</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1af0d265ec57500f2de107c514f1150773" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data83</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aa0b0f6748578c42ad65553aa414503fc" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data84</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a20cbac4d62c4d91cb373e222633d901b" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data85</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a759aad3a631d2bdd4065cea205aed0bb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data86</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aba526f7fe7a3a8900f60094ddc1447b1" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data87</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a6668ed5ac9f96506130b5decdf3307bb" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data88</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8a85bde02a0ff1624da1dbd7ca7efc1a" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data89</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1abb5504703c47b125d162fc1caa1ecbb0" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data9</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a87c6175205b6c72a317ef17d180cefc7" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data90</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a886e4bcd15f335e766f9e90f85d078f8" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data91</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a8bda3a6b38170627452158feda37bb06" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data92</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a4238d084ff1f1fe24c74dc552768b7ac" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data93</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1a54748ed97e5e1ec280c4ff64feb63f9d" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data94</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1ad446c2334d518900daa2d3457d1c8904" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data95</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1afbdf937932cbff0a076a823d72abc03a" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data96</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1abefcffedb57556c113b6c471a65fe22b" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data97</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aaa531b5e18125b088c94fb444c76c7bd" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data98</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_a_x_d_t_1aeef1bf575ef2bb8e36dbe6c40607f7c2" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBAXDT</scope><name>data99</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

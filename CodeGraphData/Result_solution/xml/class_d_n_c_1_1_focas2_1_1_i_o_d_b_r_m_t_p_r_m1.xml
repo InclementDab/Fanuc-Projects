@@ -1,0 +1,518 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBRMTPRM1</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a977237978fa90b8cd8eb4d4aaa878792" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl1</definition>
+        <argsstring></argsstring>
+        <name>ampl1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4980" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4980" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a3c7f061ca18eaf8fba52a4b280a20c66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl2</definition>
+        <argsstring></argsstring>
+        <name>ampl2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4981" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4981" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a5d4b66ae24fc2bd56829ec501b75635c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl3</definition>
+        <argsstring></argsstring>
+        <name>ampl3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4982" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4982" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a52d27f8841bcee77c755908c85a059e4" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl4</definition>
+        <argsstring></argsstring>
+        <name>ampl4</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4983" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4983" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a316c708257149e2f59db35c01777234e" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl5</definition>
+        <argsstring></argsstring>
+        <name>ampl5</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4984" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4984" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a212fb32cbce658bc86bc39ef43fd5640" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl6</definition>
+        <argsstring></argsstring>
+        <name>ampl6</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4985" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4985" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1afa03ec23b57601582e740c361dd3a9e5" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl7</definition>
+        <argsstring></argsstring>
+        <name>ampl7</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4986" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4986" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1af8ba3eba7f25d7182dcfecb321e0cbd8" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl8</definition>
+        <argsstring></argsstring>
+        <name>ampl8</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4987" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4987" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a47007a26fb565641b486eb78253f0bb0" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl9</definition>
+        <argsstring></argsstring>
+        <name>ampl9</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4988" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4988" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a20f56194cc4844a42ba4fa35b0b08000" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl10</definition>
+        <argsstring></argsstring>
+        <name>ampl10</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4989" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4989" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a9ee33be293b512fd59af0f6bdc5aa13f" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl11</definition>
+        <argsstring></argsstring>
+        <name>ampl11</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4990" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4990" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a17e81b7428a6aeb6552b30802373310d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl12</definition>
+        <argsstring></argsstring>
+        <name>ampl12</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4991" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4991" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a484963452a4817314f4153049dff3163" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl13</definition>
+        <argsstring></argsstring>
+        <name>ampl13</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4992" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4992" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a75663a92f0ad6ea6d13355aee1d24712" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl14</definition>
+        <argsstring></argsstring>
+        <name>ampl14</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4993" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4993" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a275a82c441e51142e9a1b866b6b0fe35" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl15</definition>
+        <argsstring></argsstring>
+        <name>ampl15</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4994" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4994" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a0409ff8b79711395b442456ebbb8d46b" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl16</definition>
+        <argsstring></argsstring>
+        <name>ampl16</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4995" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4995" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a1bce57d8f985767ba24a60f203423f51" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl17</definition>
+        <argsstring></argsstring>
+        <name>ampl17</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4996" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4996" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ab77278acd35e8e879ae96a96049b9d4a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl18</definition>
+        <argsstring></argsstring>
+        <name>ampl18</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4997" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4997" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1aaddb908763a54db4facec0136219607d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl19</definition>
+        <argsstring></argsstring>
+        <name>ampl19</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4998" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4998" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a42375552abe0114c4ddd80864a09d276" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl20</definition>
+        <argsstring></argsstring>
+        <name>ampl20</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4999" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4999" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a6cd814eec903f9928baef465bf4a6f85" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl21</definition>
+        <argsstring></argsstring>
+        <name>ampl21</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5000" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5000" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1aa8ccee1aaff69dec0121a2e487117c23" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl22</definition>
+        <argsstring></argsstring>
+        <name>ampl22</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5001" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5001" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a33c23f65b53eaade031d4eb716966ae3" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl23</definition>
+        <argsstring></argsstring>
+        <name>ampl23</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5002" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5002" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ac63a55e1ad632ac1e931989b2abb1d66" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl24</definition>
+        <argsstring></argsstring>
+        <name>ampl24</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5003" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5003" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a8e244de3acb9620284755490e00ead3d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl25</definition>
+        <argsstring></argsstring>
+        <name>ampl25</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5004" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5004" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1adf0b18eb98d079593fa90a190903816c" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl26</definition>
+        <argsstring></argsstring>
+        <name>ampl26</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5005" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5005" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a17c29ddb90c30a816301262a46ecce45" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl27</definition>
+        <argsstring></argsstring>
+        <name>ampl27</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5006" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5006" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a9098adedaa70f0eace0291d78cf90791" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl28</definition>
+        <argsstring></argsstring>
+        <name>ampl28</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5007" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5007" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ad275f48ade1bf58634ba04a2879f0463" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl29</definition>
+        <argsstring></argsstring>
+        <name>ampl29</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5008" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5008" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ac6f97f5b2978492c1830a38e8ac916ba" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl30</definition>
+        <argsstring></argsstring>
+        <name>ampl30</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5009" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5009" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a13207e4e5dfce2db9836bcb5c8b888df" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl31</definition>
+        <argsstring></argsstring>
+        <name>ampl31</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5010" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5010" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a12fac4002f67296392946d7c2197bd09" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref></type>
+        <definition>IODBRMTPRM_smpl DNC.Focas2.IODBRMTPRM1.ampl32</definition>
+        <argsstring></argsstring>
+        <name>ampl32</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl" kindref="compound">IODBRMTPRM_smpl</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="5011" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="5011" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="426">
+        <label>DNC.Focas2.IODBRMTPRM_smpl</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m__smpl"/>
+      </node>
+      <node id="425">
+        <label>DNC.Focas2.IODBRMTPRM1</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1"/>
+        <childnode refid="426" relation="usage">
+          <edgelabel>ampl30</edgelabel>
+          <edgelabel>ampl31</edgelabel>
+          <edgelabel>ampl20</edgelabel>
+          <edgelabel>ampl32</edgelabel>
+          <edgelabel>ampl21</edgelabel>
+          <edgelabel>ampl10</edgelabel>
+          <edgelabel>ampl1</edgelabel>
+          <edgelabel>ampl22</edgelabel>
+          <edgelabel>ampl11</edgelabel>
+          <edgelabel>ampl2</edgelabel>
+          <edgelabel>...</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4979" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4978" bodyend="5012"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a977237978fa90b8cd8eb4d4aaa878792" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a20f56194cc4844a42ba4fa35b0b08000" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl10</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a9ee33be293b512fd59af0f6bdc5aa13f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl11</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a17e81b7428a6aeb6552b30802373310d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl12</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a484963452a4817314f4153049dff3163" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl13</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a75663a92f0ad6ea6d13355aee1d24712" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl14</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a275a82c441e51142e9a1b866b6b0fe35" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl15</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a0409ff8b79711395b442456ebbb8d46b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl16</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a1bce57d8f985767ba24a60f203423f51" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl17</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ab77278acd35e8e879ae96a96049b9d4a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl18</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1aaddb908763a54db4facec0136219607d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl19</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a3c7f061ca18eaf8fba52a4b280a20c66" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a42375552abe0114c4ddd80864a09d276" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl20</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a6cd814eec903f9928baef465bf4a6f85" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl21</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1aa8ccee1aaff69dec0121a2e487117c23" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl22</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a33c23f65b53eaade031d4eb716966ae3" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl23</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ac63a55e1ad632ac1e931989b2abb1d66" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl24</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a8e244de3acb9620284755490e00ead3d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl25</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1adf0b18eb98d079593fa90a190903816c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl26</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a17c29ddb90c30a816301262a46ecce45" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl27</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a9098adedaa70f0eace0291d78cf90791" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl28</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ad275f48ade1bf58634ba04a2879f0463" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl29</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a5d4b66ae24fc2bd56829ec501b75635c" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl3</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1ac6f97f5b2978492c1830a38e8ac916ba" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl30</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a13207e4e5dfce2db9836bcb5c8b888df" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl31</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a12fac4002f67296392946d7c2197bd09" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl32</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a52d27f8841bcee77c755908c85a059e4" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl4</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a316c708257149e2f59db35c01777234e" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl5</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a212fb32cbce658bc86bc39ef43fd5640" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl6</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1afa03ec23b57601582e740c361dd3a9e5" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl7</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1af8ba3eba7f25d7182dcfecb321e0cbd8" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl8</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_r_m_t_p_r_m1_1a47007a26fb565641b486eb78253f0bb0" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBRMTPRM1</scope><name>ampl9</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,144 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_views_1_1_connection_setup_view_model" kind="class" prot="public">
+    <compoundname>DNC::Views::ConnectionSetupViewModel</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">ViewModelBase</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aafd68af1e156396798c7371d4bb11375" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref></type>
+        <definition>Machine DNC.Views.ConnectionSetupViewModel.CurrentMachine</definition>
+        <argsstring></argsstring>
+        <name>CurrentMachine</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="64" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="64" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a462af51cf3e5693c5cf7417f78b86a73" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>ICommand</type>
+        <definition>ICommand DNC.Views.ConnectionSetupViewModel.CloseCommand</definition>
+        <argsstring></argsstring>
+        <name>CloseCommand</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="65" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="65" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aeef863f9cb99e34cdcc4a21a9e583d0a" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>UserControl</type>
+        <definition>UserControl DNC.Views.ConnectionSetupViewModel.CurrentControl</definition>
+        <argsstring></argsstring>
+        <name>CurrentControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="68" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="69" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1ac6b33d7f6737975e99fdaa905f2da2e5" prot="public" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type>Dictionary&lt; <ref refid="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56f" kindref="member">ConnectionType</ref>, UserControl &gt;</type>
+        <definition>Dictionary&lt;ConnectionType, UserControl&gt; DNC.Views.ConnectionSetupViewModel.AvailableTypes</definition>
+        <argsstring></argsstring>
+        <name>AvailableTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="89" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="90" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a018a93d3bfaf44207699bea05663fec7" prot="private" static="no" mutable="no">
+        <type>UserControl</type>
+        <definition>UserControl DNC.Views.ConnectionSetupViewModel._currentControl</definition>
+        <argsstring></argsstring>
+        <name>_currentControl</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="67" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="67" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a6b7b55a9463301c6f221d4c5348f05ff" prot="private" static="no" mutable="no">
+        <type>Dictionary&lt; <ref refid="namespace_d_n_c_1_1_models_1a266b5e79d31c2c1a37d8f6e209f1f56f" kindref="member">ConnectionType</ref>, UserControl &gt;</type>
+        <definition>Dictionary&lt;ConnectionType, UserControl&gt; DNC.Views.ConnectionSetupViewModel._availableTypes</definition>
+        <argsstring></argsstring>
+        <name>_availableTypes</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="88" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="88" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aa4555d6d50a4159ecc5be074e5680f12" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Views.ConnectionSetupViewModel.ConnectionSetupViewModel</definition>
+        <argsstring>(Machine currentMachine)</argsstring>
+        <name>ConnectionSetupViewModel</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_models_1_1_machine" kindref="compound">Machine</ref></type>
+          <declname>currentMachine</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="78" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="78" bodyend="86"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="79">
+        <label>DNC.Views.ConnectionSetupViewModel</label>
+        <link refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model"/>
+        <childnode refid="80" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="80">
+        <label>ViewModelBase</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="81">
+        <label>DNC.Views.ConnectionSetupViewModel</label>
+        <link refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model"/>
+        <childnode refid="82" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="82">
+        <label>ViewModelBase</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" line="63" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ConnectionSetup.xaml.cs" bodystart="62" bodyend="100"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a6b7b55a9463301c6f221d4c5348f05ff" prot="private" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>_availableTypes</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a018a93d3bfaf44207699bea05663fec7" prot="private" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>_currentControl</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1ac6b33d7f6737975e99fdaa905f2da2e5" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>AvailableTypes</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1a462af51cf3e5693c5cf7417f78b86a73" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>CloseCommand</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aa4555d6d50a4159ecc5be074e5680f12" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>ConnectionSetupViewModel</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aeef863f9cb99e34cdcc4a21a9e583d0a" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>CurrentControl</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_connection_setup_view_model_1aafd68af1e156396798c7371d4bb11375" prot="public" virt="non-virtual"><scope>DNC::Views::ConnectionSetupViewModel</scope><name>CurrentMachine</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

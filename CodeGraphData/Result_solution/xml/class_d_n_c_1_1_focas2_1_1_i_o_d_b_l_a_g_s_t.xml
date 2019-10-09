@@ -1,0 +1,75 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBLAGST</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1a0abb97871a96ef111c072dd66d1fa73a" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref></type>
+        <definition>GASFLOW DNC.Focas2.IODBLAGST.data1</definition>
+        <argsstring></argsstring>
+        <name>data1</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6147" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6147" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1ae4294c6c87c02ccb1bc9d1743736346d" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref></type>
+        <definition>GASFLOW DNC.Focas2.IODBLAGST.data2</definition>
+        <argsstring></argsstring>
+        <name>data2</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6148" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6148" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1a18c2759adb3cc3b08c2c2c4995e8b029" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref></type>
+        <definition>GASFLOW DNC.Focas2.IODBLAGST.data3</definition>
+        <argsstring></argsstring>
+        <name>data3</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w" kindref="compound">GASFLOW</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6149" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6149" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="286">
+        <label>DNC.Focas2.GASFLOW</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_g_a_s_f_l_o_w"/>
+      </node>
+      <node id="285">
+        <label>DNC.Focas2.IODBLAGST</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t"/>
+        <childnode refid="286" relation="usage">
+          <edgelabel>data1</edgelabel>
+          <edgelabel>data2</edgelabel>
+          <edgelabel>data3</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="6146" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="6145" bodyend="6150"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1a0abb97871a96ef111c072dd66d1fa73a" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBLAGST</scope><name>data1</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1ae4294c6c87c02ccb1bc9d1743736346d" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBLAGST</scope><name>data2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_l_a_g_s_t_1a18c2759adb3cc3b08c2c2c4995e8b029" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBLAGST</scope><name>data3</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

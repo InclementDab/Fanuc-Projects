@@ -1,0 +1,318 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_views_1_1_machine_list_view" kind="class" prot="public">
+    <compoundname>DNC::Views::MachineListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="property">
+      <memberdef kind="property" id="class_d_n_c_1_1_views_1_1_machine_list_view_1aa83b3be04faa9e61f029326a8b8439de" prot="private" static="no" readable="no" writable="no" gettable="yes" settable="yes">
+        <type><ref refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model" kindref="compound">MachineListViewModel</ref></type>
+        <definition>MachineListViewModel DNC.Views.MachineListView.ViewModel</definition>
+        <argsstring></argsstring>
+        <name>ViewModel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="29" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="29" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a8621a31458ea82e7409fd49b70bff379" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Views.MachineListView.MachineListView</definition>
+        <argsstring>()</argsstring>
+        <name>MachineListView</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="31" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="31" bodyend="35"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ae410b11b8033e8779cf6658cb006bc92" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.TextBox_KeyDown</definition>
+        <argsstring>(object sender, KeyEventArgs e)</argsstring>
+        <name>TextBox_KeyDown</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>KeyEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="38" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="38" bodyend="50"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ac7e26798c5895fb9deecee78dca23e73" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.TreeView_SelectedItemChanged</definition>
+        <argsstring>(object sender, RoutedPropertyChangedEventArgs&lt; object &gt; e)</argsstring>
+        <name>TreeView_SelectedItemChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>RoutedPropertyChangedEventArgs&lt; object &gt;</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="53" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="53" bodyend="56"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a82abb7bff79b1c22b76c08167b264f2d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.TextBox_IsVisibleChanged</definition>
+        <argsstring>(object sender, DependencyPropertyChangedEventArgs e)</argsstring>
+        <name>TextBox_IsVisibleChanged</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>DependencyPropertyChangedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="58" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="58" bodyend="65"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a510010570e164dab869d2e622f5a09f1" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.CommandBinding_CanExecute</definition>
+        <argsstring>(object sender, CanExecuteRoutedEventArgs e)</argsstring>
+        <name>CommandBinding_CanExecute</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>CanExecuteRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="75" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="75" bodyend="78"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a854c5649a4cc52319fcce1f46f28496d" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.Cut_Executed</definition>
+        <argsstring>(object sender, ExecutedRoutedEventArgs e)</argsstring>
+        <name>Cut_Executed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ExecutedRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="81" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="81" bodyend="90"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ac70194a619c7cacc7b15aa3081aa4975" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.Copy_Executed</definition>
+        <argsstring>(object sender, ExecutedRoutedEventArgs e)</argsstring>
+        <name>Copy_Executed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ExecutedRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="92" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="92" bodyend="95"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ab488578ab9e988e52238774cafb1f4af" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.Views.MachineListView.Paste_Executed</definition>
+        <argsstring>(object sender, ExecutedRoutedEventArgs e)</argsstring>
+        <name>Paste_Executed</name>
+        <param>
+          <type>object</type>
+          <declname>sender</declname>
+        </param>
+        <param>
+          <type>ExecutedRoutedEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="97" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="97" bodyend="106"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-static-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a64cd28941fa1e90cd59a4e03ba81bc34" prot="public" static="yes" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>T</type>
+        <definition>static T DNC.Views.MachineListView.RecursiveGetType&lt; T &gt;</definition>
+        <argsstring>(DependencyObject current)</argsstring>
+        <name>RecursiveGetType&lt; T &gt;</name>
+        <param>
+          <type>DependencyObject</type>
+          <declname>current</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="67" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="67" bodyend="73"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="protected-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ae176e1e1654f18bba35eebeecafa3d2e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.Views.MachineListView.OnMouseMove</definition>
+        <argsstring>(MouseEventArgs e)</argsstring>
+        <name>OnMouseMove</name>
+        <param>
+          <type>MouseEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="110" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="110" bodyend="125"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1a1993935da095638cefae2341ccf535b5" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.Views.MachineListView.OnDragOver</definition>
+        <argsstring>(DragEventArgs e)</argsstring>
+        <name>OnDragOver</name>
+        <param>
+          <type>DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="129" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="129" bodyend="166"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ae06df346aaa7e5914a338acb66961277" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.Views.MachineListView.OnDragLeave</definition>
+        <argsstring>(DragEventArgs e)</argsstring>
+        <name>OnDragLeave</name>
+        <param>
+          <type>DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="168" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="168" bodyend="177"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_machine_list_view_1ae4d319dc92898e8f65e523c44b42364e" prot="protected" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>override void</type>
+        <definition>override void DNC.Views.MachineListView.OnDrop</definition>
+        <argsstring>(DragEventArgs e)</argsstring>
+        <name>OnDrop</name>
+        <param>
+          <type>DragEventArgs</type>
+          <declname>e</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="179" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="179" bodyend="250"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for MachineList.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="662">
+        <label>DNC.Views.MachineListView</label>
+        <link refid="class_d_n_c_1_1_views_1_1_machine_list_view"/>
+        <childnode refid="663" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="663">
+        <label>UserControl</label>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="664">
+        <label>DNC.Views.MachineListView</label>
+        <link refid="class_d_n_c_1_1_views_1_1_machine_list_view"/>
+        <childnode refid="665" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="665">
+        <label>UserControl</label>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" line="28" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/MachineListView.xaml.cs" bodystart="27" bodyend="252"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a510010570e164dab869d2e622f5a09f1" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>CommandBinding_CanExecute</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ac70194a619c7cacc7b15aa3081aa4975" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>Copy_Executed</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a854c5649a4cc52319fcce1f46f28496d" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>Cut_Executed</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a8621a31458ea82e7409fd49b70bff379" prot="public" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>MachineListView</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ae06df346aaa7e5914a338acb66961277" prot="protected" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>OnDragLeave</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a1993935da095638cefae2341ccf535b5" prot="protected" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>OnDragOver</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ae4d319dc92898e8f65e523c44b42364e" prot="protected" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>OnDrop</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ae176e1e1654f18bba35eebeecafa3d2e" prot="protected" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>OnMouseMove</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ab488578ab9e988e52238774cafb1f4af" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>Paste_Executed</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a64cd28941fa1e90cd59a4e03ba81bc34" prot="public" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>RecursiveGetType&lt; T &gt;</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1a82abb7bff79b1c22b76c08167b264f2d" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>TextBox_IsVisibleChanged</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ae410b11b8033e8779cf6658cb006bc92" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>TextBox_KeyDown</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1ac7e26798c5895fb9deecee78dca23e73" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>TreeView_SelectedItemChanged</name></member>
+      <member refid="class_d_n_c_1_1_views_1_1_machine_list_view_1aa83b3be04faa9e61f029326a8b8439de" prot="private" virt="non-virtual"><scope>DNC::Views::MachineListView</scope><name>ViewModel</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

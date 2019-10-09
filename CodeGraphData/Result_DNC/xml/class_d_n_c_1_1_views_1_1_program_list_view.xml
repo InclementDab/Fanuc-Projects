@@ -1,0 +1,56 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_views_1_1_program_list_view" kind="class" prot="public">
+    <compoundname>DNC::Views::ProgramListView</compoundname>
+    <basecompoundref prot="public" virt="non-virtual">UserControl</basecompoundref>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_views_1_1_program_list_view_1ab58637330b836df9fecb7b4e2775bde0" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.Views.ProgramListView.ProgramListView</definition>
+        <argsstring>(MachineListViewModel context)</argsstring>
+        <name>ProgramListView</name>
+        <param>
+          <type><ref refid="class_d_n_c_1_1_view_models_1_1_machine_list_view_model" kindref="compound">MachineListViewModel</ref></type>
+          <declname>context</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ProgramListView.xaml.cs" line="24" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ProgramListView.xaml.cs" bodystart="24" bodyend="28"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+<para>Interaction logic for ProgramListView.xaml </para>    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="1387">
+        <label>UserControl</label>
+      </node>
+      <node id="1386">
+        <label>DNC.Views.ProgramListView</label>
+        <link refid="class_d_n_c_1_1_views_1_1_program_list_view"/>
+        <childnode refid="1387" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="1389">
+        <label>UserControl</label>
+      </node>
+      <node id="1388">
+        <label>DNC.Views.ProgramListView</label>
+        <link refid="class_d_n_c_1_1_views_1_1_program_list_view"/>
+        <childnode refid="1389" relation="public-inheritance">
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ProgramListView.xaml.cs" line="23" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Views/ProgramListView.xaml.cs" bodystart="22" bodyend="29"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_views_1_1_program_list_view_1ab58637330b836df9fecb7b4e2775bde0" prot="public" virt="non-virtual"><scope>DNC::Views::ProgramListView</scope><name>ProgramListView</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

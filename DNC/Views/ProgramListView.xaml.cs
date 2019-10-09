@@ -21,11 +21,10 @@ namespace DNC.Views
     /// </summary>
     public partial class ProgramListView : UserControl
     {
-        public ProgramListView(MachineListViewModel mListViewModel)
+        public ProgramListView(MachineListViewModel context)
         {
             InitializeComponent();
-
-            DataContext = mListViewModel;
+            DataContext = context;
         }
     }
 }

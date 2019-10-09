@@ -1,0 +1,57 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r" kind="class" prot="public">
+    <compoundname>DNC::Focas2::SRAMADDR</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1a55e8c7a117de7a5aad40efcd690069d5" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.SRAMADDR.type</definition>
+        <argsstring></argsstring>
+        <name>type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4657" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4657" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1aa0540e32f31ba9a9204071342f878104" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.SRAMADDR.size</definition>
+        <argsstring></argsstring>
+        <name>size</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4658" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4658" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1a32b0e37ee2fcc463e67537658fa08563" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.SRAMADDR.offset</definition>
+        <argsstring></argsstring>
+        <name>offset</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4659" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4659" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4656" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4655" bodyend="4660"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1a32b0e37ee2fcc463e67537658fa08563" prot="public" virt="non-virtual"><scope>DNC::Focas2::SRAMADDR</scope><name>offset</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1aa0540e32f31ba9a9204071342f878104" prot="public" virt="non-virtual"><scope>DNC::Focas2::SRAMADDR</scope><name>size</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_s_r_a_m_a_d_d_r_1a55e8c7a117de7a5aad40efcd690069d5" prot="public" virt="non-virtual"><scope>DNC::Focas2::SRAMADDR</scope><name>type</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

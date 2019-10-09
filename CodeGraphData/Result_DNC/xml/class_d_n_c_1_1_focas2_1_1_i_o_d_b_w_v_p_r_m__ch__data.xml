@@ -1,0 +1,85 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IODBWVPRM_ch_data</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a8fe626736c21f6ab3727be02574f1f3f" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IODBWVPRM_ch_data.kind</definition>
+        <argsstring></argsstring>
+        <name>kind</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4875" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4875" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a79a1c3a3f629f58df3b086d49f7892fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__u" kindref="compound">IODBWVPRM_u</ref></type>
+        <definition>IODBWVPRM_u DNC.Focas2.IODBWVPRM_ch_data.u</definition>
+        <argsstring></argsstring>
+        <name>u</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__u" kindref="compound">IODBWVPRM_u</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4876" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4876" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a71d4218a8ee2dfcdd0b82007737a471b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.IODBWVPRM_ch_data.reserve2</definition>
+        <argsstring></argsstring>
+        <name>reserve2</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4877" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4877" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="630">
+        <label>DNC.Focas2.IODBWVPRM_u</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__u"/>
+        <childnode refid="631" relation="usage">
+          <edgelabel>io</edgelabel>
+        </childnode>
+        <childnode refid="632" relation="usage">
+          <edgelabel>axis</edgelabel>
+        </childnode>
+      </node>
+      <node id="631">
+        <label>DNC.Focas2.IODBWVPRM_io</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__io"/>
+      </node>
+      <node id="632">
+        <label>DNC.Focas2.IODBWVPRM_axis</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__axis"/>
+      </node>
+      <node id="629">
+        <label>DNC.Focas2.IODBWVPRM_ch_data</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data"/>
+        <childnode refid="630" relation="usage">
+          <edgelabel>u</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4874" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4873" bodyend="4878"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a8fe626736c21f6ab3727be02574f1f3f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWVPRM_ch_data</scope><name>kind</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a71d4218a8ee2dfcdd0b82007737a471b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWVPRM_ch_data</scope><name>reserve2</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_o_d_b_w_v_p_r_m__ch__data_1a79a1c3a3f629f58df3b086d49f7892fa" prot="public" virt="non-virtual"><scope>DNC::Focas2::IODBWVPRM_ch_data</scope><name>u</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

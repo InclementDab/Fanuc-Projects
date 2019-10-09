@@ -1,0 +1,71 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBTLINFO</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a24d3f55c8cb0c1da83e3ba6ccd637574" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBTLINFO.max_group</definition>
+        <argsstring></argsstring>
+        <name>max_group</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1932" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1932" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a17fa4dcd53243fbfa3475b78ce687042" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBTLINFO.max_tool</definition>
+        <argsstring></argsstring>
+        <name>max_tool</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1933" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1933" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a74a777a7ac1bd03b0293f04bc9e58643" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBTLINFO.max_minute</definition>
+        <argsstring></argsstring>
+        <name>max_minute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1934" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1934" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1aad37fba7eba21229531c3583bc63d71b" prot="public" static="no" mutable="no">
+        <type>int</type>
+        <definition>int DNC.Focas2.ODBTLINFO.max_cycle</definition>
+        <argsstring></argsstring>
+        <name>max_cycle</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1935" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1935" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1931" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1930" bodyend="1936"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1aad37fba7eba21229531c3583bc63d71b" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBTLINFO</scope><name>max_cycle</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a24d3f55c8cb0c1da83e3ba6ccd637574" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBTLINFO</scope><name>max_group</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a74a777a7ac1bd03b0293f04bc9e58643" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBTLINFO</scope><name>max_minute</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_t_l_i_n_f_o_1a17fa4dcd53243fbfa3475b78ce687042" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBTLINFO</scope><name>max_tool</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

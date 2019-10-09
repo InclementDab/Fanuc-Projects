@@ -1,0 +1,241 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_view_models_1_1_async_command" kind="class" prot="public">
+    <compoundname>DNC::ViewModels::AsyncCommand</compoundname>
+    <basecompoundref refid="interface_d_n_c_1_1_view_models_1_1_i_async_command" prot="public" virt="non-virtual">DNC.ViewModels.IAsyncCommand</basecompoundref>
+      <sectiondef kind="event">
+      <memberdef kind="event" id="class_d_n_c_1_1_view_models_1_1_async_command_1ac228a51e015a5182f76c5f1b1b87032e" prot="public" static="no" add="no" remove="no" raise="no">
+        <type>EventHandler</type>
+        <definition>EventHandler DNC.ViewModels.AsyncCommand.CanExecuteChanged</definition>
+        <argsstring></argsstring>
+        <name>CanExecuteChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="20" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="20" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_async_command_1a9db18a62b974aa778225e74daf7b8ceb" prot="private" static="no" mutable="no">
+        <type>bool</type>
+        <definition>bool DNC.ViewModels.AsyncCommand._isExecuting</definition>
+        <argsstring></argsstring>
+        <name>_isExecuting</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="22" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="22" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_async_command_1aa77fd4d8bdd227122d48fee703797b7d" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; Task &gt;</type>
+        <definition>readonly Func&lt;Task&gt; DNC.ViewModels.AsyncCommand._execute</definition>
+        <argsstring></argsstring>
+        <name>_execute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="23" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="23" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_async_command_1a77bdf26b818eda6b46d0f5b45792ff26" prot="private" static="no" mutable="no">
+        <type>readonly Func&lt; bool &gt;</type>
+        <definition>readonly Func&lt;bool&gt; DNC.ViewModels.AsyncCommand._canExecute</definition>
+        <argsstring></argsstring>
+        <name>_canExecute</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="24" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="24" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_view_models_1_1_async_command_1af3eba20444300260ba0138cd58207c8d" prot="private" static="no" mutable="no">
+        <type>readonly <ref refid="interface_d_n_c_1_1_i_error_handler" kindref="compound">IErrorHandler</ref></type>
+        <definition>readonly IErrorHandler DNC.ViewModels.AsyncCommand._errorHandler</definition>
+        <argsstring></argsstring>
+        <name>_errorHandler</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="25" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="25" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="public-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1a56617dd9b20eeb21859c07692e0fcfa4" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type></type>
+        <definition>DNC.ViewModels.AsyncCommand.AsyncCommand</definition>
+        <argsstring>(Func&lt; Task &gt; execute, Func&lt; bool &gt; canExecute=null, IErrorHandler errorHandler=null)</argsstring>
+        <name>AsyncCommand</name>
+        <param>
+          <type>Func&lt; Task &gt;</type>
+          <declname>execute</declname>
+        </param>
+        <param>
+          <type>Func&lt; bool &gt;</type>
+          <declname>canExecute</declname>
+          <defval>null</defval>
+        </param>
+        <param>
+          <type><ref refid="interface_d_n_c_1_1_i_error_handler" kindref="compound">IErrorHandler</ref></type>
+          <declname>errorHandler</declname>
+          <defval>null</defval>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="27" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="27" bodyend="32"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1a38feae6572e03ba2482d1421d8d4572a" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool</type>
+        <definition>bool DNC.ViewModels.AsyncCommand.CanExecute</definition>
+        <argsstring>()</argsstring>
+        <name>CanExecute</name>
+        <reimplements refid="interface_d_n_c_1_1_view_models_1_1_i_async_command_1a80f55477c5e091757314c8319310d764">CanExecute</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="34" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="34" bodyend="37"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1a2434331b0b9927061c83b64c744d3c05" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>async Task</type>
+        <definition>async Task DNC.ViewModels.AsyncCommand.ExecuteAsync</definition>
+        <argsstring>()</argsstring>
+        <name>ExecuteAsync</name>
+        <reimplements refid="interface_d_n_c_1_1_view_models_1_1_i_async_command_1ab83d662b9ce0640170d729ecc7c9b706">ExecuteAsync</reimplements>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="39" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="39" bodyend="55"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1ac7e2513eb9009f1239f057b98333fe54" prot="public" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void</type>
+        <definition>void DNC.ViewModels.AsyncCommand.RaiseCanExecuteChanged</definition>
+        <argsstring>()</argsstring>
+        <name>RaiseCanExecuteChanged</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="57" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="57" bodyend="60"/>
+      </memberdef>
+      </sectiondef>
+      <sectiondef kind="private-func">
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1ad00d60c27e827a50af79d33ef0c0ea30" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>bool ICommand.</type>
+        <definition>bool ICommand. DNC.ViewModels.AsyncCommand.CanExecute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>CanExecute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="63" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="63" bodyend="66"/>
+      </memberdef>
+      <memberdef kind="function" id="class_d_n_c_1_1_view_models_1_1_async_command_1a61fba7145bb73134150af7186a2ead9b" prot="private" static="no" const="no" explicit="no" inline="yes" virt="non-virtual">
+        <type>void ICommand.</type>
+        <definition>void ICommand. DNC.ViewModels.AsyncCommand.Execute</definition>
+        <argsstring>(object parameter)</argsstring>
+        <name>Execute</name>
+        <param>
+          <type>object</type>
+          <declname>parameter</declname>
+        </param>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="68" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="68" bodyend="71"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <inheritancegraph>
+      <node id="40">
+        <label>ICommand</label>
+      </node>
+      <node id="39">
+        <label>IAsyncCommand</label>
+        <link refid="interface_d_n_c_1_1_view_models_1_1_i_async_command"/>
+        <childnode refid="40" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="38">
+        <label>DNC.ViewModels.AsyncCommand</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_async_command"/>
+        <childnode refid="39" relation="public-inheritance">
+        </childnode>
+      </node>
+    </inheritancegraph>
+    <collaborationgraph>
+      <node id="43">
+        <label>ICommand</label>
+      </node>
+      <node id="44">
+        <label>DNC.IErrorHandler</label>
+        <link refid="interface_d_n_c_1_1_i_error_handler"/>
+      </node>
+      <node id="42">
+        <label>IAsyncCommand</label>
+        <link refid="interface_d_n_c_1_1_view_models_1_1_i_async_command"/>
+        <childnode refid="43" relation="public-inheritance">
+        </childnode>
+      </node>
+      <node id="41">
+        <label>DNC.ViewModels.AsyncCommand</label>
+        <link refid="class_d_n_c_1_1_view_models_1_1_async_command"/>
+        <childnode refid="42" relation="public-inheritance">
+        </childnode>
+        <childnode refid="44" relation="usage">
+          <edgelabel>_errorHandler</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" line="19" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/ViewModels/AsyncCommand.cs" bodystart="18" bodyend="74"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a77bdf26b818eda6b46d0f5b45792ff26" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>_canExecute</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1af3eba20444300260ba0138cd58207c8d" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>_errorHandler</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1aa77fd4d8bdd227122d48fee703797b7d" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>_execute</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a9db18a62b974aa778225e74daf7b8ceb" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>_isExecuting</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a56617dd9b20eeb21859c07692e0fcfa4" prot="public" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>AsyncCommand</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a38feae6572e03ba2482d1421d8d4572a" prot="public" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>CanExecute</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1ad00d60c27e827a50af79d33ef0c0ea30" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>CanExecute</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1ac228a51e015a5182f76c5f1b1b87032e" prot="public" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>CanExecuteChanged</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a61fba7145bb73134150af7186a2ead9b" prot="private" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>Execute</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1a2434331b0b9927061c83b64c744d3c05" prot="public" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>ExecuteAsync</name></member>
+      <member refid="class_d_n_c_1_1_view_models_1_1_async_command_1ac7e2513eb9009f1239f057b98333fe54" prot="public" virt="non-virtual"><scope>DNC::ViewModels::AsyncCommand</scope><name>RaiseCanExecuteChanged</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

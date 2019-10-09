@@ -1,0 +1,30 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_f_s__3" kind="class" prot="public">
+    <compoundname>DNC::Focas2::OFS_3</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_f_s__3_1a235d5fdfe67dcdff4de56dbd52839452" prot="public" static="no" mutable="no">
+        <type>int[]</type>
+        <definition>int [] DNC.Focas2.OFS_3.m_ofs_c</definition>
+        <argsstring></argsstring>
+        <name>m_ofs_c</name>
+        <initializer>= new int[20]</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1012" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1012" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="1010" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="1009" bodyend="1013"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_f_s__3_1a235d5fdfe67dcdff4de56dbd52839452" prot="public" virt="non-virtual"><scope>DNC::Focas2::OFS_3</scope><name>m_ofs_c</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

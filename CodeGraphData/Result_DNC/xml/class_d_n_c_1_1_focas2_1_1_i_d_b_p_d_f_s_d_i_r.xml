@@ -1,0 +1,58 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IDBPDFSDIR</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1a22a6879b7f561e9916046733356c0d85" prot="public" static="no" mutable="no">
+        <type>string</type>
+        <definition>string DNC.Focas2.IDBPDFSDIR.path</definition>
+        <argsstring></argsstring>
+        <name>path</name>
+        <initializer>= new string(&apos; &apos;, 212)</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="905" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="905" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1a6f19624e18b0044425a3a68e98ffc53f" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IDBPDFSDIR.req_num</definition>
+        <argsstring></argsstring>
+        <name>req_num</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="906" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="906" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1aefc4ed578c4cc0af72162af102b10b01" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IDBPDFSDIR.dummy</definition>
+        <argsstring></argsstring>
+        <name>dummy</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="907" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="907" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="903" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="902" bodyend="908"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1aefc4ed578c4cc0af72162af102b10b01" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBPDFSDIR</scope><name>dummy</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1a22a6879b7f561e9916046733356c0d85" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBPDFSDIR</scope><name>path</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_d_b_p_d_f_s_d_i_r_1a6f19624e18b0044425a3a68e98ffc53f" prot="public" virt="non-virtual"><scope>DNC::Focas2::IDBPDFSDIR</scope><name>req_num</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

@@ -1,0 +1,175 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m" kind="class" prot="public">
+    <compoundname>DNC::Focas2::IN_ETHPRM</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1ac88e5dad48867078b97c670fa98ef5c5" prot="public" static="no" mutable="no">
+        <type>ushort</type>
+        <definition>ushort DNC.Focas2.IN_ETHPRM.Option</definition>
+        <argsstring></argsstring>
+        <name>Option</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11939" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11939" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1ad6c2507ed61402adb75b998628b0e1f0" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM.Type</definition>
+        <argsstring></argsstring>
+        <name>Type</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11940" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11940" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a423a126f85a2ac5568e36d07df0b7963" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM.Dhcp</definition>
+        <argsstring></argsstring>
+        <name>Dhcp</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11941" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11941" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a6f623480476b3247edf19cd4d2e1d06b" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM.ValidDevice</definition>
+        <argsstring></argsstring>
+        <name>ValidDevice</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11942" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11942" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a239a2f9efc0fa6fb42861d51b1ae39c5" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM.DtsvrChannel</definition>
+        <argsstring></argsstring>
+        <name>DtsvrChannel</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11943" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11943" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a9506f82fbb934642eb99444b432d6e60" prot="public" static="no" mutable="no">
+        <type>short</type>
+        <definition>short DNC.Focas2.IN_ETHPRM.Storage</definition>
+        <argsstring></argsstring>
+        <name>Storage</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11944" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11944" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a52a6343912797c1d60c1721ad3e782eb" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_prm" kindref="compound">Prm</ref></type>
+        <definition>Prm DNC.Focas2.IN_ETHPRM.prm</definition>
+        <argsstring></argsstring>
+        <name>prm</name>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11945" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11945" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="206">
+        <label>DNC.Focas2.COMMON_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_c_o_m_m_o_n___p_r_m"/>
+      </node>
+      <node id="204">
+        <label>DNC.Focas2.FTP_CLIENT_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_t_p___c_l_i_e_n_t___p_r_m"/>
+      </node>
+      <node id="205">
+        <label>DNC.Focas2.FOCAS2_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_o_c_a_s2___p_r_m"/>
+      </node>
+      <node id="203">
+        <label>DNC.Focas2.FTP_SERVER_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_t_p___s_e_r_v_e_r___p_r_m"/>
+      </node>
+      <node id="202">
+        <label>DNC.Focas2.DTSVR_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_d_t_s_v_r___p_r_m"/>
+        <childnode refid="203" relation="usage">
+          <edgelabel>own</edgelabel>
+        </childnode>
+        <childnode refid="204" relation="usage">
+          <edgelabel>opposite1</edgelabel>
+          <edgelabel>opposite2</edgelabel>
+          <edgelabel>opposite3</edgelabel>
+        </childnode>
+      </node>
+      <node id="200">
+        <label>DNC.Focas2.IN_ETHPRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m"/>
+        <childnode refid="201" relation="usage">
+          <edgelabel>prm</edgelabel>
+        </childnode>
+      </node>
+      <node id="201">
+        <label>DNC.Focas2.Prm</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_prm"/>
+        <childnode refid="202" relation="usage">
+          <edgelabel>dataServer</edgelabel>
+        </childnode>
+        <childnode refid="205" relation="usage">
+          <edgelabel>focas2</edgelabel>
+        </childnode>
+        <childnode refid="206" relation="usage">
+          <edgelabel>common</edgelabel>
+        </childnode>
+        <childnode refid="207" relation="usage">
+          <edgelabel>ftpTrans</edgelabel>
+        </childnode>
+      </node>
+      <node id="207">
+        <label>DNC.Focas2.FTPTRANS_PRM</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_f_t_p_t_r_a_n_s___p_r_m"/>
+        <childnode refid="204" relation="usage">
+          <edgelabel>opposite1</edgelabel>
+          <edgelabel>opposite2</edgelabel>
+          <edgelabel>opposite3</edgelabel>
+        </childnode>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="11938" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="11937" bodyend="11946"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a423a126f85a2ac5568e36d07df0b7963" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>Dhcp</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a239a2f9efc0fa6fb42861d51b1ae39c5" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>DtsvrChannel</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1ac88e5dad48867078b97c670fa98ef5c5" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>Option</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a52a6343912797c1d60c1721ad3e782eb" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>prm</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a9506f82fbb934642eb99444b432d6e60" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>Storage</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1ad6c2507ed61402adb75b998628b0e1f0" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>Type</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_i_n___e_t_h_p_r_m_1a6f623480476b3247edf19cd4d2e1d06b" prot="public" virt="non-virtual"><scope>DNC::Focas2::IN_ETHPRM</scope><name>ValidDevice</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>

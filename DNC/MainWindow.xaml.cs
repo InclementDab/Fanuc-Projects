@@ -23,94 +23,14 @@ namespace DNC
     /// <summary>
     /// Interaction logic for MainWindow.xaml
     /// </summary>
-    public partial class MainWindow : Window, INotifyPropertyChanged
+    public partial class MainWindow : Window
     {
-
-        private WindowStatus _windowStatus;
-        public WindowStatus WindowStatus
-        {
-            get => _windowStatus;
-            set
-            {
-                _windowStatus = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        private UserControl _machineListView;
-        public UserControl MachineListView
-        {
-            get => _machineListView;
-            set
-            {
-                _machineListView = value;
-                NotifyPropertyChanged();
-            }
-        }
-
-        private UserControl _programListView;
-        public UserControl ProgramListView
-        {
-            get => _programListView;
-            set
-            {
-                _programListView = value;
-                NotifyPropertyChanged();
-            }
-        }
-
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = this;
-            MachineListView = new MachineListView();
-            ProgramListView = new ProgramListView(MachineListView.DataContext as MachineListViewModel);
-            WindowStatus = new WindowStatus();
-
-            
+            DataContext = new MainWindowViewModel();
         }
 
-        public double ProgressBar => stProgressBar.Value;
 
-        public void UpdateStatus()
-        {
-
-        }
-
-        public event PropertyChangedEventHandler PropertyChanged;
-        public void NotifyPropertyChanged([CallerMemberName] string propertyName = "") => PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(propertyName));
-        
-    }
-
-    public class WindowStatus : TextBlock
-    {
-
-        public WindowStatus()
-        {
-            Text = "Test";
-        }
-
-        public WindowStatus(Status status)
-        {
-            switch (status)
-            {
-                case Status.Error:
-                
-                    
-                    break;
-                
-            }
-        }
-
-        
-
-        public enum Status
-        {
-            Error = 0,
-            Caution = 1,
-            Completed = 2
-        }
-
-        
     }
 }

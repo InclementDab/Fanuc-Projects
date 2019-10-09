@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.8.6">
+  <compounddef id="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u" kind="class" prot="public">
+    <compoundname>DNC::Focas2::ODBWVDT_u</compoundname>
+      <sectiondef kind="public-attrib">
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u_1ab760975990810b931792ca18b72e90fa" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__io" kindref="compound">ODBWVDT_io</ref></type>
+        <definition>ODBWVDT_io DNC.Focas2.ODBWVDT_u.io</definition>
+        <argsstring></argsstring>
+        <name>io</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__io" kindref="compound">ODBWVDT_io</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4925" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4925" bodyend="-1"/>
+      </memberdef>
+      <memberdef kind="variable" id="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u_1a63b2e37bae5a970d2f4dc2186be84192" prot="public" static="no" mutable="no">
+        <type><ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__axis" kindref="compound">ODBWVDT_axis</ref></type>
+        <definition>ODBWVDT_axis DNC.Focas2.ODBWVDT_u.axis</definition>
+        <argsstring></argsstring>
+        <name>axis</name>
+        <initializer>= new <ref refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__axis" kindref="compound">ODBWVDT_axis</ref>()</initializer>
+        <briefdescription>
+        </briefdescription>
+        <detaileddescription>
+        </detaileddescription>
+        <inbodydescription>
+        </inbodydescription>
+        <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4927" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4927" bodyend="-1"/>
+      </memberdef>
+      </sectiondef>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <collaborationgraph>
+      <node id="1287">
+        <label>DNC.Focas2.ODBWVDT_axis</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__axis"/>
+      </node>
+      <node id="1286">
+        <label>DNC.Focas2.ODBWVDT_u</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u"/>
+        <childnode refid="1287" relation="usage">
+          <edgelabel>axis</edgelabel>
+        </childnode>
+        <childnode refid="1288" relation="usage">
+          <edgelabel>io</edgelabel>
+        </childnode>
+      </node>
+      <node id="1288">
+        <label>DNC.Focas2.ODBWVDT_io</label>
+        <link refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__io"/>
+      </node>
+    </collaborationgraph>
+    <location file="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" line="4923" column="1" bodyfile="C:/Users/Tyler/Source/Repos/InclementDeath/Fanuc-Projects/DNC/Communication/fwlib32.cs" bodystart="4922" bodyend="4928"/>
+    <listofallmembers>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u_1a63b2e37bae5a970d2f4dc2186be84192" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBWVDT_u</scope><name>axis</name></member>
+      <member refid="class_d_n_c_1_1_focas2_1_1_o_d_b_w_v_d_t__u_1ab760975990810b931792ca18b72e90fa" prot="public" virt="non-virtual"><scope>DNC::Focas2::ODBWVDT_u</scope><name>io</name></member>
+    </listofallmembers>
+  </compounddef>
+</doxygen>
