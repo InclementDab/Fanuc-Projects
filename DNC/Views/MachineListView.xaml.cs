@@ -82,13 +82,14 @@ namespace DNC.Views
 
         private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            Clipboard.SetDataObject(ViewModel.SelectedItem);
+            Clipboard.Clear();
+            Clipboard.SetDataObject(ViewModel.SelectedItem, false);
             ViewModel.SelectedItem.ParentList.Remove(ViewModel.SelectedItem);
         }
 
         private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
         {
-            Clipboard.SetDataObject(ViewModel.SelectedItem);
+            Clipboard.SetDataObject(ViewModel.SelectedItem, false);
         }
 
         private void Paste_Executed(object sender, ExecutedRoutedEventArgs e)

@@ -38,6 +38,7 @@ namespace DNC.Models
         Serial = 1
     }
 
+    [Serializable]
     public class Machine : ModelBase
     {
 
@@ -229,6 +230,7 @@ namespace DNC.Models
 
     }
 
+    [Serializable]
     public class Folder : ModelBase
     {
         public ObservableCollection<ModelBase> Children;
@@ -238,8 +240,7 @@ namespace DNC.Models
         }
     }
 
-
-    [Serializable()]
+    [Serializable]
     public abstract class ModelBase : ObservableObject, IDataObject
     {
         public ICommand Rename { get; private set; }
