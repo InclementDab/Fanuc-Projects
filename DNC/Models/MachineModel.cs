@@ -52,7 +52,16 @@ namespace DNC.Models
             set => SetActiveConnection(value);
         }
 
-        public ConnectionType CurrentConnectionType { get; set; }
+        private ConnectionType _currentConnectionType;
+        public ConnectionType CurrentConnectionType
+        {
+            get => _currentConnectionType;
+            set
+            {
+                _currentConnectionType = value;
+                RaisePropertyChanged();
+            }
+        }
 
         public Connection GetActiveConnection()
         {
@@ -115,7 +124,7 @@ namespace DNC.Models
             TCPConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
             SerialConnection = new SerialConnection();
             Connection = connection ?? TCPConnection;
-           
+
             ProgramList = new ObservableCollection<Program>();
 
             ToggleConnection = new RelayCommand(() =>
@@ -157,7 +166,7 @@ namespace DNC.Models
         {
             RaisePropertyChanged("InvertedConnectString");
 
-           
+
             if (Connection.IsConnected)
             {
                 Debug.WriteLine("Loading Machine Info...");

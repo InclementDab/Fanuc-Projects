@@ -1,5 +1,6 @@
 ﻿using DNC.Models;
 using DNC.ViewModels;
+using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.Command;
 using System;
 using System.Collections.Generic;
@@ -23,41 +24,78 @@ namespace DNC.Views
     /// </summary>
     public partial class EditPrompt : Window
     {
-        public ICommand EditConnection { get; private set; }
-        public ICommand SaveCommand { get; private set; }
-        public ICommand CancelCommand { get; private set; }
+        public EditPromptViewModel ViewModel;
+
+        public Dictionary<ConnectionType, UserControl> AvailableTypes;
 
         public EditPrompt()
         {
             InitializeComponent();
-            DataContext = this;
-
-            EditConnection = new RelayCommand(() =>
-            {
-                ConnectionSetup e = new ConnectionSetup();
-                e.EditConnection(CurrentMachine);
-            });
-            SaveCommand = new RelayCommand(() => DialogResult = true);
-            CancelCommand = new RelayCommand(() => DialogResult = false);
         }
 
-        public Machine CurrentMachine { get; set; }
-
-        public void EditMachine(Machine input)
+        public void EditMachine(Machine cMachine)
         {
-            CurrentMachine = input;
+            DataContext = ViewModel = new EditPromptViewModel(cMachine);
+            AvailableTypes = new Dictionary<ConnectionType, UserControl>
+            {
+                { ConnectionType.TCP, TryFindResource("typeTCP") as UserControl },
+                { ConnectionType.Serial, TryFindResource("typeSerial") as UserControl }
+            };
+
+            ViewModel.SaveCommand = new RelayCommand(() => DialogResult = true);
+            ViewModel.CancelCommand = new RelayCommand(() => DialogResult = false);
+
             bool? dr = ShowDialog();
 
             if (!dr ?? false)
             {
-                CurrentMachine = input; // idk how to do this yet
+                //ViewModel.CurrentMachine = input; // idk how to do this yet
             }
+        }
+
+        private void RadioButton_Checked(object sender, RoutedEventArgs e)
+        {
+            foreach (KeyValuePair<ConnectionType, UserControl> pair in AvailableTypes)
+                if (pair.Key == ViewModel.CurrentMachine.CurrentConnectionType)
+                    ViewModel.CurrentControl = pair.Value;
         }
 
         private void Window_ContentRendered(object sender, EventArgs e)
         {
             txtName.SelectAll();
             txtName.Focus();
+        }
+    }
+
+    public class EditPromptViewModel : ViewModelBase
+    {
+        public ICommand TestConnection { get; set; }
+        public ICommand SaveCommand { get; set; }
+        public ICommand CancelCommand { get; set; }
+
+        public Machine CurrentMachine { get; set; }
+
+        private UserControl _currentControl;
+        public UserControl CurrentControl
+        {
+            get => _currentControl;
+            set
+            {
+                _currentControl = value;
+                RaisePropertyChanged();
+            }
+        }
+
+        
+        public EditPromptViewModel(Machine cMachine)
+        {
+            TestConnection = new RelayCommand(() => 
+            {
+
+            });
+            
+            CurrentMachine = cMachine;
+            
         }
     }
 }

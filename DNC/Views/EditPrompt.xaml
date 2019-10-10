@@ -3,29 +3,80 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DNC.Models"
+        xmlns:models="clr-namespace:DNC.Models"
         mc:Ignorable="d"
         ContentRendered="Window_ContentRendered"
-        Height="250" Width="350">
+        Height="350" Width="350">
+
+    <Window.Resources>
+        <UserControl x:Key="typeTCP">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <TextBlock Margin="2" Text="IP"/>
+                    <TextBox Text="{Binding CurrentMachine.Connection.IPAddress, Converter={StaticResource IpAddressConverter}}" Margin="2" Width="120"/>
+                    <TextBlock Margin="2" Text="Port"/>
+                    <TextBox Text="{Binding CurrentMachine.Connection.Port}" Margin="2" Width="40"/>
+                </StackPanel>
+            </StackPanel>
+        </UserControl>
+
+        <UserControl x:Key="typeSerial">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <TextBlock Margin="2" Text="Select Port" VerticalAlignment="Center"/>
+                    <ComboBox ItemsSource="{Binding CurrentMachine.Connection.SerialPorts}" SelectedItem="{Binding CurrentMachine.Connection.SerialPort}" Margin="2" Width="60" VerticalAlignment="Center">
+                        <ComboBox.ItemTemplate>
+                            <DataTemplate>
+                                <TextBlock Text="{Binding Path=PortName}"/>
+                            </DataTemplate>
+                        </ComboBox.ItemTemplate>
+                    </ComboBox>
+                </StackPanel>
+            </StackPanel>
+        </UserControl>
+    </Window.Resources>
 
     <Grid HorizontalAlignment="Center" Margin="10">
         <Grid.RowDefinitions>
-            <RowDefinition Height="auto" />
-            <RowDefinition Height="auto" />
+            <RowDefinition Height="auto"/>
+            <RowDefinition Height="*"/>
             <RowDefinition Height="auto" />
             <RowDefinition Height="auto" />
         </Grid.RowDefinitions>
 
 
-        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="3">
-            <TextBlock Margin="2" Text="Name"/>
+        <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
+            <TextBlock Margin="2" Text="Machine Name"/>
             <TextBox x:Name="txtName" Text="{Binding CurrentMachine.Name}" Margin="2" Width="120"/>
         </StackPanel>
 
-        <Button Grid.Row="1" Command="{Binding EditConnection}" Content="Connection Setup..." Margin="3"/>
+        <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="*"/>
+                    <RowDefinition Height="auto"/>
+                    <RowDefinition Height="auto"/>
+                </Grid.RowDefinitions>
+
+                <StackPanel Grid.Row="0" Orientation="Horizontal" HorizontalAlignment="Center">
+                    <RadioButton GroupName="Network" IsChecked="{Binding CurrentMachine.CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.TCP}}" Content="TCP/IP" Margin="5" Checked="RadioButton_Checked"/>
+                    <RadioButton GroupName="Network" IsChecked="{Binding CurrentMachine.CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.Serial}}" Content="Serial Port" Margin="5" Checked="RadioButton_Checked"/>
+                </StackPanel>
+
+                <ContentControl Grid.Row="1" Content="{Binding CurrentControl}"/>
+
+                <StackPanel Grid.Row="2" Orientation="Vertical">
+                    <Button Command="{Binding TestConnection}" Content="Test Connection" Margin="5"/>
+                    <TextBlock Text="{Binding TestConnectionResult}" Margin="5"/>
+                </StackPanel>
+                
+                <CheckBox Grid.Row="3" IsChecked="{Binding CurrentMachine.ConnectOnStartup}" Content="Connect Automatically" Margin="5"/>
+            </Grid>
+        </Border>
 
 
-        <CheckBox IsChecked="{Binding CurrentMachine.ConnectOnStartup}" Content="Connect Automatically" Grid.Row="2"/>
+
 
 
         <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">

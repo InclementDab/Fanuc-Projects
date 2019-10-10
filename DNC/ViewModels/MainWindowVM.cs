@@ -14,8 +14,7 @@ namespace DNC.ViewModels
     public class MainWindowViewModel : ViewModelBase
     {
         public WindowStatus WindowStatus { get; set; }
-        public UserControl MachineListView { get; set; }
-        public UserControl ProgramListView { get; set; }
+        public readonly MachineListViewModel MachineListViewModel;
 
         private int progressBarValue;
         public int ProgressBarValue
@@ -30,8 +29,8 @@ namespace DNC.ViewModels
 
         public MainWindowViewModel()
         {
-            MachineListView = new MachineListView();
-            ProgramListView = new ProgramListView(MachineListView.DataContext as MachineListViewModel);
+            MachineListViewModel = new MachineListViewModel();
+
             WindowStatus = new WindowStatus();
 
             Messenger.Default.Register<GenericMessage<int>>(this, ChangeProgressValue);
@@ -47,10 +46,15 @@ namespace DNC.ViewModels
         {
             MessageBox.Show(msg.Content, "Error", MessageBoxButton.OK, MessageBoxImage.Error);
         }
+
+
+
+
     }
 
     public class WindowStatus : TextBlock
     {
+
         public WindowStatus()
         {
             Text = "Test";
