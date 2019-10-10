@@ -48,8 +48,6 @@ namespace DNC.Models
             OnConnectionChanged(handle);
             return StatusCode;
         }
-
-
     }
 
     [Description("Serial Port")]
@@ -86,9 +84,27 @@ namespace DNC.Models
 
             int.TryParse(Regex.Match(SerialPort.PortName, "(\\d+)").Value, out int comNum);
 
-            StatusCode = (short)rs_open(comNum, null, "rw"); // todo THIS IS DANGEROUS YOU NEED TO HAVE ALL SETTINGS FOR ser_t SET IN UI!!!
+            PortDefUser p = new PortDefUser()
+            {
+                baud = 9600,
+                stop_bit = 1,
+                parity = 1,
+                data_bit = 7,
+                hardflow = 0,
+                dc_enable = 0,
+                dc_put = 1,
+                dc1_code = 0x11,
+                dc2_code = 0x12,
+                dc3_code = 0x13, // maybe 0x93
+                dc4_code = 0x14
+            };
 
-            StatusCode = cnc_allclibhndl2(comNum, out handle);
+            StatusCode = (short)rs_open(comNum, p, "rw"); // todo THIS IS DANGEROUS YOU NEED TO HAVE ALL SETTINGS FOR ser_t SET IN UI!!!
+            handle = 0;
+
+            
+            Debug.WriteLine(rs_status(comNum));
+            //StatusCode = cnc_allclibhndl2(comNum, out handle);
             Status = StatusCode == 0 ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             OnConnectionChanged(handle);
             return StatusCode;

@@ -96,7 +96,7 @@ namespace DNC
 
 
         [DllImport("FCA32.dll", EntryPoint = "rs_open")]
-        public static extern int rs_open(int port, [In, MarshalAs(UnmanagedType.LPStruct)] PortDefUser param, [In, MarshalAs(UnmanagedType.HString)] object mode);
+        public static extern int rs_open(int port, [In, MarshalAs(UnmanagedType.LPStruct)] PortDefUser param, [In, MarshalAs(UnmanagedType.AsAny)] object mode);
 
         [DllImport("FCA32.dll", EntryPoint = "rs_close")]
         public static extern int rs_close(int port);
