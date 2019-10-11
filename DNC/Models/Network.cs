@@ -17,7 +17,7 @@ using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Media;
 using System.Windows.Shapes;
-
+using System.Xml.Serialization;
 using static DNC.Focas2;
 using static DNC.Serial;
 
@@ -25,18 +25,33 @@ using static DNC.Serial;
 namespace DNC.Models
 {
 
+
+    [Serializable]
+    public class Address : IPAddress
+    {
+        private const long DEFAULT_IP = 0;
+        internal Address() : base(DEFAULT_IP) { }
+
+        public Address(long ip = DEFAULT_IP) : base(ip)
+        {
+
+        }
+
+        
+    }
+
     [Description("TCP/IP")]
     [Serializable]
     public class TCPConnection : Connection
     {
-        public IPAddress IPAddress { get; set; }
+        public Address IPAddress { get; set; }
         public ushort Port { get; set; }
 
-        public TCPConnection() { }
+        internal TCPConnection() { }
 
         public TCPConnection(IPAddress ip, ushort port)
         {
-            IPAddress = ip;
+            IPAddress = ip as Address;
             Port = port;
         }
 
@@ -56,8 +71,8 @@ namespace DNC.Models
     [Serializable]
     public class SerialConnection : Connection
     {
-        private ObservableCollection<SerialPort> serialPorts;
-        public ObservableCollection<SerialPort> SerialPorts
+        private ObservableCollection<string> serialPorts;
+        public ObservableCollection<string> SerialPorts
         {
             get => serialPorts;
             set
@@ -66,18 +81,18 @@ namespace DNC.Models
                 RaisePropertyChanged();
             }
         }
-        public SerialPort SerialPort { get; set; }
+        public string _SerialPort { get; set; }
 
         public SerialConnection()
         {
-            SerialPorts = new ObservableCollection<SerialPort>();
+            SerialPorts = new ObservableCollection<string>();
 
             foreach (string port in SerialPort.GetPortNames())
-                SerialPorts.Add(new SerialPort(port));
+                SerialPorts.Add(port);
 
 
             if (SerialPorts.Count != 0)
-                SerialPort = SerialPorts.First();
+                _SerialPort = SerialPorts.First();
         }
 
         public override short Open(out ushort handle)
@@ -85,8 +100,8 @@ namespace DNC.Models
             Debug.WriteLine("Opening Connection");
             Status = ConnectionStatus.Connecting;
 
-            if (SerialPort.IsOpen) SerialPort.Close();
-            int.TryParse(Regex.Match(SerialPort.PortName, "(\\d+)").Value, out int comNum);
+            
+            int.TryParse(Regex.Match(_SerialPort, "(\\d+)").Value, out int comNum);
 
             PortDefUser p = new PortDefUser()
             {
@@ -108,31 +123,35 @@ namespace DNC.Models
             //Debug.WriteLine("BUF: " + rs_buffer(comNum, rs_buffer_val.RS_CHK_BUF_W));
             handle = 0;
 
-            Debug.WriteLine($"Opening Port {SerialPort.PortName}");
 
-            SerialPort.DataReceived += SerialPort_DataReceived;
-            SerialPort.Disposed += SerialPort_Disposed;
-            SerialPort.PinChanged += SerialPort_PinChanged;
-
-            SerialPort.BaudRate = 9600;
-            SerialPort.Parity = Parity.Even;
-            SerialPort.StopBits = StopBits.One;
-            SerialPort.DataBits = 7;
-            SerialPort.Handshake = Handshake.XOnXOff;
-            SerialPort.ReadTimeout = 2000;
+            SerialPort sPort = new SerialPort("COM1");
+            Debug.WriteLine($"Opening Port {sPort.PortName}");
 
 
+            if (sPort.IsOpen) sPort.Close();
+            sPort.DataReceived += SerialPort_DataReceived;
+            sPort.Disposed += SerialPort_Disposed;
+            sPort.PinChanged += SerialPort_PinChanged;
 
-            
+            sPort.BaudRate = 9600;
+            sPort.Parity = Parity.Even;
+            sPort.StopBits = StopBits.One;
+            sPort.DataBits = 7;
+            sPort.Handshake = Handshake.XOnXOff;
+            sPort.ReadTimeout = 2000;
 
-            //SerialPort.DtrEnable = true;
-            SerialPort.Open();
-            
-            SerialPort.RtsEnable = true;
 
-            //SerialPort.Write("Test");
+
+
+
+            //sPort.DtrEnable = true;
+            sPort.Open();
+
+            sPort.RtsEnable = true;
+
+            //sPort.Write("Test");
             //StatusCode = cnc_allclibhndl2(comNum, out handle);
-            //Status = SerialPort.CDHolding ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
+            //Status = sPort.CDHolding ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             Status = StatusCode == 0 ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             OnConnectionChanged(handle);
             return StatusCode;
@@ -178,6 +197,8 @@ namespace DNC.Models
 
     [Description("Generic Connection")]
     [Serializable]
+    [XmlInclude(typeof(TCPConnection))]
+    [XmlInclude(typeof(SerialConnection))]
     public abstract class Connection : ObservableObject
     {
         private ConnectionStatus _status = 0;

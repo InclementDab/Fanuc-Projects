@@ -6,6 +6,7 @@ using System.Diagnostics;
 using System.IO.Ports;
 using System.Linq;
 using System.Net;
+using System.Reflection;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
@@ -52,7 +53,7 @@ namespace DNC.Views
        
         private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            ViewModel.SelectedItem = (ModelBase)tView.SelectedItem ?? null;
+            ViewModel.SelectedItem = (ModelBase)e.NewValue ?? (ModelBase)tView.SelectedItem;
         }
 
         private void TextBox_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)
@@ -64,17 +65,30 @@ namespace DNC.Views
             tBox.SelectAll();
         }
 
-        public static T RecursiveGetType<T>(DependencyObject current)
-        {
-            if (LogicalTreeHelper.GetParent(current) is T ret)
-                return ret;
 
-            return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
+        private void Border_Loaded(object sender, RoutedEventArgs e)
+        {
+            Border border = sender as Border;
+            ModelBase mBase = border.DataContext as ModelBase;
+            mBase.TreeViewItem = App.RecursiveGetType<TreeViewItem>(border); // sets the TreeViewItem in the ModelBase
+            
+            PropertyInfo pTreeView = mBase.TreeViewItem.GetType().GetProperty("ParentTreeView", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+            PropertyInfo pTreeViewItem = mBase.TreeViewItem.GetType().GetProperty("ParentTreeViewItem", BindingFlags.Instance | BindingFlags.NonPublic | BindingFlags.Public);
+
+            mBase.ParentTreeView = pTreeView.GetValue(mBase.TreeViewItem) as TreeView;
+            mBase.ParentTreeViewItem = pTreeViewItem.GetValue(mBase.TreeViewItem) as TreeViewItem;
+
+
+
+            return;
+
+
+
+
         }
 
 
 
-        
 
         #region dragdrop
         protected override void OnMouseMove(MouseEventArgs e)
@@ -106,7 +120,7 @@ namespace DNC.Views
 
             if (mBaseDropped != mBaseTarget)
             {
-                Border border = RecursiveGetType<Border>(oElement);
+                Border border = App.RecursiveGetType<Border>(oElement);
                 Point p = e.GetPosition(oElement);
 
                 double safeZ = oElement.ActualHeight / 3;
@@ -140,7 +154,7 @@ namespace DNC.Views
             base.OnDragLeave(e);
 
             FrameworkElement oElement = e.OriginalSource as FrameworkElement;
-            Border border = RecursiveGetType<Border>(oElement);
+            Border border = App.RecursiveGetType<Border>(oElement);
             border.BorderThickness = new Thickness(0);
 
             e.Handled = true;
@@ -218,6 +232,9 @@ namespace DNC.Views
             e.Handled = true;
             */
         }
+
         #endregion
+
+        
     }
 }

@@ -5,7 +5,9 @@ using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Diagnostics;
+using System.IO;
 using System.Linq;
+using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.Serialization;
 using System.Runtime.Serialization.Formatters.Binary;
@@ -30,25 +32,43 @@ namespace DNC
     /// </summary>
     public partial class MainWindow : Window
     {
+
+        public readonly MainWindowViewModel ViewModel;
         public MainWindow()
         {
             InitializeComponent();
-            DataContext = new MainWindowViewModel();
+            DataContext = ViewModel = new MainWindowViewModel();
+
         }
 
 
         #region copypaste
+
         public ModelBase SelectedItem => ((DataContext as MainWindowViewModel).MachineListView.DataContext as MachineListViewModel).SelectedItem;
         private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
         {
+
+
             Clipboard.Clear();
 
-            DataObject data = new DataObject();
-            data.SetData(SelectedItem);            
-            Clipboard.SetDataObject(data);
+            Formatter = new BinaryFormatter();
+            MemoryStream ms = new MemoryStream();
+            Formatter.Serialize(ms, SelectedItem);
 
-            SelectedItem.ParentList.Remove(SelectedItem);
+            Clipboard.SetData("MemoryStream", ms); // DO NOT TOUCH IT WILL BREAK
+
+            if (SelectedItem.Parent is Folder folder)
+            {
+                folder.Children.Remove(SelectedItem);
+            }
+            else if (SelectedItem.Parent == null)
+            {
+                (ViewModel.MachineListView.DataContext as MachineListViewModel).MachineList.Remove(SelectedItem);
+            }
+            
         }
+
+        private IFormatter Formatter;
 
         private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
         {
@@ -60,13 +80,44 @@ namespace DNC
         {
 
             IDataObject data = Clipboard.GetDataObject();
-            
-            if (data.GetDataPresent(typeof(Machine)))
+
+            if (data.GetDataPresent("MemoryStream"))
             {
-                var x = data.GetData(typeof(Machine)) as Machine;
-                SelectedItem.ParentList.Add(x);
+                MemoryStream ms = data.GetData("MemoryStream") as MemoryStream;
+                Formatter = new BinaryFormatter();
+                ModelBase mBase = Formatter.Deserialize(ms) as ModelBase;
+
+
+                if (SelectedItem is Folder folder)
+                {
+                    folder.Children.Add(mBase);
+                }
+                else if (SelectedItem is Machine)
+                {
+                    if (SelectedItem.Parent is Folder folder2)
+                    {
+                        folder2.Children.Add(mBase);
+                    }
+
+                    else if (SelectedItem.Parent == null)
+                    {
+                        (ViewModel.MachineListView.DataContext as MachineListViewModel).MachineList.Add(mBase);
+                    }
+                }
+                else
+                {
+                    throw new Exception("Not sure how you got here");
+                }
+
+            }
+
+            if (data.GetDataPresent(typeof(Folder)))
+            {
+                throw new NotImplementedException();
             }
         }
+
+
 
         private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
         {

@@ -6,6 +6,7 @@
              xmlns:source="clr-namespace:DNC"
              xmlns:local="clr-namespace:DNC.Views"
              xmlns:model="clr-namespace:DNC.Models"
+             xmlns:i="System.Windows.Interactivity"
              mc:Ignorable="d" 
              Width="300"
              d:DesignHeight="500">
@@ -40,11 +41,11 @@
                                 AllowDrop="True"
                                 ItemContainerStyle="{StaticResource StyleMenu}"
                                 SelectedItemChanged="TreeView_SelectedItemChanged">
-            
+
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
 
-                    <Border BorderBrush="Black" BorderThickness="0 0 0 0">
+                    <Border BorderBrush="Black" BorderThickness="0 0 0 0" Loaded="Border_Loaded">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding Icon}"/>
                             <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>

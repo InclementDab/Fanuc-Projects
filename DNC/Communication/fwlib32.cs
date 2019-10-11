@@ -3362,6 +3362,7 @@ namespace DNC
 #else
         /* cnc_statinfo:read CNC status information */
         [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        [Serializable]
         public class ODBST
         {
             public short dummy;     /* dummy */
@@ -7113,6 +7114,7 @@ namespace DNC
 
         /* cnc_sysinfo_ex:read CNC system path information */
         [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        [Serializable]
         public class ODBSYSEX_path
         {
             public short system;
@@ -7126,6 +7128,7 @@ namespace DNC
         }
 
         [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        [Serializable]
         public class ODBSYSEX_data
         {
             public ODBSYSEX_path data1 = new ODBSYSEX_path();
@@ -7141,6 +7144,7 @@ namespace DNC
         }
 
         [StructLayout(LayoutKind.Sequential, Pack = 4)]
+        [Serializable]
         public class ODBSYSEX
         {
             public short max_axis;

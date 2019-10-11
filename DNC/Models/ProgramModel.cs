@@ -8,15 +8,14 @@ using System.Threading.Tasks;
 
 namespace DNC
 {
+
+    [Serializable]
     public class Program
     {
         public DateTime LastModified { get; set; }
-
         public int Number { get; set; }
         public string FileName { get; set; }
-
         public string[] FileData { get; set; }
-
         public string MachineSafeData
         {
             get
@@ -31,6 +30,7 @@ namespace DNC
             }
         }
         
+        internal Program() { }
 
         // TODO add parse data
         public Program(string fileName, string[] fileData)

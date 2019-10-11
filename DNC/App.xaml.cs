@@ -22,6 +22,8 @@ using System.Windows.Data;
 using System.Windows.Interactivity;
 using System.Windows.Threading;
 using System.Runtime.InteropServices;
+using System.IO;
+using System.Xml.Serialization;
 
 namespace DNC
 {
@@ -36,7 +38,58 @@ namespace DNC
             base.OnStartup(e);
         }
 
+        public static string ToJson<T>(T obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
+
+        public static T RecursiveGetType<T>(DependencyObject current)
+        {
+
+            if (current == null) return default;
+
+            if (current is FrameworkElement f)
+                return RecursiveGetType<T>(f);
+
+            if (LogicalTreeHelper.GetParent(current) is T ret)
+                return ret;
+
+            return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
+
+        }
+
+        public static T RecursiveGetType<T>(FrameworkElement current)
+        {
+            if (current == null) return default;
+
+            if (current.Parent is T ret)
+                return ret;
+            if (current.TemplatedParent is T tret)
+                return tret;
+
+            return RecursiveGetType<T>(current.TemplatedParent ?? current.Parent);
+        }
     }
+
+    /// <summary>
+    /// idk about this one
+    /// </summary>
+    
+    [Serializable]
+    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
+    public class UserSettings : ApplicationSettingsBase
+    {
+        /// <summary>
+        /// Defines Communication Read Timeout
+        /// </summary>
+        [UserScopedSetting()]
+        [DefaultSettingValue("500")]
+        public int ReadTimeout { get; set; }
+
+        [DefaultSettingValue("500")]
+        public int WriteTimeout { get; set; }
+    }
+
+    
+
+
 
 
 

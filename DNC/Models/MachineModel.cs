@@ -7,6 +7,7 @@ using System;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
+using System.Configuration;
 using System.Diagnostics;
 using System.IO;
 using System.IO.Ports;
@@ -26,6 +27,7 @@ using System.Windows.Controls;
 
 using System.Windows.Input;
 using System.Xaml;
+using System.Xml.Serialization;
 using static DNC.Focas2;
 
 namespace DNC.Models
@@ -41,6 +43,7 @@ namespace DNC.Models
     }
 
     [Serializable]
+    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
     public class Machine : ModelBase
     {
 
@@ -105,7 +108,7 @@ namespace DNC.Models
         public short StatusCode
         {
             get => statusCode;
-            private set
+            set
             {
                 statusCode = value;
                 Debug.WriteLine(statusCode);
@@ -114,13 +117,11 @@ namespace DNC.Models
 
         public ObservableCollection<Program> ProgramList { get; set; }
 
-        public ICommand ToggleConnection { get; private set; }
-        public ICommand Edit { get; private set; }
-        public ICommand Import { get; private set; }
+        public string MachineDirectory; // probably put this in individual programs upon register
 
-        public string MachineDirectory { get; private set; } // probably put this in individual programs upon register
+        internal Machine() { }
 
-        public Machine(string name, ObservableCollection<ModelBase> parentList, Connection connection = null) : base(name, parentList, "/Resources/Icons/Machine_16x.png")
+        public Machine(string name = null, ModelBase parent = null, Connection connection = null) : base(name, parent, "/Resources/Icons/Machine_16x.png")
         {
             MachineDirectory = "//CNC_MEM/USER/";
             TCPConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
@@ -129,45 +130,20 @@ namespace DNC.Models
 
             ProgramList = new ObservableCollection<Program>();
 
-            ToggleConnection = new RelayCommand(() =>
-            {
-                Task.Factory.StartNew(() =>
-                {
-                    StatusCode = Connection.IsConnected ? Connection.Close(handle) : Connection.Open(out handle);
-                });
-            });
-
-            Edit = new RelayCommand(() =>
-            {
-                EditPrompt e = new EditPrompt();
-                e.EditMachine(this);
-            });
-
-            Import = new RelayCommand(() =>
-            {
-                System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog
-                {
-                    RestoreDirectory = true
-                };
-
-                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    string[] fileData = File.ReadAllLines(dialog.FileName);
-                    ProgramList.Add(new Program(dialog.FileName, fileData));
-                }
-            });
-
-
             Connection.ConnectionChanged += Connection_ConnectionChanged;
         }
 
-        public ODBST StatInfo = new ODBST();
-        public ODBSYSEX SystemInfo = new ODBSYSEX();
+        public void ToggleConnection()
+        {
+            StatusCode = Connection.IsConnected ? Connection.Close(handle) : Connection.Open(out handle);
+        }
 
         private void Connection_ConnectionChanged(object sender, ConnectionChangedEventArgs e)
         {
             RaisePropertyChanged("InvertedConnectString");
 
+            ODBST StatInfo = new ODBST(); // do something with these
+            ODBSYSEX SystemInfo = new ODBSYSEX(); // hehe
 
             if (Connection.IsConnected)
             {
@@ -179,8 +155,9 @@ namespace DNC.Models
         }
 
         [HandleProcessCorruptedStateExceptions]
-        public void ReadDirectory()
+        public static void ReadDirectory(ushort handle)
         {
+            short StatusCode;
             try
             {
                 ODBPDFDRV drvOut = new ODBPDFDRV();
@@ -206,13 +183,13 @@ namespace DNC.Models
                     ODBPDFSDIR subOut = new ODBPDFSDIR();
 
                     StatusCode = cnc_rdpdf_subdir(handle, ref dirNum, subIn, subOut);
-                    Debug.WriteLine(ToJson(subOut));
+                    Debug.WriteLine(App.ToJson(subOut));
                 }
 
                 short dsvInfo = 0;
                 StatusCode = cnc_dtsvgetmode(handle, out dsvInfo);
 
-                Debug.WriteLine(ToJson(dsvInfo + 100));
+                Debug.WriteLine(App.ToJson(dsvInfo + 100));
             }
             catch (Exception ex)
             {
@@ -221,8 +198,9 @@ namespace DNC.Models
 
         }
 
-        public int PushProgram(Program program)
+        public static int PushProgram(Program program, ushort handle, string MachineDirectory)
         {
+            short StatusCode = 0;
             Task.Factory.StartNew(() =>
             {
                 Debug.WriteLine("Pushing Program to Machine");
@@ -235,49 +213,66 @@ namespace DNC.Models
             });
             return StatusCode;
         }
-
-        public static string ToJson<T>(T obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
-
-
     }
 
     [Serializable]
+    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
     public class Folder : ModelBase
     {
-        public ObservableCollection<ModelBase> Children;
-        public Folder(string name, ObservableCollection<ModelBase> parentList) : base(name, parentList, "/Resources/Icons/Folder_16x.png")
+        public ObservableCollection<ModelBase> Children { get; set; }
+
+        internal Folder() { }
+        public Folder(string name = null, ModelBase parent = null) : base(name, parent, "/Resources/Icons/Folder_16x.png")
         {
             Children = new ObservableCollection<ModelBase>();
         }
     }
 
+    [XmlInclude(typeof(Folder))]
+    [XmlInclude(typeof(Machine))]
     [Serializable]
+    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
     public abstract class ModelBase : ObservableObject
     {
-        
-        public ICommand Rename { get; private set; }
+        public ModelBase Parent
+        {
+            get
+            {
+                if (ParentTreeViewItem != null)
+                    return ParentTreeViewItem.DataContext as ModelBase;
+                else return null;
+            }
+        }
 
-        public ObservableCollection<ModelBase> ParentList { get; private set; }
+        [NonSerialized]
+        public TreeViewItem TreeViewItem;
 
-        public ModelBase(string name, ObservableCollection<ModelBase> parentList, string icon)
+        [NonSerialized]
+        public TreeViewItem ParentTreeViewItem;
+
+        [NonSerialized]
+        public TreeView ParentTreeView;
+
+        /// <summary>
+        /// Base Constructor
+        /// </summary>
+        /// <param name="name">Display Name on list</param>
+        /// <param name="parent">Parent object, set as null if in Root list</param>
+        /// <param name="icon">Location of Icon in resources</param>
+        public ModelBase(string name = "null", ModelBase parent = null, string icon = null)
         {
             Name = name;
             Icon = icon;
-            ParentList = parentList;
 
-            Rename = new RelayCommand(() =>
-            {
-                IsNameEditing = !IsNameEditing;
-                RaisePropertyChanged("IsNameEditing");
-            });
         }
 
-        public string Icon { get; private set; }
+
+
+        public string Icon { get; set; }
 
         public bool IsNameEditing { get; set; }
 
         public string _name;
-
         public string Name
         {
             get => _name;
@@ -287,85 +282,5 @@ namespace DNC.Models
                 RaisePropertyChanged();
             }
         }
-
-        /*
-        #region dataobject
-        public readonly string[] formats = new string[]
-        {
-            "DNC.Models.ModelBase",
-            "DNC.Models.Machine",
-            "DNC.Models.Folder"
-        };
-
-        public readonly Type[] Tformats = new Type[]
-        {
-            typeof(ModelBase),
-            typeof(Machine),
-            typeof(Folder)
-        };
-
-        public object GetData(string format)
-        {
-            if (format == DataFormats.Serializable)
-                return new DataObject(this);
-
-            if (formats.Contains(format))
-                return new DataObject(this);
-
-            else throw new NotImplementedException();
-        }
-
-        public object GetData(Type format)
-        {
-
-            if (Tformats.Contains(format))
-                return new DataObject(this);
-
-            else throw new NotImplementedException();
-        }
-
-        public object GetData(string format, bool autoConvert)
-        {
-            if (format == DataFormats.Serializable)
-                return new DataObject(this);
-
-            if (formats.Contains(format))
-                return new DataObject(this);
-
-            else throw new NotImplementedException();
-        }
-
-        public bool GetDataPresent(string format) => formats.Contains(format);
-
-        public bool GetDataPresent(Type format) => Tformats.Contains(format);
-
-        public bool GetDataPresent(string format, bool autoConvert) => formats.Contains(format);
-
-        public string[] GetFormats() => formats;
-
-        public string[] GetFormats(bool autoConvert) => formats;
-
-        public virtual void SetData(object data)
-        {
-            
-            throw new NotImplementedException();
-        }
-
-        public virtual void SetData(string format, object data)
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual void SetData(Type format, object data)
-        {
-            throw new NotImplementedException();
-        }
-
-        public virtual void SetData(string format, object data, bool autoConvert)
-        {
-            throw new NotImplementedException();
-        }
-        #endregion
-        */
     }
 }
