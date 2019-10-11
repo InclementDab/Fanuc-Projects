@@ -114,7 +114,7 @@ namespace DNC
         public static extern int rs_read([In, Out, MarshalAs(UnmanagedType.AsAny)] object buffer, int size, int port);
 
         [DllImport("FCA32.dll", EntryPoint = "rs_buffer")]
-        public static extern int rs_buffer(int port, int cmnd);
+        public static extern int rs_buffer(int port, rs_buffer_val cmnd);
 
         [DllImport("FCA32.dll", EntryPoint = "rs_status")]
         public static extern int rs_status(int port);

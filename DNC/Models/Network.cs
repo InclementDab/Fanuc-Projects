@@ -5,6 +5,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.Globalization;
+using System.IO;
 using System.IO.Ports;
 using System.Linq;
 using System.Net;
@@ -76,12 +77,13 @@ namespace DNC.Models
             if (SerialPorts.Count != 0)
                 SerialPort = SerialPorts.First();
         }
-        
+
         public override short Open(out ushort handle)
         {
             Debug.WriteLine("Opening Connection");
             Status = ConnectionStatus.Connecting;
 
+            if (SerialPort.IsOpen) SerialPort.Close();
             int.TryParse(Regex.Match(SerialPort.PortName, "(\\d+)").Value, out int comNum);
 
             PortDefUser p = new PortDefUser()
@@ -99,23 +101,84 @@ namespace DNC.Models
                 dc4_code = 0x14
             };
 
-            StatusCode = (short)rs_open(comNum, p, "rw"); // todo THIS IS DANGEROUS YOU NEED TO HAVE ALL SETTINGS FOR ser_t SET IN UI!!!
+            //StatusCode = (short)rs_open(comNum, p, "rw");
+            //Debug.WriteLine("PUT: " + rs_putc(1, comNum));
+            //Debug.WriteLine("BUF: " + rs_buffer(comNum, rs_buffer_val.RS_CHK_BUF_W));
             handle = 0;
 
+            Debug.WriteLine($"Opening Port {SerialPort.PortName}");
+
+            SerialPort.DataReceived += SerialPort_DataReceived;
+            SerialPort.Disposed += SerialPort_Disposed;
+            SerialPort.PinChanged += SerialPort_PinChanged;
+
+            SerialPort.BaudRate = 9600;
+            SerialPort.Parity = Parity.Even;
+            SerialPort.StopBits = StopBits.One;
+            SerialPort.DataBits = 7;
+            SerialPort.Handshake = Handshake.XOnXOff;
+            SerialPort.ReadTimeout = 2000;
+
+
+
             
-            Debug.WriteLine(rs_status(comNum));
+
+            //SerialPort.DtrEnable = true;
+            SerialPort.Open();
+            
+            SerialPort.RtsEnable = true;
+
+            //SerialPort.Write("Test");
             //StatusCode = cnc_allclibhndl2(comNum, out handle);
+            //Status = SerialPort.CDHolding ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             Status = StatusCode == 0 ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             OnConnectionChanged(handle);
             return StatusCode;
         }
+
+        private void SerialPort_PinChanged(object sender, SerialPinChangedEventArgs e)
+        {
+            if (e.EventType == SerialPinChange.Break) return;
+            Debug.WriteLine($"Pin Changed: {e.EventType}");
+        }
+
+        private void SerialPort_Disposed(object sender, EventArgs e)
+        {
+            if (sender is SerialPort sPort)
+                Debug.WriteLine($"{sPort.PortName} Disposed");
+        }
+
+        public List<char> AllRecieved = new List<char>();
+
+        private void SerialPort_DataReceived(object sender, SerialDataReceivedEventArgs e)
+        {
+            if (sender is SerialPort sPort)
+            {
+                try
+                {
+                    while (sPort.BytesToRead > 0)
+                    {
+                        char[] buffer = new char[sPort.BytesToRead];
+                        sPort.Read(buffer, 0, buffer.Length);
+                        AllRecieved.AddRange(buffer.ToList());
+                    }
+
+                }
+                catch (IOException ex)
+                {
+                    Debug.WriteLine(ex);
+                }
+            }
+        }
+
+
     }
 
     [Description("Generic Connection")]
     public abstract class Connection : ObservableObject
     {
         private ConnectionStatus _status = 0;
-        public ConnectionStatus Status 
+        public ConnectionStatus Status
         {
             get => _status;
             protected set
@@ -211,7 +274,7 @@ namespace DNC.Models
         public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
         {
             if (!(value is ConnectionStatus status)) return null;
-            
+
 
             switch (status)
             {

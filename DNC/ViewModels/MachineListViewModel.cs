@@ -4,6 +4,7 @@ using System.Collections.ObjectModel;
 using System.ComponentModel;
 using System.Diagnostics;
 using System.IO;
+using System.IO.Ports;
 using System.Linq;
 using System.Net;
 using System.Reflection;
@@ -99,10 +100,10 @@ namespace DNC.ViewModels
 
             var Machine1 = new Machine("MakinoC", MachineList)
             {
-                Connection = new TCPConnection()
+                Connection = new SerialConnection()
                 {
-                    IPAddress = IPAddress.Parse("192.168.128.1"),
-                    Port = 8195
+                    SerialPort = new SerialPort("COM1")
+                    
                 }
             };
 
