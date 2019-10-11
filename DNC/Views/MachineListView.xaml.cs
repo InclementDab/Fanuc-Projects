@@ -72,32 +72,9 @@ namespace DNC.Views
             return RecursiveGetType<T>(LogicalTreeHelper.GetParent(current));
         }
 
-        private void CommandBinding_CanExecute(object sender, CanExecuteRoutedEventArgs e)
-        {
-            e.CanExecute = tView.SelectedItem != null;
-        }
-
-        #region copypaste
 
 
-        private void Cut_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            Clipboard.Clear();
-            Clipboard.SetDataObject(ViewModel.SelectedItem, false);
-            ViewModel.SelectedItem.ParentList.Remove(ViewModel.SelectedItem);
-        }
-
-        private void Copy_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            Clipboard.SetDataObject(ViewModel.SelectedItem, false);
-        }
-
-        private void Paste_Executed(object sender, ExecutedRoutedEventArgs e)
-        {
-            IDataObject a = Clipboard.GetDataObject();
-            ViewModel.SelectedItem.ParentList.Add(a as ModelBase);            
-        }
-        #endregion
+        
 
         #region dragdrop
         protected override void OnMouseMove(MouseEventArgs e)
@@ -178,7 +155,7 @@ namespace DNC.Views
             {
                 if (dTarget.DataContext is Folder dFolder)
                 {
-                    dFolder.SetData(e.Data.GetData(typeof(ModelBase)));
+                    //dFolder.SetData(e.Data.GetData(typeof(ModelBase)));
                     //dFolder.Children.Add(e.Data.GetData(typeof(ModelBase)) as ModelBase);
 
                 }

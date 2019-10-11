@@ -105,6 +105,7 @@
     <Compile Include="Communication\serial.cs" />
     <Compile Include="Models\MachineModel.cs" />
     <Compile Include="Models\Network.cs" />
+    <Compile Include="Models\ObservableObject.cs" />
     <Compile Include="Models\ProgramModel.cs" />
     <Compile Include="Settings.cs" />
     <Compile Include="ViewModels\MachineListViewModel.cs" />
@@ -119,6 +120,7 @@
     <Compile Include="Views\ProgramListView.xaml.cs">
       <DependentUpon>ProgramListView.xaml</DependentUpon>
     </Compile>
+    <Compile Include="Views\TreeViewBehavior.cs" />
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>

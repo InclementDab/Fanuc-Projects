@@ -26,6 +26,7 @@ namespace DNC.Models
 {
 
     [Description("TCP/IP")]
+    [Serializable]
     public class TCPConnection : Connection
     {
         public IPAddress IPAddress { get; set; }
@@ -52,6 +53,7 @@ namespace DNC.Models
     }
 
     [Description("Serial Port")]
+    [Serializable]
     public class SerialConnection : Connection
     {
         private ObservableCollection<SerialPort> serialPorts;
@@ -175,6 +177,7 @@ namespace DNC.Models
     }
 
     [Description("Generic Connection")]
+    [Serializable]
     public abstract class Connection : ObservableObject
     {
         private ConnectionStatus _status = 0;

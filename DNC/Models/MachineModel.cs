@@ -16,6 +16,7 @@ using System.Net.Sockets;
 using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
+using System.Runtime.Serialization;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -24,6 +25,7 @@ using System.Windows;
 using System.Windows.Controls;
 
 using System.Windows.Input;
+using System.Xaml;
 using static DNC.Focas2;
 
 namespace DNC.Models
@@ -118,7 +120,7 @@ namespace DNC.Models
 
         public string MachineDirectory { get; private set; } // probably put this in individual programs upon register
 
-        public Machine(string name, ICollection<ModelBase> parentList, Connection connection = null) : base(name, parentList, "/Resources/Icons/Machine_16x.png")
+        public Machine(string name, ObservableCollection<ModelBase> parentList, Connection connection = null) : base(name, parentList, "/Resources/Icons/Machine_16x.png")
         {
             MachineDirectory = "//CNC_MEM/USER/";
             TCPConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
@@ -243,20 +245,21 @@ namespace DNC.Models
     public class Folder : ModelBase
     {
         public ObservableCollection<ModelBase> Children;
-        public Folder(string name, ICollection<ModelBase> parentList) : base(name, parentList, "/Resources/Icons/Folder_16x.png")
+        public Folder(string name, ObservableCollection<ModelBase> parentList) : base(name, parentList, "/Resources/Icons/Folder_16x.png")
         {
             Children = new ObservableCollection<ModelBase>();
         }
     }
 
     [Serializable]
-    public abstract class ModelBase : ObservableObject, IDataObject
+    public abstract class ModelBase : ObservableObject
     {
+        
         public ICommand Rename { get; private set; }
 
-        public ICollection<ModelBase> ParentList { get; private set; }
+        public ObservableCollection<ModelBase> ParentList { get; private set; }
 
-        public ModelBase(string name, ICollection<ModelBase> parentList, string icon)
+        public ModelBase(string name, ObservableCollection<ModelBase> parentList, string icon)
         {
             Name = name;
             Icon = icon;
@@ -274,6 +277,7 @@ namespace DNC.Models
         public bool IsNameEditing { get; set; }
 
         public string _name;
+
         public string Name
         {
             get => _name;
@@ -284,6 +288,7 @@ namespace DNC.Models
             }
         }
 
+        /*
         #region dataobject
         public readonly string[] formats = new string[]
         {
@@ -301,6 +306,9 @@ namespace DNC.Models
 
         public object GetData(string format)
         {
+            if (format == DataFormats.Serializable)
+                return new DataObject(this);
+
             if (formats.Contains(format))
                 return new DataObject(this);
 
@@ -309,6 +317,7 @@ namespace DNC.Models
 
         public object GetData(Type format)
         {
+
             if (Tformats.Contains(format))
                 return new DataObject(this);
 
@@ -317,6 +326,9 @@ namespace DNC.Models
 
         public object GetData(string format, bool autoConvert)
         {
+            if (format == DataFormats.Serializable)
+                return new DataObject(this);
+
             if (formats.Contains(format))
                 return new DataObject(this);
 
@@ -335,6 +347,7 @@ namespace DNC.Models
 
         public virtual void SetData(object data)
         {
+            
             throw new NotImplementedException();
         }
 
@@ -353,5 +366,6 @@ namespace DNC.Models
             throw new NotImplementedException();
         }
         #endregion
+        */
     }
 }

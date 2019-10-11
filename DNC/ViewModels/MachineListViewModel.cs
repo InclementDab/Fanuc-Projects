@@ -87,6 +87,25 @@ namespace DNC.ViewModels
             AddTestItems();
         }
 
+        public bool CanCopyToClipboard => true;
+        public bool CanCutToClipboard => true;
+        public bool CanPasteFromClipboard => true;
+
+        public void CopyToClipboard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void CutToClipboard()
+        {
+            throw new NotImplementedException();
+        }
+
+        public void PasteFromClipboard()
+        {
+            throw new NotImplementedException();
+        }
+
         public void AddTestItems()
         {
             var Machine = new Machine("MAM", MachineList, new TCPConnection()
