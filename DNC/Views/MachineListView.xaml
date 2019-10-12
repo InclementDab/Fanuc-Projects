@@ -18,11 +18,13 @@
             <MenuItem Header="Import" Command="{Binding Import}"/>
             <MenuItem Header="Load all from controller"/>
             <Separator/>
-            <MenuItem Command="Copy"/>
             <MenuItem Command="Cut"/>
+            <MenuItem Command="Copy"/>
             <MenuItem Command="Paste"/>
             <Separator/>
             <MenuItem Header="Rename" Command="{Binding Rename}"/>
+            <MenuItem Command="Delete"/>
+            <Separator/>
             <MenuItem Header="Properties" Command="{Binding Edit}"/>
         </ContextMenu>
 
@@ -44,8 +46,7 @@
 
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
-
-                    <Border BorderBrush="Black" BorderThickness="0 0 0 0" Loaded="Border_Loaded">
+                    <Border BorderBrush="Black" BorderThickness="{Binding ItemBorderThickness}" Loaded="Border_Loaded">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding Icon}"/>
                             <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>

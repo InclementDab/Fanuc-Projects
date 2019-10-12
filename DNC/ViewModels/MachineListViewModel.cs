@@ -17,7 +17,9 @@ using System.Threading;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
+using System.Windows.Data;
 using System.Windows.Input;
+using System.Windows.Threading;
 using System.Xml.Serialization;
 using DNC.Models;
 using DNC.Properties;
@@ -38,11 +40,13 @@ namespace DNC.ViewModels
             Debug.WriteLine("Reading List...");
             try
             {
+
                 using (FileStream fs = new FileStream(SETTINGS_DIR, FileMode.OpenOrCreate, FileAccess.Read, FileShare.None))
                 {
                     IFormatter formatter = new BinaryFormatter();
                     return (formatter.Deserialize(fs) as ObservableCollection<ModelBase>) ?? new ObservableCollection<ModelBase>();
                 }
+                
             }
             catch (SerializationException e)
             {
@@ -51,14 +55,16 @@ namespace DNC.ViewModels
             }
         }
 
-        private void SerializeList(ObservableCollection<ModelBase> list)
+        private void SerializeList(Collection<ModelBase> list)
         {
+
             Debug.WriteLine("Saving List...");
             using (FileStream fs = new FileStream(SETTINGS_DIR, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None))
             {
                 IFormatter formatter = new BinaryFormatter();
                 formatter.Serialize(fs, list);
             }
+            
         }
 
 
@@ -103,17 +109,15 @@ namespace DNC.ViewModels
         public ICommand AddMachineCommand { get; private set; }
         public ICommand SendProgram { get; private set; }
 
-        #region Individual Item Commands
-        public ICommand RenameCommand { get; private set; }
-        public ICommand ToggleConnection { get; private set; }
-        public ICommand Edit { get; private set; }
-        public ICommand Import { get; private set; }
-        #endregion
         public MachineListViewModel()
         {
+
+            MachineList = DeserializeList() ?? new ObservableCollection<ModelBase>();
+
             AddFolderCommand = new RelayCommand(() =>
             {
                 MachineList.Add(new Folder("Folder1", null));
+                SerializeList(MachineList);
             });
 
             AddMachineCommand = new RelayCommand(() =>
@@ -129,55 +133,20 @@ namespace DNC.ViewModels
 
                 EditPrompt e = new EditPrompt();
                 e.EditMachine(m);
+                SerializeList(MachineList);
             });
-
-            #region Individual Item Command Implementation
-
-            RenameCommand = new RelayCommand(() =>
-            {
-                SelectedItem.IsNameEditing = !SelectedItem.IsNameEditing;
-                SelectedItem.RaisePropertyChanged("IsNameEditing");
-            });
-
-            ToggleConnection = new RelayCommand(() =>
-            {
-                if (!(SelectedItem is Machine sMachine)) throw new NotImplementedException();
-                Task.Factory.StartNew(() =>
-                {
-                    sMachine.ToggleConnection();
-                });
-            });
-
-            Edit = new RelayCommand(() =>
-            {
-                if (!(SelectedItem is Machine sMachine)) throw new NotImplementedException();
-                EditPrompt e = new EditPrompt();
-                e.EditMachine(sMachine);
-            });
-
-            Import = new RelayCommand(() =>
-            {
-                if (!(SelectedItem is Machine sMachine)) throw new NotImplementedException();
-                System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog
-                {
-                    RestoreDirectory = true
-                };
-
-                if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-                {
-                    string[] fileData = File.ReadAllLines(dialog.FileName);
-                    sMachine.ProgramList.Add(new Program(dialog.FileName, fileData));
-                }
-            });
-            #endregion
-
-            MachineList = DeserializeList();
-            //if (MachineList == null) MachineList = new ObservableCollection<ModelBase>();
-
-           
         }
 
 
+
+        private void MachineList_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
+        {
+            Task.Factory.StartNew(() =>
+            {
+                SerializeList(MachineList);
+            });
+
+        }
 
         public bool CanCopyToClipboard => true;
         public bool CanCutToClipboard => true;

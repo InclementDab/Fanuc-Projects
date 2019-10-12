@@ -18,6 +18,7 @@ using System.Reflection;
 using System.Runtime.CompilerServices;
 using System.Runtime.ExceptionServices;
 using System.Runtime.Serialization;
+using System.Runtime.Serialization.Formatters.Binary;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading;
@@ -50,6 +51,43 @@ namespace DNC.Models
         private ushort handle;
         private TCPConnection TCPConnection { get; set; }
         private SerialConnection SerialConnection { get; set; }
+
+        public ICommand Rename => new RelayCommand(() =>
+        {
+            IsNameEditing = !IsNameEditing;
+            RaisePropertyChanged("IsNameEditing");
+        });
+
+        public ICommand ToggleConnection => new RelayCommand(() =>
+        {
+            Task.Factory.StartNew(() =>
+            {
+                StatusCode = Connection.IsConnected ? Connection.Close(handle) : Connection.Open(out handle);
+            });
+        });
+        
+        public ICommand Edit => new RelayCommand(() =>
+        {
+            EditPrompt e = new EditPrompt();
+            e.EditMachine(this);
+            //SerializeList(MachineList);
+        });
+
+        
+        public ICommand Import => new RelayCommand(() =>
+        {
+            System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog
+            {
+                RestoreDirectory = true
+            };
+
+            if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
+            {
+                string[] fileData = File.ReadAllLines(dialog.FileName);
+                ProgramList.Add(new Program(dialog.FileName, fileData));
+                //SerializeList(MachineList);
+            }
+        });
 
         public Connection Connection
         {
@@ -129,14 +167,9 @@ namespace DNC.Models
             Connection = connection ?? TCPConnection;
 
             ProgramList = new ObservableCollection<Program>();
-
             Connection.ConnectionChanged += Connection_ConnectionChanged;
         }
 
-        public void ToggleConnection()
-        {
-            StatusCode = Connection.IsConnected ? Connection.Close(handle) : Connection.Open(out handle);
-        }
 
         private void Connection_ConnectionChanged(object sender, ConnectionChangedEventArgs e)
         {
@@ -247,11 +280,26 @@ namespace DNC.Models
         [NonSerialized]
         public TreeViewItem TreeViewItem;
 
-        [NonSerialized]
-        public TreeViewItem ParentTreeViewItem;
+        public TreeView ParentTreeView
+        {
+            get
+            {
+                var x = TreeViewItem.GetType().GetProperty("ParentTreeView", BindingFlags.Instance | BindingFlags.NonPublic);
+                return x.GetValue(TreeViewItem) as TreeView;
+            }
+        }
 
-        [NonSerialized]
-        public TreeView ParentTreeView;
+        public TreeViewItem ParentTreeViewItem
+        {
+            get
+            {
+                var x = TreeViewItem.GetType().GetProperty("ParentTreeViewItem", BindingFlags.Instance | BindingFlags.NonPublic);
+                return x.GetValue(TreeViewItem) as TreeViewItem;
+            }
+        }
+
+        public int ParentIndex => ParentTreeView.Items.IndexOf(TreeViewItem);
+
 
         /// <summary>
         /// Base Constructor
@@ -263,10 +311,7 @@ namespace DNC.Models
         {
             Name = name;
             Icon = icon;
-
         }
-
-
 
         public string Icon { get; set; }
 

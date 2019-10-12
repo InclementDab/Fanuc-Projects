@@ -66,6 +66,22 @@ namespace DNC
 
             return RecursiveGetType<T>(current.TemplatedParent ?? current.Parent);
         }
+
+        public static T RecursiveGetChild<T>(DependencyObject current)
+        {
+            if (current == null) return default;
+
+            foreach (DependencyObject child in LogicalTreeHelper.GetChildren(current))
+            {
+                if (child is T r) return r;
+                
+                var ret = RecursiveGetChild<T>(child);
+
+                if (ret != null)
+                    return ret;
+            }
+            return default;
+        }
     }
 
     /// <summary>

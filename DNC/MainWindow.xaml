@@ -17,6 +17,9 @@
         <CommandBinding Command="ApplicationCommands.Paste"
                                 Executed="Paste_Executed"
                                 CanExecute="CommandBinding_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Delete"
+                                Executed="Delete_Executed"
+                                CanExecute="CommandBinding_CanExecute"/>
     </Window.CommandBindings>
 
     <DockPanel>

@@ -26,32 +26,27 @@ namespace DNC.Models
 {
 
 
-    [Serializable]
-    public class Address : IPAddress
-    {
-        private const long DEFAULT_IP = 0;
-        internal Address() : base(DEFAULT_IP) { }
-
-        public Address(long ip = DEFAULT_IP) : base(ip)
-        {
-
-        }
-
-        
-    }
-
     [Description("TCP/IP")]
     [Serializable]
     public class TCPConnection : Connection
     {
-        public Address IPAddress { get; set; }
-        public ushort Port { get; set; }
+        private string _IPAddress;
+        public IPAddress IPAddress
+        {
+            get => IPAddress.Parse(_IPAddress ?? "0.0.0.0");
+            set
+            {
+                _IPAddress = value.ToString();
+            }
+        }
+
+        public int Port { get; set; }
 
         internal TCPConnection() { }
 
-        public TCPConnection(IPAddress ip, ushort port)
+        public TCPConnection(IPAddress ip, int port)
         {
-            IPAddress = ip as Address;
+            IPAddress = ip;
             Port = port;
         }
 
@@ -60,7 +55,7 @@ namespace DNC.Models
             Debug.WriteLine("Opening Connection");
             Status = ConnectionStatus.Connecting;
 
-            StatusCode = cnc_allclibhndl3(IPAddress.ToString(), Port, 10, out handle);
+            StatusCode = cnc_allclibhndl3(IPAddress.ToString(), (ushort)Port, 10, out handle);
             Status = StatusCode == 0 ? ConnectionStatus.Connected : ConnectionStatus.Disconnected;
             OnConnectionChanged(handle);
             return StatusCode;
