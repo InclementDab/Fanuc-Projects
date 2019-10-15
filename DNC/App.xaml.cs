@@ -246,4 +246,15 @@ namespace DNC
             return ((bool)value) ? parameter : Binding.DoNothing;
         }
     }
+
+    public class TestObject : ObservableObject
+    {
+        public void RaiseAllProperties()
+        {
+
+            // Using reflection to raise all properties
+            foreach (PropertyInfo pInfo in GetType().GetProperties(BindingFlags.GetField | BindingFlags.GetProperty | BindingFlags.DeclaredOnly))
+                RaisePropertyChanged(pInfo.Name);
+        }
+    }
 }

@@ -285,10 +285,9 @@ namespace DNC.Models
             if (!(value is Brush b)) return null;
 
             if (Equals(Brushes.Red, b)) return ConnectionStatus.Disconnected;
-            if (Equals(Brushes.Yellow, b)) return ConnectionStatus.Connecting;
             if (Equals(Brushes.Green, b)) return ConnectionStatus.Connected;
 
-            return Brushes.Pink;
+            return 3;
         }
 
         public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
@@ -301,14 +300,11 @@ namespace DNC.Models
                 case ConnectionStatus.Disconnected:
                     return Brushes.Red;
 
-                case ConnectionStatus.Connecting:
-                    return Brushes.Yellow;
-
                 case ConnectionStatus.Connected:
                     return Brushes.Green;
 
                 default:
-                    return Brushes.Gray;
+                    return Brushes.Yellow;
             }
         }
     }

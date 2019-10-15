@@ -35,44 +35,6 @@ using static DNC.Focas2;
 namespace DNC.Models
 {
 
-    public interface IModelBase2
-    {
-        ICommand Rename();
-        string Name { get; set; }
-
-    }
-
-    public struct Machine2 : IModelBase2
-    {
-        public ICommand Rename()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string Name { get; set; }
-    }
-
-    public struct Folder2 : IModelBase2, IEnumerable<IModelBase2>
-    {
-        public ICommand Rename()
-        {
-            throw new NotImplementedException();
-        }
-
-        public string Name { get; set; }
-        public IEnumerator<IModelBase2> GetEnumerator()
-        {
-            throw new NotImplementedException();
-        }
-
-        IEnumerator IEnumerable.GetEnumerator()
-        {
-            return GetEnumerator();
-        }
-    }
-    
-    
-
 
     public enum ConnectionType
     {
@@ -94,10 +56,14 @@ namespace DNC.Models
 
         public ICommand ToggleConnection => new RelayCommand(() =>
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             Task.Factory.StartNew(() =>
             {
                 StatusCode = Connection.IsConnected ? Connection.Close(_handle) : Connection.Open(out _handle);
             });
+            
+            Debug.WriteLine($"{sw.ElapsedMilliseconds}ms on Toggle Connection");
         });
         
         public ICommand Edit => new RelayCommand(() =>
@@ -195,6 +161,8 @@ namespace DNC.Models
 
         public Machine(string name, Connection connection = null) : base(name,"/Resources/Icons/Machine_16x.png")
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             MachineDirectory = "//CNC_MEM/USER/";
             TcpConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
             SerialConnection = new SerialConnection();
@@ -202,6 +170,9 @@ namespace DNC.Models
 
             ProgramList = new ObservableCollection<Program>();
             Connection.ConnectionChanged += Connection_ConnectionChanged;
+            
+            Debug.WriteLine($"{sw.ElapsedMilliseconds}ms on Machine Constructor");
+            sw.Stop();
         }
 
 
