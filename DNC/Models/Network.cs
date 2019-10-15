@@ -222,6 +222,7 @@ namespace DNC.Models
             return StatusCode;
         }
 
+
         public delegate void ConnectionChangedEventHandler(object sender, ConnectionChangedEventArgs e);
         public event ConnectionChangedEventHandler ConnectionChanged;
 

@@ -4,6 +4,7 @@ using GalaSoft.MvvmLight;
 using GalaSoft.MvvmLight.CommandWpf;
 using Newtonsoft.Json;
 using System;
+using System.Collections;
 using System.Collections.Generic;
 using System.Collections.ObjectModel;
 using System.ComponentModel;
@@ -33,6 +34,45 @@ using static DNC.Focas2;
 
 namespace DNC.Models
 {
+
+    public interface IModelBase2
+    {
+        ICommand Rename();
+        string Name { get; set; }
+
+    }
+
+    public struct Machine2 : IModelBase2
+    {
+        public ICommand Rename()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Name { get; set; }
+    }
+
+    public struct Folder2 : IModelBase2, IEnumerable<IModelBase2>
+    {
+        public ICommand Rename()
+        {
+            throw new NotImplementedException();
+        }
+
+        public string Name { get; set; }
+        public IEnumerator<IModelBase2> GetEnumerator()
+        {
+            throw new NotImplementedException();
+        }
+
+        IEnumerator IEnumerable.GetEnumerator()
+        {
+            return GetEnumerator();
+        }
+    }
+    
+    
+
 
     public enum ConnectionType
     {

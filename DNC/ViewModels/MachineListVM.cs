@@ -35,7 +35,7 @@ namespace DNC.ViewModels
     {
 
         private const string SETTINGS_DIR = "Settings.bin";
-        private ObservableCollection<ModelBase> DeserializeList()
+        private static ObservableCollection<ModelBase> DeserializeList()
         {
             Debug.WriteLine("Reading List...");
             try
