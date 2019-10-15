@@ -3,12 +3,10 @@
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
-        xmlns:local="clr-namespace:DNC"
-        xmlns:views="clr-namespace:DNC.Views"
-        xmlns:model="clr-namespace:DNC.Models"
+        xmlns:local="clr-namespace:DNC.Views"
         mc:Ignorable="d"
         Title="MainWindow" Height="600" Width="1200">
-
+    
     <Window.CommandBindings>
         <CommandBinding Command="ApplicationCommands.Cut"
                                 Executed="Cut_Executed"
@@ -18,6 +16,9 @@
                                 CanExecute="CommandBinding_CanExecute"/>
         <CommandBinding Command="ApplicationCommands.Paste"
                                 Executed="Paste_Executed"
+                                CanExecute="CommandBinding_CanExecute"/>
+        <CommandBinding Command="ApplicationCommands.Delete"
+                                Executed="Delete_Executed"
                                 CanExecute="CommandBinding_CanExecute"/>
     </Window.CommandBindings>
 
@@ -48,75 +49,9 @@
                 <ColumnDefinition Width="auto"/>
                 <ColumnDefinition Width="*"/>
             </Grid.ColumnDefinitions>
-
-            <!--#region MachineList -->
-            <Grid Grid.Column="0" MinWidth="300" DataContext="{Binding MachineListViewModel}">
-                <Grid.RowDefinitions>
-                    <RowDefinition Height="*"/>
-                    <RowDefinition Height="auto"/>
-                </Grid.RowDefinitions>
-
-                <TreeView x:Name="tView" Grid.Row="0" Margin="5" AllowDrop="True"
-                                ItemsSource="{Binding MachineList}"
-                                SelectedItemChanged="TreeView_SelectedItemChanged">
-
-                    <TreeView.Resources>
-                        <HierarchicalDataTemplate x:Key="ItemTemp" DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
-                            <Border BorderBrush="Black" BorderThickness="0 0 0 0">
-                                <StackPanel Orientation="Horizontal">
-                                    <Image Source="{Binding Icon}"/>
-                                    <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>
-                                    <Grid Width="auto" Height="auto">
-                                        <TextBlock Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
-                                        <TextBox Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
-                                    </Grid>
-                                    <TextBlock Text="{Binding Connection.Status, StringFormat=({0})}" Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}"/>
-                                </StackPanel>
-
-                                <Border.ContextMenu>
-                                    <ContextMenu>
-                                        <MenuItem Header="{Binding InvertedConnectString}" Command="{Binding ToggleConnection}"/>
-                                        <Separator/>
-                                        <MenuItem Header="Import" Command="{Binding Import}"/>
-                                        <MenuItem Header="Load all from controller"/>
-                                        <Separator/>
-                                        <MenuItem Command="Copy"/>
-                                        <MenuItem Command="Cut"/>
-                                        <MenuItem Command="Paste"/>
-                                        <Separator/>
-                                        <MenuItem Header="Rename" Command="{Binding Rename}"/>
-                                        <MenuItem Header="Properties" Command="{Binding Edit}"/>
-                                    </ContextMenu>
-                                </Border.ContextMenu>
-                            </Border>
-                        </HierarchicalDataTemplate>
-                    </TreeView.Resources>
-
-                </TreeView>
-
-                <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Right" Margin="5">
-                    <Button Width="20" Height="20" Content="M" Command="{Binding AddMachineCommand}" Margin="2"/>
-                    <Button Width="20" Height="20" Content="F" Command="{Binding AddFolderCommand}" Margin="2"/>
-                </StackPanel>
-            </Grid>
-            <!--#endregion-->
-
-            <!--#region ProgramList -->
-
-            <DataGrid Grid.Column="1" DataContext="{Binding MachineListViewModel.SelectedItem}" ItemsSource="{Binding ProgramList}" AutoGenerateColumns="False" SelectedItem="{Binding SelectedProgram}">
-                <DataGrid.Columns>
-                    <DataGridTextColumn Header="Last Modified" Binding="{Binding LastModified}" IsReadOnly="True"/>
-                    <DataGridTextColumn Header="No." Binding="{Binding Number}" Width="50"/>
-                    <DataGridTextColumn Header="Program Name" Binding="{Binding FileName}" Width="*"/>
-                </DataGrid.Columns>
-                <DataGrid.ContextMenu>
-                    <ContextMenu>
-                        <MenuItem Header="Send" Command="{Binding SendProgram}"/>
-                    </ContextMenu>
-                </DataGrid.ContextMenu>
-            </DataGrid>
-            <!--#endregion-->
-
+            
+            <ContentControl Content="{Binding MachineListView}" Grid.Column="0" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
+            <ContentControl Content="{Binding ProgramListView}" Grid.Column="1" HorizontalContentAlignment="Stretch" VerticalContentAlignment="Stretch"/>
         </Grid>
 
     </DockPanel>

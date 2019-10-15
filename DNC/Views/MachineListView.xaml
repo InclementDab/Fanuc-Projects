@@ -6,13 +6,15 @@
              xmlns:source="clr-namespace:DNC"
              xmlns:local="clr-namespace:DNC.Views"
              xmlns:model="clr-namespace:DNC.Models"
+             xmlns:viewmodel="clr-namespace:DNC.ViewModels"
              xmlns:i="System.Windows.Interactivity"
              mc:Ignorable="d" 
-             Width="300"
-             d:DesignHeight="500">
+             MinWidth="300"
+             d:DataContext="{d:DesignInstance viewmodel:MachineListVM}"
+             d:DesignHeight="500" d:DesignWidth="300">
 
     <UserControl.Resources>
-        <ContextMenu x:Key="cTextMenu">
+        <ContextMenu x:Key="CTextMenu" d:DataContext="{d:DesignInstance model:Machine}">
             <MenuItem Header="{Binding InvertedConnectString}" Command="{Binding ToggleConnection}"/>
             <Separator/>
             <MenuItem Header="Import" Command="{Binding Import}"/>
@@ -29,7 +31,7 @@
         </ContextMenu>
 
         <Style x:Key="StyleMenu" TargetType="{x:Type TreeViewItem}">
-            <Setter Property="ContextMenu" Value="{StaticResource cTextMenu}"/>
+            <Setter Property="ContextMenu" Value="{StaticResource CTextMenu}"/>
         </Style>
     </UserControl.Resources>
 
@@ -39,14 +41,14 @@
             <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
 
-        <TreeView x:Name="tView" Grid.Row="0" Margin="5" ItemsSource="{Binding MachineList}"
+        <TreeView x:Name="TView" Grid.Row="0" Margin="5" ItemsSource="{Binding MachineList}"
                                 AllowDrop="True"
                                 ItemContainerStyle="{StaticResource StyleMenu}"
                                 SelectedItemChanged="TreeView_SelectedItemChanged">
 
             <TreeView.ItemTemplate>
                 <HierarchicalDataTemplate DataType="{x:Type model:ModelBase}" ItemsSource="{Binding Children}">
-                    <Border BorderBrush="Black" BorderThickness="{Binding ItemBorderThickness}" Loaded="Border_Loaded">
+                    <Border BorderBrush="Black" Loaded="Border_Loaded">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding Icon}"/>
                             <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>

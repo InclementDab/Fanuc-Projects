@@ -1,7 +1,7 @@
 ﻿using DNC.ViewModels;
 using DNC.Views;
 using GalaSoft.MvvmLight;
-using GalaSoft.MvvmLight.Command;
+using GalaSoft.MvvmLight.CommandWpf;
 using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
@@ -48,21 +48,22 @@ namespace DNC.Models
     public class Machine : ModelBase
     {
 
-        private ushort handle;
-        private TCPConnection TCPConnection { get; set; }
+        private ushort _handle;
+        private TCPConnection TcpConnection { get; set; }
         private SerialConnection SerialConnection { get; set; }
 
+        
         public ICommand Rename => new RelayCommand(() =>
         {
             IsNameEditing = !IsNameEditing;
             RaisePropertyChanged("IsNameEditing");
         });
-
+        
         public ICommand ToggleConnection => new RelayCommand(() =>
         {
             Task.Factory.StartNew(() =>
             {
-                StatusCode = Connection.IsConnected ? Connection.Close(handle) : Connection.Open(out handle);
+                StatusCode = Connection.IsConnected ? Connection.Close(_handle) : Connection.Open(out _handle);
             });
         });
         
@@ -115,7 +116,7 @@ namespace DNC.Models
                     return SerialConnection;
 
                 case ConnectionType.TCP:
-                    return TCPConnection;
+                    return TcpConnection;
 
                 default:
                     return null;
@@ -127,7 +128,7 @@ namespace DNC.Models
             if (value is TCPConnection t)
             {
                 CurrentConnectionType = ConnectionType.TCP;
-                TCPConnection = t;
+                TcpConnection = t;
             }
 
             if (value is SerialConnection s)
@@ -142,14 +143,14 @@ namespace DNC.Models
         public bool ConnectOnStartup { get; set; }
         public string InvertedConnectString => Connection.IsConnected ? "Disconnect" : "Connect";
 
-        private short statusCode;
+        private short _statusCode;
         public short StatusCode
         {
-            get => statusCode;
+            get => _statusCode;
             set
             {
-                statusCode = value;
-                Debug.WriteLine(statusCode);
+                _statusCode = value;
+                Debug.WriteLine(_statusCode);
             }
         }
 
@@ -157,14 +158,14 @@ namespace DNC.Models
 
         public string MachineDirectory; // probably put this in individual programs upon register
 
-        internal Machine() { }
+        protected internal Machine() { }
 
-        public Machine(string name = null, ModelBase parent = null, Connection connection = null) : base(name, parent, "/Resources/Icons/Machine_16x.png")
+        public Machine(string name, ModelBase parent = null, Connection connection = null) : base(name, parent, "/Resources/Icons/Machine_16x.png")
         {
             MachineDirectory = "//CNC_MEM/USER/";
-            TCPConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
+            TcpConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
             SerialConnection = new SerialConnection();
-            Connection = connection ?? TCPConnection;
+            Connection = connection ?? TcpConnection;
 
             ProgramList = new ObservableCollection<Program>();
             Connection.ConnectionChanged += Connection_ConnectionChanged;
@@ -178,13 +179,11 @@ namespace DNC.Models
             ODBST StatInfo = new ODBST(); // do something with these
             ODBSYSEX SystemInfo = new ODBSYSEX(); // hehe
 
-            if (Connection.IsConnected)
-            {
-                Debug.WriteLine("Loading Machine Info...");
-                StatusCode = cnc_statinfo(handle, StatInfo);
-                StatusCode = cnc_sysinfo_ex(handle, SystemInfo);
-                Debug.WriteLine("Machine Info Loaded");
-            }
+            if (!Connection.IsConnected) return;
+            Debug.WriteLine("Loading Machine Info...");
+            StatusCode = cnc_statinfo(_handle, StatInfo);
+            StatusCode = cnc_sysinfo_ex(_handle, SystemInfo);
+            Debug.WriteLine("Machine Info Loaded");
         }
 
         [HandleProcessCorruptedStateExceptions]
@@ -307,7 +306,7 @@ namespace DNC.Models
         /// <param name="name">Display Name on list</param>
         /// <param name="parent">Parent object, set as null if in Root list</param>
         /// <param name="icon">Location of Icon in resources</param>
-        public ModelBase(string name = "null", ModelBase parent = null, string icon = null)
+        protected ModelBase(string name = "null", ModelBase parent = null, string icon = null)
         {
             Name = name;
             Icon = icon;
@@ -317,7 +316,7 @@ namespace DNC.Models
 
         public bool IsNameEditing { get; set; }
 
-        public string _name;
+        private string _name;
         public string Name
         {
             get => _name;

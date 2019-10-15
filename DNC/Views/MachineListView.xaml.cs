@@ -28,25 +28,34 @@ namespace DNC.Views
     /// </summary>
     public partial class MachineListView : UserControl
     {
-        private MachineListViewModel ViewModel { get; set; }
+        protected MachineListVM ViewModel { get; set; }
 
         public MachineListView()
         {
             InitializeComponent();
-            DataContext = ViewModel = new MachineListViewModel();
+            DataContext = ViewModel = new MachineListVM();
         }
 
 
         private void TextBox_KeyDown(object sender, KeyEventArgs e)
         {
-            if (e.Key == Key.Return)
+            TextBox tBox = sender as TextBox;
+            if (!(tBox?.DataContext is ModelBase mBase)) return;
+
+            switch (e.Key)
             {
-                TextBox tBox = sender as TextBox;
-                if (tBox.DataContext is ModelBase mBase)
+                case Key.Return:
                 {
                     mBase.IsNameEditing = !mBase.IsNameEditing;
                     mBase.Name = tBox.Text;
                     mBase.RaisePropertyChanged("IsNameEditing");
+                    break;
+                }
+                case Key.Escape:
+                {
+                    mBase.IsNameEditing = !mBase.IsNameEditing;
+                    mBase.RaisePropertyChanged("IsNameEditing");
+                    break;
                 }
             }
         }
@@ -54,7 +63,7 @@ namespace DNC.Views
 
         private void TreeView_SelectedItemChanged(object sender, RoutedPropertyChangedEventArgs<object> e)
         {
-            ViewModel.SelectedItem = (ModelBase)e.NewValue ?? (ModelBase)tView.SelectedItem;
+            ViewModel.SelectedItem = (ModelBase)e.NewValue ?? (ModelBase)TView.SelectedItem;
         }
 
         private void TextBox_IsVisibleChanged(object sender, DependencyPropertyChangedEventArgs e)

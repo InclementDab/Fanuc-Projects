@@ -24,6 +24,7 @@ using System.Windows.Threading;
 using System.Runtime.InteropServices;
 using System.IO;
 using System.Xml.Serialization;
+using Microsoft.Win32;
 
 namespace DNC
 {
@@ -36,7 +37,18 @@ namespace DNC
         protected override void OnStartup(StartupEventArgs e)
         {
             base.OnStartup(e);
+
+
+            //RegisterSoftware();
         }
+
+        public RegistryKey RegistryKey => Registry.CurrentUser.OpenSubKey("SOFTWARE");
+
+        private void RegisterSoftware()
+        {
+            RegistryKey rKey = Registry.LocalMachine.OpenSubKey("Open-DNC", true) ?? Registry.LocalMachine.CreateSubKey("Open-DNC", true);
+        }
+
 
         public static string ToJson<T>(T obj) => JsonConvert.SerializeObject(obj, Formatting.Indented);
 
@@ -82,6 +94,8 @@ namespace DNC
             }
             return default;
         }
+
+        
     }
 
     /// <summary>

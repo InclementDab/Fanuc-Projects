@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
+  <?define DNC_TargetDir=$(var.DNC.TargetPath)?>
+  <Product Id="*" Name="DNC_Setup" Language="1033" Version="1.0.0.0" Manufacturer="LSAM" UpgradeCode="e37bd685-b677-4dbf-b601-c2a31a9274c3">
+    <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" />
+    <MajorUpgrade DowngradeErrorMessage="A newer version of [ProductName] is already installed." />
+    <MediaTemplate />
+    <Property Id="WIXUI_INSTALLDIR" Value="DNC_INSTALLDIR" />
+    <UIRef Id="WixUI_InstallDir" />
+    <Feature Id="ProductFeature" Title="DNC" Level="1">
+      <ComponentGroupRef Id="INSTALLFOLDER_files" />
+    </Feature>
+  </Product>
+
+  <Fragment>
+
+    <SetDirectory Id="INSTALLFOLDER" Value="[WindowsVolume]DNC" />
+    <Directory Id="TARGETDIR" Name="SourceDir">
+      <Directory Id="INSTALLFOLDER" Name="DNC">
+        <Directory Id="INSTALLDIR" Name="DNC">
+          <Directory Id="BIN" Name="Bin" />
+          <Directory Id="ICONS" Name="Icons" />
+        </Directory>
+      </Directory>
+    </Directory>
+  </Fragment>
+
+
+
+  <Fragment>
+    <DirectoryRef Id="INSTALLDIR">
+      
+    </DirectoryRef>
+    <DirectoryRef Id="ApplicationProgramsFolder">
+      <Component Id="ApplicationShortcut" Guid="9bd13330-6540-406f-a3a8-d7f7c69ae7f9">
+        <Shortcut Id="ApplicationStartMenuShortcut" Name="DNC" Description="DNC Software" Target="[DNC_INSTALLDIR]DNC.exe" WorkingDirectory="DNC_INSTALLDIR" />
+        <RemoveFolder Id="RemoveApplicationProgramsFolder" Directory="ApplicationProgramsFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\DNC" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+    <DirectoryRef Id="DesktopFolder">
+      <Component Id="ApplicationShortcutDesktop" Guid="cde1e030-eb64-49a5-b7b8-400b379c2d1a">
+        <Shortcut Id="ApplicationDesktopShortcut" Name="DNC" Description="DNC Software" Target="[DNC_INSTALLDIR]DNC.exe" WorkingDirectory="DNC_INSTALLDIR" />
+        <RemoveFolder Id="RemoveDesktopFolder" Directory="DesktopFolder" On="uninstall" />
+        <RegistryValue Root="HKCU" Key="Software\DNC" Name="installed" Type="integer" Value="1" KeyPath="yes" />
+      </Component>
+    </DirectoryRef>
+  </Fragment>
+  <Fragment>
+    <ComponentGroup Id="INSTALLFOLDER_files" Directory="INSTALLFOLDER">
+      <Component Id="DNC.exe" Guid="27479736-976a-4870-9be4-b466cce2342b">
+        <File Id="DNC.exe" Name="DNC.exe" Source="$(var.DNC_TargetDir)DNC.exe" />
+      </Component>
+      <Component Id="DNC.exe.config" Guid="e1a16881-332f-42b3-9cb0-957d4f9460ed">
+        <File Id="DNC.exe.config" Name="DNC.exe.config" Source="$(var.DNC_TargetDir)DNC.exe.config" />
+      </Component>
+      <Component Id="GalaSoft.MvvmLight.dll" Guid="1f67579a-594d-49d9-ab93-bd98fe6b9913">
+        <File Id="GalaSoft.MvvmLight.dll" Name="GalaSoft.MvvmLight.dll" Source="$(var.DNC_TargetDir)GalaSoft.MvvmLight.dll" />
+      </Component>
+      <Component Id="Newtonsoft.Json.dll" Guid="0d7934b8-79d0-4a71-ace9-5d62d5fc8e5c">
+        <File Id="Newtonsoft.Json.dll" Name="Newtonsoft.Json.dll" Source="$(var.DNC_TargetDir)Newtonsoft.Json.dll" />
+      </Component>
+      <Component Id="System.Windows.Interactivity.dll" Guid="96f2ab8e-504e-4a87-b64e-c28803e29f35">
+        <File Id="System.Windows.Interactivity.dll" Name="System.Windows.Interactivity.dll" Source="$(var.DNC_TargetDir)System.Windows.Interactivity.dll" />
+      </Component>
+    </ComponentGroup>
+  </Fragment>
+
+  
+</Wix>
