@@ -52,13 +52,6 @@ namespace DNC.Models
         private TCPConnection TcpConnection { get; set; }
         private SerialConnection SerialConnection { get; set; }
 
-        
-        public ICommand Rename => new RelayCommand(() =>
-        {
-            IsNameEditing = !IsNameEditing;
-            RaisePropertyChanged("IsNameEditing");
-        });
-        
         public ICommand ToggleConnection => new RelayCommand(() =>
         {
             Task.Factory.StartNew(() =>
@@ -125,16 +118,16 @@ namespace DNC.Models
 
         public void SetActiveConnection(Connection value)
         {
-            if (value is TCPConnection t)
+            switch (value)
             {
-                CurrentConnectionType = ConnectionType.TCP;
-                TcpConnection = t;
-            }
-
-            if (value is SerialConnection s)
-            {
-                CurrentConnectionType = ConnectionType.Serial;
-                SerialConnection = s;
+                case TCPConnection t:
+                    CurrentConnectionType = ConnectionType.TCP;
+                    TcpConnection = t;
+                    break;
+                case SerialConnection s:
+                    CurrentConnectionType = ConnectionType.Serial;
+                    SerialConnection = s;
+                    break;
             }
 
             RaisePropertyChanged("Connection");
@@ -160,7 +153,7 @@ namespace DNC.Models
 
         protected internal Machine() { }
 
-        public Machine(string name, ModelBase parent = null, Connection connection = null) : base(name, parent, "/Resources/Icons/Machine_16x.png")
+        public Machine(string name, Connection connection = null) : base(name,"/Resources/Icons/Machine_16x.png")
         {
             MachineDirectory = "//CNC_MEM/USER/";
             TcpConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
@@ -254,7 +247,7 @@ namespace DNC.Models
         public ObservableCollection<ModelBase> Children { get; set; }
 
         internal Folder() { }
-        public Folder(string name = null, ModelBase parent = null) : base(name, parent, "/Resources/Icons/Folder_16x.png")
+        public Folder(string name) : base(name, "/Resources/Icons/Folder_16x.png")
         {
             Children = new ObservableCollection<ModelBase>();
         }
@@ -266,15 +259,7 @@ namespace DNC.Models
     [SettingsSerializeAs(SettingsSerializeAs.Binary)]
     public abstract class ModelBase : ObservableObject
     {
-        public ModelBase Parent
-        {
-            get
-            {
-                if (ParentTreeViewItem != null)
-                    return ParentTreeViewItem.DataContext as ModelBase;
-                else return null;
-            }
-        }
+        public ModelBase Parent => ParentTreeViewItem?.DataContext as ModelBase;
 
         [NonSerialized]
         public TreeViewItem TreeViewItem;
@@ -304,17 +289,14 @@ namespace DNC.Models
         /// Base Constructor
         /// </summary>
         /// <param name="name">Display Name on list</param>
-        /// <param name="parent">Parent object, set as null if in Root list</param>
         /// <param name="icon">Location of Icon in resources</param>
-        protected ModelBase(string name = "null", ModelBase parent = null, string icon = null)
+        protected ModelBase(string name = null, string icon = null)
         {
             Name = name;
             Icon = icon;
         }
 
         public string Icon { get; set; }
-
-        public bool IsNameEditing { get; set; }
 
         private string _name;
         public string Name
@@ -326,5 +308,13 @@ namespace DNC.Models
                 RaisePropertyChanged();
             }
         }
+
+        public bool IsNameEditing { get; set; }
+
+        public ICommand Rename => new RelayCommand(() =>
+        {
+            IsNameEditing = !IsNameEditing;
+            RaisePropertyChanged("IsNameEditing");
+        });
     }
 }

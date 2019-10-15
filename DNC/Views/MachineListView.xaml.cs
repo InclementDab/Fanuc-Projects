@@ -119,11 +119,6 @@ namespace DNC.Views
             e.Handled = true;
         }
 
-        [NonSerialized]
-        private ModelBase DragDropDragged;
-
-        [NonSerialized]
-        private ModelBase DragDropTarget;
 
         protected override void OnDragOver(DragEventArgs e)
         {
@@ -132,9 +127,9 @@ namespace DNC.Views
 
             //DragDropTarget = (e.OriginalSource as FrameworkElement).DataContext as ModelBase;
 
-            if (!((e.OriginalSource as FrameworkElement).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Machine Underneath of Dragged Target, needs border)
+            if (!(((FrameworkElement)e.OriginalSource).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Machine Underneath of Dragged Target, needs border)
             if (!(e.Data.GetData(e.Data.GetFormats().FirstOrDefault()) is ModelBase mBaseDragged)) goto endHandled; // mBaseDragged (Dragged Target, to be moved)
-            // just try running this, i didnt run it tonight
+            
             if (mBaseTarget == mBaseDragged) goto endHandled;
 
             mBaseTarget.TreeViewItem.BorderBrush = Brushes.Black;
@@ -162,7 +157,7 @@ namespace DNC.Views
         {
             base.OnDragLeave(e);
 
-            if (!((e.OriginalSource as FrameworkElement).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Dragged Target, to be moved)
+            if (!(((FrameworkElement)e.OriginalSource).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Dragged Target, to be moved)
             if (!(e.Data.GetData(e.Data.GetFormats().FirstOrDefault()) is ModelBase mBaseDropped)) goto endHandled; // mBaseDropped (Underneath Target)
 
             mBaseTarget.TreeViewItem.BorderThickness = new Thickness(0);
@@ -176,7 +171,7 @@ namespace DNC.Views
             base.OnDrop(e);
             
 
-            if (!((e.OriginalSource as FrameworkElement).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Dragged Target, to be moved)
+            if (!(((FrameworkElement)e.OriginalSource).DataContext is ModelBase mBaseTarget)) goto endHandled; // mBaseTarget (Dragged Target, to be moved)
             if (!(e.Data.GetData(e.Data.GetFormats().FirstOrDefault()) is ModelBase mBaseDropped)) goto endHandled; // mBaseDropped (Underneath Target)
 
             mBaseTarget.TreeViewItem.BorderThickness = new Thickness(0);

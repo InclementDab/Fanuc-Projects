@@ -11,7 +11,7 @@ namespace DNC.Models
     [Serializable]
     public abstract class ObservableObject : INotifyPropertyChanged
     {
-        public ObservableObject() { }
+        internal ObservableObject() { }
 
         [field:NonSerialized]
         public event PropertyChangedEventHandler PropertyChanged;

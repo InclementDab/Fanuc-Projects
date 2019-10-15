@@ -116,7 +116,7 @@ namespace DNC.ViewModels
 
             AddFolderCommand = new RelayCommand(() =>
             {
-                MachineList.Add(new Folder("Folder1", null));
+                MachineList.Add(new Folder("Folder1"));
                 SerializeList(MachineList);
             });
 
@@ -165,25 +165,6 @@ namespace DNC.ViewModels
         public void PasteFromClipboard()
         {
             throw new NotImplementedException();
-        }
-
-        public void AddTestItems()
-        {
-            var Machine = new Machine("MAM", null, new TCPConnection(IPAddress.Parse("192.168.128.63"), 8193));
-
-            MachineList.Add(Machine);
-
-
-            var Machine1 = new Machine("MakinoC", null)
-            {
-                Connection = new SerialConnection()
-                {
-                    _SerialPort = "COM1"
-
-                }
-            };
-
-            MachineList.Add(Machine1);
         }
     }
 }

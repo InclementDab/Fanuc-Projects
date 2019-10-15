@@ -123,7 +123,7 @@ namespace DNC.Views
         {
             if (MessageBox.Show($"Delete {SelectedItem.Name}?", "Please Confirm", MessageBoxButton.YesNo, MessageBoxImage.Question) == MessageBoxResult.Yes)
             {
-                (SelectedItem.ParentTreeView.ItemsSource as ObservableCollection<ModelBase>).Remove(SelectedItem);
+                ((ObservableCollection<ModelBase>) SelectedItem.ParentTreeView.ItemsSource).Remove(SelectedItem);
             }
         }
     }
