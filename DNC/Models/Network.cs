@@ -22,7 +22,7 @@ using static DNC.Focas2;
 using static DNC.Serial;
 
 
-namespace DNC.Models
+namespace DNC.Models.Unused
 {
 
 
@@ -251,7 +251,6 @@ namespace DNC.Models
         }
     }
 
-    [TypeConverter(typeof(ConnectionColorConverter))]
     public enum ConnectionStatus
     {
         [Description("Disconnected")]
@@ -267,45 +266,5 @@ namespace DNC.Models
         Disconnecting = 3
     }
 
-    public class ConnectionColorConverter : TypeConverter
-    {
-        public override bool CanConvertFrom(ITypeDescriptorContext context, Type sourceType)
-        {
-            return sourceType == typeof(ConnectionStatus);
-        }
 
-        public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
-        {
-            return destinationType == typeof(Brush);
-        }
-
-        public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)
-        {
-
-            if (!(value is Brush b)) return null;
-
-            if (Equals(Brushes.Red, b)) return ConnectionStatus.Disconnected;
-            if (Equals(Brushes.Green, b)) return ConnectionStatus.Connected;
-
-            return 3;
-        }
-
-        public override object ConvertTo(ITypeDescriptorContext context, CultureInfo culture, object value, Type destinationType)
-        {
-            if (!(value is ConnectionStatus status)) return null;
-
-
-            switch (status)
-            {
-                case ConnectionStatus.Disconnected:
-                    return Brushes.Red;
-
-                case ConnectionStatus.Connected:
-                    return Brushes.Green;
-
-                default:
-                    return Brushes.Yellow;
-            }
-        }
-    }
 }

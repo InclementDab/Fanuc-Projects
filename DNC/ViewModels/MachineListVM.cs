@@ -33,55 +33,7 @@ namespace DNC.ViewModels
 {
     public class MachineListVM : ViewModelBase
     {
-
-        private const string SETTINGS_DIR = "Settings.bin";
-        private static ObservableCollection<ModelBase> DeserializeList()
-        {
-            Debug.WriteLine("Reading List...");
-            try
-            {
-
-                using (FileStream fs = new FileStream(SETTINGS_DIR, FileMode.OpenOrCreate, FileAccess.Read, FileShare.None))
-                {
-                    IFormatter formatter = new BinaryFormatter();
-                    return (formatter.Deserialize(fs) as ObservableCollection<ModelBase>) ?? new ObservableCollection<ModelBase>();
-                }
-                
-            }
-            catch (SerializationException e)
-            {
-                Debug.WriteLine(e);
-                return null;
-            }
-        }
-
-        private void SerializeList(Collection<ModelBase> list)
-        {
-
-            Debug.WriteLine("Saving List...");
-            using (FileStream fs = new FileStream(SETTINGS_DIR, FileMode.OpenOrCreate, FileAccess.ReadWrite, FileShare.None))
-            {
-                IFormatter formatter = new BinaryFormatter();
-                formatter.Serialize(fs, list);
-            }
-            
-        }
-
-
-        private ObservableCollection<ModelBase> _machineList;
-        public ObservableCollection<ModelBase> MachineList
-        {
-            get => _machineList;
-            set
-            {
-                _machineList = value;
-
-                Task.Factory.StartNew(() =>
-                {
-                    SerializeList(MachineList);
-                });
-            }
-        }
+        public SerializedList<ModelBase> MachineList { get; set; }
 
         private ModelBase _selectedItem;
         public ModelBase SelectedItem
@@ -105,47 +57,32 @@ namespace DNC.ViewModels
             }
         }
 
-        public ICommand AddFolderCommand { get; private set; }
-        public ICommand AddMachineCommand { get; private set; }
+        public ICommand AddFolderCommand => new RelayCommand(() =>
+        {
+            MachineList.Add(new Folder("Folder1"));
+        });
+
+        public ICommand AddMachineCommand => new RelayCommand(() =>
+        {
+            ModelBase m;
+            int i = 0;
+            do
+            {
+                m = new Machine($"Machine{i++}");
+            } while (MachineList.Contains(m));
+
+            MachineList.Add(m);
+
+            EditMachineProperties e = new EditMachineProperties();
+            e.EditMachine(m);
+        });
+
         public ICommand SendProgram { get; private set; }
 
         public MachineListVM()
         {
-
-            MachineList = DeserializeList() ?? new ObservableCollection<ModelBase>();
-
-            AddFolderCommand = new RelayCommand(() =>
-            {
-                MachineList.Add(new Folder("Folder1"));
-                SerializeList(MachineList);
-            });
-
-            AddMachineCommand = new RelayCommand(() =>
-            {
-                Machine m;
-                int i = 0;
-                do
-                {
-                    m = new Machine($"Machine{i++}", null);
-                } while (MachineList.Contains(m));
-
-                MachineList.Add(m);
-
-                EditPrompt e = new EditPrompt();
-                e.EditMachine(m);
-                SerializeList(MachineList);
-            });
-        }
-
-
-
-        private void MachineList_CollectionChanged(object sender, System.Collections.Specialized.NotifyCollectionChangedEventArgs e)
-        {
-            Task.Factory.StartNew(() =>
-            {
-                SerializeList(MachineList);
-            });
-
+            MachineList = new SerializedList<ModelBase>();
+            
         }
 
         public bool CanCopyToClipboard => true;

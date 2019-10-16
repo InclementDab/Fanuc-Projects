@@ -12,7 +12,7 @@
              MinWidth="300"
              d:DataContext="{d:DesignInstance viewmodel:MachineListVM}"
              d:DesignHeight="500" d:DesignWidth="300">
-
+    
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="*"/>
@@ -35,7 +35,7 @@
                         </StackPanel>
 
                         <Border.ContextMenu>
-                            <ContextMenu d:DataContext="{d:DesignInstance model:Folder}">
+                            <ContextMenu>
                                 <MenuItem Command="Cut"/>
                                 <MenuItem Command="Copy"/>
                                 <MenuItem Command="Paste"/>
@@ -44,7 +44,6 @@
                                 <MenuItem Command="Delete"/>
                             </ContextMenu>
                         </Border.ContextMenu>
-
                     </Border>
                 </HierarchicalDataTemplate>
 
@@ -52,16 +51,16 @@
                     <Border BorderBrush="Black" Loaded="Border_Loaded">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding Icon}"/>
-                            <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>
+                            <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Data.Connection.Status}" Stroke="Black" StrokeThickness="1"/>
                             <Grid Width="auto" Height="auto">
                                 <TextBlock Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
                                 <TextBox Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
                             </Grid>
-                            <TextBlock Text="{Binding Connection.Status, StringFormat=({0})}" Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                            <TextBlock Text="{Binding Data.Connection.Status, StringFormat=({0})}" Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}"/>
                         </StackPanel>
 
                         <Border.ContextMenu>
-                            <ContextMenu d:DataContext="{d:DesignInstance model:Machine}">
+                            <ContextMenu>
                                 <MenuItem Header="{Binding InvertedConnectString}" Command="{Binding ToggleConnection}"/>
                                 <Separator/>
                                 <MenuItem Header="Import" Command="{Binding Import}"/>
@@ -74,7 +73,7 @@
                                 <MenuItem Header="Rename" Command="{Binding Rename}"/>
                                 <MenuItem Command="Delete"/>
                                 <Separator/>
-                                <MenuItem Header="Properties" Command="{Binding Edit}"/>
+                                <MenuItem Header="Properties" Command="{Binding Edit}" IsEnabled="{Binding Data.Connection.IsConnected, Converter={StaticResource InverseBooleanConverter}}"/>
                             </ContextMenu>
                         </Border.ContextMenu>
                     </Border>

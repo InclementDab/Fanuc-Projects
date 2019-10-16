@@ -9,6 +9,7 @@
             <local:BoolToVisibilityConverter x:Key="BoolToInvisibilityConverter" TrueValue="Visible" FalseValue="Hidden"/>
             <local:IPAddressConverter x:Key="IpAddressConverter"/>
             <local:EnumBooleanConverter x:Key="EnumBooleanConverter"/>
+            <local:InverseBooleanConverter x:Key="InverseBooleanConverter"/>
         </ResourceDictionary>
 
     </Application.Resources>

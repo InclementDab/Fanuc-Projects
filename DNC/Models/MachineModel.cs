@@ -30,11 +30,11 @@ using System.Windows.Controls;
 using System.Windows.Input;
 using System.Xaml;
 using System.Xml.Serialization;
+using DNC.Communication;
 using static DNC.Focas2;
 
 namespace DNC.Models
 {
-
 
     public enum ConnectionType
     {
@@ -46,13 +46,46 @@ namespace DNC.Models
     }
 
     [Serializable]
-    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
-    public class Machine : ModelBase
+    public struct MachineData
     {
+        public ushort Handle => Connection.Handle;
+        public Connection Connection { get; set; }
+        public ControllerData Controller { get; set; }
 
-        private ushort _handle;
-        private TCPConnection TcpConnection { get; set; }
-        private SerialConnection SerialConnection { get; set; }
+        [Serializable]
+        public struct ControllerData
+        {
+            public string ControllerName { get; set; }
+            public string ControllerVersion { get; set; }
+        }
+    }
+
+    [Serializable]
+    [SettingsSerializeAs(SettingsSerializeAs.Binary)]
+    public class Machine : ModelBase, IEditableObject
+    {
+        public MachineData Data { get; set; } = new MachineData();
+
+        public bool ConnectOnStartup { get; set; }
+        public string InvertedConnectString => Data.Connection.IsConnected ? "Disconnect" : "Connect";
+
+        public ObservableCollection<Program> ProgramList { get; set; } = new ObservableCollection<Program>();
+
+        protected internal Machine() { }
+
+        public Machine(string name) : base(name, "/Resources/Icons/Machine_16x.png")
+        {
+            Data.Connection.Connected += Connection_ConnectionChanged;
+            Data.Connection.Disconnected += Connection_ConnectionChanged;
+        }
+
+
+        private void Connection_ConnectionChanged(object sender, ConnectionChangedEventArgs e)
+        {
+            RaisePropertyChanged("InvertedConnectString");
+        }
+
+        #region Commands
 
         public ICommand ToggleConnection => new RelayCommand(() =>
         {
@@ -60,20 +93,18 @@ namespace DNC.Models
             sw.Start();
             Task.Factory.StartNew(() =>
             {
-                StatusCode = Connection.IsConnected ? Connection.Close(_handle) : Connection.Open(out _handle);
+
+                if (Data.Connection.IsConnected)
+                    Data.Connection.Connect();
+                else
+                    Data.Connection.Disconnect();
             });
-            
+
             Debug.WriteLine($"{sw.ElapsedMilliseconds}ms on Toggle Connection");
         });
-        
-        public ICommand Edit => new RelayCommand(() =>
-        {
-            EditPrompt e = new EditPrompt();
-            e.EditMachine(this);
-            //SerializeList(MachineList);
-        });
 
-        
+
+
         public ICommand Import => new RelayCommand(() =>
         {
             System.Windows.Forms.OpenFileDialog dialog = new System.Windows.Forms.OpenFileDialog
@@ -81,174 +112,43 @@ namespace DNC.Models
                 RestoreDirectory = true
             };
 
-            if (dialog.ShowDialog() == System.Windows.Forms.DialogResult.OK)
-            {
-                string[] fileData = File.ReadAllLines(dialog.FileName);
-                ProgramList.Add(new Program(dialog.FileName, fileData));
-                //SerializeList(MachineList);
-            }
+            if (dialog.ShowDialog() != System.Windows.Forms.DialogResult.OK) return;
+
+            string[] fileData = File.ReadAllLines(dialog.FileName);
+            ProgramList.Add(new Program(dialog.FileName, fileData));
+            //SerializeList(MachineList);
         });
 
-        public Connection Connection
+        public ICommand Edit => new RelayCommand(() =>
         {
-            get => GetActiveConnection();
-            set => SetActiveConnection(value);
+            EditMachineProperties e = new EditMachineProperties();
+
+            e.EditMachine(this);
+
+        });
+
+        #endregion
+
+        #region interfaces
+
+
+        public void BeginEdit()
+        {
+            backup = Clone();
         }
 
-        private ConnectionType _currentConnectionType;
-        public ConnectionType CurrentConnectionType
+        public void EndEdit()
         {
-            get => _currentConnectionType;
-            set
-            {
-                _currentConnectionType = value;
-                RaisePropertyChanged();
-            }
-        }
-
-        public Connection GetActiveConnection()
-        {
-            RaisePropertyChanged("CurrentConnectionType");
-            switch (CurrentConnectionType)
-            {
-                case ConnectionType.Serial:
-                    return SerialConnection;
-
-                case ConnectionType.TCP:
-                    return TcpConnection;
-
-                default:
-                    return null;
-            }
-        }
-
-        public void SetActiveConnection(Connection value)
-        {
-            switch (value)
-            {
-                case TCPConnection t:
-                    CurrentConnectionType = ConnectionType.TCP;
-                    TcpConnection = t;
-                    break;
-                case SerialConnection s:
-                    CurrentConnectionType = ConnectionType.Serial;
-                    SerialConnection = s;
-                    break;
-            }
-
-            RaisePropertyChanged("Connection");
-        }
-
-        public bool ConnectOnStartup { get; set; }
-        public string InvertedConnectString => Connection.IsConnected ? "Disconnect" : "Connect";
-
-        private short _statusCode;
-        public short StatusCode
-        {
-            get => _statusCode;
-            set
-            {
-                _statusCode = value;
-                Debug.WriteLine(_statusCode);
-            }
-        }
-
-        public ObservableCollection<Program> ProgramList { get; set; }
-
-        public string MachineDirectory; // probably put this in individual programs upon register
-
-        protected internal Machine() { }
-
-        public Machine(string name, Connection connection = null) : base(name,"/Resources/Icons/Machine_16x.png")
-        {
-            Stopwatch sw = new Stopwatch();
-            sw.Start();
-            MachineDirectory = "//CNC_MEM/USER/";
-            TcpConnection = new TCPConnection(IPAddress.Parse("0.0.0.0"), 8193);
-            SerialConnection = new SerialConnection();
-            Connection = connection ?? TcpConnection;
-
-            ProgramList = new ObservableCollection<Program>();
-            Connection.ConnectionChanged += Connection_ConnectionChanged;
-            
-            Debug.WriteLine($"{sw.ElapsedMilliseconds}ms on Machine Constructor");
-            sw.Stop();
-        }
-
-
-        private void Connection_ConnectionChanged(object sender, ConnectionChangedEventArgs e)
-        {
-            RaisePropertyChanged("InvertedConnectString");
-
-            ODBST StatInfo = new ODBST(); // do something with these
-            ODBSYSEX SystemInfo = new ODBSYSEX(); // hehe
-
-            if (!Connection.IsConnected) return;
-            Debug.WriteLine("Loading Machine Info...");
-            StatusCode = cnc_statinfo(_handle, StatInfo);
-            StatusCode = cnc_sysinfo_ex(_handle, SystemInfo);
-            Debug.WriteLine("Machine Info Loaded");
-        }
-
-        [HandleProcessCorruptedStateExceptions]
-        public static void ReadDirectory(ushort handle)
-        {
-            short StatusCode;
-            try
-            {
-                ODBPDFDRV drvOut = new ODBPDFDRV();
-                StatusCode = cnc_rdpdf_drive(handle, drvOut);
-
-                List<object> drives = new List<object>();
-
-                for (int i = 1; i <= drvOut.max_num; i++)
-                    drives.Add(drvOut.GetType().GetField("drive" + i).GetValue(drvOut) as object); // this outputs CNC_MEM, and DATA_SV, DATA_SV throws memory error :(
-
-
-                ODBPDFNFIL dirInfo = new ODBPDFNFIL();
-                StatusCode = cnc_rdpdf_subdirn(handle, $"//CNC_MEM/", dirInfo);
-
-                short dirNum = dirInfo.dir_num;
-                for (short j = 0; j < dirInfo.dir_num; j++)
-                {
-                    IDBPDFSDIR subIn = new IDBPDFSDIR()
-                    {
-                        path = $"//CNC_MEM/",
-                        req_num = j
-                    };
-                    ODBPDFSDIR subOut = new ODBPDFSDIR();
-
-                    StatusCode = cnc_rdpdf_subdir(handle, ref dirNum, subIn, subOut);
-                    Debug.WriteLine(App.ToJson(subOut));
-                }
-
-                short dsvInfo = 0;
-                StatusCode = cnc_dtsvgetmode(handle, out dsvInfo);
-
-                Debug.WriteLine(App.ToJson(dsvInfo + 100));
-            }
-            catch (Exception ex)
-            {
-                Debug.WriteLine(ex);
-            }
 
         }
 
-        public static int PushProgram(Program program, ushort handle, string MachineDirectory)
+        public void CancelEdit()
         {
-            short StatusCode = 0;
-            Task.Factory.StartNew(() =>
-            {
-                Debug.WriteLine("Pushing Program to Machine");
-                int length = program.MachineSafeData.Length;
-                StatusCode = cnc_dwnstart4(handle, 0, MachineDirectory);
-                StatusCode = cnc_download4(handle, ref length, program.MachineSafeData);
-                StatusCode = cnc_dwnend4(handle);
-                Debug.WriteLine("Push Complete");
-                //StatusCode = cnc_verify4(handle, )
-            });
-            return StatusCode;
+            throw new NotImplementedException();
         }
+
+        #endregion
+
     }
 
     [Serializable]
@@ -279,8 +179,8 @@ namespace DNC.Models
         {
             get
             {
-                var x = TreeViewItem.GetType().GetProperty("ParentTreeView", BindingFlags.Instance | BindingFlags.NonPublic);
-                return x.GetValue(TreeViewItem) as TreeView;
+                PropertyInfo x = TreeViewItem.GetType().GetProperty("ParentTreeView", BindingFlags.Instance | BindingFlags.NonPublic);
+                return x?.GetValue(TreeViewItem) as TreeView;
             }
         }
 
@@ -288,8 +188,8 @@ namespace DNC.Models
         {
             get
             {
-                var x = TreeViewItem.GetType().GetProperty("ParentTreeViewItem", BindingFlags.Instance | BindingFlags.NonPublic);
-                return x.GetValue(TreeViewItem) as TreeViewItem;
+                PropertyInfo x = TreeViewItem.GetType().GetProperty("ParentTreeViewItem", BindingFlags.Instance | BindingFlags.NonPublic);
+                return x?.GetValue(TreeViewItem) as TreeViewItem;
             }
         }
 
@@ -306,7 +206,7 @@ namespace DNC.Models
             Name = name;
             Icon = icon;
         }
-
+        
         public string Icon { get; set; }
 
         private string _name;
@@ -327,5 +227,14 @@ namespace DNC.Models
             IsNameEditing = !IsNameEditing;
             RaisePropertyChanged("IsNameEditing");
         });
+
+        #region interfaces
+
+        protected ModelBase backup;
+        public ModelBase Clone()
+        {
+            return (ModelBase)MemberwiseClone();
+        }
+        #endregion
     }
 }

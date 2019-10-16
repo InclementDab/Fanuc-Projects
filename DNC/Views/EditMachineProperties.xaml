@@ -1,30 +1,42 @@
-﻿<Window x:Class="DNC.Views.EditPrompt"
+﻿<Window x:Class="DNC.Views.EditMachineProperties"
         xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
         xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:models="clr-namespace:DNC.Models"
+        xmlns:comms="clr-namespace:DNC.Communication"
+        xmlns:views="clr-namespace:DNC.Views"
         mc:Ignorable="d"
-        ContentRendered="Window_ContentRendered"
-        Height="350" Width="350">
+        d:DataContext="{d:DesignInstance views:EditMachinePropertiesVM}"
+        Height="350" Width="550">
 
     <Window.Resources>
-        <UserControl x:Key="typeTCP">
-            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
-                <StackPanel Orientation="Horizontal" Margin="3">
-                    <TextBlock Margin="2" Text="IP"/>
-                    <TextBox Text="{Binding CurrentMachine.Connection.IPAddress, Converter={StaticResource IpAddressConverter}}" Margin="2" Width="120"/>
-                    <TextBlock Margin="2" Text="Port"/>
-                    <TextBox Text="{Binding CurrentMachine.Connection.Port}" Margin="2" Width="40"/>
-                </StackPanel>
+        <UserControl x:Key="General">
+            <TextBlock Text="{Binding CurrentMachine.Name}"></TextBlock>
+        </UserControl>
+        <UserControl x:Key="Connection">
+            <StackPanel Orientation="Horizontal" HorizontalAlignment="Center">
+                <RadioButton GroupName="Network" IsChecked="{Binding CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.TCP}}" Content="TCP/IP" Margin="5"/>
+                <RadioButton GroupName="Network" IsChecked="{Binding CurrentConnectionType, Converter={StaticResource EnumBooleanConverter}, ConverterParameter={x:Static models:ConnectionType.Serial}}" Content="Serial Port" Margin="5"/>
             </StackPanel>
         </UserControl>
 
-        <UserControl x:Key="typeSerial">
+        <DataTemplate DataType="{x:Type comms:TCPConnection}">
+            <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
+                <StackPanel Orientation="Horizontal" Margin="3">
+                    <TextBlock Margin="2" Text="IP"/>
+                    <TextBox Text="{Binding IpAddress, Converter={StaticResource IpAddressConverter}}" Margin="2" Width="120"/>
+                    <TextBlock Margin="2" Text="Port"/>
+                    <TextBox Text="{Binding Port}" Margin="2" Width="40"/>
+                </StackPanel>
+            </StackPanel>
+        </DataTemplate>
+
+        <DataTemplate DataType="{x:Type comms:SerialConnection}">
             <StackPanel Orientation="Vertical" HorizontalAlignment="Center" Margin="5">
                 <StackPanel Orientation="Horizontal" Margin="3">
                     <TextBlock Margin="2" Text="Select Port" VerticalAlignment="Center"/>
-                    <ComboBox ItemsSource="{Binding CurrentMachine.Connection.SerialPorts}" SelectedItem="{Binding CurrentMachine.Connection.SerialPort}" Margin="2" Width="60" VerticalAlignment="Center">
+                    <ComboBox ItemsSource="{Binding SerialPorts}" SelectedItem="{Binding SerialPort}" Margin="2" Width="60" VerticalAlignment="Center">
                         <ComboBox.ItemTemplate>
                             <DataTemplate>
                                 <TextBlock Text="{Binding Path=PortName}"/>
@@ -33,10 +45,43 @@
                     </ComboBox>
                 </StackPanel>
             </StackPanel>
-        </UserControl>
+        </DataTemplate>
     </Window.Resources>
 
-    <Grid HorizontalAlignment="Center" Margin="10">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="*"/>
+            </Grid.ColumnDefinitions>
+
+            <ListView Grid.Column="0" MinWidth="150" Margin="5" ItemsSource="{Binding ListViewItems}" SelectedItem="{Binding SelectedItem}">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock Text="{Binding Path=Key}"/>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            <ContentPresenter Grid.Column="1" Content="{Binding SelectedItem.Value}"/>
+        </Grid>
+
+
+
+        <StackPanel Grid.Row="1" Orientation="Horizontal" HorizontalAlignment="Center" Margin="15">
+            <Button Command="{Binding SaveCommand}" Content="Save" Width="80" Height="20" Margin="4"/>
+            <Button Command="{Binding CancelCommand}" Content="Cancel" Width="80" Height="20" Margin="4"/>
+        </StackPanel>
+
+
+    </Grid>
+
+    <!-- Grid HorizontalAlignment="Center" Margin="10">
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="*"/>
@@ -47,7 +92,7 @@
 
         <StackPanel Grid.Row="0" Orientation="Horizontal" Margin="5">
             <TextBlock Margin="2" Text="Machine Name"/>
-            <TextBox x:Name="txtName" Text="{Binding CurrentMachine.Name}" Margin="2" Width="120"/>
+            <TextBox x:Name="TxtName" Text="{Binding CurrentMachine.Name}" Margin="2" Width="120"/>
         </StackPanel>
 
         <Border Grid.Row="1" BorderBrush="Black" BorderThickness="1">
@@ -78,12 +123,7 @@
 
 
 
+        
 
-        <StackPanel Grid.Row="3" Orientation="Horizontal" HorizontalAlignment="Center">
-            <Button Command="{Binding SaveCommand}" Content="Save" Width="80" Height="20" Margin="4"/>
-            <Button Command="{Binding CancelCommand}" Content="Cancel" Width="80" Height="20" Margin="4"/>
-        </StackPanel>
-
-
-    </Grid>
+    </ -->
 </Window>
