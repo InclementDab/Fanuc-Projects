@@ -30,10 +30,10 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	mSizer->SetFlexibleDirection( wxBOTH );
 	mSizer->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 
-	mMachineListView = new wxTreeCtrl( this, wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTR_DEFAULT_STYLE|wxTR_EDIT_LABELS|wxTR_HIDE_ROOT|wxTR_NO_LINES );
-	mMachineListView->SetMinSize( wxSize( 300,450 ) );
+	objectTree = new ObjectTree( this, wxID_ANY, wxDefaultPosition, wxDefaultSize, 0 );
+	objectTree->SetMinSize( wxSize( 300,450 ) );
 
-	mSizer->Add( mMachineListView, wxGBPosition( 0, 0 ), wxGBSpan( 1, 1 ), wxALL, 10 );
+	mSizer->Add( objectTree, wxGBPosition( 0, 0 ), wxGBSpan( 1, 1 ), wxALL, 5 );
 
 	wxGridSizer* mAddButtonContainer;
 	mAddButtonContainer = new wxGridSizer( 0, 2, 0, 0 );
@@ -86,7 +86,6 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	this->Centre( wxBOTH );
 
 	// Connect Events
-	mMachineListView->Connect( wxEVT_COMMAND_TREE_END_LABEL_EDIT, wxTreeEventHandler( MainFrame::OnEndLabelEdit ), NULL, this );
 	mAddFolderButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddFolderButtonClick ), NULL, this );
 	mAddMachineButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddMachineButtonClick ), NULL, this );
 }
@@ -94,96 +93,7 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 MainFrame::~MainFrame()
 {
 	// Disconnect Events
-	mMachineListView->Disconnect( wxEVT_COMMAND_TREE_END_LABEL_EDIT, wxTreeEventHandler( MainFrame::OnEndLabelEdit ), NULL, this );
 	mAddFolderButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddFolderButtonClick ), NULL, this );
 	mAddMachineButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddMachineButtonClick ), NULL, this );
-
-}
-
-EditMachineWindow::EditMachineWindow( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxFrame( parent, id, title, pos, size, style )
-{
-	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
-
-
-	this->Centre( wxBOTH );
-}
-
-EditMachineWindow::~EditMachineWindow()
-{
-}
-
-CreateMachineDialog::CreateMachineDialog( wxWindow* parent, wxWindowID id, const wxString& title, const wxPoint& pos, const wxSize& size, long style ) : wxDialog( parent, id, title, pos, size, style )
-{
-	this->SetSizeHints( wxDefaultSize, wxDefaultSize );
-
-	wxGridSizer* dSizer;
-	dSizer = new wxGridSizer( 3, 1, 0, 0 );
-
-	wxStaticBoxSizer* nameContainer;
-	nameContainer = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Name") ), wxHORIZONTAL );
-
-	nameTextPanel = new wxPanel( nameContainer->GetStaticBox(), wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTAB_TRAVERSAL );
-	nameTextPanel->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_WINDOW ) );
-
-	nameTextSizer = new wxBoxSizer( wxVERTICAL );
-
-	nameTextBox = new wxTextCtrl( nameTextPanel, wxID_ANY, wxEmptyString, wxDefaultPosition, wxSize( 150,-1 ), 0 );
-	nameTextBox->SetForegroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_CAPTIONTEXT ) );
-	nameTextBox->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_WINDOW ) );
-
-	nameTextSizer->Add( nameTextBox, 0, wxALL, 2 );
-
-
-	nameTextPanel->SetSizer( nameTextSizer );
-	nameTextPanel->Layout();
-	nameTextSizer->Fit( nameTextPanel );
-	nameContainer->Add( nameTextPanel, 1, wxALL|wxEXPAND, 8 );
-
-
-	dSizer->Add( nameContainer, 1, wxALIGN_CENTER, 5 );
-
-	wxStaticBoxSizer* ctrlContainer;
-	ctrlContainer = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Controller") ), wxVERTICAL );
-
-	wxString mControllerTypeChoices[] = { wxT("Fanuc 16i"), wxT("Fanuc 30i") };
-	int mControllerTypeNChoices = sizeof( mControllerTypeChoices ) / sizeof( wxString );
-	mControllerType = new wxChoice( ctrlContainer->GetStaticBox(), wxID_ANY, wxDefaultPosition, wxSize( 150,-1 ), mControllerTypeNChoices, mControllerTypeChoices, wxCB_SORT );
-	mControllerType->SetSelection( 0 );
-	ctrlContainer->Add( mControllerType, 0, wxALL, 5 );
-
-
-	dSizer->Add( ctrlContainer, 1, wxALIGN_CENTER, 5 );
-
-	wxBoxSizer* buttonContainer;
-	buttonContainer = new wxBoxSizer( wxHORIZONTAL );
-
-	createButton = new wxButton( this, wxID_ANY, wxT("Create"), wxDefaultPosition, wxDefaultSize, 0 );
-	buttonContainer->Add( createButton, 0, wxALL, 5 );
-
-	cancelButton = new wxButton( this, wxID_ANY, wxT("Cancel"), wxDefaultPosition, wxDefaultSize, 0 );
-	buttonContainer->Add( cancelButton, 0, wxALL, 5 );
-
-
-	dSizer->Add( buttonContainer, 1, wxALIGN_CENTER|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5 );
-
-
-	this->SetSizer( dSizer );
-	this->Layout();
-	dSizer->Fit( this );
-
-	this->Centre( wxBOTH );
-
-	// Connect Events
-	this->Connect( wxEVT_CLOSE_WINDOW, wxCloseEventHandler( CreateMachineDialog::OnCreateMachineDialogClose ) );
-	createButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( CreateMachineDialog::OnCreateButtonClick ), NULL, this );
-	cancelButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( CreateMachineDialog::OnCancelButtonClick ), NULL, this );
-}
-
-CreateMachineDialog::~CreateMachineDialog()
-{
-	// Disconnect Events
-	this->Disconnect( wxEVT_CLOSE_WINDOW, wxCloseEventHandler( CreateMachineDialog::OnCreateMachineDialogClose ) );
-	createButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( CreateMachineDialog::OnCreateButtonClick ), NULL, this );
-	cancelButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( CreateMachineDialog::OnCancelButtonClick ), NULL, this );
 
 }

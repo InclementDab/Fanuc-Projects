@@ -12,6 +12,8 @@ class ModelBase : public wxTreeItemData
 public:
 	ModelBase(wxString name);
 	wxString Name;
+
+	virtual wxMenu* GetContextMenu() { return new wxMenu(); };
 };
 
 class Machine : public ModelBase
@@ -19,6 +21,7 @@ class Machine : public ModelBase
 public:
 	Machine(wxString name, Controller* mcontrol);
 	Controller* mController;
+	wxMenu* GetContextMenu() override;
 };
 
 
@@ -26,6 +29,7 @@ class Folder : public ModelBase
 {
 public:
 	Folder(wxString name);
+	wxMenu* GetContextMenu();
 };
 
 

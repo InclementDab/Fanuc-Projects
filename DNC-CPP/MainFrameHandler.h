@@ -21,12 +21,12 @@ class MainFrameHandler : public MainFrame
 
 public:
 	MainFrameHandler();
-	void AddModelBase(ModelBase* mBase);
+	ObjectTree* TreeList = objectTree;
 
 protected:
-	void OnAddMachineButtonClick(wxCommandEvent& event) wxOVERRIDE;
-	void OnAddFolderButtonClick(wxCommandEvent& event) wxOVERRIDE;
-	void OnEndLabelEdit(wxTreeEvent& event) wxOVERRIDE;
+	void OnAddMachineButtonClick(wxCommandEvent& event) override;
+	void OnAddFolderButtonClick(wxCommandEvent& event) override;
+	
 	wxDialog* CurrentDialog = nullptr;
 };
 

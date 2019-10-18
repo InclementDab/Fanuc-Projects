@@ -1,61 +1,41 @@
 
 #include "MainFrameHandler.h"
+#include <wx/windowptr.h>
 
 MainFrameHandler::MainFrameHandler() : MainFrame(nullptr)
 {
-	mMachineListView->AddRoot("");
 
-	wxImageList* ImageList = new wxImageList(16, 16);
-	ImageList->Add(wxICON(IDI_FOLDER));
-	ImageList->Add(wxICON(IDI_MACHINE));
-	mMachineListView->SetImageList(ImageList);
-}
-
-
-
-void MainFrameHandler::AddModelBase(ModelBase* mBase)
-{
-	int icon = (typeid(*mBase) == typeid(Machine)) ? 0 : 1;
-	wxTreeItemId SelectedItem = mMachineListView->GetSelection();
-	
-	if (SelectedItem != 0) 
-	{
-		ModelBase* SelectedModelBase = (ModelBase*)mMachineListView->GetItemData(SelectedItem);
-
-		if (typeid(*SelectedModelBase) == typeid(Folder))
-		{
-			mMachineListView->InsertItem(SelectedItem, mMachineListView->GetLastChild(SelectedItem), mBase->Name, icon, icon, mBase);
-			mMachineListView->Expand(SelectedItem);
-		}
-		else if (typeid(*SelectedModelBase) == typeid(Machine))
-		{
-			mMachineListView->InsertItem(mMachineListView->GetItemParent(SelectedItem), SelectedItem, mBase->Name, icon, icon, mBase);
-		}
-	}
-	else
-	{
-		mMachineListView->AppendItem(mMachineListView->GetRootItem(), mBase->Name, 0, 0, mBase);
-	}
 }
 
 
 void MainFrameHandler::OnAddMachineButtonClick(wxCommandEvent& event)
 {
-	CurrentDialog = new CreateMachineDialogHandler(this, wxID_ANY, L"Create Machine");
-	CurrentDialog->Show();
+
+	wxWindowPtr<CreateMachineDialogHandler> dlg(new CreateMachineDialogHandler(this, wxID_ANY, L"Create Machine")); //new CreateMachineDialog(this, wxID_ANY, L"Create Machine")
+	
+	dlg->ShowWindowModalThenDo([this, dlg](int retcode)
+		{
+			switch (retcode)
+			{
+			case(wxID_OK):
+				objectTree->AddItem(dlg->GetResult());
+				break;
+			
+			case(wxID_CANCEL):
+				break;
+			}
+		});
+
 	event.Skip();
 }
 
 void MainFrameHandler::OnAddFolderButtonClick(wxCommandEvent& event)
 {
 	Folder* folder = new Folder("Folder0");
-	AddModelBase(folder);
+	objectTree->AddItem(folder);
 	event.Skip();
 }
 
-void MainFrameHandler::OnEndLabelEdit(wxTreeEvent& event)
-{
-	ModelBase* mBase = (ModelBase*)mMachineListView->GetItemData(event.GetItem());
-	mBase->Name = event.GetLabel();
-	event.Skip();
-}
+
+
+

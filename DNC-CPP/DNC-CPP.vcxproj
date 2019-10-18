@@ -21,18 +21,22 @@
   <ItemGroup>
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Controller.cpp" />
+    <ClCompile Include="CreateMachineDialog.cpp" />
     <ClCompile Include="CreateMachineDialogHandler.cpp" />
     <ClCompile Include="Machine.cpp" />
     <ClCompile Include="MainFrameHandler.cpp" />
     <ClCompile Include="MainFrame.cpp" />
+    <ClCompile Include="ObjectTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
     <ClInclude Include="Controller.h" />
+    <ClInclude Include="CreateMachineDialog.h" />
     <ClInclude Include="CreateMachineDialogHandler.h" />
     <ClInclude Include="Machine.h" />
     <ClInclude Include="MainFrameHandler.h" />
     <ClInclude Include="MainFrame.h" />
+    <ClInclude Include="ObjectTree.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

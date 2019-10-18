@@ -10,15 +10,21 @@
 #include "MainFrame.h"
 #include "Controller.h"
 #include "MainFrameHandler.h"
+#include "CreateMachineDialog.h"
 
 class CreateMachineDialogHandler : public CreateMachineDialog
 {
 public:
 	CreateMachineDialogHandler(wxWindow* parent, wxWindowID id, const wxString& title);
+	Machine* GetResult();
 
 protected:
 	void OnCreateButtonClick(wxCommandEvent& event) wxOVERRIDE;
 	void OnCancelButtonClick(wxCommandEvent& event) wxOVERRIDE;
+	
+private:
+	Machine* MachineResult = nullptr;
+
 };
 
 
