@@ -10,6 +10,7 @@
              xmlns:i="System.Windows.Interactivity"
              mc:Ignorable="d" 
              MinWidth="300"
+             Loaded="MachineListView_OnLoaded"
              d:DataContext="{d:DesignInstance viewmodel:MachineListVM}"
              d:DesignHeight="500" d:DesignWidth="300">
     
@@ -51,12 +52,12 @@
                     <Border BorderBrush="Black" Loaded="Border_Loaded">
                         <StackPanel Orientation="Horizontal">
                             <Image Source="{Binding Icon}"/>
-                            <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Data.Connection.Status}" Stroke="Black" StrokeThickness="1"/>
+                            <Ellipse Height="10" Width="10" Margin="2" Fill="{Binding Connection.Status}" Stroke="Black" StrokeThickness="1"/>
                             <Grid Width="auto" Height="auto">
                                 <TextBlock Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}" Text="{Binding Name, Mode=OneWay}"/>
                                 <TextBox Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToInvisibilityConverter}}" Text="{Binding Name}" KeyDown="TextBox_KeyDown" IsVisibleChanged="TextBox_IsVisibleChanged"/>
                             </Grid>
-                            <TextBlock Text="{Binding Data.Connection.Status, StringFormat=({0})}" Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}"/>
+                            <TextBlock Text="{Binding Connection.Status, StringFormat=({0})}" Visibility="{Binding IsNameEditing, Converter={StaticResource BoolToVisibilityConverter}}"/>
                         </StackPanel>
 
                         <Border.ContextMenu>
@@ -73,7 +74,7 @@
                                 <MenuItem Header="Rename" Command="{Binding Rename}"/>
                                 <MenuItem Command="Delete"/>
                                 <Separator/>
-                                <MenuItem Header="Properties" Command="{Binding Edit}" IsEnabled="{Binding Data.Connection.IsConnected, Converter={StaticResource InverseBooleanConverter}}"/>
+                                <MenuItem Header="Properties" Command="{Binding Edit}" IsEnabled="{Binding Connection.IsConnected, Converter={StaticResource InverseBooleanConverter}}"/>
                             </ContextMenu>
                         </Border.ContextMenu>
                     </Border>

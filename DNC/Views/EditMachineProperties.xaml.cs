@@ -16,6 +16,8 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Shapes;
+using DNC.Communication;
+using GalaSoft.MvvmLight.Messaging;
 using UserControl = System.Windows.Controls.UserControl;
 
 namespace DNC.Views
@@ -25,8 +27,6 @@ namespace DNC.Views
     /// </summary>
     public partial class EditMachineProperties : Window
     {
-        private Machine _originalMachine;
-
         public EditMachinePropertiesVM ViewModel;
 
         public Dictionary<ConnectionType, UserControl> AvailableTypes;
@@ -38,7 +38,6 @@ namespace DNC.Views
         
         public void EditMachine(ModelBase machineToEdit)
         {
-            _originalMachine = machineToEdit.Clone() as Machine;
             DataContext = ViewModel = new EditMachinePropertiesVM(machineToEdit, this);
             
             AvailableTypes = new Dictionary<ConnectionType, UserControl>
@@ -47,16 +46,46 @@ namespace DNC.Views
                 { ConnectionType.Serial, TryFindResource("TypeSerial") as UserControl }
             };
 
+            ViewModel.CurrentMachine.BeginEdit();
             bool? dr = ShowDialog();
             if (!dr ?? false)
             {
-                machineToEdit = _originalMachine;
+                
+            }
+            else
+            {
+                
             }
         }
     }
 
     public class EditMachinePropertiesVM : ViewModelBase
     {
+        private ConnectionType _currentConnectionType;
+
+        public ConnectionType CurrentConnectionType
+        {
+            get => _currentConnectionType;
+            set
+            {
+                _currentConnectionType = value;
+                switch (_currentConnectionType)
+                {
+                    case ConnectionType.Serial:
+                        CurrentMachine.Data.Connection.BaseConnection = new TCPConnection();
+                        break;
+                    
+                    case ConnectionType.TCP:
+                        CurrentMachine.Data.Connection.BaseConnection = new SerialConnection();
+                        break;
+                
+                    default:
+                        throw new ArgumentOutOfRangeException();
+                }
+                RaisePropertyChanged("Connection");
+            }
+        }
+
         public ICommand TestConnection => new RelayCommand(() =>
         {
 
@@ -64,10 +93,12 @@ namespace DNC.Views
 
         public ICommand SaveCommand => new RelayCommand(() =>
         {
+            Messenger.Default.Send(new SerializedListAction(ListAction.Save));
             ParentControl.DialogResult = true;
         });
         public ICommand CancelCommand => new RelayCommand(() =>
         {
+            Messenger.Default.Send(new SerializedListAction(ListAction.Load));
             ParentControl.DialogResult = false;
         });
 

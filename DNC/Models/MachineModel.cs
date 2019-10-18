@@ -49,7 +49,7 @@ namespace DNC.Models
     public struct MachineData
     {
         public ushort Handle => Connection.Handle;
-        public Connection Connection { get; set; }
+        public Connection Connection;
         public ControllerData Controller { get; set; }
 
         [Serializable]
@@ -64,8 +64,9 @@ namespace DNC.Models
     [SettingsSerializeAs(SettingsSerializeAs.Binary)]
     public class Machine : ModelBase, IEditableObject
     {
-        public MachineData Data { get; set; } = new MachineData();
+        public MachineData Data = new MachineData();
 
+        public Connection Connection => Data.Connection;
         public bool ConnectOnStartup { get; set; }
         public string InvertedConnectString => Data.Connection.IsConnected ? "Disconnect" : "Connect";
 
@@ -116,14 +117,15 @@ namespace DNC.Models
 
             string[] fileData = File.ReadAllLines(dialog.FileName);
             ProgramList.Add(new Program(dialog.FileName, fileData));
-            //SerializeList(MachineList);
         });
 
         public ICommand Edit => new RelayCommand(() =>
         {
             EditMachineProperties e = new EditMachineProperties();
-
             e.EditMachine(this);
+
+            //PropertiesDialog pDialog = new PropertiesDialog();
+            //pDialog.GenerateDialog<Machine>(this);
 
         });
 
@@ -134,7 +136,7 @@ namespace DNC.Models
 
         public void BeginEdit()
         {
-            backup = Clone();
+            
         }
 
         public void EndEdit()
@@ -144,7 +146,7 @@ namespace DNC.Models
 
         public void CancelEdit()
         {
-            throw new NotImplementedException();
+            
         }
 
         #endregion
@@ -220,6 +222,8 @@ namespace DNC.Models
             }
         }
 
+        //[PropertyName("Is Name Editing?")]
+        //[PropertyType(typeof(CheckBox))]
         public bool IsNameEditing { get; set; }
 
         public ICommand Rename => new RelayCommand(() =>

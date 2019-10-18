@@ -21,7 +21,6 @@ namespace DNC.ViewModels
         {
             Callback = callback;
         }
-        
     }
     public class MainWindowVM : ViewModelBase
     {

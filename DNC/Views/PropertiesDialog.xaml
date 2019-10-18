@@ -5,8 +5,15 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DNC.Views"
         mc:Ignorable="d"
-        Title="PropertiesDialog" Height="450" Width="800">
-    <Grid>
-        
-    </Grid>
+        Width="Auto"
+        Height="Auto"
+        Title="PropertiesDialog">
+    
+    <Window.Resources>
+        <DataTemplate DataType="{x:Type RadioButton}">
+
+        </DataTemplate>
+    </Window.Resources>
+
+    <ContentControl x:Name="ContentControl"/>
 </Window>

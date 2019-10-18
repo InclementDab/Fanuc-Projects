@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
-using System.Drawing;
 using System.Drawing.Text;
 using System.Globalization;
 using System.IO.Ports;
@@ -10,7 +9,7 @@ using System.Net;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
-using System.Windows.Controls;
+using System.Windows.Media;
 using ControlzEx.Standard;
 using DNC.Models;
 
@@ -18,11 +17,8 @@ using static DNC.Focas2;
 
 namespace DNC.Communication
 {
-
-
     public struct SerialConnection : IConnection
     {
-
         public IEnumerable<SerialPort> SerialPorts => SerialPort.GetPortNames().Select(name => new SerialPort(name));
         public SerialPort SerialPort { get; set; }
         private int SerialPortNumber
@@ -90,7 +86,8 @@ namespace DNC.Communication
     public struct Connection : IDisposable
     {
         public ushort Handle;
-        public IConnection BaseConnection { get; private set; }
+        public IConnection BaseConnection;
+        public IConnection GetBaseConnection => BaseConnection;
         public ConnectionStatus Status { get; private set; }
         public bool IsConnected => Status == ConnectionStatus.Connected;
 
@@ -220,7 +217,7 @@ namespace DNC.Communication
 
         public override bool CanConvertTo(ITypeDescriptorContext context, Type destinationType)
         {
-            return destinationType == typeof(Brush);
+            return typeof(Brush).Assembly.Equals(destinationType.Assembly); // gotta use System.Windows.Media, NOT drawing
         }
 
         public override object ConvertFrom(ITypeDescriptorContext context, CultureInfo culture, object value)

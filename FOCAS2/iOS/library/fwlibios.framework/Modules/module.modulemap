@@ -1,6 +1,0 @@
-framework module fwlibios {
-  umbrella header "fwlibios.h"
-
-  export *
-  module * { export * }
-}

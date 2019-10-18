@@ -90,7 +90,7 @@
     <Compile Include="Communication\fwlib32.cs" />
     <Compile Include="Communication\IConnection.cs" />
     <Compile Include="Communication\serial.cs" />
-    <Compile Include="Models\MachineList.cs" />
+    <Compile Include="Models\SerializedList.cs" />
     <Compile Include="Models\MachineModel.cs" />
     <Compile Include="Models\Network.cs" />
     <Compile Include="Models\ObservableObject.cs" />

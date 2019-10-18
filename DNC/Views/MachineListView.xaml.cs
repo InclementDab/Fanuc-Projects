@@ -251,5 +251,13 @@ namespace DNC.Views
 
             }
         }
+
+        private void MachineListView_OnLoaded(object sender, RoutedEventArgs e)
+        {
+            if (TView.ItemContainerGenerator.ContainerFromItem(ViewModel.MachineList.FirstOrDefault()) is TreeViewItem tvi)
+            {
+                tvi.IsSelected = true;
+            }
+        }
     }
 }

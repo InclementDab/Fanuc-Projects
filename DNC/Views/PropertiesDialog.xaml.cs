@@ -1,12 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
+using System.Reflection;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -24,13 +27,25 @@ namespace DNC.Views
         /// </summary>
         /// <param name="type">Type of Object to be passed</param>
         /// <param name="data">Object to be passed</param>
-        public PropertiesDialog(Type type, object data)
+        public PropertiesDialog()
         {
             InitializeComponent();
-            if (data.GetType() != type) throw new InvalidOperationException("Type and Data do not match!");
-
-            
         }
+
+        public bool? GenerateDialog<T>(object data)
+        {
+            Type type = typeof(T);
+            foreach (PropertyInfo pInfo in type.GetProperties())
+            {
+                foreach (CustomAttributeData a in pInfo.GetCustomAttributesData())
+                {
+                    Debug.WriteLine($"{pInfo.Name}: has attribute {a.AttributeType}");
+                }
+            }
+
+            return ShowDialog();
+        }
+
     }
 
     [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = false)]
@@ -53,6 +68,16 @@ namespace DNC.Views
         public PropertyTypeAttribute(Type frameworkElement)
         {
             if (frameworkElement != typeof(FrameworkElement)) throw new InvalidOperationException("Type is not framework element");
+            throw new NotImplementedException();
+        }
+    }
+
+    [AttributeUsage(AttributeTargets.All, Inherited = false, AllowMultiple = true)]
+    sealed class ChildPropertyAttribute : Attribute
+    {
+        public ChildPropertyAttribute()
+        {
+            // TODO: Implement code here
             throw new NotImplementedException();
         }
     }
