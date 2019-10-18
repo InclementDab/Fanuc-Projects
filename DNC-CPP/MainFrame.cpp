@@ -30,7 +30,7 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	mSizer->SetFlexibleDirection( wxBOTH );
 	mSizer->SetNonFlexibleGrowMode( wxFLEX_GROWMODE_SPECIFIED );
 
-	mMachineListView = new wxTreeCtrl( this, wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTR_FULL_ROW_HIGHLIGHT|wxTR_HAS_BUTTONS|wxTR_HIDE_ROOT|wxTR_NO_LINES );
+	mMachineListView = new wxTreeCtrl( this, wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTR_DEFAULT_STYLE|wxTR_EDIT_LABELS|wxTR_HIDE_ROOT|wxTR_NO_LINES );
 	mMachineListView->SetMinSize( wxSize( 300,450 ) );
 
 	mSizer->Add( mMachineListView, wxGBPosition( 0, 0 ), wxGBSpan( 1, 1 ), wxALL, 10 );
@@ -86,12 +86,16 @@ MainFrame::MainFrame( wxWindow* parent, wxWindowID id, const wxString& title, co
 	this->Centre( wxBOTH );
 
 	// Connect Events
+	mMachineListView->Connect( wxEVT_COMMAND_TREE_END_LABEL_EDIT, wxTreeEventHandler( MainFrame::OnEndLabelEdit ), NULL, this );
+	mAddFolderButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddFolderButtonClick ), NULL, this );
 	mAddMachineButton->Connect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddMachineButtonClick ), NULL, this );
 }
 
 MainFrame::~MainFrame()
 {
 	// Disconnect Events
+	mMachineListView->Disconnect( wxEVT_COMMAND_TREE_END_LABEL_EDIT, wxTreeEventHandler( MainFrame::OnEndLabelEdit ), NULL, this );
+	mAddFolderButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddFolderButtonClick ), NULL, this );
 	mAddMachineButton->Disconnect( wxEVT_COMMAND_BUTTON_CLICKED, wxCommandEventHandler( MainFrame::OnAddMachineButtonClick ), NULL, this );
 
 }
@@ -118,8 +122,22 @@ CreateMachineDialog::CreateMachineDialog( wxWindow* parent, wxWindowID id, const
 	wxStaticBoxSizer* nameContainer;
 	nameContainer = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Name") ), wxHORIZONTAL );
 
-	nameTextBox = new wxTextCtrl( nameContainer->GetStaticBox(), wxID_ANY, wxEmptyString, wxDefaultPosition, wxSize( 150,-1 ), 0 );
-	nameContainer->Add( nameTextBox, 0, wxALL, 5 );
+	nameTextPanel = new wxPanel( nameContainer->GetStaticBox(), wxID_ANY, wxDefaultPosition, wxSize( -1,-1 ), wxTAB_TRAVERSAL );
+	nameTextPanel->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_WINDOW ) );
+
+	nameTextSizer = new wxBoxSizer( wxVERTICAL );
+
+	nameTextBox = new wxTextCtrl( nameTextPanel, wxID_ANY, wxEmptyString, wxDefaultPosition, wxSize( 150,-1 ), 0 );
+	nameTextBox->SetForegroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_CAPTIONTEXT ) );
+	nameTextBox->SetBackgroundColour( wxSystemSettings::GetColour( wxSYS_COLOUR_WINDOW ) );
+
+	nameTextSizer->Add( nameTextBox, 0, wxALL, 2 );
+
+
+	nameTextPanel->SetSizer( nameTextSizer );
+	nameTextPanel->Layout();
+	nameTextSizer->Fit( nameTextPanel );
+	nameContainer->Add( nameTextPanel, 1, wxALL|wxEXPAND, 8 );
 
 
 	dSizer->Add( nameContainer, 1, wxALIGN_CENTER, 5 );

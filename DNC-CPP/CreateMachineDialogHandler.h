@@ -15,7 +15,6 @@ class CreateMachineDialogHandler : public CreateMachineDialog
 {
 public:
 	CreateMachineDialogHandler(wxWindow* parent, wxWindowID id, const wxString& title);
-	bool DialogResult = false;
 
 protected:
 	void OnCreateButtonClick(wxCommandEvent& event) wxOVERRIDE;

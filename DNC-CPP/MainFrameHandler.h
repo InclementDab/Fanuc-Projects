@@ -4,6 +4,10 @@
 #define _MAINFRAMEHANDLER_H_
 
 #include <iostream>
+#include <locale>
+#include <codecvt>
+#include <string>
+#include <typeinfo>
 #include <wx/wx.h>
 #include "Machine.h"
 #include "MainFrame.h"
@@ -17,14 +21,13 @@ class MainFrameHandler : public MainFrame
 
 public:
 	MainFrameHandler();
-	void AddMachine(Machine m);
-	void AddFolder();
-
+	void AddModelBase(ModelBase* mBase);
 
 protected:
 	void OnAddMachineButtonClick(wxCommandEvent& event) wxOVERRIDE;
+	void OnAddFolderButtonClick(wxCommandEvent& event) wxOVERRIDE;
+	void OnEndLabelEdit(wxTreeEvent& event) wxOVERRIDE;
 	wxDialog* CurrentDialog = nullptr;
-	
 };
 
 #endif

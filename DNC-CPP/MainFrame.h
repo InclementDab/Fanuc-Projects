@@ -26,6 +26,7 @@
 #include <wx/statusbr.h>
 #include <wx/frame.h>
 #include <wx/textctrl.h>
+#include <wx/panel.h>
 #include <wx/statbox.h>
 #include <wx/choice.h>
 #include <wx/dialog.h>
@@ -52,6 +53,8 @@ class MainFrame : public wxFrame
 		wxStatusBar* mStatusBar;
 
 		// Virtual event handlers, overide them in your derived class
+		virtual void OnEndLabelEdit( wxTreeEvent& event ) { event.Skip(); }
+		virtual void OnAddFolderButtonClick( wxCommandEvent& event ) { event.Skip(); }
 		virtual void OnAddMachineButtonClick( wxCommandEvent& event ) { event.Skip(); }
 
 
@@ -88,6 +91,8 @@ class CreateMachineDialog : public wxDialog
 	private:
 
 	protected:
+		wxPanel* nameTextPanel;
+		wxBoxSizer* nameTextSizer;
 		wxTextCtrl* nameTextBox;
 		wxChoice* mControllerType;
 		wxButton* createButton;

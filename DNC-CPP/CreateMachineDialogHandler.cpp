@@ -9,21 +9,28 @@ CreateMachineDialogHandler::CreateMachineDialogHandler(wxWindow* parent, wxWindo
 void CreateMachineDialogHandler::OnCreateButtonClick(wxCommandEvent& event)
 {
 	wxString name = nameTextBox->GetLineText(0);
+
+	if (name.Length() <= 1)
+	{
+		wxColour c = wxColour(L"Red");
+		nameTextPanel->SetBackgroundColour(c);
+		event.Skip();
+		return;
+	}
+
 	std::vector<Controller> controllerList = Controller::GetControllerList();
 
-	Machine MachineResult = Machine(name, &controllerList[1]);
-
+	Machine* MachineResult = new Machine(name, &controllerList[1]);
+	
 	MainFrameHandler* mFrameHandler = wxDynamicCast(GetParent(), MainFrameHandler);
-	mFrameHandler->AddMachine(MachineResult);
+	mFrameHandler->AddModelBase(MachineResult);
 
-	DialogResult = true;
 	Close();
 	event.Skip();
 }
 
 void CreateMachineDialogHandler::OnCancelButtonClick(wxCommandEvent& event)
 {
-	DialogResult = false;
 	Close();
 	event.Skip();
 }
