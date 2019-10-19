@@ -53,9 +53,9 @@ END
 
 // Icon with lowest ID value placed first to ensure application icon
 // remains consistent on all systems.
-IDI_FOLDER              ICON                    "C:\\Users\\tyler\\source\\repos\\InclementDeath\\Fanuc-Projects\\DNC-CPP\\Folder_16x.ico"
+IDI_FOLDER              ICON                    "Folder_16x.ico"
 
-IDI_MACHINE             ICON                    "C:\\Users\\tyler\\source\\repos\\InclementDeath\\Fanuc-Projects\\DNC-CPP\\Machine_16x.ico"
+IDI_MACHINE             ICON                    "Machine_16x.ico"
 
 
 
