@@ -24,6 +24,12 @@
     <Filter Include="src\objecttree">
       <UniqueIdentifier>{025ff6d2-8c31-4089-867f-f438ee81a161}</UniqueIdentifier>
     </Filter>
+    <Filter Include="src\dialog\create">
+      <UniqueIdentifier>{0c11ab1e-7316-4fe8-90a8-a04919a60e17}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="src\dialog\edit">
+      <UniqueIdentifier>{34d45354-18fb-4a3d-8046-0e3f4b00efe7}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="App.cpp">
@@ -35,9 +41,6 @@
     <ClCompile Include="Machine.cpp">
       <Filter>src\machine</Filter>
     </ClCompile>
-    <ClCompile Include="CreateMachineDialogHandler.cpp">
-      <Filter>src\dialog</Filter>
-    </ClCompile>
     <ClCompile Include="MainFrameHandler.cpp">
       <Filter>src\dialog</Filter>
     </ClCompile>
@@ -48,7 +51,19 @@
       <Filter>src\objecttree</Filter>
     </ClCompile>
     <ClCompile Include="CreateMachineDialog.cpp">
-      <Filter>src\dialog</Filter>
+      <Filter>src\dialog\create</Filter>
+    </ClCompile>
+    <ClCompile Include="CreateMachineDialogHandler.cpp">
+      <Filter>src\dialog\create</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMachineDialog.cpp">
+      <Filter>src\dialog\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="EditMachineDialogHandler.cpp">
+      <Filter>src\dialog\edit</Filter>
+    </ClCompile>
+    <ClCompile Include="ListCtrlItem.cpp">
+      <Filter>src\dialog\edit</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
@@ -64,9 +79,6 @@
     <ClInclude Include="resource.h">
       <Filter>resource</Filter>
     </ClInclude>
-    <ClInclude Include="CreateMachineDialogHandler.h">
-      <Filter>src\dialog</Filter>
-    </ClInclude>
     <ClInclude Include="MainFrameHandler.h">
       <Filter>src\dialog</Filter>
     </ClInclude>
@@ -76,8 +88,23 @@
     <ClInclude Include="ObjectTree.h">
       <Filter>src\objecttree</Filter>
     </ClInclude>
+    <ClInclude Include="CreateMachineDialogHandler.h">
+      <Filter>src\dialog\create</Filter>
+    </ClInclude>
     <ClInclude Include="CreateMachineDialog.h">
-      <Filter>src\dialog</Filter>
+      <Filter>src\dialog\create</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMachineDialog.h">
+      <Filter>src\dialog\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="EditMachineDialogHandler.h">
+      <Filter>src\dialog\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrl.h">
+      <Filter>src\dialog\edit</Filter>
+    </ClInclude>
+    <ClInclude Include="ListCtrlItem.h">
+      <Filter>src\dialog\edit</Filter>
     </ClInclude>
   </ItemGroup>
   <ItemGroup>

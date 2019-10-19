@@ -42,7 +42,7 @@ CreateMachineDialog::CreateMachineDialog( wxWindow* parent, wxWindowID id, const
 	wxStaticBoxSizer* ctrlContainer;
 	ctrlContainer = new wxStaticBoxSizer( new wxStaticBox( this, wxID_ANY, wxT("Controller") ), wxVERTICAL );
 
-	wxString mControllerTypeChoices[] = { wxT("Fanuc 16i"), wxT("Fanuc 30i") }; // bind to GetControllerList
+	wxString mControllerTypeChoices[] = { wxT("Fanuc 16i"), wxT("Fanuc 30i") };
 	int mControllerTypeNChoices = sizeof( mControllerTypeChoices ) / sizeof( wxString );
 	mControllerType = new wxChoice( ctrlContainer->GetStaticBox(), wxID_ANY, wxDefaultPosition, wxSize( 150,-1 ), mControllerTypeNChoices, mControllerTypeChoices, wxCB_SORT );
 	mControllerType->SetSelection( 0 );
@@ -55,6 +55,8 @@ CreateMachineDialog::CreateMachineDialog( wxWindow* parent, wxWindowID id, const
 	buttonContainer = new wxBoxSizer( wxHORIZONTAL );
 
 	createButton = new wxButton( this, wxID_ANY, wxT("Create"), wxDefaultPosition, wxDefaultSize, 0 );
+
+	createButton->SetDefault();
 	buttonContainer->Add( createButton, 0, wxALL, 5 );
 
 	cancelButton = new wxButton( this, wxID_ANY, wxT("Cancel"), wxDefaultPosition, wxDefaultSize, 0 );

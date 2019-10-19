@@ -23,6 +23,9 @@
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="CreateMachineDialog.cpp" />
     <ClCompile Include="CreateMachineDialogHandler.cpp" />
+    <ClCompile Include="EditMachineDialog.cpp" />
+    <ClCompile Include="EditMachineDialogHandler.cpp" />
+    <ClCompile Include="ListCtrlItem.cpp" />
     <ClCompile Include="Machine.cpp" />
     <ClCompile Include="MainFrameHandler.cpp" />
     <ClCompile Include="MainFrame.cpp" />
@@ -33,6 +36,10 @@
     <ClInclude Include="Controller.h" />
     <ClInclude Include="CreateMachineDialog.h" />
     <ClInclude Include="CreateMachineDialogHandler.h" />
+    <ClInclude Include="EditMachineDialog.h" />
+    <ClInclude Include="EditMachineDialogHandler.h" />
+    <ClInclude Include="ListCtrl.h" />
+    <ClInclude Include="ListCtrlItem.h" />
     <ClInclude Include="Machine.h" />
     <ClInclude Include="MainFrameHandler.h" />
     <ClInclude Include="MainFrame.h" />
@@ -133,6 +140,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_lib; $(FWLIB);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Fwlib32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
@@ -150,6 +158,7 @@
       <SubSystem>Windows</SubSystem>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_lib; $(FWLIB);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Fwlib32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
@@ -172,6 +181,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_lib; $(FWLIB);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Fwlib32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
@@ -194,6 +204,7 @@
       <OptimizeReferences>true</OptimizeReferences>
       <GenerateDebugInformation>true</GenerateDebugInformation>
       <AdditionalLibraryDirectories>$(WXWIN)\lib\vc_lib; $(FWLIB);</AdditionalLibraryDirectories>
+      <AdditionalDependencies>Fwlib32.lib;%(AdditionalDependencies)</AdditionalDependencies>
     </Link>
   </ItemDefinitionGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />

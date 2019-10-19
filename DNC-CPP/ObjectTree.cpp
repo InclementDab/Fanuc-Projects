@@ -1,6 +1,5 @@
 #include "ObjectTree.h"
 
-
 ObjectTree::ObjectTree(wxWindow *parent, wxWindowID id, const wxPoint &pos, const wxSize &size, long style) : wxPanel(parent, id, pos, size, style)
 {
 	w_treeCtrl = new wxTreeCtrl(this, wxID_ANY, pos, size, wxTR_DEFAULT_STYLE | wxTR_EDIT_LABELS | wxTR_HIDE_ROOT | wxTR_NO_LINES);
@@ -52,6 +51,8 @@ wxTreeItemId ObjectTree::AddItem(ModelBase* item, ModelBase* parent)
 	{
 		return w_treeCtrl->AppendItem(w_treeCtrl->GetRootItem(), item->Name, icon, icon, item);
 	}
+
+	return NULL;
 }
 
 wxTreeItemId ObjectTree::AddItem(ModelBase* item)
@@ -128,5 +129,10 @@ void ObjectTree::OnRename(wxCommandEvent& event)
 
 void ObjectTree::OnProperties(wxCommandEvent& event)
 {
+	Machine* machine = (Machine*)GetObjectFromItemTree(w_treeCtrl->GetSelection());
+	//EditMachineDialogHandler* dlg = new EditMachineDialogHandler(machine, this, wxID_ANY, "Edit Machine");
+	//dlg->Show();
+
+
 	event.Skip();
 }

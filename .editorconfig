@@ -1,0 +1,19 @@
+
+[*]
+
+# ReSharper properties
+resharper_align_linq_query=true
+resharper_align_multiline_array_and_object_initializer=true
+resharper_align_multiline_calls_chain=true
+resharper_align_multiline_extends_list=true
+resharper_align_multiline_switch_expression=true
+resharper_csharp_align_multiline_parameter=true
+resharper_csharp_outdent_dots=true
+resharper_indent_nested_fixed_stmt=true
+resharper_indent_nested_foreach_stmt=true
+resharper_indent_nested_for_stmt=true
+resharper_indent_nested_lock_stmt=true
+resharper_indent_nested_usings_stmt=true
+resharper_indent_nested_while_stmt=true
+resharper_indent_preprocessor_region=no_indent
+resharper_outdent_binary_ops=true
