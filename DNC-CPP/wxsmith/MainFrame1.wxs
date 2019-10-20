@@ -5,7 +5,7 @@
 		<id_arg>0</id_arg>
 		<object class="wxGridBagSizer" variable="mSizer" member="no">
 			<object class="sizeritem">
-				<object class="wxTreeCtrl" name="ID_TREECTRL1" variable="mTreeCtrl" member="yes">
+				<object class="wxTreeCtrl" name="ID_MACHINELIST" variable="mTreeCtrl" member="yes">
 					<image_list>&lt;none&gt;</image_list>
 					<tree_items>
 						<item>mTreeCtrl</item>
@@ -46,6 +46,17 @@
 				<col>0</col>
 				<row>1</row>
 				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxGrid" name="ID_ANY" variable="mProgramGrid" member="yes">
+					<cols>4</cols>
+				</object>
+				<rowspan>2</rowspan>
+				<col>1</col>
+				<row>0</row>
+				<flag>wxALL|wxEXPAND</flag>
 				<border>5</border>
 				<option>1</option>
 			</object>

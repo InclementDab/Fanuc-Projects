@@ -48,6 +48,7 @@ class MainFrame: public wxFrame
 
 		//(*Handlers(MainFrame)
 		void OnAddFolderButtonClick(wxCommandEvent& event);
+		void OnAddMachineButtonClick(wxCommandEvent& event);
 		//*)
 
 		DECLARE_EVENT_TABLE()

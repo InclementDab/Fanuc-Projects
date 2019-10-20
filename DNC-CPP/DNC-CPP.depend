@@ -168,3 +168,133 @@
 1571515650 source:e:\dev\proj\inclementdeath\fanuc-projects\dnc-cpp\objecttree.cpp
 	"ObjectTree.h"
 
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\app.cpp
+	"App.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\app.h
+	<wx/wx.h>
+	<30i/Fwlib32.h>
+	"MainFrame.h"
+
+1571084757 c:\sdk\fanuc\focas2\fwlib\\30i\fwlib32.h
+	<windows.h>
+
+1571595828 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\mainframe.h
+	<wx/button.h>
+	<wx/frame.h>
+	<wx/gbsizer.h>
+	<wx/grid.h>
+	<wx/sizer.h>
+	<wx/treectrl.h>
+	"Machine.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\machine.h
+	<wx/wx.h>
+	<wx/treectrl.h>
+	<30i/Fwlib32.h>
+	"Controller.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\controller.h
+	<iostream>
+	<wx/wx.h>
+	<string>
+	<vector>
+	<filesystem>
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\controller.cpp
+	"Controller.h"
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\createmachinedialog.cpp
+	"CreateMachineDialog.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\createmachinedialog.h
+	<wx/artprov.h>
+	<wx/xrc/xmlres.h>
+	<wx/string.h>
+	<wx/textctrl.h>
+	<wx/gdicmn.h>
+	<wx/font.h>
+	<wx/colour.h>
+	<wx/settings.h>
+	<wx/sizer.h>
+	<wx/panel.h>
+	<wx/statbox.h>
+	<wx/choice.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/icon.h>
+	<wx/button.h>
+	<wx/dialog.h>
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\createmachinedialoghandler.cpp
+	"CreateMachineDialogHandler.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\createmachinedialoghandler.h
+	<iostream>
+	<vector>
+	<wx/wx.h>
+	"Machine.h"
+	"MainFrame.h"
+	"Controller.h"
+	"CreateMachineDialog.h"
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\dnc-cpp.rc
+	"resource.h"
+	"winres.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\resource.h
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\editmachinedialog.cpp
+	"EditMachineDialog.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\editmachinedialog.h
+	<wx/artprov.h>
+	<wx/xrc/xmlres.h>
+	"ListCtrl.h"
+	<wx/gdicmn.h>
+	<wx/font.h>
+	<wx/colour.h>
+	<wx/settings.h>
+	<wx/string.h>
+	<wx/panel.h>
+	<wx/sizer.h>
+	<wx/button.h>
+	<wx/wrapsizer.h>
+	<wx/dialog.h>
+	<wx/stattext.h>
+	<wx/textctrl.h>
+	<wx/statbox.h>
+	<wx/radiobut.h>
+	<wx/bitmap.h>
+	<wx/image.h>
+	<wx/icon.h>
+	<wx/checkbox.h>
+	<wx/combobox.h>
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\listctrl.h
+	<wx/wx.h>
+	<wx/listctrl.h>
+	<iostream>
+	<map>
+	"ListCtrlItem.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\listctrlitem.h
+	<wx/wx.h>
+	<wx/listctrl.h>
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\editmachinedialoghandler.cpp
+	"EditMachineDialogHandler.h"
+
+1571535809 c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\editmachinedialoghandler.h
+	<wx/wx.h>
+	"Machine.h"
+	"EditMachineDialog.h"
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\listctrlitem.cpp
+	"ListCtrlItem.h"
+
+1571535809 source:c:\users\tyler\source\repos\inclementdeath\fanuc-projects\dnc-cpp\machine.cpp
+	"Machine.h"
+	<iostream>
+	<vector>
+

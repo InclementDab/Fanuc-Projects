@@ -7,9 +7,10 @@
 
 
 //(*IdInit(MainFrame)
-const long MainFrame::ID_TREECTRL1 = wxNewId();
+const long MainFrame::ID_MACHINELIST = wxNewId();
 const long MainFrame::ID_ADDFOLDER = wxNewId();
 const long MainFrame::ID_ADDMACHINE = wxNewId();
+const long MainFrame::ID_ANY = wxNewId();
 //*)
 
 BEGIN_EVENT_TABLE(MainFrame,wxFrame)
@@ -26,7 +27,7 @@ MainFrame::MainFrame(wxWindow* parent)
 	Create(parent, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
 	SetClientSize(wxSize(900,600));
 	mSizer = new wxGridBagSizer(0, 0);
-	mTreeCtrl = new wxTreeCtrl(this, ID_TREECTRL1, wxDefaultPosition, wxSize(300,450), wxTR_DEFAULT_STYLE, wxDefaultValidator, _T("ID_TREECTRL1"));
+	mTreeCtrl = new wxTreeCtrl(this, ID_MACHINELIST, wxDefaultPosition, wxSize(300,450), wxTR_DEFAULT_STYLE, wxDefaultValidator, _T("ID_MACHINELIST"));
 	mSizer->Add(mTreeCtrl, wxGBPosition(0, 0), wxDefaultSpan, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	BoxSizer1 = new wxBoxSizer(wxHORIZONTAL);
 	AddFolderButton = new wxButton(this, ID_ADDFOLDER, _("+Folder"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_ADDFOLDER"));
@@ -34,12 +35,25 @@ MainFrame::MainFrame(wxWindow* parent)
 	AddMachineButton = new wxButton(this, ID_ADDMACHINE, _("+Machine"), wxDefaultPosition, wxDefaultSize, 0, wxDefaultValidator, _T("ID_ADDMACHINE"));
 	BoxSizer1->Add(AddMachineButton, 1, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
 	mSizer->Add(BoxSizer1, wxGBPosition(1, 0), wxDefaultSpan, wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL, 5);
+	mProgramGrid = new wxGrid(this, ID_ANY, wxDefaultPosition, wxDefaultSize, 0, _T("ID_ANY"));
+	mProgramGrid->CreateGrid(0,4);
+	mProgramGrid->EnableEditing(true);
+	mProgramGrid->EnableGridLines(true);
+	mProgramGrid->SetDefaultCellFont( mProgramGrid->GetFont() );
+	mProgramGrid->SetDefaultCellTextColour( mProgramGrid->GetForegroundColour() );
+	mSizer->Add(mProgramGrid, wxGBPosition(0, 1), wxGBSpan(2, 1), wxALL|wxEXPAND, 5);
 	SetSizer(mSizer);
 	SetSizer(mSizer);
 	Layout();
 
 	Connect(ID_ADDFOLDER,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&MainFrame::OnAddFolderButtonClick);
 	//*)
+
+	wxImageList* w_imageList = new wxImageList(16, 16);
+	w_imageList->Add(wxICON(IDI_FOLDER));
+	w_imageList->Add(wxICON(IDI_MACHINE));
+	mTreeCtrl->SetImageList(w_imageList);
+
 }
 
 MainFrame::~MainFrame()
@@ -48,6 +62,9 @@ MainFrame::~MainFrame()
 	//*)
 }
 
+void MainFrame::OnAddMachineButtonClick(wxCommandEvent& event)
+{
+}
 
 void MainFrame::OnAddFolderButtonClick(wxCommandEvent& event)
 {
@@ -57,20 +74,20 @@ void MainFrame::OnAddFolderButtonClick(wxCommandEvent& event)
 
 wxTreeItemId MainFrame::AddItem(ModelBase* item, ModelBase* parent)
 {
-	int icon = (typeid(*item) == typeid(Machine)) ? 1 : 0;
-	wxTreeItemId parentId = parent->GetId();
+	const int icon = (typeid(*item) == typeid(Machine)) ? 1 : 0;
+	const wxTreeItemId parent_id = parent->GetId();
 
-	if (parentId != 0)
+	if (parent_id != nullptr)
 	{
 		if (typeid(*parent) == typeid(Folder))
 		{
-			auto r = mTreeCtrl->InsertItem(parentId, mTreeCtrl->GetLastChild(parentId), item->Name, icon, icon, item);
-			mTreeCtrl->Expand(parentId);
+			auto r = mTreeCtrl->InsertItem(parent_id, mTreeCtrl->GetLastChild(parent_id), item->Name, icon, icon, item);
+			mTreeCtrl->Expand(parent_id);
 			return r;
 		}
-		else if (typeid(*parent) == typeid(Machine))
+		if (typeid(*parent) == typeid(Machine))
 		{
-			return mTreeCtrl->InsertItem(mTreeCtrl->GetItemParent(parentId), parentId, item->Name, icon, icon, item);
+			return mTreeCtrl->InsertItem(mTreeCtrl->GetItemParent(parent_id), parent_id, item->Name, icon, icon, item);
 		}
 	}
 	else
@@ -78,7 +95,7 @@ wxTreeItemId MainFrame::AddItem(ModelBase* item, ModelBase* parent)
 		return mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item->Name, icon, icon, item);
 	}
 
-	return NULL;
+	return nullptr;
 }
 
 
@@ -87,3 +104,4 @@ wxTreeItemId MainFrame::AddItem(ModelBase* item)
 	int icon = (typeid(*item) == typeid(Machine)) ? 1 : 0;
 	return mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item->Name, icon, icon, item);
 }
+
