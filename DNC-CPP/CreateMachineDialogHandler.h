@@ -9,7 +9,6 @@
 #include "Machine.h"
 #include "MainFrame.h"
 #include "Controller.h"
-#include "MainFrameHandler.h"
 #include "CreateMachineDialog.h"
 
 class CreateMachineDialogHandler : public CreateMachineDialog

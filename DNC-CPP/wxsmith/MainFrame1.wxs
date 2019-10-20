@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="MainFrame">
+		<size>900,600</size>
+		<id_arg>0</id_arg>
+		<object class="wxGridBagSizer" variable="mSizer" member="no">
+			<object class="sizeritem">
+				<object class="wxTreeCtrl" name="ID_TREECTRL1" variable="mTreeCtrl" member="yes">
+					<image_list>&lt;none&gt;</image_list>
+					<tree_items>
+						<item>mTreeCtrl</item>
+						<item>&lt;none&gt;</item>
+					</tree_items>
+					<items_text>
+						<item2>mTreeCtrl</item2>
+						<item2>&lt;none&gt;</item2>
+					</items_text>
+					<size>300,450</size>
+				</object>
+				<col>0</col>
+				<row>0</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+			<object class="sizeritem">
+				<object class="wxBoxSizer" variable="BoxSizer1" member="no">
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_ADDFOLDER" variable="AddFolderButton" member="yes">
+							<label>+Folder</label>
+							<handler function="OnAddFolderButtonClick" entry="EVT_BUTTON" />
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+					<object class="sizeritem">
+						<object class="wxButton" name="ID_ADDMACHINE" variable="AddMachineButton" member="yes">
+							<label>+Machine</label>
+						</object>
+						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+						<border>5</border>
+						<option>1</option>
+					</object>
+				</object>
+				<col>0</col>
+				<row>1</row>
+				<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
+				<border>5</border>
+				<option>1</option>
+			</object>
+		</object>
+	</object>
+</wxsmith>

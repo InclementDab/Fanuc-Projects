@@ -27,9 +27,7 @@
     <ClCompile Include="EditMachineDialogHandler.cpp" />
     <ClCompile Include="ListCtrlItem.cpp" />
     <ClCompile Include="Machine.cpp" />
-    <ClCompile Include="MainFrameHandler.cpp" />
     <ClCompile Include="MainFrame.cpp" />
-    <ClCompile Include="ObjectTree.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="App.h" />
@@ -41,9 +39,7 @@
     <ClInclude Include="ListCtrl.h" />
     <ClInclude Include="ListCtrlItem.h" />
     <ClInclude Include="Machine.h" />
-    <ClInclude Include="MainFrameHandler.h" />
     <ClInclude Include="MainFrame.h" />
-    <ClInclude Include="ObjectTree.h" />
     <ClInclude Include="resource.h" />
   </ItemGroup>
   <ItemGroup>

@@ -41,14 +41,8 @@
     <ClCompile Include="Machine.cpp">
       <Filter>src\machine</Filter>
     </ClCompile>
-    <ClCompile Include="MainFrameHandler.cpp">
-      <Filter>src\dialog</Filter>
-    </ClCompile>
     <ClCompile Include="MainFrame.cpp">
       <Filter>src</Filter>
-    </ClCompile>
-    <ClCompile Include="ObjectTree.cpp">
-      <Filter>src\objecttree</Filter>
     </ClCompile>
     <ClCompile Include="CreateMachineDialog.cpp">
       <Filter>src\dialog\create</Filter>
@@ -79,14 +73,8 @@
     <ClInclude Include="resource.h">
       <Filter>resource</Filter>
     </ClInclude>
-    <ClInclude Include="MainFrameHandler.h">
-      <Filter>src\dialog</Filter>
-    </ClInclude>
     <ClInclude Include="MainFrame.h">
       <Filter>src</Filter>
-    </ClInclude>
-    <ClInclude Include="ObjectTree.h">
-      <Filter>src\objecttree</Filter>
     </ClInclude>
     <ClInclude Include="CreateMachineDialogHandler.h">
       <Filter>src\dialog\create</Filter>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<wxsmith>
+	<object class="wxFrame" name="MainFrame">
+		<size>900,600</size>
+		<pos_arg>1</pos_arg>
+		<size_arg>1</size_arg>
+		<object class="wxGridBagSizer" variable="GridBagSizer1" member="no" />
+		<object class="wxMenuBar" variable="MenuBar1" member="yes" />
+	</object>
+</wxsmith>

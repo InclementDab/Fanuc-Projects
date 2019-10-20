@@ -2,15 +2,15 @@
 
 #include <wx/wx.h>
 #include <30i/Fwlib32.h>
-#include "MainFrameHandler.h"
+#include "MainFrame.h"
 
 class App : public wxApp
 {
 public:
-	virtual bool OnInit() wxOVERRIDE;
+	bool OnInit() wxOVERRIDE;
 
 protected:
-	MainFrameHandler* m_FrameHandler = nullptr;
+	MainFrame* mFrame = nullptr;
 };
 
 
