@@ -21,9 +21,6 @@
     <Filter Include="src\dialog">
       <UniqueIdentifier>{6d40a2cd-373e-40c9-84c5-7b529ab5124c}</UniqueIdentifier>
     </Filter>
-    <Filter Include="src\objecttree">
-      <UniqueIdentifier>{025ff6d2-8c31-4089-867f-f438ee81a161}</UniqueIdentifier>
-    </Filter>
     <Filter Include="src\dialog\create">
       <UniqueIdentifier>{0c11ab1e-7316-4fe8-90a8-a04919a60e17}</UniqueIdentifier>
     </Filter>
