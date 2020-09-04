@@ -7,29 +7,51 @@
 #include <30i/Fwlib32.h>
 #include "Controller.h"
 
-class ModelBase : public wxTreeItemData
+class ModelBase
 {
-public:
-	ModelBase(wxString name);
-	wxString Name;
+	public:
+		explicit ModelBase(const wxString& name = wxEmptyString) { Name = name; }
+		virtual ~ModelBase();
+		virtual wxMenu* GetContextMenu() { return new wxMenu(); }
+		virtual int GetIcon() { return -1; }
+		wxString Name;
 
-	virtual wxMenu* GetContextMenu() { return new wxMenu(); };
+	
 };
 
 class Machine : public ModelBase
 {
-public:
-	Machine(wxString name, Controller* mcontrol);
-	Controller* mController;
-	wxMenu* GetContextMenu() override;
+	public:
+		explicit Machine(const wxString& name, const Controller& mcontrol) : ModelBase(name)  { mController = mcontrol; }
+		wxMenu* GetContextMenu() override;
+		int GetIcon() override { return Icon; }
+
+
+	protected:
+		Controller mController;
+
+	private:
+		int Icon = 1;
 };
 
 
 class Folder : public ModelBase
 {
-public:
-	Folder(wxString name);
-	wxMenu* GetContextMenu();
+	public:
+		Folder(const wxString& name) : ModelBase(name) {}
+		wxMenu* GetContextMenu() override;
+		int GetIcon() override { return Icon; }
+
+	private:
+		int Icon = 0;
+};
+
+class ModelTreeItem : public wxTreeItemId
+{
+	public:
+		ModelBase* Model;
+		explicit ModelTreeItem(ModelBase* mBase) { Model = mBase; }
+		~ModelTreeItem();
 };
 
 

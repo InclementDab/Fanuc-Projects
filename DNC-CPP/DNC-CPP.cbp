@@ -212,6 +212,7 @@
 		<Unit filename="ObjectTree.h" />
 		<Unit filename="cpp.hint" />
 		<Unit filename="resource.h" />
+		<Unit filename="wxsmith/CreateMachineDialog.wxs" />
 		<Unit filename="wxsmith/MainFrame.wxs" />
 		<Unit filename="wxsmith/MainFrame1.wxs" />
 		<Extensions>
@@ -220,6 +221,7 @@
 				<gui name="wxWidgets" src="" main="" init_handlers="necessary" language="CPP" />
 				<resources>
 					<wxFrame wxs="wxsmith/MainFrame1.wxs" src="MainFrame.cpp" hdr="MainFrame.h" fwddecl="0" i18n="1" name="MainFrame" language="CPP" />
+					<wxDialog wxs="wxsmith/CreateMachineDialog.wxs" src="CreateMachineDialog.cpp" hdr="CreateMachineDialog.h" fwddecl="0" i18n="1" name="CreateMachineDialog" language="CPP" />
 				</resources>
 			</wxsmith>
 		</Extensions>

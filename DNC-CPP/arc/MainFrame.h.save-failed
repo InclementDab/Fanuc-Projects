@@ -12,9 +12,9 @@
 
 #include "Machine.h"
 #include "resource.h"
-#include <wx/treebase.h>
-#include "CreateMachineDialog.h"
 
+
+class ModelBase;
 
 class MainFrame: public wxFrame
 {
@@ -31,9 +31,8 @@ class MainFrame: public wxFrame
 		//*)
 
 		//(*Yeet(MainFrame)
-		void AddItem(ModelTreeItem &item) const;
-		void AddItem(ModelTreeItem &item, ModelTreeItem &parent) const;
-		wxImageList* w_imageList;
+		wxTreeItemId AddItem(ModelBase* item);
+		wxTreeItemId AddItem(ModelBase* item, ModelBase* parent);
 		//*)
 
 	protected:
@@ -48,15 +47,11 @@ class MainFrame: public wxFrame
 	private:
 
 		//(*Handlers(MainFrame)
-		void OnAddFolderButtonClick(wxCommandEvent& event) const;
+		void OnAddFolderButtonClick(wxCommandEvent& event);
 		void OnAddMachineButtonClick(wxCommandEvent& event);
 		//*)
 
-
 		DECLARE_EVENT_TABLE()
 };
-
-
-
 
 #endif

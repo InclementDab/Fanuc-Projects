@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <wxsmith>
 	<object class="wxFrame" name="MainFrame">
+		<title>DNC</title>
 		<size>900,600</size>
 		<id_arg>0</id_arg>
 		<object class="wxGridBagSizer" variable="mSizer" member="no">
@@ -37,6 +38,7 @@
 					<object class="sizeritem">
 						<object class="wxButton" name="ID_ADDMACHINE" variable="AddMachineButton" member="yes">
 							<label>+Machine</label>
+							<handler function="OnAddMachineButtonClick" entry="EVT_BUTTON" />
 						</object>
 						<flag>wxALL|wxALIGN_CENTER_HORIZONTAL|wxALIGN_CENTER_VERTICAL</flag>
 						<border>5</border>

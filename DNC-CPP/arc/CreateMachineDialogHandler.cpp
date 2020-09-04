@@ -24,8 +24,8 @@ void CreateMachineDialogHandler::OnCreateButtonClick(wxCommandEvent& event)
 	}
 
 	std::vector<Controller> controllerList = Controller::GetControllerList();
-	MachineResult = new Machine(name, &controllerList[1]);
-		
+	MachineResult = new Machine(name, controllerList[1]);
+
 	event.Skip();
 	EndModal(wxID_OK);
 }

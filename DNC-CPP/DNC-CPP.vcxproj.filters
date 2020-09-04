@@ -44,9 +44,6 @@
     <ClCompile Include="CreateMachineDialog.cpp">
       <Filter>src\dialog\create</Filter>
     </ClCompile>
-    <ClCompile Include="CreateMachineDialogHandler.cpp">
-      <Filter>src\dialog\create</Filter>
-    </ClCompile>
     <ClCompile Include="EditMachineDialog.cpp">
       <Filter>src\dialog\edit</Filter>
     </ClCompile>
@@ -73,9 +70,6 @@
     <ClInclude Include="MainFrame.h">
       <Filter>src</Filter>
     </ClInclude>
-    <ClInclude Include="CreateMachineDialogHandler.h">
-      <Filter>src\dialog\create</Filter>
-    </ClInclude>
     <ClInclude Include="CreateMachineDialog.h">
       <Filter>src\dialog\create</Filter>
     </ClInclude>
@@ -101,9 +95,6 @@
     </Image>
     <Image Include="..\DNC\Resources\Icons\Machine_16x.ico">
       <Filter>resource\icons</Filter>
-    </Image>
-    <Image Include="..\dnc\resources\icons\icon1.ico">
-      <Filter>resource</Filter>
     </Image>
   </ItemGroup>
   <ItemGroup>

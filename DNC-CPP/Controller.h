@@ -11,8 +11,10 @@
 
 struct Controller
 {
-public:
+
+	Controller() {};
 	Controller(wxString name, wxString libFile);
+	
 	static std::vector<Controller> GetControllerList();
 
 	wxString Name;

@@ -13,9 +13,9 @@ const long MainFrame::ID_ADDMACHINE = wxNewId();
 const long MainFrame::ID_ANY = wxNewId();
 //*)
 
-BEGIN_EVENT_TABLE(MainFrame,wxFrame)
-	//(*EventTable(MainFrame)
-	//*)
+BEGIN_EVENT_TABLE(MainFrame, wxFrame)
+//(*EventTable(MainFrame)
+//*)
 END_EVENT_TABLE()
 
 MainFrame::MainFrame(wxWindow* parent)
@@ -24,7 +24,7 @@ MainFrame::MainFrame(wxWindow* parent)
 	wxBoxSizer* BoxSizer1;
 	wxGridBagSizer* mSizer;
 
-	Create(parent, wxID_ANY, wxEmptyString, wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
+	Create(parent, wxID_ANY, _("DNC"), wxDefaultPosition, wxDefaultSize, wxDEFAULT_FRAME_STYLE, _T("wxID_ANY"));
 	SetClientSize(wxSize(900,600));
 	mSizer = new wxGridBagSizer(0, 0);
 	mTreeCtrl = new wxTreeCtrl(this, ID_MACHINELIST, wxDefaultPosition, wxSize(300,450), wxTR_DEFAULT_STYLE, wxDefaultValidator, _T("ID_MACHINELIST"));
@@ -47,9 +47,10 @@ MainFrame::MainFrame(wxWindow* parent)
 	Layout();
 
 	Connect(ID_ADDFOLDER,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&MainFrame::OnAddFolderButtonClick);
+	Connect(ID_ADDMACHINE,wxEVT_COMMAND_BUTTON_CLICKED,(wxObjectEventFunction)&MainFrame::OnAddMachineButtonClick);
 	//*)
 
-	wxImageList* w_imageList = new wxImageList(16, 16);
+	w_imageList = new wxImageList(16, 16);
 	w_imageList->Add(wxICON(IDI_FOLDER));
 	w_imageList->Add(wxICON(IDI_MACHINE));
 	mTreeCtrl->SetImageList(w_imageList);
@@ -59,49 +60,67 @@ MainFrame::MainFrame(wxWindow* parent)
 MainFrame::~MainFrame()
 {
 	//(*Destroy(MainFrame)
+	delete w_imageList;
 	//*)
 }
 
 void MainFrame::OnAddMachineButtonClick(wxCommandEvent& event)
 {
+	auto* dlg = new CreateMachineDialog(this);
+	dlg->ShowWindowModal();
+
+	auto ctrlList = Controller::GetControllerList();
+
+	ModelTreeItem item = ModelTreeItem(new Machine(dlg->nameCtrl->GetLineText(0), ctrlList[dlg->Choice1->GetSelection()]));
+	AddItem(item);
+
+	delete dlg;
 }
 
-void MainFrame::OnAddFolderButtonClick(wxCommandEvent& event)
+void MainFrame::OnAddFolderButtonClick(wxCommandEvent& event) const
 {
-	Folder* folder = new Folder("Folder0");
-	AddItem(folder);
+	ModelTreeItem item = ModelTreeItem(new Folder("Folder0"));
+	AddItem(item);
 }
 
-wxTreeItemId MainFrame::AddItem(ModelBase* item, ModelBase* parent)
+void MainFrame::AddItem(ModelTreeItem &item, ModelTreeItem&parent) const
 {
-	const int icon = (typeid(*item) == typeid(Machine)) ? 1 : 0;
-	const wxTreeItemId parent_id = parent->GetId();
-
-	if (parent_id != nullptr)
+	if (typeid(parent.Model) == typeid(Folder))
 	{
-		if (typeid(*parent) == typeid(Folder))
-		{
-			auto r = mTreeCtrl->InsertItem(parent_id, mTreeCtrl->GetLastChild(parent_id), item->Name, icon, icon, item);
-			mTreeCtrl->Expand(parent_id);
-			return r;
-		}
-		if (typeid(*parent) == typeid(Machine))
-		{
-			return mTreeCtrl->InsertItem(mTreeCtrl->GetItemParent(parent_id), parent_id, item->Name, icon, icon, item);
-		}
+		mTreeCtrl->InsertItem(parent, mTreeCtrl->GetLastChild(parent),
+							  item.Model->Name, item.Model->GetIcon(),
+							  item.Model->GetIcon());
+
+		mTreeCtrl->Expand(parent);
+		return;
+	}
+	if (typeid(parent.Model) == typeid(Machine))
+	{
+		mTreeCtrl->InsertItem(mTreeCtrl->GetItemParent(parent), parent,
+							  item.Model->Name, item.Model->GetIcon(),
+							  item.Model->GetIcon());
 	}
 	else
 	{
-		return mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item->Name, icon, icon, item);
+		mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item.Model->Name,
+							  item.Model->GetIcon(), item.Model->GetIcon());
 	}
 
-	return nullptr;
+
 }
 
 
-wxTreeItemId MainFrame::AddItem(ModelBase* item)
+void MainFrame::AddItem(ModelTreeItem &item) const
 {
-	int icon = (typeid(*item) == typeid(Machine)) ? 1 : 0;
-	return mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item->Name, icon, icon, item);
+	if (mTreeCtrl->GetSelection())
+	{
+
+		AddItem(item, dynamic_cast<ModelTreeItem>(mTreeCtrl->GetSelection()));
+	}
+	//mTreeCtrl->AppendItem(mTreeCtrl->GetRootItem(), item.Model->Name,
+		//				  item.Model->GetIcon(), item.Model->GetIcon());
+
 }
+
+
 

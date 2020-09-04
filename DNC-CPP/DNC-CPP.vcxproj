@@ -22,7 +22,6 @@
     <ClCompile Include="App.cpp" />
     <ClCompile Include="Controller.cpp" />
     <ClCompile Include="CreateMachineDialog.cpp" />
-    <ClCompile Include="CreateMachineDialogHandler.cpp" />
     <ClCompile Include="EditMachineDialog.cpp" />
     <ClCompile Include="EditMachineDialogHandler.cpp" />
     <ClCompile Include="ListCtrlItem.cpp" />
@@ -33,7 +32,6 @@
     <ClInclude Include="App.h" />
     <ClInclude Include="Controller.h" />
     <ClInclude Include="CreateMachineDialog.h" />
-    <ClInclude Include="CreateMachineDialogHandler.h" />
     <ClInclude Include="EditMachineDialog.h" />
     <ClInclude Include="EditMachineDialogHandler.h" />
     <ClInclude Include="ListCtrl.h" />
@@ -47,7 +45,6 @@
   </ItemGroup>
   <ItemGroup>
     <Image Include="..\DNC\Resources\Icons\Folder_16x.ico" />
-    <Image Include="..\dnc\resources\icons\icon1.ico" />
     <Image Include="..\DNC\Resources\Icons\Machine_16x.ico" />
   </ItemGroup>
   <ItemGroup>
